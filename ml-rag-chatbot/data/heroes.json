@@ -1,0 +1,404 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "name": "Layla",
+      "role": ["Marksman"],
+      "specialty": ["Reap"],
+      "lane": "Gold",
+      "image_path": "images/heroes/layla.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Balmond",
+      "role": ["Fighter"],
+      "specialty": ["Charge", "Burst Damage"],
+      "lane": "EXP",
+      "image_path": "images/heroes/balmond.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Saber",
+      "role": ["Assassin"],
+      "specialty": ["Charge", "Burst Damage"],
+      "lane": "Jungle",
+      "image_path": "images/heroes/saber.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Alice",
+      "role": ["Mage", "Tank"],
+      "specialty": ["Charge", "Reap"],
+      "lane": "Roam",
+      "image_path": "images/heroes/alice.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Nana",
+      "role": ["Mage", "Support"],
+      "specialty": ["Poke", "Crowd Control"],
+      "lane": "Mid",
+      "image_path": "images/heroes/nana.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Tigreal",
+      "role": ["Tank", "Support"],
+      "specialty": ["Crowd Control", "Initiate"],
+      "lane": "Roam",
+      "image_path": "images/heroes/tigreal.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Alucard",
+      "role": ["Fighter", "Assassin"],
+      "specialty": ["Charge", "Burst Damage"],
+      "lane": "EXP",
+      "image_path": "images/heroes/alucard.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Karina",
+      "role": ["Assassin"],
+      "specialty": ["Burst Damage", "Reap"],
+      "lane": "Jungle",
+      "image_path": "images/heroes/karina.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Akai",
+      "role": ["Tank", "Support"],
+      "specialty": ["Crowd Control", "Initiate"],
+      "lane": "Roam",
+      "image_path": "images/heroes/akai.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Franco",
+      "role": ["Tank", "Support"],
+      "specialty": ["Crowd Control", "Initiate"],
+      "lane": "Roam",
+      "image_path": "images/heroes/franco.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Bane",
+      "role": ["Fighter", "Mage"],
+      "specialty": ["Poke", "Burst Damage"],
+      "lane": "EXP",
+      "image_path": "images/heroes/bane.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Bruno",
+      "role": ["Marksman"],
+      "specialty": ["Burst Damage", "Reap"],
+      "lane": "Gold",
+      "image_path": "images/heroes/bruno.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Clint",
+      "role": ["Marksman"],
+      "specialty": ["Poke", "Burst Damage"],
+      "lane": "Gold",
+      "image_path": "images/heroes/clint.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Rafaela",
+      "role": ["Support"],
+      "specialty": ["Heal", "Crowd Control"],
+      "lane": "Roam",
+      "image_path": "images/heroes/rafaela.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Eudora",
+      "role": ["Mage"],
+      "specialty": ["Burst Damage", "Crowd Control"],
+      "lane": "Mid",
+      "image_path": "images/heroes/eudora.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Zilong",
+      "role": ["Fighter", "Assassin"],
+      "specialty": ["Charge", "Burst Damage"],
+      "lane": "EXP",
+      "image_path": "images/heroes/zilong.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Fanny",
+      "role": ["Assassin"],
+      "specialty": ["Mobility", "Burst Damage"],
+      "lane": "Jungle",
+      "image_path": "images/heroes/fanny.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Lapu-Lapu",
+      "role": ["Fighter"],
+      "specialty": ["Charge", "Burst Damage"],
+      "lane": "EXP",
+      "image_path": "images/heroes/lapu_lapu.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Vexana",
+      "role": ["Mage"],
+      "specialty": ["AoE", "Crowd Control"],
+      "lane": "Mid",
+      "image_path": "images/heroes/vexana.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Roger",
+      "role": ["Fighter", "Marksman"],
+      "specialty": ["Burst Damage", "Chase"],
+      "lane": "Jungle",
+      "image_path": "images/heroes/roger.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Karrie",
+      "role": ["Marksman"],
+      "specialty": ["Reap"],
+      "lane": "Gold",
+      "image_path": "images/heroes/karrie.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Gatotkaca",
+      "role": ["Tank", "Fighter"],
+      "specialty": ["Crowd Control", "Initiate"],
+      "lane": "Roam",
+      "image_path": "images/heroes/gatotkaca.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Harley",
+      "role": ["Mage", "Assassin"],
+      "specialty": ["Burst Damage", "Mobility"],
+      "lane": "Jungle",
+      "image_path": "images/heroes/harley.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Irithel",
+      "role": ["Marksman"],
+      "specialty": ["Reap", "Burst Damage"],
+      "lane": "Gold",
+      "image_path": "images/heroes/irithel.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Grock",
+      "role": ["Tank", "Support"],
+      "specialty": ["Crowd Control", "Guard"],
+      "lane": "Roam",
+      "image_path": "images/heroes/grock.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Diggie",
+      "role": ["Support"],
+      "specialty": ["Crowd Control", "Guard"],
+      "lane": "Roam",
+      "image_path": "images/heroes/diggie.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Lolita",
+      "role": ["Tank", "Support"],
+      "specialty": ["Guard", "Crowd Control"],
+      "lane": "Roam",
+      "image_path": "images/heroes/lolita.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Argus",
+      "role": ["Fighter"],
+      "specialty": ["Burst Damage", "Chase"],
+      "lane": "EXP",
+      "image_path": "images/heroes/argus.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Moskov",
+      "role": ["Marksman"],
+      "specialty": ["Reap", "Crowd Control"],
+      "lane": "Gold",
+      "image_path": "images/heroes/moskov.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Johnson",
+      "role": ["Tank", "Support"],
+      "specialty": ["Initiate", "Crowd Control"],
+      "lane": "Roam",
+      "image_path": "images/heroes/johnson.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Cyclops",
+      "role": ["Mage"],
+      "specialty": ["Burst Damage", "Poke"],
+      "lane": "Mid",
+      "image_path": "images/heroes/cyclops.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Estes",
+      "role": ["Support"],
+      "specialty": ["Heal", "Guard"],
+      "lane": "Roam",
+      "image_path": "images/heroes/estes.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Hilda",
+      "role": ["Tank", "Fighter"],
+      "specialty": ["Charge", "Crowd Control"],
+      "lane": "EXP",
+      "image_path": "images/heroes/hilda.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Aurora",
+      "role": ["Mage"],
+      "specialty": ["Burst Damage", "Crowd Control"],
+      "lane": "Mid",
+      "image_path": "images/heroes/aurora.jpg"
+    },
+    {
+      "id": 35,
+      "name": "Ling",
+      "role": ["Assassin"],
+      "specialty": ["Mobility", "Burst Damage"],
+      "lane": "Jungle",
+      "image_path": "images/heroes/ling.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Dyrroth",
+      "role": ["Fighter"],
+      "specialty": ["Burst Damage", "Charge"],
+      "lane": "EXP",
+      "image_path": "images/heroes/dyrroth.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Lylia",
+      "role": ["Mage"],
+      "specialty": ["Burst Damage", "Poke"],
+      "lane": "Mid",
+      "image_path": "images/heroes/lylia.jpg"
+    },
+    {
+      "id": 38,
+      "name": "Baxia",
+      "role": ["Tank", "Support"],
+      "specialty": ["Crowd Control", "Initiate"],
+      "lane": "Roam",
+      "image_path": "images/heroes/baxia.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Masha",
+      "role": ["Fighter"],
+      "specialty": ["Charge", "Reap"],
+      "lane": "EXP",
+      "image_path": "images/heroes/masha.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Wanwan",
+      "role": ["Marksman"],
+      "specialty": ["Burst Damage", "Chase"],
+      "lane": "Gold",
+      "image_path": "images/heroes/wanwan.jpg"
+    },
+    {
+      "id": 41,
+      "name": "Silvanna",
+      "role": ["Fighter", "Mage"],
+      "specialty": ["Crowd Control", "Burst Damage"],
+      "lane": "EXP",
+      "image_path": "images/heroes/silvanna.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Cecilion",
+      "role": ["Mage"],
+      "specialty": ["Poke", "Burst Damage"],
+      "lane": "Mid",
+      "image_path": "images/heroes/cecilion.jpg"
+    },
+    {
+      "id": 43,
+      "name": "Carmilla",
+      "role": ["Tank", "Support"],
+      "specialty": ["Crowd Control", "Guard"],
+      "lane": "Roam",
+      "image_path": "images/heroes/carmilla.jpg"
+    },
+    {
+      "id": 44,
+      "name": "Atlas",
+      "role": ["Tank", "Support"],
+      "specialty": ["Crowd Control", "Initiate"],
+      "lane": "Roam",
+      "image_path": "images/heroes/atlas.jpg"
+    },
+    {
+      "id": 45,
+      "name": "Popol and Kupa",
+      "role": ["Marksman", "Support"],
+      "specialty": ["Poke", "Crowd Control"],
+      "lane": "Gold",
+      "image_path": "images/heroes/popol_and_kupa.jpg"
+    },
+    {
+      "id": 46,
+      "name": "Yu Zhong",
+      "role": ["Fighter"],
+      "specialty": ["Sustain", "Burst Damage"],
+      "lane": "EXP",
+      "image_path": "images/heroes/yu_zhong.jpg"
+    },
+    {
+      "id": 47,
+      "name": "Luo Yi",
+      "role": ["Mage"],
+      "specialty": ["Crowd Control", "AoE"],
+      "lane": "Mid",
+      "image_path": "images/heroes/luo_yi.jpg"
+    },
+    {
+      "id": 48,
+      "name": "Khaleed",
+      "role": ["Fighter"],
+      "specialty": ["Charge", "Burst Damage"],
+      "lane": "EXP",
+      "image_path": "images/heroes/khaleed.jpg"
+    },
+    {
+      "id": 49,
+      "name": "Barats",
+      "role": ["Tank", "Fighter"],
+      "specialty": ["Crowd Control", "Guard"],
+      "lane": "Roam",
+      "image_path": "images/heroes/barats.jpg"
+    },
+    {
+      "id": 50,
+      "name": "Brody",
+      "role": ["Marksman"],
+      "specialty": ["Burst Damage", "Poke"],
+      "lane": "Gold",
+      "image_path": "images/heroes/brody.jpg"
+    }
+  ]
+}

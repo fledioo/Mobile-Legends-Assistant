@@ -1,0 +1,362 @@
+{
+  "mpl_players": [
+    {
+      "player_id": 1,
+      "nickname": "Sanji",
+      "real_name": "Muhammad Ikhsan",
+      "team": "RRQ Hoshi",
+      "role": "Roamer",
+      "country": "Indonesia",
+      "age": 24,
+      "join_date": "2019-03-15",
+      "hero_pool": ["Tigreal", "Atlas", "Khufra", "Franco", "Akai"],
+      "achievements": [
+        "MPL ID Season 6 Champion",
+        "MPL ID Season 7 Runner-up",
+        "MSC 2021 Top 4"
+      ],
+      "total_matches": 156,
+      "win_rate": 64.5,
+      "mvp_count": 23,
+      "signature_hero": "Tigreal",
+      "social_media": {
+        "instagram": "@sanjirrqq",
+        "twitter": "@SanjiRRQ"
+      }
+    },
+    {
+      "player_id": 2,
+      "nickname": "Lemon",
+      "real_name": "Rivaldi Fiqih",
+      "team": "RRQ Hoshi",
+      "role": "Gold Laner",
+      "country": "Indonesia",
+      "age": 22,
+      "join_date": "2020-01-10",
+      "hero_pool": ["Claude", "Brody", "Wanwan", "Karrie", "Granger"],
+      "achievements": [
+        "MPL ID Season 6 Champion",
+        "MPL ID Season 8 Champion",
+        "M3 World Champion"
+      ],
+      "total_matches": 142,
+      "win_rate": 67.2,
+      "mvp_count": 31,
+      "signature_hero": "Claude",
+      "social_media": {
+        "instagram": "@lemonrrqq",
+        "twitter": "@LemonRRQ"
+      }
+    },
+    {
+      "player_id": 3,
+      "nickname": "R7",
+      "real_name": "Cahya Nugraha",
+      "team": "RRQ Hoshi",
+      "role": "Mid Laner",
+      "country": "Indonesia",
+      "age": 23,
+      "join_date": "2018-06-20",
+      "hero_pool": ["Lunox", "Lylia", "Pharsa", "Valir", "Cecilion"],
+      "achievements": [
+        "MPL ID Season 6 Champion",
+        "MPL ID Season 8 Champion",
+        "M3 World Champion",
+        "MSC 2022 Champion"
+      ],
+      "total_matches": 198,
+      "win_rate": 65.8,
+      "mvp_count": 38,
+      "signature_hero": "Lunox",
+      "social_media": {
+        "instagram": "@r7rrqq",
+        "twitter": "@R7RRQ"
+      }
+    },
+    {
+      "player_id": 4,
+      "nickname": "F1",
+      "real_name": "Rizky Andriawan",
+      "team": "RRQ Hoshi",
+      "role": "EXP Laner",
+      "country": "Indonesia",
+      "age": 25,
+      "join_date": "2019-08-12",
+      "hero_pool": ["Yu Zhong", "Terizla", "Arlott", "Fredrinn", "Edith"],
+      "achievements": [
+        "MPL ID Season 6 Champion",
+        "MPL ID Season 8 Champion",
+        "M3 World Champion"
+      ],
+      "total_matches": 167,
+      "win_rate": 63.4,
+      "mvp_count": 27,
+      "signature_hero": "Yu Zhong",
+      "social_media": {
+        "instagram": "@f1rrqq",
+        "twitter": "@F1RRQ"
+      }
+    },
+    {
+      "player_id": 5,
+      "nickname": "2K",
+      "real_name": "Yandri Andrianto",
+      "team": "RRQ Hoshi",
+      "role": "Jungler",
+      "country": "Indonesia",
+      "age": 24,
+      "join_date": "2020-11-05",
+      "hero_pool": ["Nolan", "Aamon", "Ling", "Fanny", "Joy"],
+      "achievements": [
+        "MPL ID Season 8 Champion",
+        "M3 World Champion",
+        "MSC 2022 Champion"
+      ],
+      "total_matches": 128,
+      "win_rate": 66.1,
+      "mvp_count": 29,
+      "signature_hero": "Nolan",
+      "social_media": {
+        "instagram": "@2krrqq",
+        "twitter": "@2KRRQ"
+      }
+    },
+    {
+      "player_id": 6,
+      "nickname": "Kiboy",
+      "real_name": "Muhammad Kibad",
+      "team": "ONIC Esports",
+      "role": "Gold Laner",
+      "country": "Indonesia",
+      "age": 23,
+      "join_date": "2019-02-18",
+      "hero_pool": ["Melissa", "Beatrix", "Natan", "Wanwan", "Bruno"],
+      "achievements": [
+        "MPL ID Season 7 Champion",
+        "MPL ID Season 10 Champion",
+        "M5 World Champion"
+      ],
+      "total_matches": 175,
+      "win_rate": 68.3,
+      "mvp_count": 35,
+      "signature_hero": "Melissa",
+      "social_media": {
+        "instagram": "@kiboyonic",
+        "twitter": "@KiboyONIC"
+      }
+    },
+    {
+      "player_id": 7,
+      "nickname": "Butsss",
+      "real_name": "Randy Julian",
+      "team": "ONIC Esports",
+      "role": "EXP Laner",
+      "country": "Indonesia",
+      "age": 22,
+      "join_date": "2020-03-22",
+      "hero_pool": ["Fredrinn", "Arlott", "Julian", "Edith", "Chip"],
+      "achievements": [
+        "MPL ID Season 10 Champion",
+        "M5 World Champion",
+        "MSC 2023 Top 4"
+      ],
+      "total_matches": 143,
+      "win_rate": 65.7,
+      "mvp_count": 26,
+      "signature_hero": "Fredrinn",
+      "social_media": {
+        "instagram": "@butsssonic",
+        "twitter": "@ButsssONIC"
+      }
+    },
+    {
+      "player_id": 8,
+      "nickname": "Sanz",
+      "real_name": "Yasir Sanz",
+      "team": "ONIC Esports",
+      "role": "Roamer",
+      "country": "Indonesia",
+      "age": 24,
+      "join_date": "2019-07-14",
+      "hero_pool": ["Mathilda", "Floryn", "Rafaela", "Angela", "Diggie"],
+      "achievements": [
+        "MPL ID Season 7 Champion",
+        "MPL ID Season 10 Champion",
+        "M5 World Champion"
+      ],
+      "total_matches": 168,
+      "win_rate": 66.9,
+      "mvp_count": 22,
+      "signature_hero": "Mathilda",
+      "social_media": {
+        "instagram": "@sanzonic",
+        "twitter": "@SanzONIC"
+      }
+    },
+    {
+      "player_id": 9,
+      "nickname": "CW",
+      "real_name": "Calvin Winata",
+      "team": "ONIC Esports",
+      "role": "Mid Laner",
+      "country": "Indonesia",
+      "age": 25,
+      "join_date": "2018-09-10",
+      "hero_pool": ["Valir", "Yve", "Xavier", "Novaria", "Lylia"],
+      "achievements": [
+        "MPL ID Season 7 Champion",
+        "MPL ID Season 10 Champion",
+        "M5 World Champion"
+      ],
+      "total_matches": 189,
+      "win_rate": 64.2,
+      "mvp_count": 33,
+      "signature_hero": "Valir",
+      "social_media": {
+        "instagram": "@cwonic",
+        "twitter": "@CWONIC"
+      }
+    },
+    {
+      "player_id": 10,
+      "nickname": "Renbooo",
+      "real_name": "Reno Wijaya",
+      "team": "ONIC Esports",
+      "role": "Jungler",
+      "country": "Indonesia",
+      "age": 21,
+      "join_date": "2021-01-15",
+      "hero_pool": ["Joy", "Nolan", "Aamon", "Karina", "Lancelot"],
+      "achievements": [
+        "MPL ID Season 10 Champion",
+        "M5 World Champion"
+      ],
+      "total_matches": 98,
+      "win_rate": 69.4,
+      "mvp_count": 24,
+      "signature_hero": "Joy",
+      "social_media": {
+        "instagram": "@renboooonic",
+        "twitter": "@RenboooONIC"
+      }
+    },
+    {
+      "player_id": 11,
+      "nickname": "Vyn",
+      "real_name": "Keenan Vincent",
+      "team": "EVOS Legends",
+      "role": "Mid Laner",
+      "country": "Indonesia",
+      "age": 22,
+      "join_date": "2020-06-18",
+      "hero_pool": ["Gord", "Kagura", "Pharsa", "Cecilion", "Valir"],
+      "achievements": [
+        "MPL ID Season 9 Champion",
+        "MSC 2021 Top 4"
+      ],
+      "total_matches": 134,
+      "win_rate": 62.8,
+      "mvp_count": 28,
+      "signature_hero": "Gord",
+      "social_media": {
+        "instagram": "@vynevos",
+        "twitter": "@VynEVOS"
+      }
+    },
+    {
+      "player_id": 12,
+      "nickname": "Rappy",
+      "real_name": "Rafly Dwi",
+      "team": "EVOS Legends",
+      "role": "Jungler",
+      "country": "Indonesia",
+      "age": 23,
+      "join_date": "2019-11-20",
+      "hero_pool": ["Ling", "Fanny", "Hayabusa", "Lancelot", "Gusion"],
+      "achievements": [
+        "MPL ID Season 9 Champion",
+        "MSC 2021 Top 4"
+      ],
+      "total_matches": 145,
+      "win_rate": 61.5,
+      "mvp_count": 25,
+      "signature_hero": "Ling",
+      "social_media": {
+        "instagram": "@rappyevos",
+        "twitter": "@RappyEVOS"
+      }
+    },
+    {
+      "player_id": 13,
+      "nickname": "Dreams",
+      "real_name": "Rizky Dreams",
+      "team": "EVOS Legends",
+      "role": "Gold Laner",
+      "country": "Indonesia",
+      "age": 24,
+      "join_date": "2019-04-12",
+      "hero_pool": ["Granger", "Brody", "Beatrix", "Claude", "Karrie"],
+      "achievements": [
+        "MPL ID Season 9 Champion",
+        "MSC 2021 Top 4"
+      ],
+      "total_matches": 152,
+      "win_rate": 63.2,
+      "mvp_count": 30,
+      "signature_hero": "Granger",
+      "social_media": {
+        "instagram": "@dreamsevos",
+        "twitter": "@DreamsEVOS"
+      }
+    },
+    {
+      "player_id": 14,
+      "nickname": "Antimage",
+      "real_name": "Rizky Fajar",
+      "team": "EVOS Legends",
+      "role": "EXP Laner",
+      "country": "Indonesia",
+      "age": 25,
+      "join_date": "2018-12-08",
+      "hero_pool": ["Terizla", "Uranus", "Khaleed", "Arlott", "Baxia"],
+      "achievements": [
+        "MPL ID Season 9 Champion",
+        "MSC 2021 Top 4"
+      ],
+      "total_matches": 167,
+      "win_rate": 60.9,
+      "mvp_count": 21,
+      "signature_hero": "Terizla",
+      "social_media": {
+        "instagram": "@antimageevos",
+        "twitter": "@AntimageEVOS"
+      }
+    },
+    {
+      "player_id": 15,
+      "nickname": "Wise",
+      "real_name": "Muhammad Wise",
+      "team": "EVOS Legends",
+      "role": "Roamer",
+      "country": "Indonesia",
+      "age": 26,
+      "join_date": "2018-08-15",
+      "hero_pool": ["Tigreal", "Atlas", "Khufra", "Belerick", "Gatotkaca"],
+      "achievements": [
+        "MPL ID Season 9 Champion",
+        "MSC 2021 Top 4",
+        "Veteran Player Award"
+      ],
+      "total_matches": 201,
+      "win_rate": 62.1,
+      "mvp_count": 19,
+      "signature_hero": "Tigreal",
+      "social_media": {
+        "instagram": "@wiseevos",
+        "twitter": "@WiseEVOS"
+      }
+    }
+  ],
+  "total_players": 15,
+  "last_updated": "2024-01-15"
+}

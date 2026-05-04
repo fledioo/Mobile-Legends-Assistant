@@ -1,0 +1,304 @@
+{
+  "hero_lores": [
+    {
+      "hero_id": 1, "hero_name": "Layla",
+      "title": "Destructive Gunner",
+      "origin": "Antoinerei",
+      "lore": "Layla adalah seorang gadis muda berambut panjang dari keluarga ilmuwan di Antoinerei. Ayahnya, seorang insinyur brilian, menciptakan senjata berbasis energi Mana Crystal. Ketika ayahnya meninggal dalam kecelakaan laboratorium, Layla mewarisi riset dan senjata pembelaannya. Meski muda dan kurang pengalaman, Layla berlatih keras untuk menguasai senjata canggih ayahnya. Dengan tekad bulat membalas dendam atas kematian ayahnya dan melindungi laboratorium dari tangan jahat, Layla bergabung dalam pertempuran di Land of Dawn. Senjatanya, Malefic Gun, mampu menembakkan proyektil energi dengan akurasi dan jarak yang luar biasa."
+    },
+    {
+      "hero_id": 2, "hero_name": "Balmond",
+      "title": "Bloody Beast",
+      "origin": "Kekaisaran Moniyan",
+      "lore": "Balmond adalah salah satu dari ras demon yang hidup di bawah permukaan Kekaisaran Moniyan. Dikenal sebagai makhluk bertubuh besar dengan kapak raksasa, Balmond memiliki rasa haus darah yang tak pernah padam. Masa kecilnya dihabiskan dalam pertempuran antar klan, menempa dirinya menjadi pejuang yang kejam dan tak kenal ampun. Setelah mengalahkan pemimpin klannya sendiri, Balmond menjadi pemimpin yang ditakuti. Dia bergabung dalam perang besar di Land of Dawn bukan untuk loyalitas, melainkan untuk kesenangan pertempuran semata. Setiap musuh yang jatuh di tangan Balmond menambah kenikmatan tersendiri bagi sang Bloody Beast."
+    },
+    {
+      "hero_id": 3, "hero_name": "Saber",
+      "title": "Lone Ranger",
+      "origin": "Dunia Teknologi Tinggi",
+      "lore": "Saber berasal dari dunia yang jauh lebih maju secara teknologi. Dia adalah seorang pejuang elit yang diprogram dan dilatih menjadi mesin pembunuh sempurna. Dengan empat pedang yang dikendalikan oleh kecerdasan buatan, Saber mampu bergerak dengan kecepatan melampaui kemampuan manusia biasa. Setelah dunianya hancur akibat perang antardimensi, Saber terdampar di Land of Dawn melalui sebuah rift. Di sini, dia tidak memiliki tuan atau tujuan, hanya berkelana sebagai lone ranger yang menjual jasanya kepada siapapun yang memerlukan kemampuan uniknya."
+    },
+    {
+      "hero_id": 4, "hero_name": "Alice",
+      "title": "Mage Queen",
+      "origin": "Dunia Rahasia Mage",
+      "lore": "Alice adalah salah satu ratu mage tertua yang pernah ada di Land of Dawn. Ribuan tahun lalu, Alice adalah seorang mage biasa yang haus kekuasaan. Melalui ritual gelap dan perjanjian dengan kekuatan alam semesta, dia mengorbankan kemanusiaannya demi immortalitas dan kekuatan tak terbatas. Alice menghabiskan berabad-abad mengumpulkan pengetahuan dan kekuatan, menguasai seni manipulasi darah dan mana. Dengan kemampuannya menyerap kekuatan dari musuh yang terluka, Alice menjadi semakin kuat seiring berjalannya pertempuran. Tujuan sesungguhnya Alice di Land of Dawn masih menjadi misteri gelap yang belum terungkap."
+    },
+    {
+      "hero_id": 5, "hero_name": "Nana",
+      "title": "Feline Wizard",
+      "origin": "Hutan Ajaib",
+      "lore": "Nana adalah seorang penyihir cilik berbentuk humanoid kucing yang tinggal di hutan ajaib bersama sahabatnya Molina. Molina adalah boneka beruang yang dihidupkan oleh sihir Nana. Sejak kecil, Nana memiliki bakat sihir yang luar biasa, mampu mentransformasi makhluk lain menjadi hewan kecil dengan rapalan mantranya. Meski terlihat naif dan ceria, Nana menyimpan kekuatan sihir yang belum sepenuhnya terpahami bahkan oleh dirinya sendiri. Dia bergabung dalam petualangan di Land of Dawn karena Molina mengajaknya mencari bahan ajaib untuk mantra-mantra baru. Kombinasi antara kepolosan dan kekuatan sihirnya membuat Nana menjadi sosok yang tidak boleh diremehkan."
+    },
+    {
+      "hero_id": 6, "hero_name": "Tigreal",
+      "title": "Imperial Knight",
+      "origin": "Kekaisaran Moniyan",
+      "lore": "Tigreal adalah salah satu ksatria paling legendary di Kekaisaran Moniyan. Lahir dari keluarga bangsawan, dia dibesarkan dengan nilai-nilai kehormatan dan pengabdian total kepada kerajaan. Dalam perang melawan pasukan kegelapan yang menyerang Moniyan, Tigreal mengorbankan seluruh pasukannya demi melindungi ibu kota. Meski dikecam karena dianggap membiarkan anak buahnya mati, keputusan tersebut ternyata menyelamatkan ribuan nyawa warga sipil. Tigreal terus mengabdi meski tanpa penghargaan, keyakinannya bahwa kebenaran dan keadilan akan selalu menang tidak pernah goyah. Sekarang dia berjuang di Land of Dawn untuk membuktikan bahwa ksatria sejati tidak butuh pengakuan."
+    },
+    {
+      "hero_id": 7, "hero_name": "Alucard",
+      "title": "Demon Hunter",
+      "origin": "Hutan Utara",
+      "lore": "Alucard adalah seorang pemburu demon yang masa kecilnya dipenuhi tragedi. Seluruh desanya dibantai oleh kawanan demon ketika dia masih kecil. Satu-satunya yang selamat, Alucard dibesarkan oleh seorang pemburu demon tua yang mengajarinya semua teknik pertarungan. Nama 'Alucard' sendiri berarti 'Pembunuh Dracula' dalam bahasa kuno — sebuah nama yang dipilih dengan bangga. Dengan pedang dua tangan yang mewarisi kekuatan dari setiap demon yang dibunuhnya, Alucard terus mengembara membasmi kejahatan. Kemampuan penyerapan darah musuh memberikannya stamina hampir tak terbatas dalam pertempuran. Memori akan desa dan keluarganya yang musnah terus membakar semangatnya untuk tidak pernah berhenti."
+    },
+    {
+      "hero_id": 8, "hero_name": "Karina",
+      "title": "Shadow Blade",
+      "origin": "Sekte Pembunuh Bayangan",
+      "lore": "Karina adalah pembunuh bayaran dari sekte rahasia yang melatih para assassin sejak usia sangat muda. Lahir dengan kemampuan manipulasi energi shadow yang langka, Karina cepat menjadi murid terbaik di sektenya. Kedua pedang kristalnya mampu menyerap dan melepaskan energi shadow dengan destruktif. Karina tidak berperasaan dan sangat profesional — bagi dia, setiap misi hanyalah kontrak yang harus diselesaikan. Namun di balik wajah dinginnya, tersimpan trauma masa kecil yang belum sembuh: sekte yang membesarkannya juga yang mengorbankan teman-temannya demi ritual kekuasaan. Karina bergabung dalam perang di Land of Dawn untuk mencari kebebasan dari bayang-bayang sektenya."
+    },
+    {
+      "hero_id": 9, "hero_name": "Akai",
+      "title": "Magic Panda",
+      "origin": "Hutan Bambu Timur",
+      "lore": "Akai adalah seekor panda raksasa yang diberkahi kekuatan sihir dari bambu ajaib. Di dalam hutannya yang damai, Akai dikenal sebagai pelindung yang tenang. Namun di balik tubuhnya yang lucu dan gerak-geriknya yang canggung, tersimpan kekuatan putaran yang mampu menghancurkan benteng batu. Suatu hari, pasukan jahat menyerang hutan bambunya dan menghancurkan pohon-pohon suci yang telah hidup ribuan tahun. Dengan marah dan berduka, Akai meninggalkan hutannya untuk melawan mereka langsung. Selama berputar dalam pertempuran, Akai tidak bisa dihentikan — seperti badai yang bergerak. Walau tampak lucu, jangan pernah meremehkan panda suci ini."
+    },
+    {
+      "hero_id": 10, "hero_name": "Franco",
+      "title": "Frozen Warrior",
+      "origin": "Wilayah Utara Bersalju",
+      "lore": "Franco adalah pemimpin suku barbar dari wilayah paling utara yang selalu diselimuti salju. Dalam budaya sukunya, kekuatan adalah satu-satunya yang dihormati, dan Franco adalah yang terkuat. Dengan postur tubuh raksasa dan kait besi yang merupakan senjata tradisional sukunya, Franco mampu menarik dan menghancurkan musuh dalam sekejap. Kisah hidupnya penuh pertempuran brutal demi mempertahankan suku dari ancaman monster beku dan suku lain. Suatu hari, ancaman besar dari selatan memaksa Franco meninggalkan tanah leluhurnya dan bergabung dalam konflik yang lebih besar di Land of Dawn. Terkenal dengan teriakan perang yang mengerikan dan akurasi hooknya yang mematikan."
+    },
+    {
+      "hero_id": 11, "hero_name": "Bane",
+      "title": "Scourge of the Seas",
+      "origin": "Lautan Selatan",
+      "lore": "Bane adalah kapten bajak laut paling ditakuti di semua lautan. Legenda berkata bahwa Bane membuat perjanjian dengan roh laut untuk mendapatkan kekuatan tak terbatas, mengorbankan kemanusiaannya sebagai bayaran. Sekarang dia adalah makhluk setengah manusia setengah monster laut dengan kekuatan menghancurkan yang luar biasa. Meriam tangannya yang unik mampu menembakkan proyektil yang diimbuhi kekuatan lautan, sementara botol Rum-nya memberikan energi supernatural. Armada bajak lautnya menyebar ketakutan di seluruh jalur perdagangan. Bane bergabung dalam perang di Land of Dawn karena satu alasan sederhana: dia haus akan lebih banyak kekuasaan dan penaklukan."
+    },
+    {
+      "hero_id": 12, "hero_name": "Bruno",
+      "title": "Protector",
+      "origin": "Laboratorium Teknologi",
+      "lore": "Bruno awalnya adalah atlet sepak bola berbakat yang kehilangan kedua kakinya dalam kecelakaan mengerikan. Namun seorang ilmuwan brilian memberikannya kesempatan kedua: sepasang kaki mekanik yang jauh lebih kuat dari kaki asli. Bola sepak berenergi yang menjadi senjata utamanya bukan sekadar bola biasa — melainkan reaktor energi kinetik yang bisa melepaskan kekuatan destruktif. Bruno menggunakan kaki mekaniknya untuk bergerak dengan kecepatan supersonik. Meski trauma, Bruno bangkit kembali dengan semangat yang lebih kuat dari sebelumnya. Di Land of Dawn, dia bukan lagi atlet tapi guardian — seseorang yang bertempur demi melindungi mereka yang lemah."
+    },
+    {
+      "hero_id": 13, "hero_name": "Clint",
+      "title": "West Justice",
+      "origin": "Kota Perbatasan Barat",
+      "lore": "Clint adalah seorang ranger dari kota perbatasan yang dikenal karena keadilannya yang keras dan akurasi tembakan yang sempurna. Masa mudanya dihabiskan memburu bandit dan membasmi korupsi di kota-kota kecil yang tidak mendapat perlindungan kerajaan. Senjatanya, sebuah senapan modifikasi yang dilengkapi berbagai amunisi khusus, adalah warisan dari ayahnya yang juga seorang ranger legendaris. Clint tidak berbicara banyak — baginya, aksinya yang berbicara. Ketika kejahatan lebih besar dari yang bisa dia tangani sendirian mulai mengancam seluruh Land of Dawn, Clint meninggalkan kotanya dan bergabung dalam pertempuran yang lebih besar. Dia membawa serta prinsip sederhana: selalu lindungi yang lemah, hukum yang jahat."
+    },
+    {
+      "hero_id": 14, "hero_name": "Rafaela",
+      "title": "Wings of Holiness",
+      "origin": "Surga Cahaya",
+      "lore": "Rafaela adalah malaikat yang dikirim dari alam cahaya untuk membawa keseimbangan ke dunia yang dilanda kegelapan. Dengan sayap-sayap putih cemerlang dan staf sucinya, Rafaela memancarkan energi penyembuhan yang bisa memulihkan luka paling parah sekalipun. Berbeda dengan malaikat lain yang berperang, misi Rafaela adalah memberikan harapan kepada yang terluka dan cahaya kepada yang tersesat. Namun ketika ancaman kegelapan semakin besar dan melampaui kemampuan satu malaikat saja, Rafaela memutuskan untuk turun langsung ke medan perang. Di tengah kekacauan, kemampuan penyembuhan dan dukungannya adalah perbedaan antara hidup dan mati bagi rekan-rekannya."
+    },
+    {
+      "hero_id": 15, "hero_name": "Eudora",
+      "title": "Thunderbolt",
+      "origin": "Akademi Sihir Tinggi",
+      "lore": "Eudora adalah murid terbaik dalam sejarah Akademi Sihir terkemuka di Land of Dawn. Sejak kecil, dia menunjukkan bakat luar biasa untuk memanipulasi listrik dan petir. Staf sihirnya yang diwarisi dari gurunya mampu menyalurkan energi petir dengan presisi luar biasa. Meski muda, Eudora memiliki kemampuan yang melampaui mage-mage senior. Tragisnya, akademinya diserang dan dihancurkan oleh pasukan kegelapan, memaksa Eudora melarikan diri. Sekarang, dengan ilmu yang telah dia pelajari dan rasa amarah yang membara, Eudora berkelana mencari cara untuk membalaskan dendam akademinya sambil menggunakan kekuatan petirnya untuk melawan ketidakadilan."
+    },
+    {
+      "hero_id": 16, "hero_name": "Zilong",
+      "title": "Son of the Dragon",
+      "origin": "Dataran Utara",
+      "lore": "Zilong lahir pada malam petir di bawah tanda naga, dan konon darah naga mengalir dalam tubuhnya. Dibesarkan oleh ayah angkat yang merupakan seorang jenderal legendaris, Zilong dilatih sejak kecil dalam seni perang tertinggi. Tombak naga yang menjadi senjatanya bukan sekadar senjata biasa — melainkan artefak kuno yang merespons kekuatan sang pemilik. Zilong dikenal karena kecepatannya yang melampaui manusia biasa dan kemampuannya untuk berbalik situasi bahkan saat nyaris kalah. Ketika tanah leluhurnya diancam, Zilong meninggalkan pertapaan dan bergabung dalam perang. Filosofinya sederhana: tidak ada yang mustahil jika jiwa tidak menyerah."
+    },
+    {
+      "hero_id": 17, "hero_name": "Fanny",
+      "title": "Steel Fairy",
+      "origin": "Kerajaan Kota Terbang",
+      "lore": "Fanny tumbuh besar di kota terapung yang dihubungkan oleh jaringan kawat baja. Sejak kecil, dia mahir berpindah dari satu bangunan ke bangunan lain menggunakan kabel yang ditembakkan dari senjata di tangannya. Kecepatan dan keberanian Fanny menjadi legenda di kotanya. Namun tragedi melanda ketika kota terapungnya diserang dan dihancurkan. Fanny berhasil melarikan diri, tetapi harus menyaksikan rumah dan teman-temannya musnah. Dengan kabel-kabel bajanya dan tekad yang tak bisa dipatahkan, Fanny bersumpah akan membalas dendam dan membangun kembali kotanya. Di Land of Dawn, kemampuannya yang unik untuk bergerak secepat angin menjadikannya assassin yang hampir tak tertangkap."
+    },
+    {
+      "hero_id": 18, "hero_name": "Lapu-Lapu",
+      "title": "Brave Chief",
+      "origin": "Pulau-pulau Selatan",
+      "lore": "Lapu-Lapu adalah kepala suku dari kepulauan tropis di selatan yang hidup dalam damai dan keseimbangan dengan alam. Ketika pasukan asing datang untuk menaklukkan dan menguasai pulau-pulau tersebut, Lapu-Lapu yang awalnya seorang pemimpin damai terpaksa bangkit menjadi pejuang. Dengan senjata tradisional leluhurnya dan tekad mempertahankan tanah airnya, Lapu-Lapu mengalahkan pasukan jauh lebih besar dari jumlah sukunya. Kemampuannya berubah menjadi Hero Form saat semangat perjuangannya memuncak adalah manifestasi dari warisan leluhur yang mengaliri darahnya. Di Land of Dawn, nama Lapu-Lapu menjadi simbol perlawanan rakyat kecil melawan penindasan."
+    },
+    {
+      "hero_id": 19, "hero_name": "Vexana",
+      "title": "Necromancer",
+      "origin": "Kerajaan Lantis yang Tenggelam",
+      "lore": "Vexana adalah ratu dari kerajaan Lantis yang telah tenggelam ke kedalaman laut ribuan tahun lalu. Untuk mempertahankan kerajaannya dari musuh, Vexana melakukan ritual terlarang: mengorbankan jiwanya sendiri demi kekuatan nekromancer yang tak terbatas. Sekarang dia adalah makhluk antara hidup dan mati, menguasai ilmu membangkitkan dan mengendalikan arwah. Phantom yang diciptakannya dari musuh yang mati menjadi senjata yang sangat berbahaya. Meski hancur secara spiritual, Vexana terus berjuang untuk membangun kembali kejayaan Lantis, kali ini tidak dengan kebaikan tapi dengan kekuatan kegelapan yang tak terbendung."
+    },
+    {
+      "hero_id": 20, "hero_name": "Roger",
+      "title": "Dire Wolf Hunter",
+      "origin": "Hutan Timur",
+      "lore": "Roger adalah pemburu ulung yang terkutuk oleh gigitan serigala malam saat sedang berburu. Kini dia hidup dengan dualitas: siang hari sebagai pemburu manusia normal, malam hari sebagai serigala yang brutal. Awalnya Roger menolak kutukan ini dan mencari cara untuk menyembuhkannya. Namun perlahan-lahan, dia mulai menerima dan bahkan menguasai transformasinya. Kini, Roger menggunakan kedua sisi naturnya sebagai senjata — akurasi manusia dan kekuatan brutal serigala. Di Land of Dawn, banyak yang takut padanya, namun Roger tidak peduli dengan opini orang lain. Yang penting baginya adalah melindungi hutan yang dicintainya dari ancaman yang jauh lebih berbahaya dari serigala manapun."
+    },
+    {
+      "hero_id": 21, "hero_name": "Karrie",
+      "title": "Speedy Lightwheel",
+      "origin": "Kota Teknologi",
+      "lore": "Karrie adalah seorang teknisi dan atlet yang mengembangkan senjata roda cahaya yang revolusioner. Tumbuh di kota yang penuh kemajuan teknologi, Karrie terkenal bukan hanya karena kecerdasannya tapi juga kemampuan fisiknya yang luar biasa. Roda-roda cahaya yang menjadi senjatanya adalah hasil inovasinya sendiri — kapasitor energi yang bisa dilempar dan ditarik kembali dengan presisi tinggi. Energi yang tersimpan dalam setiap serangan basic attack-nya terakumulasi dan dilepaskan sebagai true damage yang menembus semua jenis pertahanan. Karrie bergabung dalam kompetisi Land of Dawn sebagian untuk menguji batas kemampuan senjata ciptaannya."
+    },
+    {
+      "hero_id": 22, "hero_name": "Gatotkaca",
+      "title": "Iron Solider",
+      "origin": "Dunia Pewayangan",
+      "lore": "Gatotkaca adalah pahlawan legendaris dari dunia pewayangan, putra Bima dan peri Arimbi. Sejak lahir dia telah dianugerahi kekuatan supernatural yang luar biasa. Tubuhnya sekeras baja, otot-ototnya sekuat kawat baja, dan tulang-tulangnya setajam besi. Dia mampu terbang secepat petir dan melampaui batas kemampuan manusia biasa. Dalam dunia pewayangan, Gatotkaca adalah salah satu ksatria terhebat yang pernah ada, mengorbankan dirinya demi kemenangan kebenaran. Di Land of Dawn, kekuatan legendaris ini hadir dalam wujud yang sama tangguhnya, siap membela keadilan dengan kekuatan yang melampaui dimensi."
+    },
+    {
+      "hero_id": 23, "hero_name": "Harley",
+      "title": "Magic Trickster",
+      "origin": "Akademi Sulap",
+      "lore": "Harley adalah pesulap ajaib yang menggunakan sihir kartu poker sebagai senjata utamanya. Dia adalah murid jenius yang berhasil menguasai ilmu sihir tingkat lanjut dalam waktu yang sangat singkat. Namun Harley bukan penyihir serius — dia adalah entertainer yang menggabungkan trik sulap dengan sihir nyata. Kartu-kartunya yang dilempar dengan akurasi sempurna bisa menembus pertahanan paling kuat, dan kemampuannya berpindah tempat dalam sekejap mata membuatnya hampir tak tertangkap. Di balik penampilan playboy-nya, Harley menyimpan kecerdasan taktis yang luar biasa. Bergabung dalam pertempuran Land of Dawn hanyalah pertunjukan terbesar dalam karirnya sebagai magic trickster."
+    },
+    {
+      "hero_id": 24, "hero_name": "Irithel",
+      "title": "Jungle Heart",
+      "origin": "Hutan Tropis Terlarang",
+      "lore": "Irithel tumbuh bersama makhluk-makhluk hutan sejak dia ditinggalkan sebagai bayi di tengah hutan terlarang. Leo, harimau sakti yang mengasuhnya, menjadi sahabat sekaligus kendaraan tempurnya. Dibesarkan oleh hutan, Irithel memiliki insting dan kemampuan berburu yang melampaui manusia normal. Balista besar yang digunakannya dikuasai dengan sempurna meski ukurannya dua kali lipat dirinya. Yang paling menakjubkan adalah kemampuannya berjalan dan menembak secara bersamaan — sesuatu yang tidak bisa dilakukan pemanah biasa. Irithel dan Leo adalah satu entitas dalam pertempuran, saling melengkapi dalam setiap momen kritis."
+    },
+    {
+      "hero_id": 25, "hero_name": "Grock",
+      "title": "Warden of Nature",
+      "origin": "Pegunungan Batu Kuno",
+      "lore": "Grock adalah penjaga purbakala dari pegunungan sakral yang telah bertugas selama ribuan tahun. Tubuhnya yang terbuat dari batu hidup berevolusi seiring berjalannya waktu, semakin keras dan kuat di dekat dinding batu atau tanah. Kesadarannya perlahan terbentuk dari akumulasi energi alam selama milenium. Ketika penambang rakus mulai merusak pegunungan suci, Grock bangkit dan menghancurkan mereka semua. Dinding yang diciptakannya bukan hanya penghalang fisik — mereka adalah ekstensi dari tubuhnya sendiri, memberikannya kekuatan yang tak tertandingi. Grock tidak berbicara dengan kata-kata, hanya dengan perbuatan — dan perbuatannya selalu menghancurkan."
+    },
+    {
+      "hero_id": 26, "hero_name": "Diggie",
+      "title": "Time Keeper",
+      "origin": "Akademi Waktu",
+      "lore": "Diggie adalah seorang ilmuwan waktu dari akademi rahasia yang mempelajari manipulasi dimensi temporal. Wujudnya yang aneh — setengah manusia, setengah jam — adalah akibat dari eksperimen waktu yang meleset. Bom jam yang dilemparkannya tidak hanya memberikan damage tapi juga memanipulasi aliran waktu di sekitarnya. Kemampuan paling uniknya adalah memberikan bubble waktu pada rekan-rekan, membuat mereka kebal dari pengaruh luar — termasuk CC — untuk beberapa saat. Diggie melihat seluruh pertempuran sebagai teka-teki waktu yang harus dipecahkan. Bergabung di Land of Dawn bagi dia adalah eksperimen terbesar: bagaimana manipulasi waktu bisa mengubah hasil perang."
+    },
+    {
+      "hero_id": 27, "hero_name": "Lolita",
+      "title": "Guardian Knight",
+      "origin": "Bengkel Mekanik Kurcaci",
+      "lore": "Lolita adalah ksatria wanita yang mengenakan armor mekanik ciptaan para kurcaci genius. Meski berpenampilan imut dengan salib mekaniknya yang besar, Lolita adalah pelindung yang paling setia dan tangguh. Shield mekaniknya mampu memantulkan semua proyektil kembali ke pengirimnya. Lahir dari keluarga pandai besi, Lolita belajar seni pertempuran dan teknik mekanik secara bersamaan. Dia bergabung dalam pertempuran Land of Dawn setelah desanya yang kaya bahan mineral diserang. Bagi Lolita, melindungi rekan adalah satu-satunya misi — dan dia tidak akan gagal dalam misi itu."
+    },
+    {
+      "hero_id": 28, "hero_name": "Argus",
+      "title": "Malefic Angel",
+      "origin": "Alam Malaikat Jatuh",
+      "lore": "Argus dulunya adalah malaikat yang bertugas membasmi kejahatan, salah satu yang paling berbakti dan setia. Namun obsesinya untuk menjadi lebih kuat demi melindungi dunia mendorongnya melampaui batas yang diizinkan. Dia mencuri Sword of Doom — artefak kutukan yang menjanjikan kekuatan tak terbatas. Seketika dia jatuh dari rahmat, berubah menjadi malaikat hitam yang terbuang. Kini Argus berjuang di antara dua sisi dirinya: malaikat baik yang ingin menebus dosanya, dan kekuatan kegelapan sword yang terus menggodanya. Kemampuan untuk menolak kematian sementara adalah manifestasi dari kekuatan pedang kutukannya."
+    },
+    {
+      "hero_id": 29, "hero_name": "Moskov",
+      "title": "Spear of Quiescence",
+      "origin": "Klan Pemburu Roh",
+      "lore": "Moskov adalah pewaris terakhir dari klan yang khusus memburu roh jahat. Tombak yang diwarisinya dari leluhur bukan sekadar senjata — melainkan tempat peristirahatan roh-roh yang telah ditaklukkan klannya. Kemampuan Moskov untuk berpindah ke samping musuh dan menembak dengan presisi absolut adalah teknik yang dikembangkan selama generasi. Tragisnya, klan Moskov dikhianati dan dihancurkan dari dalam. Hanya Moskov yang selamat, bersumpah akan membunuh pengkhianat tersebut. Di Land of Dawn, dia tidak hanya membawa tombak — tapi juga beban dendam yang mengosongkan hatinya."
+    },
+    {
+      "hero_id": 30, "hero_name": "Johnson",
+      "title": "Iron Guard",
+      "origin": "Kota Teknologi",
+      "lore": "Johnson adalah robot guardian yang diciptakan untuk melindungi kota dari ancaman. Awalnya dirancang sebagai petugas keamanan lalu lintas, Johnson kemudian dimodifikasi menjadi mesin perang yang bisa berubah menjadi kendaraan tempur. Meski adalah mesin, Johnson memiliki kecerdasan artificial yang berkembang seiring waktu — dia mulai memiliki kepribadian dan bahkan humor. EMP Grenade-nya mampu melumpuhkan sistem elektronik musuh, sementara transformasinya menjadi mobil tempur memungkinkan deployment cepat ke mana pun diperlukan. Johnson menganggap dirinya warden sejati: melindungi yang lemah dan menghancurkan yang mengancam."
+    },
+    {
+      "hero_id": 31, "hero_name": "Cyclops",
+      "title": "Starsoul Magician",
+      "origin": "Galaksi Bintang",
+      "lore": "Cyclops berasal dari ras alien satu mata yang hidup di planet berbeda. Terdampar di Land of Dawn setelah kapalnya jatuh, Cyclops menggunakan kemampuan manipulasi energi planet untuk bertahan hidup. Orb-orb planet yang mengelilinginya adalah sistem senjata yang bisa dia kendalikan dengan presisi tinggi. Yang paling menakjubkan adalah kemampuannya untuk mempercepat waktu — setiap orb yang mengenai musuh langsung mengurangi cooldown ultimatenya. Meski jauh dari rumah, Cyclops menemukan rasa nyaman di Land of Dawn dan mulai menganggapnya sebagai rumah kedua. Matanya yang satu bisa melihat jauh melampaui dimensi biasa."
+    },
+    {
+      "hero_id": 32, "hero_name": "Estes",
+      "title": "King of Moon Elves",
+      "origin": "Hutan Elf Bulan",
+      "lore": "Estes adalah raja dari ras elf bulan, makhluk-makhluk yang mendapatkan kekuatan dari cahaya bulan. Selama ribuan tahun, kerajaannya hidup dalam damai dan harmoni dengan alam. Namun pasukan kegelapan tidak pernah berhenti mencoba merusak keseimbangan dunia. Estes, meski menjadi raja yang damai, terpaksa angkat senjata — atau lebih tepatnya, staf sihirnya. Kekuatannya bukan untuk menyerang tapi untuk memulihkan: cahaya bulan yang dikanalisasi melalui tubuhnya memberikan healing yang hampir tidak ada habisnya kepada rekan-rekannya. Di Land of Dawn, Estes bukan pejuang garis depan tapi jiwa yang menghidupkan semua yang berjuang di sampingnya."
+    },
+    {
+      "hero_id": 33, "hero_name": "Hilda",
+      "title": "Power of Wilderness",
+      "origin": "Hutan Liar Terlarang",
+      "lore": "Hilda adalah penjaga hutan liar yang tumbuh bersama alam bebas tanpa mengenal peradaban manusia. Kekuatan yang dimilikinya bukan dari sihir atau teknologi, melainkan murni dari harmoni dengan alam. Di dalam hutan, Hilda meregenerasi tenaga dengan kecepatan supernatural — seolah hutan sendiri yang menyembuhkannya. Ketika penebang hutan dan pemburu jahat mulai merusak habitatnya, Hilda mengambil kapaknya dan memperlihatkan bahwa alam bisa sangat brutal dalam mempertahankan diri. Karakternya yang pendiam tapi penuh tekad menjadi identitasnya. Bagi Hilda, bertempur bukan kesenangan tapi kewajiban — melindungi alam dari tangan manusia yang serakah."
+    },
+    {
+      "hero_id": 34, "hero_name": "Aurora",
+      "title": "Queen of Frozen Sea",
+      "origin": "Kutub Utara Abadi",
+      "lore": "Aurora adalah ratu dari kerajaan beku di kutub utara, tempat suhu bisa membekukan baja dalam hitungan detik. Kekuatannya untuk memanipulasi es dan salju adalah warisan dari garis keturunan mage beku yang telah ada selama ribuan tahun. Kristal es yang melayang di sekitarnya bukan dekorasi — melainkan fragmen kekuatan yang siap dilepaskan. Kemampuannya membekukan seluruh rombongan musuh sekaligus menjadikannya salah satu mage paling ditakuti. Aurora turun dari istana esnya bukan karena dipaksa, melainkan karena melihat ancaman yang bisa menghancurkan bahkan kerajaan abadinya. Di Land of Dawn, sentuhan dinginnya adalah kematian bagi yang tidak siap."
+    },
+    {
+      "hero_id": 35, "hero_name": "Ling",
+      "title": "Lightborn Swordmaster",
+      "origin": "Kuil Pedang Cahaya",
+      "lore": "Ling adalah penerus dari sekte pedang tertua yang hanya mengambil satu murid per generasi. Dilatih sejak bayi, tubuhnya dimodifikasi melalui seni meditasi dan latihan extreme untuk ringan seperti bulu dan cepat seperti cahaya. Kemampuannya berlari di dinding bukan hanya teknik — melainkan hasil dari Lightness yang meresapi seluruh tubuhnya. Pedangnya bergerak lebih cepat dari yang bisa dilihat mata biasa. Ketika gurunya dibunuh oleh agen kegelapan, Ling meninggalkan kutunya dan mulai mengejar keadilan. Di Land of Dawn, tidak ada yang bisa menyentuhnya — tapi dia bisa menyentuh semua orang."
+    },
+    {
+      "hero_id": 36, "hero_name": "Dyrroth",
+      "title": "Spectre of the Deep",
+      "origin": "Kerajaan Kegelapan Bawah Tanah",
+      "lore": "Dyrroth adalah pangeran dari kerajaan demon bawah tanah yang merupakan adik kandung Silvanna. Diambil paksa dari keluarganya saat masih bayi oleh raja demon, Dyrroth dibesarkan dalam kekerasan dan kegelapan. Kekuatan destruktif yang mengalir dalam tubuhnya berasal dari kontrak dengan entitas kuno yang dibuatnya untuk bertahan hidup. Berbeda dengan demon lain, Dyrroth menyimpan kepedihan dalam hatinya — kenangan samar tentang seseorang yang mungkin mencintainya. Ketika Silvanna mencarinya, Dyrroth tidak mau mengakui hubungan darah mereka, karena menerima kasih sayang adalah hal yang tidak dia pahami setelah hidup dalam kegelapan."
+    },
+    {
+      "hero_id": 37, "hero_name": "Lylia",
+      "title": "Malicious Terror",
+      "origin": "Dimensi Bayangan",
+      "lore": "Lylia adalah anak kecil ajaib yang entah bagaimana mendapatkan akses ke dimensi bayangan. Sepatunya yang gelap — Black Shoes — adalah portal ke dimensi tersebut yang memungkinkan dia berpindah seketika. Shadow Gloom yang dipanggil dari dimensi lain adalah entitas tidak berbentuk yang mematuhi perintahnya. Meski usianya masih muda, Lylia tidak menunjukkan ketakutan apapun dalam pertempuran — mungkin karena dia tidak sepenuhnya memahami konsekuensinya. Ultimate-nya yang membawanya kembali ke posisi sebelumnya adalah salah satu skill paling unique di Land of Dawn. Lylia mungkin tampak bermain-main, tapi dimensi bayangan yang dikuasainya sangat nyata dan mematikan."
+    },
+    {
+      "hero_id": 38, "hero_name": "Baxia",
+      "title": "Mystic Tortoise",
+      "origin": "Penjaga Empat Dunia",
+      "lore": "Baxia adalah salah satu dari empat penjaga kosmik yang ditugaskan menjaga keseimbangan antara dunia fisik dan spiritual. Wujudnya sebagai penyu raksasa bukan sekadar penampilan — cangkangnya adalah artefak sakral yang mengandung kekuatan purba. Baxia dapat menggulung dirinya menjadi roda dan bergerak dengan kecepatan mengejutkan untuk ukurannya. Kekuatannya untuk mengurangi kemampuan regenerasi musuh berasal dari pemahaman mendalam tentang aliran energi kehidupan. Ketika keseimbangan kosmik terancam oleh ambisi manusia dan demon, Baxia meninggalkan pos penjagaannya dan turun langsung ke medan perang untuk memulihkan keseimbangan."
+    },
+    {
+      "hero_id": 39, "hero_name": "Masha",
+      "title": "Stormbringer",
+      "origin": "Stepa Timur",
+      "lore": "Masha adalah seorang pejuang dari suku nomaden di stepa yang luas. Kekuatannya yang luar biasa bukanlah sihir — murni dari latihan tanpa henti dan diet khusus dari tumbuhan stepa yang memberikan stamina supernatural. Tiga HP bar yang dimilikinya adalah representasi dari tiga nyawa — konsep spiritual dalam budaya sukunya. Karena tubuhnya yang luar biasa, Masha mampu menangani dua senjata raksasa sekaligus, memberikan DPS yang mengejutkan dari sosok yang tampak lebih cocok sebagai tank. Masha meninggalkan sukunya untuk membuktikan diri sebagai pejuang terkuat — sebuah perjalanan yang membawanya ke tengah-tengah konflik terbesar Land of Dawn."
+    },
+    {
+      "hero_id": 40, "hero_name": "Wanwan",
+      "title": "Swallow's Slash",
+      "origin": "Sekte Busur Tersembunyi",
+      "lore": "Wanwan adalah pewaris dari seni busur rahasia yang telah diwariskan selama generasi dalam keluarganya. Teknik yang dikuasainya tidak hanya membidik — tapi menganalisis seluruh titik lemah tubuh lawan dalam hitungan detik. Dengan anak panah yang lebih kecil dari biasanya tapi ditembakkan dengan kecepatan dan akurasi yang melampaui imajinasi, Wanwan mampu menembus pertahanan paling kokoh. Mobilitas yang tinggi adalah warisan dari metode latihannya yang melibatkan menghindari serangan sambil terus menyerang. Di Land of Dawn, Wanwan mencari pembunuh ibunya yang merupakan pengkhianat dari sekte keluarganya sendiri."
+    },
+    {
+      "hero_id": 41, "hero_name": "Silvanna",
+      "title": "Imperial Knightess",
+      "origin": "Kekaisaran Moniyan",
+      "lore": "Silvanna adalah putri dari Kekaisaran Moniyan yang tumbuh menjadi ksatria paling mahir zamannya. Namun hatinya terluka bukan oleh pedang tapi oleh fakta bahwa adik kandungnya — Dyrroth — dicuri oleh kegelapan saat mereka masih kecil. Seluruh pelatihan dan kekuatannya diarahkan pada satu tujuan: menemukan Dyrroth dan menyelamatkannya dari kegelapan. Tombaknya yang melingkar mampu menciptakan arena yang membatasi pergerakan musuh, mencerminkan tekadnya yang tak bisa dipatahkan. Meski hatinya penuh kasih, dalam pertempuran Silvanna adalah mesin yang tak kenal ampun. Dia tidak bertempur untuk kemuliaan — dia bertempur untuk keluarga."
+    },
+    {
+      "hero_id": 42, "hero_name": "Cecilion",
+      "title": "Magister of the Abyss",
+      "origin": "Kastil Kegelapan",
+      "lore": "Cecilion adalah aristokrat vampire yang telah hidup ratusan tahun, mengumpulkan pengetahuan sihir dari setiap era. Gayanya yang elegan dan penampilan bangsawannya menyembunyikan kekuatan kegelapan yang tak terukur. Berbeda dengan vampire biasa, Cecilion menggunakan mana sebagai sumber makanannya — semakin banyak dia casting, semakin kuat dia menjadi. Mantel hitamnya yang berputar saat dia casting adalah simbol dari kekuatan yang mengalir tak terbatas. Kisah cintanya dengan Carmilla — seorang wanita yang dia ubah menjadi vampire demi menyelamatkannya dari kematian — adalah satu-satunya kelemahan yang masih tersisa dalam hatinya yang gelap."
+    },
+    {
+      "hero_id": 43, "hero_name": "Carmilla",
+      "title": "Crimson Bane",
+      "origin": "Desa Kecil di Timur",
+      "lore": "Carmilla dulunya adalah wanita desa biasa yang mencintai Cecilion jauh sebelum dia menjadi vampire. Ketika penyakit mematikan merenggutnya, Cecilion tidak bisa merelakan kepergiannya — dan mengubahnya menjadi vampire demi kelangsungan hidupnya. Carmilla yang baru membutuhkan waktu lama menerima wujud barunya, namun akhirnya menemukan kekuatan dalam kutukan yang diterimanya. Kemampuannya menyebarkan kutukan darah kepada banyak musuh sekaligus adalah manifestasi dari darah vampire kuatnya. Hubungannya dengan Cecilion bukan sekadar rasa terima kasih — melainkan cinta murni yang bertahan melampaui kematian itu sendiri."
+    },
+    {
+      "hero_id": 44, "hero_name": "Atlas",
+      "title": "Frozen Juggernaut",
+      "origin": "Lautan Dalam Beku",
+      "lore": "Atlas adalah entitas yang lahir dari kedalaman lautan beku, di mana tekanan dan suhu ekstrem melahirkan kesadaran baru. Wujud setengah mekanik setengah organiknya adalah hasil adaptasi selama jutaan tahun. Dia tidak bicara tapi berkomunikasi melalui tindakan — dan tindakannya selalu berskala besar. Kemampuan mengikat semua musuh dengan rantai energi dinginnya adalah manifestasi dari kendalian atas medan beku yang merupakan rumah-nya. Atlas masuk ke kehidupan Land of Dawn bukan atas kehendak sendiri, melainkan ditarik oleh aktivitas magis yang mengganggu kedalaman lautan tempatnya tidur selama eon."
+    },
+    {
+      "hero_id": 45, "hero_name": "Popol and Kupa",
+      "title": "Protectors of the Pack",
+      "origin": "Hutan Salju Utara",
+      "lore": "Popol adalah anak laki-laki muda yang ditinggal sendirian di hutan salju setelah desanya diserang. Kupa, serigala sakti yang ditemukannya saat masih bayi, telah menjadi sahabat dan pelindung setianya selama bertahun-tahun. Bersama mereka berdua membentuk ikatan yang melampaui sekadar manusia dan hewan — mereka adalah satu jiwa dalam dua tubuh. Jebakan yang dipasang Popol dan gigitan Kupa yang brutal membuat mereka menjadi duo yang mengerikan. Ketika desa-desa lain mulai diserang oleh kekuatan jahat yang sama, Popol dan Kupa meninggalkan hutan untuk melindungi lebih banyak orang. Mereka bukan pahlawan besar — hanya dua teman yang saling menjaga."
+    },
+    {
+      "hero_id": 46, "hero_name": "Yu Zhong",
+      "title": "Black Dragon",
+      "origin": "Wilayah Naga Hitam",
+      "lore": "Yu Zhong adalah pewaris dari garis keturunan naga hitam, seorang pendekar yang menguasai seni pertempuran paling kuno. Transformasinya menjadi Black Dragon bukanlah ilmu hitam — melainkan kembali ke wujud sejati leluhurnya. Dalam wujud manusianya, teknik Coiling Dragon miliknya tidak tertandingi. Dalam wujud naga, dia hampir tak bisa dibunuh. Kisahnya penuh dengan pengkhianatan dan kehilangan — seseorang yang dicintainya membelot ke musuh, meninggalkan luka yang tidak bisa sembuh. Yu Zhong tidak mencari pembalasan dendam, melainkan jawaban: mengapa cinta bisa berubah menjadi penghianatan."
+    },
+    {
+      "hero_id": 47, "hero_name": "Luo Yi",
+      "title": "Yin-Yang Geomancer",
+      "origin": "Biara Keseimbangan",
+      "lore": "Luo Yi adalah penjaga keseimbangan Yin dan Yang, seorang geomancer yang dilatih dari lahir untuk menjadi mediator antara dua kekuatan berlawanan. Tubuhnya sendiri adalah medan pertempuran antara dua elemen: satu sisi mewakili cahaya, sisi lain mewakili kegelapan. Skill-nya tidak hanya menyerang — tapi menciptakan harmoni yang paradoksnya justru menjadi kehancuran bagi musuh. Saat Yin dan Yang bertemu dalam serangan simultan, energi yang dilepaskan jauh melampaui penjumlahan keduanya. Luo Yi meninggalkan biara ketika merasakan ketidakseimbangan besar di Land of Dawn — sesuatu yang hanya bisa diseimbangkan dengan tindakan langsung."
+    },
+    {
+      "hero_id": 48, "hero_name": "Khaleed",
+      "title": "Desert Scimitar",
+      "origin": "Padang Pasir Abadi",
+      "lore": "Khaleed adalah penguasa gurun yang tubuhnya secara harfiah mengandung kekuatan pasir. Lahir di tengah badai pasir terkuat dalam sejarah gurunnya, Khaleed dipercaya oleh rakyatnya sebagai anak yang dipilih oleh gurun itu sendiri. Scimitar-nya bukan sekadar pedang — tapi saluran untuk kekuatan pasir yang mengalir dalam tubuhnya. Setiap langkahnya meninggalkan jejak pasir sakral. Kemampuannya untuk menyembuhkan diri dari energi pasir memberikannya sustain yang hampir supernatural. Saat pasukan luar mulai merampok gurunnya, Khaleed tidak hanya berperang untuk wilayah — tapi untuk jiwa dan esensi dari padang pasir yang telah melahirkannya."
+    },
+    {
+      "hero_id": 49, "hero_name": "Barats",
+      "title": "Big Guy",
+      "origin": "Laboratorium Genetik Rahasia",
+      "lore": "Barats adalah hasil dari eksperimen genetik yang menggabungkan DNA manusia dengan reptil raksasa. Detona, buaya raksasa yang menjadi kendaraan sekaligus 'body'-nya, dan Barats sang pengemudi, membentuk satu entitas yang terus berkembang semakin besar setiap kali Detona mengonsumsi sesuatu. Keduanya memiliki hubungan symbiosis yang unik — Barats memberikan kecerdasan strategis, Detona memberikan kekuatan fisik brutal. Semakin besar ukuran Detona, semakin besar damage dan armor-nya. Keluar dari laboratorium yang menciptakannya, Barats dan Detona kini berkelana di Land of Dawn, mencari makanan... dan mungkin juga keberadaan diri mereka."
+    },
+    {
+      "hero_id": 50, "hero_name": "Brody",
+      "title": "Lone Star",
+      "origin": "Daerah Perbatasan Gelap",
+      "lore": "Brody adalah penembak jitu yang menjalani hidup dalam bayang-bayang dendam. Suatu waktu dia adalah seorang prajurit yang loyal, sampai seluruh unitnya dikhianati dan dibantai. Satu-satunya yang selamat, Brody mengembara sendirian dengan kepedihan yang mengkristal menjadi kekuatan supernatural. Bruise yang ditimbulkan serangannya kepada musuh adalah manifestasi dari rasa sakit yang ditanggungnya — semakin besar stack, semakin besar ledakan kepedihan yang diterima musuh. Senapan khususnya tidak hanya menembak peluru fisik, tapi juga menembus psikologi lawan. Brody tidak mencari teman atau sekutu — hanya mencari orang yang menghancurkan segalanya, dan kemudian ketenangan yang datang setelah pembalasan."
+    }
+  ]
+}

@@ -1,0 +1,834 @@
+[
+  {
+    "id": "physical_emblem",
+    "name": "Physical Emblem",
+    "category": "Physical",
+    "color": "#FF5722",
+    "description": "Emblem untuk hero Physical Damage dengan fokus pada Physical Attack dan Physical Penetration",
+    "talents": {
+      "tier1": [
+        {
+          "id": "bounty",
+          "name": "Bounty",
+          "tier": 1,
+          "effect": "Gain 0.6-1.2 Physical Attack per level",
+          "description": "Meningkatkan Physical Attack seiring level"
+        },
+        {
+          "id": "rapture",
+          "name": "Rapture",
+          "tier": 1,
+          "effect": "Gain 0.5-1.0 Physical Lifesteal",
+          "description": "Meningkatkan Physical Lifesteal"
+        },
+        {
+          "id": "festival_of_blood",
+          "name": "Festival of Blood",
+          "tier": 1,
+          "effect": "Gain 1.0%-2.0% Physical Lifesteal",
+          "description": "Lifesteal lebih tinggi untuk sustain"
+        }
+      ],
+      "tier2": [
+        {
+          "id": "weapon_master",
+          "name": "Weapon Master",
+          "tier": 2,
+          "effect": "Gain 4%-8% Physical Attack",
+          "description": "Persentase peningkatan Physical Attack"
+        },
+        {
+          "id": "savage",
+          "name": "Savage",
+          "tier": 2,
+          "effect": "Gain 2.0-4.0 Physical Penetration",
+          "description": "Flat Physical Penetration"
+        },
+        {
+          "id": "hunter",
+          "name": "Hunter",
+          "tier": 2,
+          "effect": "Gain 1.5-3.0 Physical Penetration and 1.5%-3.0% Movement Speed",
+          "description": "Penetration dan Movement Speed"
+        }
+      ],
+      "tier3": [
+        {
+          "id": "killing_spree",
+          "name": "Killing Spree",
+          "tier": 3,
+          "effect": "Gain 1.2-2.4 Physical Attack for each kill or assist (max 10 stacks)",
+          "description": "Stacking Physical Attack dari kill/assist"
+        },
+        {
+          "id": "weakness_finder",
+          "name": "Weakness Finder",
+          "tier": 3,
+          "effect": "Dealing Physical Damage slows enemy by 6%-12% for 2s",
+          "description": "Slow effect pada Physical Damage"
+        },
+        {
+          "id": "tenacity",
+          "name": "Tenacity",
+          "tier": 3,
+          "effect": "Gain 3.0-6.0 Physical Defense and 3.0-6.0 Magic Defense",
+          "description": "Hybrid Defense untuk survivability"
+        }
+      ],
+      "legendary": [
+        {
+          "id": "quantum_charge",
+          "name": "Quantum Charge",
+          "tier": "Legendary",
+          "effect": "After using a skill, next Basic Attack within 5s deals 10%-20% extra Physical Damage",
+          "description": "Extra damage setelah cast skill",
+          "cooldown": "2s"
+        },
+        {
+          "id": "master_assassin",
+          "name": "Master Assassin",
+          "tier": "Legendary",
+          "effect": "Deal 3%-6% extra damage to enemies with less than 50% HP",
+          "description": "Extra damage vs enemy low HP",
+          "cooldown": null
+        },
+        {
+          "id": "lethal_ignition",
+          "name": "Lethal Ignition",
+          "tier": "Legendary",
+          "effect": "Dealing Physical Damage burns enemy for 2s, dealing Magic Damage equal to 1%-2% of their Max HP",
+          "description": "Burn damage berdasarkan Max HP musuh",
+          "cooldown": "4s"
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic_emblem",
+    "name": "Magic Emblem",
+    "category": "Magic",
+    "color": "#9C27B0",
+    "description": "Emblem untuk hero Magic Damage dengan fokus pada Magic Power dan Magic Penetration",
+    "talents": {
+      "tier1": [
+        {
+          "id": "mystery",
+          "name": "Mystery",
+          "tier": 1,
+          "effect": "Gain 0.8-1.6 Magic Power per level",
+          "description": "Meningkatkan Magic Power seiring level"
+        },
+        {
+          "id": "agility",
+          "name": "Agility",
+          "tier": 1,
+          "effect": "Gain 0.5%-1.0% Movement Speed",
+          "description": "Movement Speed untuk mobility"
+        },
+        {
+          "id": "focusing_mark",
+          "name": "Focusing Mark",
+          "tier": 1,
+          "effect": "Gain 1.0%-2.0% Cooldown Reduction",
+          "description": "Cooldown Reduction untuk spam skill"
+        }
+      ],
+      "tier2": [
+        {
+          "id": "mastery",
+          "name": "Mastery",
+          "tier": 2,
+          "effect": "Gain 3%-6% Magic Power",
+          "description": "Persentase peningkatan Magic Power"
+        },
+        {
+          "id": "penetration",
+          "name": "Penetration",
+          "tier": 2,
+          "effect": "Gain 2.0-4.0 Magic Penetration",
+          "description": "Flat Magic Penetration"
+        },
+        {
+          "id": "magic_worship",
+          "name": "Magic Worship",
+          "tier": 2,
+          "effect": "Gain 1.5-3.0 Magic Penetration and 1.0%-2.0% Cooldown Reduction",
+          "description": "Penetration dan Cooldown Reduction"
+        }
+      ],
+      "tier3": [
+        {
+          "id": "arcane_power",
+          "name": "Arcane Power",
+          "tier": 3,
+          "effect": "Gain 1.0-2.0 Magic Power for each kill or assist (max 10 stacks)",
+          "description": "Stacking Magic Power dari kill/assist"
+        },
+        {
+          "id": "mystical_momentum",
+          "name": "Mystical Momentum",
+          "tier": 3,
+          "effect": "Gain 2%-4% Movement Speed for 2s after casting a skill",
+          "description": "Movement Speed setelah cast skill"
+        },
+        {
+          "id": "impure_rage",
+          "name": "Impure Rage",
+          "tier": 3,
+          "effect": "Gain 1.0-2.0 Magic Power and 0.5%-1.0% Spell Vamp",
+          "description": "Magic Power dan Spell Vamp"
+        }
+      ],
+      "legendary": [
+        {
+          "id": "concentration",
+          "name": "Concentration",
+          "tier": "Legendary",
+          "effect": "Skills deal 3%-6% extra Magic Damage to enemies with full HP",
+          "description": "Extra damage vs enemy full HP",
+          "cooldown": null
+        },
+        {
+          "id": "lucky_hit",
+          "name": "Lucky Hit",
+          "tier": "Legendary",
+          "effect": "Basic Attacks have 10%-20% chance to deal 50% extra Magic Damage",
+          "description": "Chance extra Magic Damage pada Basic Attack",
+          "cooldown": "3s"
+        },
+        {
+          "id": "impure_touch",
+          "name": "Impure Touch",
+          "tier": "Legendary",
+          "effect": "Dealing Magic Damage grants 2%-4% Magic Power for 4s (max 5 stacks)",
+          "description": "Stacking Magic Power",
+          "cooldown": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "tank_emblem",
+    "name": "Tank Emblem",
+    "category": "Tank",
+    "color": "#2196F3",
+    "description": "Emblem untuk hero Tank dengan fokus pada HP, Defense, dan HP Regen",
+    "talents": {
+      "tier1": [
+        {
+          "id": "vitality",
+          "name": "Vitality",
+          "tier": 1,
+          "effect": "Gain 8-16 HP per level",
+          "description": "Meningkatkan HP seiring level"
+        },
+        {
+          "id": "tenacity_t1",
+          "name": "Tenacity",
+          "tier": 1,
+          "effect": "Gain 1.0-2.0 Physical Defense and 1.0-2.0 Magic Defense",
+          "description": "Hybrid Defense"
+        },
+        {
+          "id": "recovery",
+          "name": "Recovery",
+          "tier": 1,
+          "effect": "Gain 0.5-1.0 HP Regen",
+          "description": "HP Regen untuk sustain"
+        }
+      ],
+      "tier2": [
+        {
+          "id": "toughness",
+          "name": "Toughness",
+          "tier": 2,
+          "effect": "Gain 4%-8% Physical Defense",
+          "description": "Persentase Physical Defense"
+        },
+        {
+          "id": "resilience",
+          "name": "Resilience",
+          "tier": 2,
+          "effect": "Gain 4%-8% Magic Defense",
+          "description": "Persentase Magic Defense"
+        },
+        {
+          "id": "tenacity_t2",
+          "name": "Tenacity",
+          "tier": 2,
+          "effect": "Gain 2.0-4.0 Physical Defense and 2.0-4.0 Magic Defense",
+          "description": "Flat Hybrid Defense"
+        }
+      ],
+      "tier3": [
+        {
+          "id": "concussive_blast",
+          "name": "Concussive Blast",
+          "tier": 3,
+          "effect": "Taking damage has 10%-20% chance to deal Magic Damage to nearby enemies",
+          "description": "AoE damage saat menerima damage"
+        },
+        {
+          "id": "brave_smite",
+          "name": "Brave Smite",
+          "tier": 3,
+          "effect": "Gain 1%-2% extra HP",
+          "description": "Persentase Max HP"
+        },
+        {
+          "id": "tenacity_t3",
+          "name": "Tenacity",
+          "tier": 3,
+          "effect": "Gain 3.0-6.0 Physical Defense and 3.0-6.0 Magic Defense",
+          "description": "Hybrid Defense tinggi"
+        }
+      ],
+      "legendary": [
+        {
+          "id": "tenacity_legendary",
+          "name": "Tenacity",
+          "tier": "Legendary",
+          "effect": "Reduce Crowd Control effects by 10%-20%",
+          "description": "CC Reduction untuk survivability",
+          "cooldown": null
+        },
+        {
+          "id": "brave",
+          "name": "Brave",
+          "tier": "Legendary",
+          "effect": "Gain 2%-4% extra Max HP",
+          "description": "Extra Max HP untuk tankiness",
+          "cooldown": null
+        },
+        {
+          "id": "winds_of_eternity",
+          "name": "Winds of Eternity",
+          "tier": "Legendary",
+          "effect": "When HP drops below 30%, gain 10%-20% HP Regen for 3s",
+          "description": "HP Regen saat low HP",
+          "cooldown": "60s"
+        }
+      ]
+    }
+  },
+  {
+    "id": "assassin_emblem",
+    "name": "Assassin Emblem",
+    "category": "Assassin",
+    "color": "#795548",
+    "description": "Emblem untuk hero Assassin dengan fokus pada Physical Penetration, Movement Speed, dan Burst Damage",
+    "talents": {
+      "tier1": [
+        {
+          "id": "agility_t1",
+          "name": "Agility",
+          "tier": 1,
+          "effect": "Gain 0.5%-1.0% Movement Speed",
+          "description": "Movement Speed untuk roaming"
+        },
+        {
+          "id": "savage_t1",
+          "name": "Savage",
+          "tier": 1,
+          "effect": "Gain 1.0-2.0 Physical Penetration",
+          "description": "Physical Penetration"
+        },
+        {
+          "id": "invasion",
+          "name": "Invasion",
+          "tier": 1,
+          "effect": "Gain 1.5-3.0 Physical Penetration",
+          "description": "Flat Physical Penetration"
+        }
+      ],
+      "tier2": [
+        {
+          "id": "master_marksman",
+          "name": "Master Marksman",
+          "tier": 2,
+          "effect": "Gain 2%-4% Physical Attack",
+          "description": "Persentase Physical Attack"
+        },
+        {
+          "id": "hunter_t2",
+          "name": "Hunter",
+          "tier": 2,
+          "effect": "Gain 1.5-3.0 Physical Penetration and 1.0%-2.0% Movement Speed",
+          "description": "Penetration dan Movement Speed"
+        },
+        {
+          "id": "seasoned_hunter",
+          "name": "Seasoned Hunter",
+          "tier": 2,
+          "effect": "Deal 5%-10% extra damage to Jungle Creeps",
+          "description": "Extra damage untuk farming jungle"
+        }
+      ],
+      "tier3": [
+        {
+          "id": "killing_spree_t3",
+          "name": "Killing Spree",
+          "tier": 3,
+          "effect": "Gain 1.0-2.0 Physical Attack for each kill or assist (max 10 stacks)",
+          "description": "Stacking Physical Attack"
+        },
+        {
+          "id": "lancing_thorns",
+          "name": "Lancing Thorns",
+          "tier": 3,
+          "effect": "Gain 2%-4% Physical Penetration",
+          "description": "Persentase Physical Penetration"
+        },
+        {
+          "id": "high_and_dry",
+          "name": "High and Dry",
+          "tier": 3,
+          "effect": "Deal 3%-6% extra damage to isolated enemies",
+          "description": "Extra damage vs enemy sendirian"
+        }
+      ],
+      "legendary": [
+        {
+          "id": "killing_spree_legendary",
+          "name": "Killing Spree",
+          "tier": "Legendary",
+          "effect": "Gain 3%-6% extra Physical Attack for 5s after killing an enemy hero",
+          "description": "Bonus Physical Attack setelah kill",
+          "cooldown": null
+        },
+        {
+          "id": "master_assassin_legendary",
+          "name": "Master Assassin",
+          "tier": "Legendary",
+          "effect": "Deal 5%-10% extra damage to enemies with less than 50% HP",
+          "description": "Execute damage vs low HP",
+          "cooldown": null
+        },
+        {
+          "id": "lethal_ignition_legendary",
+          "name": "Lethal Ignition",
+          "tier": "Legendary",
+          "effect": "Dealing Physical Damage burns enemy for 2s, dealing Magic Damage equal to 1.5%-3% of their Max HP",
+          "description": "Burn damage",
+          "cooldown": "4s"
+        }
+      ]
+    }
+  },
+  {
+    "id": "fighter_emblem",
+    "name": "Fighter Emblem",
+    "category": "Fighter",
+    "color": "#FF9800",
+    "description": "Emblem untuk hero Fighter dengan fokus pada Physical Attack, HP, dan Physical Lifesteal",
+    "talents": {
+      "tier1": [
+        {
+          "id": "bounty_t1",
+          "name": "Bounty",
+          "tier": 1,
+          "effect": "Gain 0.6-1.2 Physical Attack per level",
+          "description": "Scaling Physical Attack"
+        },
+        {
+          "id": "vitality_t1",
+          "name": "Vitality",
+          "tier": 1,
+          "effect": "Gain 8-16 HP per level",
+          "description": "Scaling HP"
+        },
+        {
+          "id": "festival_of_blood_t1",
+          "name": "Festival of Blood",
+          "tier": 1,
+          "effect": "Gain 1.0%-2.0% Physical Lifesteal",
+          "description": "Physical Lifesteal untuk sustain"
+        }
+      ],
+      "tier2": [
+        {
+          "id": "weapon_master_t2",
+          "name": "Weapon Master",
+          "tier": 2,
+          "effect": "Gain 4%-8% Physical Attack",
+          "description": "Persentase Physical Attack"
+        },
+        {
+          "id": "warrior",
+          "name": "Warrior",
+          "tier": 2,
+          "effect": "Gain 1.5-3.0 Physical Attack and 20-40 HP",
+          "description": "Physical Attack dan HP"
+        },
+        {
+          "id": "brute_force",
+          "name": "Brute Force",
+          "tier": 2,
+          "effect": "Gain 2%-4% Physical Defense",
+          "description": "Physical Defense"
+        }
+      ],
+      "tier3": [
+        {
+          "id": "weakness_finder_t3",
+          "name": "Weakness Finder",
+          "tier": 3,
+          "effect": "Dealing Physical Damage slows enemy by 6%-12% for 2s",
+          "description": "Slow effect"
+        },
+        {
+          "id": "tenacity_fighter",
+          "name": "Tenacity",
+          "tier": 3,
+          "effect": "Gain 3.0-6.0 Physical Defense and 3.0-6.0 Magic Defense",
+          "description": "Hybrid Defense"
+        },
+        {
+          "id": "brave_smite_fighter",
+          "name": "Brave Smite",
+          "tier": 3,
+          "effect": "Gain 1%-2% extra HP",
+          "description": "Extra Max HP"
+        }
+      ],
+      "legendary": [
+        {
+          "id": "warrior_triumph",
+          "name": "Warrior's Triumph",
+          "tier": "Legendary",
+          "effect": "Gain 8%-16% Physical Lifesteal for 5s after killing an enemy hero",
+          "description": "Lifesteal setelah kill",
+          "cooldown": null
+        },
+        {
+          "id": "quantum_charge_fighter",
+          "name": "Quantum Charge",
+          "tier": "Legendary",
+          "effect": "After using a skill, next Basic Attack within 5s deals 10%-20% extra Physical Damage",
+          "description": "Extra damage setelah skill",
+          "cooldown": "2s"
+        },
+        {
+          "id": "brave_fighter",
+          "name": "Brave",
+          "tier": "Legendary",
+          "effect": "Gain 2%-4% extra Max HP",
+          "description": "Extra Max HP",
+          "cooldown": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "marksman_emblem",
+    "name": "Marksman Emblem",
+    "category": "Marksman",
+    "color": "#F44336",
+    "description": "Emblem untuk hero Marksman dengan fokus pada Attack Speed, Critical Chance, dan Physical Attack",
+    "talents": {
+      "tier1": [
+        {
+          "id": "swift",
+          "name": "Swift",
+          "tier": 1,
+          "effect": "Gain 0.5%-1.0% Attack Speed",
+          "description": "Attack Speed untuk DPS"
+        },
+        {
+          "id": "bounty_marksman",
+          "name": "Bounty",
+          "tier": 1,
+          "effect": "Gain 0.6-1.2 Physical Attack per level",
+          "description": "Scaling Physical Attack"
+        },
+        {
+          "id": "rapture_marksman",
+          "name": "Rapture",
+          "tier": 1,
+          "effect": "Gain 0.5%-1.0% Physical Lifesteal",
+          "description": "Physical Lifesteal"
+        }
+      ],
+      "tier2": [
+        {
+          "id": "weapon_master_marksman",
+          "name": "Weapon Master",
+          "tier": 2,
+          "effect": "Gain 4%-8% Physical Attack",
+          "description": "Persentase Physical Attack"
+        },
+        {
+          "id": "fatal",
+          "name": "Fatal",
+          "tier": 2,
+          "effect": "Gain 1%-2% Critical Chance",
+          "description": "Critical Chance"
+        },
+        {
+          "id": "agility_marksman",
+          "name": "Agility",
+          "tier": 2,
+          "effect": "Gain 0.5%-1.0% Movement Speed",
+          "description": "Movement Speed untuk kiting"
+        }
+      ],
+      "tier3": [
+        {
+          "id": "weakness_finder_marksman",
+          "name": "Weakness Finder",
+          "tier": 3,
+          "effect": "Dealing Physical Damage slows enemy by 6%-12% for 2s",
+          "description": "Slow untuk kiting"
+        },
+        {
+          "id": "fatal_mark",
+          "name": "Fatal Mark",
+          "tier": 3,
+          "effect": "Gain 1%-2% Critical Chance",
+          "description": "Critical Chance tambahan"
+        },
+        {
+          "id": "swift_marksman",
+          "name": "Swift",
+          "tier": 3,
+          "effect": "Gain 1%-2% Attack Speed",
+          "description": "Attack Speed"
+        }
+      ],
+      "legendary": [
+        {
+          "id": "weakness_finder_legendary",
+          "name": "Weakness Finder",
+          "tier": "Legendary",
+          "effect": "Dealing Physical Damage slows enemy by 10%-20% for 2s and increases Physical Damage taken by 5%-10%",
+          "description": "Slow dan damage amplification",
+          "cooldown": "3s"
+        },
+        {
+          "id": "fatal_legendary",
+          "name": "Fatal",
+          "tier": "Legendary",
+          "effect": "Gain 4%-8% Critical Damage",
+          "description": "Critical Damage multiplier",
+          "cooldown": null
+        },
+        {
+          "id": "quantum_charge_marksman",
+          "name": "Quantum Charge",
+          "tier": "Legendary",
+          "effect": "After using a skill, next Basic Attack within 5s deals 10%-20% extra Physical Damage",
+          "description": "Extra damage setelah skill",
+          "cooldown": "2s"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mage_emblem",
+    "name": "Mage Emblem",
+    "category": "Mage",
+    "color": "#E91E63",
+    "description": "Emblem untuk hero Mage dengan fokus pada Magic Power, Cooldown Reduction, dan Magic Penetration",
+    "talents": {
+      "tier1": [
+        {
+          "id": "mystery_mage",
+          "name": "Mystery",
+          "tier": 1,
+          "effect": "Gain 0.8-1.6 Magic Power per level",
+          "description": "Scaling Magic Power"
+        },
+        {
+          "id": "focusing_mark_mage",
+          "name": "Focusing Mark",
+          "tier": 1,
+          "effect": "Gain 1.0%-2.0% Cooldown Reduction",
+          "description": "Cooldown Reduction"
+        },
+        {
+          "id": "agility_mage",
+          "name": "Agility",
+          "tier": 1,
+          "effect": "Gain 0.5%-1.0% Movement Speed",
+          "description": "Movement Speed"
+        }
+      ],
+      "tier2": [
+        {
+          "id": "mastery_mage",
+          "name": "Mastery",
+          "tier": 2,
+          "effect": "Gain 3%-6% Magic Power",
+          "description": "Persentase Magic Power"
+        },
+        {
+          "id": "penetration_mage",
+          "name": "Penetration",
+          "tier": 2,
+          "effect": "Gain 2.0-4.0 Magic Penetration",
+          "description": "Magic Penetration"
+        },
+        {
+          "id": "mystical_momentum_t2",
+          "name": "Mystical Momentum",
+          "tier": 2,
+          "effect": "Gain 1%-2% Movement Speed for 2s after casting a skill",
+          "description": "Movement Speed setelah skill"
+        }
+      ],
+      "tier3": [
+        {
+          "id": "arcane_power_mage",
+          "name": "Arcane Power",
+          "tier": 3,
+          "effect": "Gain 1.0-2.0 Magic Power for each kill or assist (max 10 stacks)",
+          "description": "Stacking Magic Power"
+        },
+        {
+          "id": "mystical_momentum_mage",
+          "name": "Mystical Momentum",
+          "tier": 3,
+          "effect": "Gain 2%-4% Movement Speed for 2s after casting a skill",
+          "description": "Movement Speed buff"
+        },
+        {
+          "id": "impure_rage_mage",
+          "name": "Impure Rage",
+          "tier": 3,
+          "effect": "Gain 1.0-2.0 Magic Power and 0.5%-1.0% Spell Vamp",
+          "description": "Magic Power dan Spell Vamp"
+        }
+      ],
+      "legendary": [
+        {
+          "id": "impure_touch_mage",
+          "name": "Impure Touch",
+          "tier": "Legendary",
+          "effect": "Dealing Magic Damage grants 2%-4% Magic Power for 4s (max 5 stacks)",
+          "description": "Stacking Magic Power",
+          "cooldown": null
+        },
+        {
+          "id": "lucky_hit_mage",
+          "name": "Lucky Hit",
+          "tier": "Legendary",
+          "effect": "Basic Attacks have 10%-20% chance to deal 50% extra Magic Damage",
+          "description": "Extra Magic Damage chance",
+          "cooldown": "3s"
+        },
+        {
+          "id": "concentration_mage",
+          "name": "Concentration",
+          "tier": "Legendary",
+          "effect": "Skills deal 3%-6% extra Magic Damage to enemies with full HP",
+          "description": "Extra damage vs full HP",
+          "cooldown": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "support_emblem",
+    "name": "Support Emblem",
+    "category": "Support",
+    "color": "#00BCD4",
+    "description": "Emblem untuk hero Support dengan fokus pada Cooldown Reduction, HP, dan Movement Speed",
+    "talents": {
+      "tier1": [
+        {
+          "id": "focusing_mark_support",
+          "name": "Focusing Mark",
+          "tier": 1,
+          "effect": "Gain 1.0%-2.0% Cooldown Reduction",
+          "description": "Cooldown Reduction untuk spam skill"
+        },
+        {
+          "id": "vitality_support",
+          "name": "Vitality",
+          "tier": 1,
+          "effect": "Gain 8-16 HP per level",
+          "description": "Scaling HP"
+        },
+        {
+          "id": "agility_support",
+          "name": "Agility",
+          "tier": 1,
+          "effect": "Gain 0.5%-1.0% Movement Speed",
+          "description": "Movement Speed untuk roaming"
+        }
+      ],
+      "tier2": [
+        {
+          "id": "tenacity_support",
+          "name": "Tenacity",
+          "tier": 2,
+          "effect": "Gain 2.0-4.0 Physical Defense and 2.0-4.0 Magic Defense",
+          "description": "Hybrid Defense"
+        },
+        {
+          "id": "recovery_support",
+          "name": "Recovery",
+          "tier": 2,
+          "effect": "Gain 0.5-1.0 HP Regen",
+          "description": "HP Regen"
+        },
+        {
+          "id": "mystical_momentum_support",
+          "name": "Mystical Momentum",
+          "tier": 2,
+          "effect": "Gain 1%-2% Movement Speed for 2s after casting a skill",
+          "description": "Movement Speed setelah skill"
+        }
+      ],
+      "tier3": [
+        {
+          "id": "tenacity_support_t3",
+          "name": "Tenacity",
+          "tier": 3,
+          "effect": "Gain 3.0-6.0 Physical Defense and 3.0-6.0 Magic Defense",
+          "description": "Hybrid Defense tinggi"
+        },
+        {
+          "id": "brave_smite_support",
+          "name": "Brave Smite",
+          "tier": 3,
+          "effect": "Gain 1%-2% extra HP",
+          "description": "Extra Max HP"
+        },
+        {
+          "id": "focusing_mark_support_t3",
+          "name": "Focusing Mark",
+          "tier": 3,
+          "effect": "Gain 2%-4% Cooldown Reduction",
+          "description": "Cooldown Reduction tinggi"
+        }
+      ],
+      "legendary": [
+        {
+          "id": "focusing_mark_legendary",
+          "name": "Focusing Mark",
+          "tier": "Legendary",
+          "effect": "Reduce skill cooldown by 5%-10% when hitting enemies with skills",
+          "description": "Cooldown reduction saat hit skill",
+          "cooldown": "3s"
+        },
+        {
+          "id": "tenacity_legendary_support",
+          "name": "Tenacity",
+          "tier": "Legendary",
+          "effect": "Reduce Crowd Control effects by 10%-20%",
+          "description": "CC Reduction",
+          "cooldown": null
+        },
+        {
+          "id": "mystical_momentum_legendary",
+          "name": "Mystical Momentum",
+          "tier": "Legendary",
+          "effect": "Gain 5%-10% Movement Speed for 3s after casting a skill",
+          "description": "Movement Speed buff setelah skill",
+          "cooldown": null
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,504 @@
+{
+  "hero_combos": [
+    {
+      "hero_id": 1,
+      "hero_name": "Layla",
+      "self_combo": "Skill 2 (Void Projectile) → Skill 1 (Malefic Bomb) → Basic Attack spam",
+      "best_pair_combos": [
+        { "partner": "Tigreal", "combo": "Tigreal Skill 2 (Sacred Hammer) + Ultimate → Layla melakukan damage dari jarak aman" },
+        { "partner": "Franco", "combo": "Franco hook target → Layla full combo dari jarak jauh" }
+      ],
+      "tips": "Layla adalah hero jarak jauh dengan range basic attack terpanjang. Posisikan diri di belakang tim dan manfaatkan range untuk damage aman."
+    },
+    {
+      "hero_id": 2,
+      "hero_name": "Balmond",
+      "self_combo": "Skill 1 (Soul Lock) → Skill 2 (Cyclone Sweep) → Basic Attack → Ultimate (Lethal Counter) untuk finisher",
+      "best_pair_combos": [
+        { "partner": "Tigreal", "combo": "Tigreal CC musuh → Balmond masuk Skill 1+2 → Ultimate untuk kill" },
+        { "partner": "Eudora", "combo": "Balmond Skill 1 lock musuh → Eudora full combo burst" }
+      ],
+      "tips": "Ultimate Balmond (Lethal Counter) deals damage berdasarkan HP yang hilang musuh. Gunakan saat musuh HP rendah untuk instant kill."
+    },
+    {
+      "hero_id": 3,
+      "hero_name": "Saber",
+      "self_combo": "Skill 2 (Charge) untuk engage → Skill 1 (Flying Sword) → Ultimate (Triple Sweep) → Skill 1 lagi",
+      "best_pair_combos": [
+        { "partner": "Atlas", "combo": "Atlas Ultimate tarik semua musuh → Saber masuk dan sweep satu per satu" },
+        { "partner": "Eudora", "combo": "Saber Ultimate isolasi target → Eudora burst kill" }
+      ],
+      "tips": "Ultimate Saber mengangkat musuh dan memberi window damage. Target hero squishi atau carry musuh terlebih dahulu."
+    },
+    {
+      "hero_id": 4,
+      "hero_name": "Alice",
+      "self_combo": "Kumpulkan orb Skill 1 (Flowing Blood) di early → Skill 2 (Blood Awe) untuk CC → Ultimate (Blood Ode) aktifkan → Skill 1 spam",
+      "best_pair_combos": [
+        { "partner": "Tigreal", "combo": "Tigreal CC musuh berkumpul → Alice aktifkan ultimate di tengah teamfight" },
+        { "partner": "Cecilion", "combo": "Alice engage masuk → Cecilion spam skill dari luar untuk damage" }
+      ],
+      "tips": "Alice semakin kuat saat sudah mengumpulkan 25 orb. Rush ke mid lane untuk farm orb dari minion secepat mungkin."
+    },
+    {
+      "hero_id": 5,
+      "hero_name": "Nana",
+      "self_combo": "Skill 2 (Molina Smooch) untuk transform musuh → Skill 1 (Magic Boomerang) → Ultimate (Dragon Woman) jika perlu",
+      "best_pair_combos": [
+        { "partner": "Balmond", "combo": "Nana transform musuh → Balmond masuk combo + Ultimate" },
+        { "partner": "Layla", "combo": "Nana transform → Layla bebas damage musuh yang tak bisa bergerak" }
+      ],
+      "tips": "Skill 2 Nana mengubah musuh jadi kucing sehingga tidak bisa menggunakan skill. Counter sangat efektif untuk hero yang butuh skill untuk escape."
+    },
+    {
+      "hero_id": 6,
+      "hero_name": "Tigreal",
+      "self_combo": "Skill 1 (Attack Wave) → Skill 2 (Sacred Hammer) untuk engage → Ultimate (Implosion) untuk kumpulkan musuh → Skill 1 lagi",
+      "best_pair_combos": [
+        { "partner": "Layla", "combo": "Tigreal implosion kumpulkan musuh → Layla AoE dari jarak jauh" },
+        { "partner": "Eudora", "combo": "Tigreal CC semua → Eudora burst total mati" }
+      ],
+      "tips": "Ultimate Tigreal menarik semua musuh ke satu titik. Koordinasikan dengan damage dealer untuk combo devastating."
+    },
+    {
+      "hero_id": 7,
+      "hero_name": "Alucard",
+      "self_combo": "Skill 1 (Groundsplitter) → Skill 2 (Whirling Smash) → Basic Attack → Ultimate (Soaring Sword) untuk lock 1v1",
+      "best_pair_combos": [
+        { "partner": "Rafaela", "combo": "Rafaela heal Alucard → Alucard sustain fight lebih lama" },
+        { "partner": "Tigreal", "combo": "Tigreal CC musuh → Alucard masuk full combo dengan aman" }
+      ],
+      "tips": "Ultimate Alucard memberikan lifesteal masif dan mengisolasi target. Sangat efektif 1v1 tetapi hindari teamfight 1v5."
+    },
+    {
+      "hero_id": 8,
+      "hero_name": "Karina",
+      "self_combo": "Skill 2 (Shadow Rush) masuk → Skill 1 (Death Mark) → Basic Attack (Echo) → Skill 2 lagi untuk reset jika kill",
+      "best_pair_combos": [
+        { "partner": "Atlas", "combo": "Atlas tarik musuh semua → Karina fokus kill satu per satu dengan reset Skill 2" },
+        { "partner": "Franco", "combo": "Franco hook target → Karina masuk full combo kill" }
+      ],
+      "tips": "Skill 2 Karina reset setiap kali kill atau assist. Dalam teamfight, prioritaskan kill yang HP rendah dulu agar bisa chain kill."
+    },
+    {
+      "hero_id": 9,
+      "hero_name": "Akai",
+      "self_combo": "Skill 2 (Heavenly Spinning) untuk engage → Ultimate (Heavy Spin) dorong musuh ke dinding → Skill 1 (Thousand Pounder) untuk CC",
+      "best_pair_combos": [
+        { "partner": "Layla", "combo": "Akai dorong musuh ke dinding/tim Layla → Layla damage bebas" },
+        { "partner": "Moskov", "combo": "Akai dorong musuh ke dinding → Moskov skill 1 stun sempurna ke dinding" }
+      ],
+      "tips": "Ultimate Akai mendorong musuh. Gunakan geometri map untuk menjepit musuh ke dinding atau ke arah teman."
+    },
+    {
+      "hero_id": 10,
+      "hero_name": "Franco",
+      "self_combo": "Skill 1 (Iron Hook) untuk tarik target → Skill 2 (Fury Shock) → Ultimate (Bloody Hunt) untuk lock → tim follow up",
+      "best_pair_combos": [
+        { "partner": "Eudora", "combo": "Franco hook + ultimate lock → Eudora one-shot target" },
+        { "partner": "Saber", "combo": "Franco hook lock musuh → Saber masuk ultimate triple sweep" }
+      ],
+      "tips": "Skill hook Franco harus mengenai. Latih akurasi hook karena combo bergantung padanya. Sembunyikan di bush sebelum hook."
+    },
+    {
+      "hero_id": 11,
+      "hero_name": "Bane",
+      "self_combo": "Skill 2 (Rum) untuk boost → Skill 1 (Crab Claw Cannon) poke → Ultimate (Deadly Catch) untuk poke jarak jauh",
+      "best_pair_combos": [
+        { "partner": "Tigreal", "combo": "Tigreal CC musuh → Bane Skill 1 poke damage tinggi" },
+        { "partner": "Franco", "combo": "Franco hook target → Bane full combo damage" }
+      ],
+      "tips": "Skill 2 Bane memberikan buff attack dan damage. Selalu aktifkan sebelum fight atau poke."
+    },
+    {
+      "hero_id": 12,
+      "hero_name": "Bruno",
+      "self_combo": "Skill 2 (Volley Shot) slow musuh → Skill 1 (Volley Shot) → Basic Attack spam → Ultimate (Mech Sniper) untuk jarak jauh",
+      "best_pair_combos": [
+        { "partner": "Tigreal", "combo": "Tigreal CC → Bruno free DPS tanpa gangguan" },
+        { "partner": "Akai", "combo": "Akai dorong musuh mendekati Bruno → Bruno full damage" }
+      ],
+      "tips": "Passive Bruno memberikan Movement Speed ekstra saat critical. Build full critical untuk mobilitas dan damage tinggi."
+    },
+    {
+      "hero_id": 13,
+      "hero_name": "Clint",
+      "self_combo": "Skill 1 (Quick Draw) untuk basic attack ekstra → Skill 2 (Trapping Recoil) untuk slow+damage → Basic Attack → Ultimate (Grenade Shot) jarak jauh",
+      "best_pair_combos": [
+        { "partner": "Diggie", "combo": "Diggie Time Journey (immune CC) → Clint aman berdiri dan DPS bebas" },
+        { "partner": "Carmilla", "combo": "Carmilla CC musuh → Clint poke/damage aman dari jarak" }
+      ],
+      "tips": "Skill 1 Clint meningkatkan damage basic attack berikutnya. Maksimalkan penggunaan skill untuk burst burst cepat."
+    },
+    {
+      "hero_id": 14,
+      "hero_name": "Rafaela",
+      "self_combo": "Skill 1 (Light of Retribution) untuk poke/slow → Skill 2 (Holy Healing) heal ally → Ultimate (Holy Baptism) untuk AoE stun",
+      "best_pair_combos": [
+        { "partner": "Alucard", "combo": "Rafaela heal Alucard saat fight → Alucard hampir tidak bisa dibunuh" },
+        { "partner": "Layla", "combo": "Rafaela speed buff dan heal → Layla tetap aman dan bisa DPS penuh" }
+      ],
+      "tips": "Ultimate Rafaela memberikan stun ke seluruh musuh di jalur. Gunakan saat musuh menginvasi atau untuk counter engage."
+    },
+    {
+      "hero_id": 15,
+      "hero_name": "Eudora",
+      "self_combo": "Skill 2 (Ball Lightning) stun → Skill 1 (Forked Lightning) → Ultimate (Thunder's Wrath) → Skill 1 lagi",
+      "best_pair_combos": [
+        { "partner": "Franco", "combo": "Franco hook target terkunci → Eudora full burst combo, musuh tidak bisa kabur" },
+        { "partner": "Tigreal", "combo": "Tigreal ultimate kumpulkan → Eudora AoE stun + ultimate" }
+      ],
+      "tips": "Combo Eudora: stun dulu dengan Skill 2 baru masukkan semua skill. Dengan stun aktif, semua skill mendapat bonus damage (passive)."
+    },
+    {
+      "hero_id": 16,
+      "hero_name": "Zilong",
+      "self_combo": "Skill 3 (Supreme Warrior) aktifkan untuk speed + reset → Skill 2 (Dragon Flurry) → Skill 1 (Spear Flip) untuk knock up → basic attack chase",
+      "best_pair_combos": [
+        { "partner": "Rafaela", "combo": "Rafaela heal Zilong → Zilong chase dan sustain fight lebih lama" },
+        { "partner": "Lolita", "combo": "Lolita shield Zilong → Zilong masuk dengan aman" }
+      ],
+      "tips": "Ultimate Zilong memberikan immunity CC dan boost speed. Aktifkan saat mau engage atau saat kena CC."
+    },
+    {
+      "hero_id": 17,
+      "hero_name": "Fanny",
+      "self_combo": "Skill 1 (Tornado Strike) untuk generate energi → Skill 2 (Steel Cable) grapple ke tembok → Skill 2 lagi untuk flyby → Skill 1 dalam udara untuk AoE",
+      "best_pair_combos": [
+        { "partner": "Atlas", "combo": "Atlas ultimate kumpulkan musuh → Fanny masuk dari udara tebas habis" },
+        { "partner": "Tigreal", "combo": "Tigreal CC group → Fanny bebas terbang dan damage" }
+      ],
+      "tips": "Fanny perlu latihan intensif. Kuasai cable mechanics: selalu kaitkan ke tembok terdekat untuk mobilitas dan damage maksimal."
+    },
+    {
+      "hero_id": 18,
+      "hero_name": "Lapu-Lapu",
+      "self_combo": "Phase 1: Skill 2 (Warrior Charges) → Skill 1 (Justice Blades) → isi stack → Ultimate untuk transform ke Hero Mode → Skill 2 (Land of the Morning) → Skill 1 (Jungle Warrior)",
+      "best_pair_combos": [
+        { "partner": "Estes", "combo": "Estes heal Lapu-Lapu saat fight → Lapu-Lapu sustain di tengah musuh" },
+        { "partner": "Tigreal", "combo": "Tigreal kumpulkan musuh → Lapu-Lapu masuk dengan Hero Mode AoE besar" }
+      ],
+      "tips": "Lapu-Lapu Hero Mode memberikan AoE damage besar. Pastikan stack skill penuh sebelum bertarung agar bisa langsung transform."
+    },
+    {
+      "hero_id": 19,
+      "hero_name": "Vexana",
+      "self_combo": "Skill 2 (Nether Snare) untuk charm → Skill 1 (Charmed Specter) → Ultimate (Cursed Oath) buat phantom → Skill 1+2 lagi",
+      "best_pair_combos": [
+        { "partner": "Franco", "combo": "Franco hook target → Vexana full combo CC + damage" },
+        { "partner": "Atlas", "combo": "Atlas kumpulkan musuh → Vexana ultimate create multiple phantoms dari musuh mati" }
+      ],
+      "tips": "Ultimate Vexana menciptakan phantom dari hero musuh yang mati. Target hero dengan damage tinggi agar phantom-nya berbahaya."
+    },
+    {
+      "hero_id": 20,
+      "hero_name": "Roger",
+      "self_combo": "Human form: Skill 1 (Open Fire) → Skill 2 (Lycan Pounce) untuk engage → Transform ke Wolf → Skill 2 (Bloodthirsty Howl) → Skill 1 (Wolf Claw) → Ultimate",
+      "best_pair_combos": [
+        { "partner": "Akai", "combo": "Akai slow musuh → Roger masuk wolf form chase dan burst" },
+        { "partner": "Estes", "combo": "Estes heal Roger → Roger sustain dalam bentuk wolf" }
+      ],
+      "tips": "Roger semakin efektif saat bolak-balik antara human dan wolf form. Human untuk poke, wolf untuk engage dan burst."
+    },
+    {
+      "hero_id": 21,
+      "hero_name": "Karrie",
+      "self_combo": "Skill 2 (Speedy Lightwheel) untuk dash + stack → Skill 1 (Spinning Lightwheel) untuk CC ringan → Basic Attack untuk trigger true damage passive",
+      "best_pair_combos": [
+        { "partner": "Diggie", "combo": "Diggie immune CC → Karrie bisa DPS bebas tanpa takut di-CC" },
+        { "partner": "Atlas", "combo": "Atlas CC musuh → Karrie free attack dan stack true damage" }
+      ],
+      "tips": "Passive Karrie memberikan true damage setiap 2 stack. Sangat efektif vs tank karena damage tidak bisa diblock armor."
+    },
+    {
+      "hero_id": 22,
+      "hero_name": "Gatotkaca",
+      "self_combo": "Skill 2 (Blast Iron Fist) untuk CC → Skill 1 (Steaming Determination) → Ultimate (Avatar of the Guardian) dari udara untuk AoE besar",
+      "best_pair_combos": [
+        { "partner": "Layla", "combo": "Gatotkaca landing ultimate kumpulkan → Layla AoE damage" },
+        { "partner": "Aurora", "combo": "Gatotkaca ultimate landing → Aurora freeze seluruh musuh yang kena" }
+      ],
+      "tips": "Ultimate Gatotkaca bisa dijatuhkan dari jauh (seperti Franco hook target pertama). Kombinasikan dengan damage AoE tim."
+    },
+    {
+      "hero_id": 23,
+      "hero_name": "Harley",
+      "self_combo": "Skill 3 (Deadly Magic) untuk mark → Skill 1 (Magic Poker) poke → Skill 2 (Space Escape) untuk teleport ke musuh → Skill 1 lagi → Ultimate (Poker Trick) finish",
+      "best_pair_combos": [
+        { "partner": "Franco", "combo": "Franco hook target → Harley full burst combo" },
+        { "partner": "Tigreal", "combo": "Tigreal CC → Harley masuk bebas berkombo" }
+      ],
+      "tips": "Skill 3 Harley memberikan buff magic damage yang besar. Selalu aktifkan sebelum combo untuk damage maksimal."
+    },
+    {
+      "hero_id": 24,
+      "hero_name": "Irithel",
+      "self_combo": "Skill 2 (Strafe) untuk boost basic attack → Skill 1 (Spinning Lightwheel) untuk CC → Basic Attack spam → Ultimate (Heavy Crossbow) untuk burst",
+      "best_pair_combos": [
+        { "partner": "Lolita", "combo": "Lolita block projectile → Irithel aman DPS dari depan" },
+        { "partner": "Tigreal", "combo": "Tigreal CC → Irithel full DPS + ultimate" }
+      ],
+      "tips": "Irithel bisa bergerak sambil melakukan basic attack. Manfaatkan ini untuk kiting dan dodge skill musuh."
+    },
+    {
+      "hero_id": 25,
+      "hero_name": "Grock",
+      "self_combo": "Skill 2 (Wild Charge) untuk engage → Skill 1 (Power of Nature) pasang dinding → Ultimate (Wild Charge+) untuk knock back ke dinding",
+      "best_pair_combos": [
+        { "partner": "Moskov", "combo": "Grock pasang dinding → Moskov tembak musuh → musuh terjepit dinding = stun lama" },
+        { "partner": "Layla", "combo": "Grock tahan musuh dengan dinding → Layla DPS aman" }
+      ],
+      "tips": "Dinding Grock bisa digunakan strategis untuk memblokir jalur kabur musuh atau menjepit musuh dengan Moskov."
+    },
+    {
+      "hero_id": 26,
+      "hero_name": "Diggie",
+      "self_combo": "Skill 1 (Time Bomb) lempar bom → Skill 2 (Reverse Time) untuk tarik musuh ke bom → Ultimate (Time Journey) untuk immune CC seluruh tim",
+      "best_pair_combos": [
+        { "partner": "Karrie", "combo": "Diggie ultimate immune CC → Karrie DPS bebas tanpa gangguan" },
+        { "partner": "Layla", "combo": "Diggie ultimate pada Layla → Layla bisa berdiri diam dan damage maksimal" }
+      ],
+      "tips": "Ultimate Diggie membuat seluruh tim immune CC untuk beberapa detik. Gunakan saat musuh mau memulai teamfight dengan CC besar."
+    },
+    {
+      "hero_id": 27,
+      "hero_name": "Lolita",
+      "self_combo": "Skill 2 (Guardian's Bulwark) aktifkan shield → Skill 1 (Charge) engage → Ultimate (Noumenon Blast) saat musuh berkumpul",
+      "best_pair_combos": [
+        { "partner": "Irithel", "combo": "Lolita block skill → Irithel DPS dari balik Lolita dengan aman" },
+        { "partner": "Layla", "combo": "Lolita jadi pelindung Layla → Layla DPS bebas dari belakang" }
+      ],
+      "tips": "Skill 2 Lolita memblokir proyektil dari musuh. Posisikan di depan Marksman untuk melindungi mereka dari poke."
+    },
+    {
+      "hero_id": 28,
+      "hero_name": "Argus",
+      "self_combo": "Skill 1 (Demonic Grip) → Skill 2 (Meteoric Sword) untuk combo basic attack ekstra → Ultimate (Eternal Evil) untuk immortal saat fight",
+      "best_pair_combos": [
+        { "partner": "Estes", "combo": "Estes heal Argus terus → Argus hampir tidak bisa dibunuh" },
+        { "partner": "Atlas", "combo": "Atlas CC musuh → Argus masuk immortal ultimate" }
+      ],
+      "tips": "Ultimate Argus membuatnya tidak bisa mati selama durasi aktif. Gunakan saat HP rendah untuk balik menyerang."
+    },
+    {
+      "hero_id": 29,
+      "hero_name": "Moskov",
+      "self_combo": "Skill 1 (Abyss Walker) teleport ke samping musuh → Skill 2 (Spear of Quiescence) stun → Basic Attack spam → Ultimate (Spear of Destruction) untuk jarak sangat jauh",
+      "best_pair_combos": [
+        { "partner": "Grock", "combo": "Grock pasang dinding di belakang musuh → Moskov Skill 1 ke samping musuh → stun ke dinding" },
+        { "partner": "Akai", "combo": "Akai dorong musuh ke dinding → Moskov tembak saat musuh di dinding = stun lama" }
+      ],
+      "tips": "Skill 2 Moskov stun saat tembakan mengenai dinding/obstacle. Selalu posisikan musuh dekat dinding untuk maximize stun."
+    },
+    {
+      "hero_id": 30,
+      "hero_name": "Johnson",
+      "self_combo": "Skill 2 (EMP Grenade) untuk CC → Ultimate (Rapid Touchdown) untuk gank dari jauh membawa ally → Skill 1 (Electro Airbag) saat landing",
+      "best_pair_combos": [
+        { "partner": "Odette", "combo": "Johnson datangkan Odette dengan Ultimate → Odette langsung aktifkan Ultimate untuk massive AoE" },
+        { "partner": "Eudora", "combo": "Johnson bawa Eudora gank → landing + Eudora full burst" }
+      ],
+      "tips": "Ultimate Johnson bisa membawa satu ally ke lokasi mana pun. Koordinasikan dengan burst mage untuk gank instan."
+    },
+    {
+      "hero_id": 31,
+      "hero_name": "Cyclops",
+      "self_combo": "Skill 2 (Stardust Shock) untuk slow → Skill 1 (Stardust Shock repeat) spam → Ultimate (Planet Attack) → Skill 1+2 lagi terus",
+      "best_pair_combos": [
+        { "partner": "Franco", "combo": "Franco hook target → Cyclops spam skill burst cepat" },
+        { "partner": "Tigreal", "combo": "Tigreal CC group → Cyclops AoE spam skill" }
+      ],
+      "tips": "Setiap kali skill Cyclops mengenai musuh, CDR ultimate berkurang. Spam skill terus untuk reduce cooldown ultimate."
+    },
+    {
+      "hero_id": 32,
+      "hero_name": "Estes",
+      "self_combo": "Skill 1 (Moonlit Waltz) tandai ally → Skill 2 (Searing Torrent) slow+damage musuh → Ultimate (Blessing of Moon Goddess) aktifkan untuk mass heal",
+      "best_pair_combos": [
+        { "partner": "Alucard", "combo": "Estes heal terus → Alucard hampir tak terbunuh dalam duel" },
+        { "partner": "Karrie", "combo": "Estes heal Karrie saat DPS → Karrie bertahan lebih lama untuk stack damage" }
+      ],
+      "tips": "Ultimate Estes memberikan heal masif ke seluruh tim. Aktifkan saat teamfight dimulai untuk mempertahankan semua ally."
+    },
+    {
+      "hero_id": 33,
+      "hero_name": "Hilda",
+      "self_combo": "Sembunyi di bush untuk dapatkan shield (Passive) → Skill 1 (Combat Ritual) untuk speed + damage → Skill 2 (Power of Wildness) engage → Ultimate (Punishment Time) untuk burst 1v1",
+      "best_pair_combos": [
+        { "partner": "Eudora", "combo": "Hilda engage + Skill 2 hold musuh → Eudora burst kill" },
+        { "partner": "Layla", "combo": "Hilda frontlining → Layla DPS aman dari belakang" }
+      ],
+      "tips": "Passive Hilda memberikan regen HP yang kuat saat di bush. Gunakan bush untuk sustain sebelum engage."
+    },
+    {
+      "hero_id": 34,
+      "hero_name": "Aurora",
+      "self_combo": "Skill 2 (Bitter Frost) slow → Skill 1 (Frost Shock) poke → Basic Attack → Skill 1 lagi → saat fully frozen gunakan Ultimate (Cold Destruction)",
+      "best_pair_combos": [
+        { "partner": "Franco", "combo": "Franco hook → Aurora stack freeze cepat → Ultimate" },
+        { "partner": "Gatotkaca", "combo": "Gatotkaca landing kumpulkan → Aurora freeze dan ultimate AoE" }
+      ],
+      "tips": "Passive Aurora: setiap 4 stack dari skill → fully frozen. Track stack dengan melihat efek visual pada musuh sebelum ultimate."
+    },
+    {
+      "hero_id": 35,
+      "hero_name": "Ling",
+      "self_combo": "Skill 1 (Finch Poise) naik ke dinding → Skill 2 (Defiant Sword) ke musuh → Skill 2 spam → Ultimate (Tempest of Blades) untuk AoE → Skill 2 reset",
+      "best_pair_combos": [
+        { "partner": "Atlas", "combo": "Atlas tarik musuh berkumpul → Ling turun dari dinding dan ultimate" },
+        { "partner": "Tigreal", "combo": "Tigreal CC → Ling masuk dari dinding bebas damage" }
+      ],
+      "tips": "Ling bergerak di dinding menggunakan Lightness Points. Kelola energi ini dengan baik, jangan sampai kehabisan di tengah fight."
+    },
+    {
+      "hero_id": 36,
+      "hero_name": "Dyrroth",
+      "self_combo": "Skill 2 (Spectre Step) untuk ambush/dash → Skill 1 (Burst Strike) → Basic Attack → Skill 2 lagi → Ultimate (Abysm Strike) untuk finish",
+      "best_pair_combos": [
+        { "partner": "Atlas", "combo": "Atlas CC musuh → Dyrroth masuk burst kill" },
+        { "partner": "Silvanna", "combo": "Silvanna ultimate lock musuh di arena → Dyrroth masuk dan burst" }
+      ],
+      "tips": "Skill Dyrroth mengurangi Physical DEF musuh. Semakin sering skill mengenai, semakin sedikit armor musuh yang tersisa."
+    },
+    {
+      "hero_id": 37,
+      "hero_name": "Lylia",
+      "self_combo": "Skill 1 (Angry Gloom) lempar shadow energy → Skill 2 (Black Shoes) untuk dash + summon shadow → Skill 1 lagi → Ultimate (Black Shoes: Retreat) untuk kembali ke posisi aman",
+      "best_pair_combos": [
+        { "partner": "Franco", "combo": "Franco hook target → Lylia spam skill di depan musuh yang terkunci" },
+        { "partner": "Atlas", "combo": "Atlas kumpulkan musuh → Lylia AoE spam shadow ke grup" }
+      ],
+      "tips": "Ultimate Lylia mengembalikan dirinya ke posisi sebelumnya dan memulihkan HP. Gunakan sebagai escape mechanism saat dikejar."
+    },
+    {
+      "hero_id": 38,
+      "hero_name": "Baxia",
+      "self_combo": "Skill 1 (Baxia-Mark Unity) spin ke musuh → Skill 2 (Tortoise's Puissance) aktifkan shield dan dorong → Ultimate (Baxia's Mark) untuk kurangi heal musuh",
+      "best_pair_combos": [
+        { "partner": "Alucard", "combo": "Baxia ultimate kurangi heal musuh → Alucard menghadapi musuh yang heal-nya berkurang" },
+        { "partner": "Yu Zhong", "combo": "Baxia kurangi heal musuh → Yu Zhong masuk sebagai tandem fighter" }
+      ],
+      "tips": "Ultimate Baxia mengurangi heal dan regen musuh sebesar 50%. Sangat efektif melawan hero dengan lifesteal atau tim yang banyak healer."
+    },
+    {
+      "hero_id": 39,
+      "hero_name": "Masha",
+      "self_combo": "Skill 2 (Wild Power) aktifkan untuk damage berdasarkan HP → Skill 1 (Wild Force) untuk stun → Basic Attack → Ultimate (Thunderclap) untuk burst speed attack",
+      "best_pair_combos": [
+        { "partner": "Estes", "combo": "Estes heal Masha → Masha regenerasi HP untuk lebih banyak damage Wild Power" },
+        { "partner": "Atlas", "combo": "Atlas CC → Masha masuk full combo Wild Power" }
+      ],
+      "tips": "Passive Masha memiliki 3 HP bar. Manfaatkan ini untuk tankiness ekstra. Skill 2 damage berbanding HP sehingga sangat kuat vs tank."
+    },
+    {
+      "hero_id": 40,
+      "hero_name": "Wanwan",
+      "self_combo": "Skill 2 (Needles in Flowers) untuk AoE slow → Skill 1 (Tiger Pace) untuk dash + basic attack → Skill 1 spam tembak weakpoint → saat 4 weakpoint terkena aktifkan Ultimate (Crossbow of Tang)",
+      "best_pair_combos": [
+        { "partner": "Atlas", "combo": "Atlas CC musuh → Wanwan bebas tembak weakpoint dari jarak aman" },
+        { "partner": "Tigreal", "combo": "Tigreal group musuh → Wanwan ultimate spray ke semua musuh berkumpul" }
+      ],
+      "tips": "Wanwan harus menembak 4 weakpoint musuh sebelum bisa ultimate. Weakpoint muncul di sisi berbeda tubuh musuh saat di-CC atau diserang."
+    },
+    {
+      "hero_id": 41,
+      "hero_name": "Silvanna",
+      "self_combo": "Skill 1 (Cometic Lance) untuk engage → Skill 2 (Spiral Strangling) spin damage → Ultimate (Imperial Justice) lock musuh di arena → Skill 1+2 lagi",
+      "best_pair_combos": [
+        { "partner": "Dyrroth", "combo": "Silvanna lock musuh di arena → Dyrroth masuk burst tanpa musuh bisa kabur" },
+        { "partner": "Karina", "combo": "Silvanna lock target → Karina burst kill + reset" }
+      ],
+      "tips": "Ultimate Silvanna menciptakan arena yang mencegah musuh keluar. Gunakan di ruang sempit untuk maximum efek."
+    },
+    {
+      "hero_id": 42,
+      "hero_name": "Cecilion",
+      "self_combo": "Skill 1 (Bat Impact) untuk stack → Skill 2 (Sanguine Cloak) untuk slow → Skill 1 terus stack → Ultimate (Bats Feast) saat sudah banyak stack untuk healing dan damage",
+      "best_pair_combos": [
+        { "partner": "Carmilla", "combo": "Carmilla+Cecilion adalah pasangan ikonik: Carmilla Skill 2 sebar curse ke banyak musuh → Cecilion Ultimate heals dari semua musuh yang terhubung" },
+        { "partner": "Atlas", "combo": "Atlas CC group → Cecilion spam Skill 1 ke semua untuk stack banyak cepat" }
+      ],
+      "tips": "Stack Skill 1 Cecilion meningkatkan Magic Power. Semakin banyak cast Skill 1, semakin besar damage. Late game Cecilion sangat kuat."
+    },
+    {
+      "hero_id": 43,
+      "hero_name": "Carmilla",
+      "self_combo": "Skill 2 (Bloodbath) untuk chain curse ke banyak musuh → Skill 1 (Crimson Flower) spam → Ultimate (Curse of Blood) untuk lock banyak musuh",
+      "best_pair_combos": [
+        { "partner": "Cecilion", "combo": "Carmilla Curse sambungkan banyak musuh → Cecilion ultimate harvest heal dari semua koneksi curse" },
+        { "partner": "Dyrroth", "combo": "Carmilla curse 2-3 musuh → Dyrroth masuk burst mereka satu per satu" }
+      ],
+      "tips": "Skill 2 Carmilla menyebarkan curse ke musuh yang berdekatan. Semakin banyak musuh terhubung, semakin efektif combo dengan Cecilion."
+    },
+    {
+      "hero_id": 44,
+      "hero_name": "Atlas",
+      "self_combo": "Skill 1 (Perfect Match) untuk slow → Skill 2 (Annihilate) untuk dash + CC → Ultimate (Fatal Links) rantai semua musuh → Skill 1+2 lagi pull semua",
+      "best_pair_combos": [
+        { "partner": "Cecilion", "combo": "Atlas ultimate rantai banyak musuh → Cecilion spam AoE ke semua yang terikat" },
+        { "partner": "Layla", "combo": "Atlas kumpulkan semua → Layla AoE damage dari aman" }
+      ],
+      "tips": "Ultimate Atlas menghubungkan semua musuh dalam radius. Skill 2 setelahnya akan menarik SEMUA musuh yang terikat ke satu titik."
+    },
+    {
+      "hero_id": 45,
+      "hero_name": "Popol and Kupa",
+      "self_combo": "Skill 3 (We Are Angry!) aktifkan Kupa → Skill 1 (Bite Em', Kupa!) untuk serangan Kupa → Skill 2 (Help Me, Kupa!) untuk perangkap → Basic Attack",
+      "best_pair_combos": [
+        { "partner": "Grock", "combo": "Popol pasang jebakan → Grock dinding tutup escape musuh → musuh terjebak di jebakan" },
+        { "partner": "Atlas", "combo": "Atlas CC → Popol and Kupa bebas DPS dengan Kupa aktif" }
+      ],
+      "tips": "Kupa (serigala) memberikan efek slow dan CC tambahan. Jaga Kupa tetap hidup karena membutuhkan beberapa saat untuk respawn."
+    },
+    {
+      "hero_id": 46,
+      "hero_name": "Yu Zhong",
+      "self_combo": "Skill 1 (Dragon Tail) untuk damage + mark → Skill 2 (Soul Grip) untuk tarik + stack → Skill 1 lagi → Ultimate (Black Dragon Form) untuk transform",
+      "best_pair_combos": [
+        { "partner": "Baxia", "combo": "Baxia kurangi heal musuh → Yu Zhong lebih mudah kill meski passive lifesteal musuh berkurang" },
+        { "partner": "Atlas", "combo": "Atlas CC group → Yu Zhong masuk Black Dragon form AoE" }
+      ],
+      "tips": "Yu Zhong memiliki lifesteal yang kuat. Semakin banyak musuh yang dia serang, semakin banyak HP yang dia recover."
+    },
+    {
+      "hero_id": 47,
+      "hero_name": "Luo Yi",
+      "self_combo": "Skill 1 (Dispersion) tembak yin/yang → Skill 2 (Rotation) untuk slow + stack → Skill 1 lagi berlawanan warna → Ultimate (Diversion) teleport seluruh tim",
+      "best_pair_combos": [
+        { "partner": "Cecilion", "combo": "Luo Yi slow group → Cecilion stack skill dengan mudah" },
+        { "partner": "Eudora", "combo": "Luo Yi CC → Eudora burst satu target terbunuh" }
+      ],
+      "tips": "Saat orb Yin dan Yang Luo Yi bertemu, terjadi AoE CC besar. Skill 1 menembak bergantian Yin/Yang — posisikan agar keduanya bisa bertabrakan."
+    },
+    {
+      "hero_id": 48,
+      "hero_name": "Khaleed",
+      "self_combo": "Skill 2 (Sand Walk) dash → Skill 1 (Desert Tornado) AoE → Basic Attack → Skill 2 lagi → Ultimate (Quicksand Guard) untuk defensive counter atau finisher",
+      "best_pair_combos": [
+        { "partner": "Atlas", "combo": "Atlas CC → Khaleed masuk full combo AoE" },
+        { "partner": "Lylia", "combo": "Khaleed engage → Lylia poke dari belakang dengan shadow energy" }
+      ],
+      "tips": "Passive Khaleed mengumpulkan pasir dari musuh yang terkena. Manfaatkan ini untuk Skill 2 yang lebih kuat dan heal."
+    },
+    {
+      "hero_id": 49,
+      "hero_name": "Barats",
+      "self_combo": "Skill 2 (Missiles Expert) spam untuk stack → Skill 1 (Detona Smash) setelah stack besar → Ultimate (I Am The Best) untuk telan musuh dan buang",
+      "best_pair_combos": [
+        { "partner": "Eudora", "combo": "Barats ultimate buang musuh ke posisi buruk → Eudora burst kill" },
+        { "partner": "Aurora", "combo": "Barats ultimate lempar musuh ke tim → Aurora freeze + ultimate" }
+      ],
+      "tips": "Barats semakin besar saat Detona membunuh unit. Stack sebanyak mungkin sebelum teamfight untuk maximum size dan damage."
+    },
+    {
+      "hero_id": 50,
+      "hero_name": "Brody",
+      "self_combo": "Skill 2 (Corrosive Strike) untuk slow + mark → Skill 1 (Abyss Impact) untuk stack bruise → Skill 2 lagi → Basic Attack → Ultimate (Torn-Apart Memory) untuk AoE map-wide",
+      "best_pair_combos": [
+        { "partner": "Tigreal", "combo": "Tigreal CC group → Brody spam skill stack bruise pada semua → Ultimate AoE besar" },
+        { "partner": "Atlas", "combo": "Atlas rantai musuh → Brody ultimate global damage ke semua musuh di map" }
+      ],
+      "tips": "Setiap basic attack dan skill Brody memberikan stack Bruise pada musuh. Semakin banyak stack, semakin besar damage ultimate-nya."
+    }
+  ]
+}

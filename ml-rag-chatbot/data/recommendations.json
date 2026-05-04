@@ -1,0 +1,354 @@
+{
+  "hero_recommendations": [
+    {
+      "hero_id": 1, "hero_name": "Layla",
+      "recommended_items": ["Warrior Boots", "Windtalker", "Berserker's Fury", "Scarlet Phantom", "Blade of Despair", "Malefic Roar"],
+      "recommended_emblem": "Marksman Emblem",
+      "emblem_talent": "Weakness Finder",
+      "item_notes": "Build full critical dengan attack speed. Malefic Roar di item terakhir untuk penetrasi armor musuh."
+    },
+    {
+      "hero_id": 2, "hero_name": "Balmond",
+      "recommended_items": ["Warrior Boots", "War Axe", "Endless Battle", "Queen's Wings", "Blade of Despair", "Immortality"],
+      "recommended_emblem": "Fighter Emblem",
+      "emblem_talent": "Festival of Blood",
+      "item_notes": "War Axe memberikan scaling dalam pertarungan. Endless Battle memberikan true damage dari basic attack setelah skill."
+    },
+    {
+      "hero_id": 3, "hero_name": "Saber",
+      "recommended_items": ["Tough Boots", "Blade of the Heptaseas", "Hunter Strike", "Endless Battle", "Malefic Roar", "Blade of Despair"],
+      "recommended_emblem": "Assassin Emblem",
+      "emblem_talent": "Killing Spree",
+      "item_notes": "Blade of Heptaseas untuk burst dari ambush. Hunter Strike untuk CDR dan chase setelah kill."
+    },
+    {
+      "hero_id": 4, "hero_name": "Alice",
+      "recommended_items": ["Magic Shoes", "Concentrated Energy", "Holy Crystal", "Glowing Wand", "Necklace of Durance", "Blood Wings"],
+      "recommended_emblem": "Mage Emblem",
+      "emblem_talent": "Magic Worship",
+      "item_notes": "Concentrated Energy memberikan magic lifesteal yang sinergi dengan ultimate Alice. Glowing Wand untuk burn damage."
+    },
+    {
+      "hero_id": 5, "hero_name": "Nana",
+      "recommended_items": ["Magic Shoes", "Enchanted Talisman", "Ice Queen Wand", "Holy Crystal", "Glowing Wand", "Immortality"],
+      "recommended_emblem": "Support Emblem",
+      "emblem_talent": "Focusing Mark",
+      "item_notes": "Ice Queen Wand untuk slow ganda dengan skill Nana. Enchanted Talisman untuk CDR agar transform lebih sering."
+    },
+    {
+      "hero_id": 6, "hero_name": "Tigreal",
+      "recommended_items": ["Warrior Boots", "Dominance Ice", "Antique Cuirass", "Athena's Shield", "Thunderbelt", "Immortality"],
+      "recommended_emblem": "Tank Emblem",
+      "emblem_talent": "Brave Smite",
+      "item_notes": "Thunderbelt memberikan true damage dari basic attack. Dominance Ice memperlambat attack speed musuh."
+    },
+    {
+      "hero_id": 7, "hero_name": "Alucard",
+      "recommended_items": ["Warrior Boots", "Haas's Claws", "War Axe", "Endless Battle", "Queen's Wings", "Blade of Despair"],
+      "recommended_emblem": "Fighter Emblem",
+      "emblem_talent": "Festival of Blood",
+      "item_notes": "Haas's Claws untuk lifesteal dasar. Endless Battle true damage dari basic attack. Queen's Wings untuk survival."
+    },
+    {
+      "hero_id": 8, "hero_name": "Karina",
+      "recommended_items": ["Arcane Boots", "Genius Wand", "Calamity Reaper", "Holy Crystal", "Divine Glaive", "Blood Wings"],
+      "recommended_emblem": "Assassin Emblem",
+      "emblem_talent": "Killing Spree",
+      "item_notes": "Calamity Reaper memberikan true damage setelah skill. Killing Spree memulihkan HP setiap kill."
+    },
+    {
+      "hero_id": 9, "hero_name": "Akai",
+      "recommended_items": ["Warrior Boots", "Dominance Ice", "Antique Cuirass", "Brute Force Breastplate", "Thunderbelt", "Immortality"],
+      "recommended_emblem": "Tank Emblem",
+      "emblem_talent": "Brave Smite",
+      "item_notes": "Brute Force memberikan boost saat aktif fight. Thunderbelt true damage dari basic attack setelah skill."
+    },
+    {
+      "hero_id": 10, "hero_name": "Franco",
+      "recommended_items": ["Warrior Boots", "Dominance Ice", "Antique Cuirass", "Athena's Shield", "Immortality", "Cursed Helmet"],
+      "recommended_emblem": "Tank Emblem",
+      "emblem_talent": "Brave Smite",
+      "item_notes": "Cursed Helmet untuk damage AoE pasif. Build tanky agar Franco bisa absorb damage setelah hook."
+    },
+    {
+      "hero_id": 11, "hero_name": "Bane",
+      "recommended_items": ["Warrior Boots", "War Axe", "Endless Battle", "Queen's Wings", "Blade of Despair", "Immortality"],
+      "recommended_emblem": "Fighter Emblem",
+      "emblem_talent": "Festival of Blood",
+      "item_notes": "Endless Battle sinergi dengan pasif Bane. War Axe memberikan Physical DEF scaling setelah fight."
+    },
+    {
+      "hero_id": 12, "hero_name": "Bruno",
+      "recommended_items": ["Warrior Boots", "Windtalker", "Berserker's Fury", "Scarlet Phantom", "Demon Hunter Sword", "Malefic Roar"],
+      "recommended_emblem": "Marksman Emblem",
+      "emblem_talent": "Weakness Finder",
+      "item_notes": "Build critical tinggi. Demon Hunter Sword untuk melawan tank dengan HP tinggi."
+    },
+    {
+      "hero_id": 13, "hero_name": "Clint",
+      "recommended_items": ["Warrior Boots", "Endless Battle", "Berserker's Fury", "Blade of Despair", "Malefic Roar", "Immortality"],
+      "recommended_emblem": "Marksman Emblem",
+      "emblem_talent": "Electro Flash",
+      "item_notes": "Endless Battle sinergi baik dengan Skill 1 Clint. Malefic Roar untuk penetrasi armor."
+    },
+    {
+      "hero_id": 14, "hero_name": "Rafaela",
+      "recommended_items": ["Magic Shoes", "Oracle", "Enchanted Talisman", "Necklace of Durance", "Holy Crystal", "Immortality"],
+      "recommended_emblem": "Support Emblem",
+      "emblem_talent": "Focusing Mark",
+      "item_notes": "Oracle meningkatkan efek heal 30%. Necklace of Durance untuk counter heal musuh."
+    },
+    {
+      "hero_id": 15, "hero_name": "Eudora",
+      "recommended_items": ["Arcane Boots", "Lightning Truncheon", "Holy Crystal", "Divine Glaive", "Fleeting Time", "Blood Wings"],
+      "recommended_emblem": "Mage Emblem",
+      "emblem_talent": "Magic Worship",
+      "item_notes": "Lightning Truncheon untuk AoE dari mana. Fleeting Time agar bisa spam ultimate lebih sering."
+    },
+    {
+      "hero_id": 16, "hero_name": "Zilong",
+      "recommended_items": ["Warrior Boots", "Endless Battle", "War Axe", "Blade of Despair", "Malefic Roar", "Immortality"],
+      "recommended_emblem": "Fighter Emblem",
+      "emblem_talent": "Festival of Blood",
+      "item_notes": "Endless Battle true damage dari basic attack sangat sinergi dengan attack speed Zilong."
+    },
+    {
+      "hero_id": 17, "hero_name": "Fanny",
+      "recommended_items": ["Magic Shoes", "Blade of the Heptaseas", "Hunter Strike", "Endless Battle", "Malefic Roar", "Blade of Despair"],
+      "recommended_emblem": "Assassin Emblem",
+      "emblem_talent": "Killing Spree",
+      "item_notes": "Hunter Strike CDR penting untuk Fanny. Blade of Heptaseas untuk burst dari ambush pertama."
+    },
+    {
+      "hero_id": 18, "hero_name": "Lapu-Lapu",
+      "recommended_items": ["Warrior Boots", "War Axe", "Endless Battle", "Blade of Despair", "Antique Cuirass", "Immortality"],
+      "recommended_emblem": "Fighter Emblem",
+      "emblem_talent": "Festival of Blood",
+      "item_notes": "War Axe untuk scaling dalam fight. Antique Cuirass untuk survive melawan physical hero."
+    },
+    {
+      "hero_id": 19, "hero_name": "Vexana",
+      "recommended_items": ["Magic Shoes", "Enchanted Talisman", "Holy Crystal", "Divine Glaive", "Glowing Wand", "Blood Wings"],
+      "recommended_emblem": "Mage Emblem",
+      "emblem_talent": "Magic Worship",
+      "item_notes": "Enchanted Talisman untuk CDR dan mana. Divine Glaive untuk penetrasi magic resist musuh."
+    },
+    {
+      "hero_id": 20, "hero_name": "Roger",
+      "recommended_items": ["Warrior Boots", "Demon Hunter Sword", "Haas's Claws", "Golden Staff", "Corrosion Scythe", "Malefic Roar"],
+      "recommended_emblem": "Fighter Emblem",
+      "emblem_talent": "Festival of Blood",
+      "item_notes": "Golden Staff memberikan unique attack lebih sering. Demon Hunter Sword untuk melawan tank."
+    },
+    {
+      "hero_id": 21, "hero_name": "Karrie",
+      "recommended_items": ["Warrior Boots", "Demon Hunter Sword", "Golden Staff", "Windtalker", "Corrosion Scythe", "Malefic Roar"],
+      "recommended_emblem": "Marksman Emblem",
+      "emblem_talent": "Weapons Master",
+      "item_notes": "Golden Staff memaksimalkan passive Karrie. Demon Hunter Sword untuk melawan tank HP tinggi."
+    },
+    {
+      "hero_id": 22, "hero_name": "Gatotkaca",
+      "recommended_items": ["Warrior Boots", "Cursed Helmet", "Antique Cuirass", "Dominance Ice", "Thunderbelt", "Immortality"],
+      "recommended_emblem": "Tank Emblem",
+      "emblem_talent": "Brave Smite",
+      "item_notes": "Cursed Helmet untuk damage AoE saat teamfight. Thunderbelt true damage dari basic attack."
+    },
+    {
+      "hero_id": 23, "hero_name": "Harley",
+      "recommended_items": ["Arcane Boots", "Genius Wand", "Holy Crystal", "Glowing Wand", "Divine Glaive", "Blood Wings"],
+      "recommended_emblem": "Mage Emblem",
+      "emblem_talent": "Magic Worship",
+      "item_notes": "Genius Wand mengurangi magic defense musuh setiap kena skill. Sangat efektif dengan combo Harley."
+    },
+    {
+      "hero_id": 24, "hero_name": "Irithel",
+      "recommended_items": ["Warrior Boots", "Windtalker", "Berserker's Fury", "Scarlet Phantom", "Blade of Despair", "Malefic Roar"],
+      "recommended_emblem": "Marksman Emblem",
+      "emblem_talent": "Weakness Finder",
+      "item_notes": "Irithel bisa bergerak saat attack. Build critical + attack speed untuk kiting maksimal."
+    },
+    {
+      "hero_id": 25, "hero_name": "Grock",
+      "recommended_items": ["Warrior Boots", "Antique Cuirass", "Dominance Ice", "Athena's Shield", "Thunderbelt", "Immortality"],
+      "recommended_emblem": "Tank Emblem",
+      "emblem_talent": "Concussive Blast",
+      "item_notes": "Thunderbelt sinergi dengan Skill 2 Grock. Dominance Ice untuk memperlambat attack speed musuh."
+    },
+    {
+      "hero_id": 26, "hero_name": "Diggie",
+      "recommended_items": ["Warrior Boots", "Oracle", "Enchanted Talisman", "Necklace of Durance", "Dominance Ice", "Immortality"],
+      "recommended_emblem": "Support Emblem",
+      "emblem_talent": "Focusing Mark",
+      "item_notes": "Oracle untuk boost heal jika ada. Dominance Ice untuk aura melambatkan attack speed musuh."
+    },
+    {
+      "hero_id": 27, "hero_name": "Lolita",
+      "recommended_items": ["Warrior Boots", "Dominance Ice", "Antique Cuirass", "Oracle", "Athena's Shield", "Immortality"],
+      "recommended_emblem": "Tank Emblem",
+      "emblem_talent": "Brave Smite",
+      "item_notes": "Oracle meningkatkan shield Lolita. Dominance Ice untuk counter Marksman yang berhadapan."
+    },
+    {
+      "hero_id": 28, "hero_name": "Argus",
+      "recommended_items": ["Warrior Boots", "Haas's Claws", "Endless Battle", "Blade of Despair", "Queen's Wings", "Immortality"],
+      "recommended_emblem": "Fighter Emblem",
+      "emblem_talent": "Festival of Blood",
+      "item_notes": "Haas's Claws untuk lifesteal. Queen's Wings memberikan extra damage reduction saat HP rendah sebelum ultimate."
+    },
+    {
+      "hero_id": 29, "hero_name": "Moskov",
+      "recommended_items": ["Warrior Boots", "Windtalker", "Berserker's Fury", "Scarlet Phantom", "Blade of Despair", "Malefic Roar"],
+      "recommended_emblem": "Marksman Emblem",
+      "emblem_talent": "Weakness Finder",
+      "item_notes": "Build critical untuk burst tinggi. Posisikan musuh di dekat dinding untuk maximize stun duration."
+    },
+    {
+      "hero_id": 30, "hero_name": "Johnson",
+      "recommended_items": ["Warrior Boots", "Antique Cuirass", "Dominance Ice", "Cursed Helmet", "Thunderbelt", "Immortality"],
+      "recommended_emblem": "Tank Emblem",
+      "emblem_talent": "Brave Smite",
+      "item_notes": "Cursed Helmet untuk damage AoE dari proximity. Thunderbelt true damage setelah skill."
+    },
+    {
+      "hero_id": 31, "hero_name": "Cyclops",
+      "recommended_items": ["Magic Shoes", "Enchanted Talisman", "Lightning Truncheon", "Holy Crystal", "Glowing Wand", "Blood Wings"],
+      "recommended_emblem": "Mage Emblem",
+      "emblem_talent": "Impure Rage",
+      "item_notes": "Enchanted Talisman untuk CDR dan mana. Lightning Truncheon efektif dengan spam skill Cyclops."
+    },
+    {
+      "hero_id": 32, "hero_name": "Estes",
+      "recommended_items": ["Magic Shoes", "Oracle", "Enchanted Talisman", "Necklace of Durance", "Holy Crystal", "Immortality"],
+      "recommended_emblem": "Support Emblem",
+      "emblem_talent": "Avarice",
+      "item_notes": "Oracle meningkatkan efek heal Estes 30%. Necklace of Durance untuk counter heal musuh."
+    },
+    {
+      "hero_id": 33, "hero_name": "Hilda",
+      "recommended_items": ["Warrior Boots", "War Axe", "Antique Cuirass", "Endless Battle", "Queen's Wings", "Immortality"],
+      "recommended_emblem": "Fighter Emblem",
+      "emblem_talent": "Festival of Blood",
+      "item_notes": "War Axe untuk scaling fight lama. Hilda sangat tangguh dengan kombinasi armor dan HP."
+    },
+    {
+      "hero_id": 34, "hero_name": "Aurora",
+      "recommended_items": ["Arcane Boots", "Enchanted Talisman", "Lightning Truncheon", "Holy Crystal", "Divine Glaive", "Blood Wings"],
+      "recommended_emblem": "Mage Emblem",
+      "emblem_talent": "Magic Worship",
+      "item_notes": "Enchanted Talisman untuk CDR dan mana agar bisa spam skill untuk stack freeze. Divine Glaive counter magic resist."
+    },
+    {
+      "hero_id": 35, "hero_name": "Ling",
+      "recommended_items": ["Magic Shoes", "Hunter Strike", "Blade of the Heptaseas", "Endless Battle", "Malefic Roar", "Blade of Despair"],
+      "recommended_emblem": "Assassin Emblem",
+      "emblem_talent": "Killing Spree",
+      "item_notes": "Hunter Strike untuk CDR yang penting untuk Ling. Blade of Heptaseas burst dari ambush di dinding."
+    },
+    {
+      "hero_id": 36, "hero_name": "Dyrroth",
+      "recommended_items": ["Warrior Boots", "War Axe", "Endless Battle", "Blade of Despair", "Malefic Roar", "Immortality"],
+      "recommended_emblem": "Fighter Emblem",
+      "emblem_talent": "Festival of Blood",
+      "item_notes": "War Axe memberikan scaling fight. Malefic Roar efektif karena Dyrroth sudah mengurangi armor musuh."
+    },
+    {
+      "hero_id": 37, "hero_name": "Lylia",
+      "recommended_items": ["Magic Shoes", "Enchanted Talisman", "Genius Wand", "Holy Crystal", "Divine Glaive", "Blood Wings"],
+      "recommended_emblem": "Mage Emblem",
+      "emblem_talent": "Magic Worship",
+      "item_notes": "Genius Wand untuk stack poke dari shadow. Enchanted Talisman CDR agar sering bisa summon shadow."
+    },
+    {
+      "hero_id": 38, "hero_name": "Baxia",
+      "recommended_items": ["Warrior Boots", "Antique Cuirass", "Dominance Ice", "Cursed Helmet", "Athena's Shield", "Immortality"],
+      "recommended_emblem": "Tank Emblem",
+      "emblem_talent": "Brave Smite",
+      "item_notes": "Cursed Helmet untuk damage AoE dan anti-heal synergy dengan ultimate Baxia."
+    },
+    {
+      "hero_id": 39, "hero_name": "Masha",
+      "recommended_items": ["Warrior Boots", "Demon Hunter Sword", "Golden Staff", "Endless Battle", "Malefic Roar", "Immortality"],
+      "recommended_emblem": "Fighter Emblem",
+      "emblem_talent": "Festival of Blood",
+      "item_notes": "Demon Hunter Sword untuk damage berdasarkan HP. Golden Staff memaksimalkan passive basic attack Masha."
+    },
+    {
+      "hero_id": 40, "hero_name": "Wanwan",
+      "recommended_items": ["Warrior Boots", "Demon Hunter Sword", "Golden Staff", "Windtalker", "Corrosion Scythe", "Malefic Roar"],
+      "recommended_emblem": "Marksman Emblem",
+      "emblem_talent": "Weapons Master",
+      "item_notes": "Golden Staff memaksimalkan passive Wanwan. Demon Hunter Sword untuk true damage vs tank."
+    },
+    {
+      "hero_id": 41, "hero_name": "Silvanna",
+      "recommended_items": ["Warrior Boots", "Calamity Reaper", "Holy Crystal", "War Axe", "Divine Glaive", "Immortality"],
+      "recommended_emblem": "Fighter Emblem",
+      "emblem_talent": "Festival of Blood",
+      "item_notes": "Silvanna adalah hybrid fighter-mage. Calamity Reaper untuk true damage dari skill combo."
+    },
+    {
+      "hero_id": 42, "hero_name": "Cecilion",
+      "recommended_items": ["Magic Shoes", "Clock of Destiny", "Lightning Truncheon", "Holy Crystal", "Divine Glaive", "Blood Wings"],
+      "recommended_emblem": "Mage Emblem",
+      "emblem_talent": "Impure Rage",
+      "item_notes": "Clock of Destiny dibeli early untuk max stack. Lightning Truncheon sinergi dengan mana tinggi Cecilion."
+    },
+    {
+      "hero_id": 43, "hero_name": "Carmilla",
+      "recommended_items": ["Warrior Boots", "Oracle", "Antique Cuirass", "Athena's Shield", "Necklace of Durance", "Immortality"],
+      "recommended_emblem": "Support Emblem",
+      "emblem_talent": "Focusing Mark",
+      "item_notes": "Build tanky agar Carmilla bisa masuk dan spread curse tanpa mati. Necklace untuk counter heal musuh."
+    },
+    {
+      "hero_id": 44, "hero_name": "Atlas",
+      "recommended_items": ["Warrior Boots", "Dominance Ice", "Antique Cuirass", "Athena's Shield", "Thunderbelt", "Immortality"],
+      "recommended_emblem": "Tank Emblem",
+      "emblem_talent": "Brave Smite",
+      "item_notes": "Build tanky agar Atlas bisa bertahan setelah ultimate. Thunderbelt untuk true damage ekstra."
+    },
+    {
+      "hero_id": 45, "hero_name": "Popol and Kupa",
+      "recommended_items": ["Warrior Boots", "Windtalker", "Berserker's Fury", "Demon Hunter Sword", "Malefic Roar", "Immortality"],
+      "recommended_emblem": "Marksman Emblem",
+      "emblem_talent": "Weakness Finder",
+      "item_notes": "Build seperti Marksman biasa dengan attack speed dan critical. Jaga Kupa tetap aktif dalam fight."
+    },
+    {
+      "hero_id": 46, "hero_name": "Yu Zhong",
+      "recommended_items": ["Warrior Boots", "War Axe", "Haas's Claws", "Endless Battle", "Antique Cuirass", "Immortality"],
+      "recommended_emblem": "Fighter Emblem",
+      "emblem_talent": "Festival of Blood",
+      "item_notes": "Haas's Claws untuk lifesteal yang sinergi dengan passive Yu Zhong. War Axe untuk scaling fight."
+    },
+    {
+      "hero_id": 47, "hero_name": "Luo Yi",
+      "recommended_items": ["Magic Shoes", "Enchanted Talisman", "Lightning Truncheon", "Holy Crystal", "Divine Glaive", "Blood Wings"],
+      "recommended_emblem": "Mage Emblem",
+      "emblem_talent": "Magic Worship",
+      "item_notes": "Enchanted Talisman CDR penting untuk sering lempar Yin/Yang. Lightning Truncheon untuk AoE tambahan."
+    },
+    {
+      "hero_id": 48, "hero_name": "Khaleed",
+      "recommended_items": ["Warrior Boots", "War Axe", "Endless Battle", "Blade of Despair", "Antique Cuirass", "Immortality"],
+      "recommended_emblem": "Fighter Emblem",
+      "emblem_talent": "Festival of Blood",
+      "item_notes": "War Axe untuk scaling fight. Endless Battle true damage dari basic attack setelah skill."
+    },
+    {
+      "hero_id": 49, "hero_name": "Barats",
+      "recommended_items": ["Warrior Boots", "Antique Cuirass", "Dominance Ice", "Cursed Helmet", "Thunderbelt", "Immortality"],
+      "recommended_emblem": "Tank Emblem",
+      "emblem_talent": "Brave Smite",
+      "item_notes": "Build tanky agar Barats bisa absorb damage saat melakukan ultimate. Cursed Helmet untuk AoE damage."
+    },
+    {
+      "hero_id": 50, "hero_name": "Brody",
+      "recommended_items": ["Warrior Boots", "Windtalker", "Berserker's Fury", "Scarlet Phantom", "Blade of Despair", "Malefic Roar"],
+      "recommended_emblem": "Marksman Emblem",
+      "emblem_talent": "Weakness Finder",
+      "item_notes": "Brody butuh attack speed karena naturally lambat. Build critical untuk burst tinggi dengan stack Bruise."
+    }
+  ]
+}

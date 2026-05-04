@@ -1,0 +1,2914 @@
+[
+  {
+    "id": "combo_gusion",
+    "hero": "Gusion",
+    "combos": [
+      {
+        "name": "Basic Burst Combo",
+        "sequence": ["Sword Spike", "Shadowblade Slaughter", "Incandescence", "Sword Spike"],
+        "notation": "S1 → S2 → Ult → S1",
+        "damage": "Very Tinggi",
+        "difficulty": "Hard",
+        "situasi": "Assassinate target squishy",
+        "penjelasan": "Lempar dagger, recall untuk reset, ultimate, lalu recall lagi untuk burst maksimal.",
+        "tips": "Pastikan semua dagger mengenai target untuk damage maksimal"
+      },
+      {
+        "name": "Safe Poke Combo",
+        "sequence": ["Sword Spike", "Shadowblade Slaughter", "Sword Spike"],
+        "notation": "S1 → S2 → S1",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass atau farming",
+        "penjelasan": "Combo aman untuk poke musuh tanpa terlalu dekat.",
+        "tips": "Gunakan untuk harass musuh di lane sebelum engage"
+      }
+    ],
+    "item_combo_synergy": "Genius Wand + Holy Crystal untuk burst damage",
+    "latihan": "Latih akurasi dagger dan timing recall di custom mode"
+  },
+  {
+    "id": "combo_tigreal",
+    "hero": "Tigreal",
+    "combos": [
+      {
+        "name": "Initiate Combo",
+        "sequence": ["Flicker", "Implosion", "Sacred Hammer", "Attack Wave"],
+        "notation": "Flicker + Ult → S2 → S1",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Teamfight atau engage",
+        "penjelasan": "Kumpulkan musuh dengan Flicker+Ult, lalu knock-up dan slow.",
+        "tips": "Tunggu musuh berkumpul sebelum engage untuk maximize CC"
+      },
+      {
+        "name": "Push Combo",
+        "sequence": ["Implosion", "Sacred Hammer", "Attack Wave", "Sacred Hammer"],
+        "notation": "Ult → S2 → S1 → S2",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Push turret atau defend",
+        "penjelasan": "Dorong musuh ke arah turret atau tim Anda.",
+        "tips": "Arahkan musuh ke area yang menguntungkan tim"
+      }
+    ],
+    "item_combo_synergy": "Dominance Ice + Athena's Shield untuk tankiness",
+    "latihan": "Latih Flicker+Ult di custom mode untuk timing sempurna"
+  },
+  {
+    "id": "combo_miya",
+    "hero": "Miya",
+    "combos": [
+      {
+        "name": "Split Push Combo",
+        "sequence": ["Moon Arrow", "Arrow of Eclipse", "Hidden Moonlight"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Push lane atau farming cepat",
+        "penjelasan": "Gunakan attack speed buff untuk clear wave dan turret cepat.",
+        "tips": "Aktifkan Ultimate saat dikejar atau untuk push agresif"
+      },
+      {
+        "name": "Teamfight DPS Combo",
+        "sequence": ["Arrow of Eclipse", "Moon Arrow", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Teamfight atau DPS sustain",
+        "penjelasan": "Maximize attack speed dan damage konsisten.",
+        "tips": "Jaga jarak dan kite musuh dengan positioning aman"
+      }
+    ],
+    "item_combo_synergy": "Windtalker + Scarlet Phantom untuk attack speed",
+    "latihan": "Latih positioning dan kapan harus split push vs teamfight"
+  },
+  {
+    "id": "combo_balmond",
+    "hero": "Balmond",
+    "combos": [
+      {
+        "name": "Execute Combo",
+        "sequence": ["Soul Lock", "Cyclone Sweep", "Lethal Counter"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Finish enemy low HP",
+        "penjelasan": "Turunkan HP musuh dengan S1+S2, lalu eksekusi dengan Ultimate.",
+        "tips": "Ultimate damage meningkat drastis saat HP musuh rendah"
+      },
+      {
+        "name": "Sustain Farm Combo",
+        "sequence": ["Cyclone Sweep", "Soul Lock", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Farming jungle atau clear wave",
+        "penjelasan": "Maximize regen passive dengan terus menyerang.",
+        "tips": "Jangan berhenti attack untuk keep passive regen aktif"
+      }
+    ],
+    "item_combo_synergy": "Bloodlust Axe + Oracle untuk sustain maksimal",
+    "latihan": "Latih timing execute dan tracking HP musuh"
+  },
+  {
+    "id": "combo_saber",
+    "hero": "Saber",
+    "combos": [
+      {
+        "name": "Assassination Combo",
+        "sequence": ["Orbiting Swords", "Charge", "Triple Sweep"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Lock enemy carry",
+        "penjelasan": "Kirim pedang, dash ke target, lalu lock dengan Ultimate.",
+        "tips": "Simpan Ultimate untuk target prioritas seperti Marksman/Mage"
+      },
+      {
+        "name": "Burst Combo",
+        "sequence": ["Charge", "Orbiting Swords", "Triple Sweep", "Orbiting Swords"],
+        "notation": "S2 → S1 → Ult → S1",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "All-in atau pickoff",
+        "penjelasan": "Maximize damage dengan recall pedang setelah lock.",
+        "tips": "Pastikan pedang mengenai target sebelum recall"
+      }
+    ],
+    "item_combo_synergy": "Blade of Despair + Malefic Roar untuk armor pen",
+    "latihan": "Latih timing lock dan recall pedang"
+  },
+  {
+    "id": "combo_alice",
+    "hero": "Alice",
+    "combos": [
+      {
+        "name": "Sustain Dive Combo",
+        "sequence": ["Flowing Blood", "Blood Ode", "Blood Awe", "Flowing Blood"],
+        "notation": "S1 → Ult → S2 → S1",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Teamfight atau dive backline",
+        "penjelasan": "Heal masif dari Ultimate, lalu sustain dengan passive orb.",
+        "tips": "Stack passive dengan last hit minion sebelum teamfight"
+      },
+      {
+        "name": "Poke & Regen Combo",
+        "sequence": ["Flowing Blood", "Blood Awe", "Basic Attack"],
+        "notation": "S1 → S2 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass atau farming",
+        "penjelasan": "Poke aman sambil regen HP dari orb.",
+        "tips": "Jaga posisi agar orb selalu mengenai musuh"
+      }
+    ],
+    "item_combo_synergy": "Clock of Destiny + Holy Crystal untuk scaling",
+    "latihan": "Latih stacking passive dan timing dive"
+  },
+  {
+    "id": "combo_nana",
+    "hero": "Nana",
+    "combos": [
+      {
+        "name": "Disrupt Combo",
+        "sequence": ["Magic Boomerang", "Molina Smooch", "Molina Blitz"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Zone control atau interrupt",
+        "penjelasan": "Slow dengan S1, transform musuh dengan S2, lalu burst area.",
+        "tips": "Letakkan Molina di pathing musuh atau turret"
+      },
+      {
+        "name": "Safe Poke Combo",
+        "sequence": ["Magic Boomerang", "Molina Smooch", "Magic Boomerang"],
+        "notation": "S1 → S2 → S1",
+        "damage": "Rendah",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Poke jarak jauh sambil siapkan trap transform.",
+        "tips": "Gunakan S2 untuk defense saat di-gank"
+      }
+    ],
+    "item_combo_synergy": "Fleeting Time + Ice Queen Wand untuk CDR & slow",
+    "latihan": "Latih penempatan Molina dan timing transform"
+  },
+  {
+    "id": "combo_akai",
+    "hero": "Akai",
+    "combos": [
+      {
+        "name": "Roll & CC Combo",
+        "sequence": ["Bodyguard", "Blender", "Hurricane Dance"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Engage atau disrupt teamfight",
+        "penjelasan": "Shield diri, roll ke musuh, lalu dorong dengan Ultimate.",
+        "tips": "Arahkan dorongan ke turret atau ke tim Anda"
+      },
+      {
+        "name": "Peel Combo",
+        "sequence": ["Hurricane Dance", "Blender", "Bodyguard"],
+        "notation": "Ult → S2 → S1",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Lindungi carry",
+        "penjelasan": "Dorong assassin musuh menjauh dari carry.",
+        "tips": "Prioritaskan safety carry di atas segalanya"
+      }
+    ],
+    "item_combo_synergy": "Dominance Ice + Antique Cuirass untuk defense",
+    "latihan": "Latih arah dorongan dan positioning roll"
+  },
+  {
+    "id": "combo_franco",
+    "hero": "Franco",
+    "combos": [
+      {
+        "name": "Hook & Lock Combo",
+        "sequence": ["Iron Hook", "Fury Shock", "Bloody Hunt"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Hard",
+        "situasi": "Pick off target penting",
+        "penjelasan": "Hook target, slow dengan S2, lalu lock dengan Ultimate.",
+        "tips": "Latih akurasi hook ke target squishy atau roaming"
+      },
+      {
+        "name": "Initiate Combo",
+        "sequence": ["Iron Hook", "Bloody Hunt", "Fury Shock"],
+        "notation": "S1 → Ult → S2",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Start teamfight",
+        "penjelasan": "Hook frontline, lock, lalu berikan slow area.",
+        "tips": "Komunikasi dengan tim sebelum hook engage"
+      }
+    ],
+    "item_combo_synergy": "Dominance Ice + Oracle untuk tank sustain",
+    "latihan": "Latih akurasi hook di custom mode setiap hari"
+  },
+  {
+    "id": "combo_baine",
+    "hero": "Bane",
+    "combos": [
+      {
+        "name": "Push & Burst Combo",
+        "sequence": ["Crab Claw Cannon", "Crushing Blow", "Abyssal Strike"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Push lane atau teamfight",
+        "penjelasan": "Clear wave cepat, slow musuh, lalu burst area.",
+        "tips": "Gunakan passive untuk split push agresif"
+      },
+      {
+        "name": "Harass Combo",
+        "sequence": ["Crab Claw Cannon", "Crushing Blow", "Crab Claw Cannon"],
+        "notation": "S1 → S2 → S1",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Poke lane",
+        "penjelasan": "Poke aman sambil clear minion.",
+        "tips": "Jaga jarak agar tidak di-engage musuh"
+      }
+    ],
+    "item_combo_synergy": "Clock of Destiny + Lightning Truncheon untuk scaling",
+    "latihan": "Latih farming cepat dan timing push"
+  },
+  {
+    "id": "combo_bruno",
+    "hero": "Bruno",
+    "combos": [
+      {
+        "name": "Burst Combo",
+        "sequence": ["Volley Shot", "Flying Footwork", "World Wave"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "All-in atau chase",
+        "penjelasan": "Fire shot, reposition, lalu knockback dengan Ultimate.",
+        "tips": "Arahkan knockback ke turret atau tim"
+      },
+      {
+        "name": "Kite Combo",
+        "sequence": ["Flying Footwork", "Basic Attack", "Volley Shot"],
+        "notation": "S2 → AA → S1",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Teamfight DPS",
+        "penjelasan": "Maximize damage sambil menjaga jarak aman.",
+        "tips": "Gunakan S2 untuk dodge skill musuh"
+      }
+    ],
+    "item_combo_synergy": "Berserker's Fury + Scarlet Phantom untuk crit",
+    "latihan": "Latih kiting dan timing knockback"
+  },
+  {
+    "id": "combo_clint",
+    "hero": "Clint",
+    "combos": [
+      {
+        "name": "Burst Combo",
+        "sequence": ["Blind Eye", "Heel Rope", "Grenade Bombardment"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Assassinate atau poke",
+        "penjelasan": "Blind musuh, trap, lalu burst area.",
+        "tips": "Letakkan trap di bush atau pathing musuh"
+      },
+      {
+        "name": "Safe Poke Combo",
+        "sequence": ["Blind Eye", "Grenade Bombardment", "Heel Rope"],
+        "notation": "S1 → Ult → S2",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Poke jarak jauh sambil control area.",
+        "tips": "Jaga jarak maksimal untuk damage optimal"
+      }
+    ],
+    "item_combo_synergy": "Hunter Strike + Malefic Roar untuk pen",
+    "latihan": "Latih positioning dan trap placement"
+  },
+  {
+    "id": "combo_rafaela",
+    "hero": "Rafaela",
+    "combos": [
+      {
+        "name": "Heal & Slow Combo",
+        "sequence": ["Light of Retribution", "Holy Healing", "Holy Baptism"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Teamfight sustain",
+        "penjelasan": "Slow musuh, heal tim, lalu burst area.",
+        "tips": "Prioritaskan heal ke carry dan jungler"
+      },
+      {
+        "name": "Roam Combo",
+        "sequence": ["Holy Healing", "Light of Retribution", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Rendah",
+        "difficulty": "Easy",
+        "situasi": "Rotasi atau gank",
+        "penjelasan": "Keep tim tetap sehat saat roam.",
+        "tips": "Selalu scout bush dan berikan vision"
+      }
+    ],
+    "item_combo_synergy": "Oracle + Fleeting Time untuk CDR & heal boost",
+    "latihan": "Latih timing heal dan positioning aman"
+  },
+  {
+    "id": "combo_eudora",
+    "hero": "Eudora",
+    "combos": [
+      {
+        "name": "Stun Burst Combo",
+        "sequence": ["Electric Arrow", "Forked Lightning", "Thunder's Wrath"],
+        "notation": "S2 → S1 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Assassinate squishy",
+        "penjelasan": "Stun dengan S2, chain lightning, lalu burst.",
+        "tips": "Pastikan stun mengenai target sebelum combo"
+      },
+      {
+        "name": "Poke Combo",
+        "sequence": ["Forked Lightning", "Electric Arrow", "Forked Lightning"],
+        "notation": "S1 → S2 → S1",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Poke aman sambil clear wave.",
+        "tips": "Jaga jarak agar tidak di-engage"
+      }
+    ],
+    "item_combo_synergy": "Holy Crystal + Divine Glaive untuk magic pen",
+    "latihan": "Latih akurasi stun dan timing burst"
+  },
+  {
+    "id": "combo_zilong",
+    "hero": "Zilong",
+    "combos": [
+      {
+        "name": "Assassination Combo",
+        "sequence": ["Spear Flip", "Spear Strike", "Supreme Warrior"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Pick off carry",
+        "penjelasan": "Knock-up, dash, lalu attack speed boost.",
+        "tips": "Gunakan Ultimate untuk chase atau push turret"
+      },
+      {
+        "name": "Split Push Combo",
+        "sequence": ["Supreme Warrior", "Spear Strike", "Basic Attack"],
+        "notation": "Ult → S2 → AA",
+        "damage": "Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Push lane",
+        "penjelasan": "Maximize attack speed untuk clear turret cepat.",
+        "tips": "Farm cepat untuk power spike late game"
+      }
+    ],
+    "item_combo_synergy": "Blade of Despair + Hunter Strike untuk damage",
+    "latihan": "Latih timing engage dan split push map awareness"
+  },
+  {
+    "id": "combo_fanny",
+    "hero": "Fanny",
+    "combos": [
+      {
+        "name": "Cable Dive Combo",
+        "sequence": ["Tornado Strike", "Steel Cable", "Tornado Strike", "Cut Throat"],
+        "notation": "S2 → S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Very Hard",
+        "situasi": "Ganking atau roam",
+        "penjelasan": "Gunakan cable untuk mobility dan engage cepat.",
+        "tips": "Kuasi map dan posisi wall untuk cable efektif"
+      },
+      {
+        "name": "Assassination Combo",
+        "sequence": ["Steel Cable", "Cut Throat", "Tornado Strike", "Steel Cable"],
+        "notation": "S1 → Ult → S2 → S1",
+        "damage": "Very Tinggi",
+        "difficulty": "Very Hard",
+        "situasi": "Delete carry",
+        "penjelasan": "Dive ke backline, burst, lalu escape dengan cable.",
+        "tips": "Perhatikan energy bar, jangan sampai kehabisan"
+      }
+    ],
+    "item_combo_synergy": "Blade of Despair + Hunter Strike untuk damage & CDR",
+    "latihan": "Latih cable di custom mode minimal 1000x"
+  },
+  {
+    "id": "combo_layla",
+    "hero": "Layla",
+    "combos": [
+      {
+        "name": "Late Game DPS Combo",
+        "sequence": ["Malefic Gun", "Void Projectile", "Destruction Rush"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Teamfight late game",
+        "penjelasan": "Boost damage, poke, lalu burst jarak jauh.",
+        "tips": "Farm cepat, hindari early fight"
+      },
+      {
+        "name": "Self Peel Combo",
+        "sequence": ["Void Projectile", "Basic Attack", "Malefic Gun"],
+        "notation": "S2 → AA → S1",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Defense saat di-engage",
+        "penjelasan": "Knockback musuh, lalu kiting.",
+        "tips": "Jaga jarak maksimal, jangan overextend"
+      }
+    ],
+    "item_combo_synergy": "Scarlet Phantom + Malefic Roar untuk range & pen",
+    "latihan": "Latih positioning dan map awareness untuk farm"
+  },
+  {
+    "id": "combo_minotaur",
+    "hero": "Minotaur",
+    "combos": [
+      {
+        "name": "Rage CC Combo",
+        "sequence": ["Desperation Hammer", "Motivation Roar", "Minoan Fury"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Teamfight engage",
+        "penjelasan": "Knock-up, heal tim, lalu stun area.",
+        "tips": "Jaga rage bar agar Ultimate siap saat fight"
+      },
+      {
+        "name": "Peel Combo",
+        "sequence": ["Minoan Fury", "Motivation Roar", "Desperation Hammer"],
+        "notation": "Ult → S2 → S1",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Lindungi carry",
+        "penjelasan": "Stun assassin musuh, heal carry, lalu knock-up.",
+        "tips": "Prioritaskan safety carry"
+      }
+    ],
+    "item_combo_synergy": "Dominance Ice + Oracle untuk sustain & CC",
+    "latihan": "Latih rage management dan timing CC"
+  },
+  {
+    "id": "combo_lolita",
+    "hero": "Lolita",
+    "combos": [
+      {
+        "name": "Block & CC Combo",
+        "sequence": ["Energy Barrier", "Nobility Punch", "Guardian's Bulwark"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Counter projectile hero",
+        "penjelasan": "Shield, knock-up, lalu block damage area.",
+        "tips": "Gunakan shield untuk block Ultimate musuh"
+      },
+      {
+        "name": "Initiate Combo",
+        "sequence": ["Guardian's Bulwark", "Energy Barrier", "Nobility Punch"],
+        "notation": "Ult → S1 → S2",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Start teamfight",
+        "penjelasan": "Block damage, shield tim, lalu engage.",
+        "tips": "Posisikan shield ke arah damage utama"
+      }
+    ],
+    "item_combo_synergy": "Dominance Ice + Athena's Shield untuk defense",
+    "latihan": "Latih timing shield block dan CC chain"
+  },
+  {
+    "id": "combo_hayabusa",
+    "hero": "Hayabusa",
+    "combos": [
+      {
+        "name": "Shadow Burst Combo",
+        "sequence": ["Phantom Shuriken", "Trace of Shadow", "Ougi: Shadow Kill"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Assassinate squishy",
+        "penjelasan": "Poke, dash ke shadow, lalu burst.",
+        "tips": "Gunakan shadow untuk escape setelah combo"
+      },
+      {
+        "name": "Split Push Combo",
+        "sequence": ["Ougi: Shadow Kill", "Trace of Shadow", "Basic Attack"],
+        "notation": "Ult → S2 → AA",
+        "damage": "Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Clear lane cepat",
+        "penjelasan": "Burst wave, dash, lalu auto attack.",
+        "tips": "Rotasi cepat antara lane dan objective"
+      }
+    ],
+    "item_combo_synergy": "Blade of Despair + Malefic Roar untuk burst",
+    "latihan": "Latih shadow management dan timing escape"
+  },
+  {
+    "id": "combo_freya",
+    "hero": "Freya",
+    "combos": [
+      {
+        "name": "1v1 Sustain Combo",
+        "sequence": ["Power of Thor", "Leap of Faith", "Valkyrie Descent"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Duel atau teamfight",
+        "penjelasan": "Slow, jump, lalu attack speed boost.",
+        "tips": "Aktifkan Ultimate saat HP rendah untuk sustain"
+      },
+      {
+        "name": "Chase Combo",
+        "sequence": ["Leap of Faith", "Power of Thor", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Chase enemy",
+        "penjelasan": "Jump ke target, slow, lalu auto attack.",
+        "tips": "Gunakan S2 untuk reposition atau dodge"
+      }
+    ],
+    "item_combo_synergy": "Bloodlust Axe + Oracle untuk lifesteal",
+    "latihan": "Latih timing 1v1 dan HP management"
+  },
+  {
+    "id": "combo_gord",
+    "hero": "Gord",
+    "combos": [
+      {
+        "name": "Safe Burst Combo",
+        "sequence": ["Mystic Projectile", "Mystic Gush", "Mystic Injunction"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Teamfight dari jarak aman",
+        "penjelasan": "Poke, slow, lalu burst area.",
+        "tips": "Posisikan Ultimate dari jarak maksimal"
+      },
+      {
+        "name": "Harass Combo",
+        "sequence": ["Mystic Projectile", "Mystic Gush", "Mystic Projectile"],
+        "notation": "S1 → S2 → S1",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Poke lane",
+        "penjelasan": "Poke aman sambil clear wave.",
+        "tips": "Jaga jarak agar tidak di-engage"
+      }
+    ],
+    "item_combo_synergy": "Holy Crystal + Divine Glaive untuk magic pen",
+    "latihan": "Latih positioning dan timing ultimate"
+  },
+  {
+    "id": "combo_natalia",
+    "hero": "Natalia",
+    "combos": [
+      {
+        "name": "Stealth Assassination Combo",
+        "sequence": ["Claw Dash", "Smoke Bomb", "Theater Assassination"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Pick off atau gank",
+        "penjelasan": "Dash, stealth, lalu silence burst.",
+        "tips": "Gunakan stealth untuk reposition dan escape"
+      },
+      {
+        "name": "Roam Combo",
+        "sequence": ["Smoke Bomb", "Claw Dash", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Rotasi atau scout",
+        "penjelasan": "Stealth untuk scout bush, lalu engage.",
+        "tips": "Selalu check minimap sebelum engage"
+      }
+    ],
+    "item_combo_synergy": "Blade of Despair + Hunter Strike untuk damage",
+    "latihan": "Latih timing stealth dan positioning"
+  },
+  {
+    "id": "combo_kagura",
+    "hero": "Kagura",
+    "combos": [
+      {
+        "name": "Umbrella Burst Combo",
+        "sequence": ["Seimei Umbrella Open", "Rasho Umbrella Flee", "Yin Yang Overturn"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Hard",
+        "situasi": "All-in atau teamfight",
+        "penjelasan": "Tarik umbrella, dash, lalu swap burst.",
+        "tips": "Posisikan umbrella dengan tepat untuk damage maksimal"
+      },
+      {
+        "name": "Poke Combo",
+        "sequence": ["Seimei Umbrella Open", "Rasho Umbrella Flee", "Seimei Umbrella Open"],
+        "notation": "S1 → S2 → S1",
+        "damage": "Sedang",
+        "difficulty": "Medium",
+        "situasi": "Harass lane",
+        "penjelasan": "Poke aman sambil control area.",
+        "tips": "Jaga jarak dan gunakan umbrella untuk zoning"
+      }
+    ],
+    "item_combo_synergy": "Genius Wand + Divine Glaive untuk penetration",
+    "latihan": "Latih umbrella positioning dan timing swap"
+  },
+  {
+    "id": "combo_chou",
+    "hero": "Chou",
+    "combos": [
+      {
+        "name": "Basic Kick Combo",
+        "sequence": ["Jeet Kune Do", "Jeet Kune Do", "Jeet Kune Do", "Shunpo", "The Way of Dragon"],
+        "notation": "S1x3 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "All-in atau pickoff",
+        "penjelasan": "Stack 3x S1, knock-up, lalu kick.",
+        "tips": "Pastikan setiap hit S1 mengenai musuh"
+      },
+      {
+        "name": "Advanced Kick Combo",
+        "sequence": ["Jeet Kune Do", "Jeet Kune Do", "Jeet Kune Do", "Shunpo", "The Way of Dragon", "Flicker", "Shunpo"],
+        "notation": "S1x3 → S2 → Ult → Flicker → S2",
+        "damage": "Very Tinggi",
+        "difficulty": "Very Hard",
+        "situasi": "Kick musuh ke tim",
+        "penjelasan": "Kick musuh ke posisi menguntungkan tim.",
+        "tips": "Butuh latihan ekstensif di custom mode"
+      }
+    ],
+    "item_combo_synergy": "Blade of Despair + Warrior Boots untuk damage",
+    "latihan": "Latih combo di custom mode minimal 100x"
+  },
+  {
+    "id": "combo_sun",
+    "hero": "Sun",
+    "combos": [
+      {
+        "name": "Clone Push Combo",
+        "sequence": ["Golden Cudgel", "Instant Move", "Clone Technique"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Split push atau teamfight",
+        "penjelasan": "Boost attack, dash, lalu spawn clone.",
+        "tips": "Gunakan clone untuk push dan farming"
+      },
+      {
+        "name": "Chase Combo",
+        "sequence": ["Instant Move", "Golden Cudgel", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Chase enemy",
+        "penjelasan": "Dash ke target, slow, lalu auto attack.",
+        "tips": "Jaga jarak agar clone tetap aktif"
+      }
+    ],
+    "item_combo_synergy": "Corrosion Scythe + Windtalker untuk utility",
+    "latihan": "Latih clone positioning dan split push timing"
+  },
+  {
+    "id": "combo_alpha",
+    "hero": "Alpha",
+    "combos": [
+      {
+        "name": "Sustain Charge Combo",
+        "sequence": ["Rotating Smash", "Charge!", "Spectre Incarnate"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Jungle atau teamfight",
+        "penjelasan": "AOE damage, dash, lalu transform burst.",
+        "tips": "Maximize lifesteal dengan terus menyerang"
+      },
+      {
+        "name": "Farm Combo",
+        "sequence": ["Rotating Smash", "Basic Attack", "Charge!"],
+        "notation": "S1 → AA → S2",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Clear jungle atau wave",
+        "penjelasan": "AOE clear, auto, lalu dash.",
+        "tips": "Jangan berhenti attack untuk keep passive"
+      }
+    ],
+    "item_combo_synergy": "Bloodlust Axe + Oracle untuk sustain",
+    "latihan": "Latih tracking HP dan timing engage"
+  },
+  {
+    "id": "combo_ruby",
+    "hero": "Ruby",
+    "combos": [
+      {
+        "name": "CC Lock Combo",
+        "sequence": ["Let's Dance!", "Be Good!", "I'm Offended!"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Teamfight engage",
+        "penjelasan": "Slow area, pull, lalu stun.",
+        "tips": "Gunakan CC untuk lock enemy carry"
+      },
+      {
+        "name": "Sustain Peel Combo",
+        "sequence": ["I'm Offended!", "Be Good!", "Let's Dance!"],
+        "notation": "Ult → S2 → S1",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Lindungi carry",
+        "penjelasan": "Stun assassin, pull, lalu slow area.",
+        "tips": "Prioritaskan safety carry"
+      }
+    ],
+    "item_combo_synergy": "Fleeting Time + Oracle untuk CDR & sustain",
+    "latihan": "Latih timing CC chain dan positioning"
+  },
+  {
+    "id": "combo_yisunshin",
+    "hero": "Yi Sun-shin",
+    "combos": [
+      {
+        "name": "Global Burst Combo",
+        "sequence": ["Traceless", "Blazing Salt", "Mountain Shocker"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Pick off atau steal objective",
+        "penjelasan": "Stealth, poke, lalu global burst.",
+        "tips": "Gunakan Ultimate untuk steal turtle/lord"
+      },
+      {
+        "name": "Fish Form DPS Combo",
+        "sequence": ["Blazing Salt", "Basic Attack", "Traceless"],
+        "notation": "S2 → AA → S1",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Teamfight atau farming",
+        "penjelasan": "Poke, auto attack, lalu reposition.",
+        "tips": "Jaga jarak agar tidak di-engage"
+      }
+    ],
+    "item_combo_synergy": "Scarlet Phantom + Malefic Roar untuk range",
+    "latihan": "Latih timing global ultimate dan positioning"
+  },
+  {
+    "id": "combo_moskov",
+    "hero": "Moskov",
+    "combos": [
+      {
+        "name": "Wall Stun Combo",
+        "sequence": ["Astral Force", "Quicksand", "Spear of Quiescence"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Teamfight atau chase",
+        "penjelasan": "Pierce, knockback, lalu stun ke wall.",
+        "tips": "Arahkan knockback ke wall atau turret"
+      },
+      {
+        "name": "DPS Kite Combo",
+        "sequence": ["Quicksand", "Basic Attack", "Astral Force"],
+        "notation": "S2 → AA → S1",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Teamfight sustain",
+        "penjelasan": "Knockback, auto, lalu pierce.",
+        "tips": "Jaga jarak maksimal untuk damage optimal"
+      }
+    ],
+    "item_combo_synergy": "Berserker's Fury + Scarlet Phantom untuk crit",
+    "latihan": "Latih wall stun positioning dan kiting"
+  },
+  {
+    "id": "combo_karina",
+    "hero": "Karina",
+    "combos": [
+      {
+        "name": "Reset Burst Combo",
+        "sequence": ["Elusiveness", "Shadow Rush", "Shadow Combo"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Multi-kill atau clean-up",
+        "penjelasan": "Dash, poke, lalu execute.",
+        "tips": "Reset Ultimate dengan kill untuk multi-kill"
+      },
+      {
+        "name": "Farm Reset Combo",
+        "sequence": ["Shadow Rush", "Basic Attack", "Elusiveness"],
+        "notation": "S2 → AA → S1",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Clear wave atau jungle",
+        "penjelasan": "Poke, auto, lalu dash reset.",
+        "tips": "Gunakan passive untuk clear cepat"
+      }
+    ],
+    "item_combo_synergy": "Holy Crystal + Blood Wings untuk scaling",
+    "latihan": "Latih timing execute dan reset tracking"
+  },
+  {
+    "id": "combo_alucard",
+    "hero": "Alucard",
+    "combos": [
+      {
+        "name": "Lifesteal Dive Combo",
+        "sequence": ["Groundsplitter", "Whirling Smash", "Fission Wave"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Easy",
+        "situasi": "All-in atau teamfight",
+        "penjelasan": "Knock-up, dash, lalu AOE burst.",
+        "tips": "Jangan engage duluan, tunggu musuh low HP"
+      },
+      {
+        "name": "Chase Combo",
+        "sequence": ["Whirling Smash", "Groundsplitter", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Chase enemy",
+        "penjelasan": "Dash, knock-up, lalu auto attack.",
+        "tips": "Maximize lifesteal dengan terus menyerang"
+      }
+    ],
+    "item_combo_synergy": "Bloodlust Axe + Hunter Strike untuk sustain",
+    "latihan": "Latih timing engage dan HP tracking"
+  },
+  {
+    "id": "combo_irithel",
+    "hero": "Irithel",
+    "combos": [
+      {
+        "name": "Mobile DPS Combo",
+        "sequence": ["Strafe", "Heavy Crossbow", "Smoldering Frost"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Teamfight atau chase",
+        "penjelasan": "Move & shoot, knockback, lalu slow area.",
+        "tips": "Gunakan Skill 1 sambil bergerak untuk kiting"
+      },
+      {
+        "name": "Farm Combo",
+        "sequence": ["Heavy Crossbow", "Basic Attack", "Strafe"],
+        "notation": "S2 → AA → S1",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Clear wave atau jungle",
+        "penjelasan": "Poke, auto, lalu move & shoot.",
+        "tips": "Jaga jarak agar tidak di-engage"
+      }
+    ],
+    "item_combo_synergy": "Windtalker + Berserker's Fury untuk attack speed",
+    "latihan": "Latih kiting dan positioning di teamfight"
+  },
+  {
+    "id": "combo_estess",
+    "hero": "Estes",
+    "combos": [
+      {
+        "name": "Full Support Combo",
+        "sequence": ["Domain of Moon Goddess", "Moonlight Immersion", "Blessing of Moon Goddess"],
+        "notation": "S2 → S1 → Ult",
+        "damage": "Rendah",
+        "difficulty": "Easy",
+        "situasi": "Teamfight sustain",
+        "penjelasan": "Slow musuh, heal ally, lalu heal massal.",
+        "tips": "Kunci Estes adalah selalu dekat dengan carry"
+      },
+      {
+        "name": "Peel Combo",
+        "sequence": ["Domain of Moon Goddess", "Blessing of Moon Goddess", "Moonlight Immersion"],
+        "notation": "S2 → Ult → S1",
+        "damage": "Rendah",
+        "difficulty": "Easy",
+        "situasi": "Lindungi carry",
+        "penjelasan": "Slow assassin, heal massal, lalu prioritaskan heal carry.",
+        "tips": "Prioritaskan keselamatan carry di atas segalanya"
+      }
+    ],
+    "item_combo_synergy": "Oracle + Dominance Ice untuk heal boost & slow",
+    "latihan": "Latih timing ultimate dan positioning aman"
+  },
+  {
+    "id": "combo_hylos",
+    "hero": "Hylos",
+    "combos": [
+      {
+        "name": "Mana Sustain Combo",
+        "sequence": ["Law and Order", "Ring of Punishment", "Glaive Wave"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Teamfight atau initiate",
+        "penjelasan": "Slow, AOE damage, lalu knock-up.",
+        "tips": "Konversi mana jadi HP untuk tankiness maksimal"
+      },
+      {
+        "name": "Peel Combo",
+        "sequence": ["Glaive Wave", "Ring of Punishment", "Law and Order"],
+        "notation": "Ult → S2 → S1",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Lindungi carry",
+        "penjelasan": "Knock-up assassin, AOE slow, lalu protect.",
+        "tips": "Prioritaskan safety carry"
+      }
+    ],
+    "item_combo_synergy": "Dominance Ice + Oracle untuk sustain",
+    "latihan": "Latih mana management dan positioning"
+  },
+  {
+    "id": "combo_zhask",
+    "hero": "Zhask",
+    "combos": [
+      {
+        "name": "Push Control Combo",
+        "sequence": ["Domination", "Hive Clones", "Nightmaric Spawn"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Push lane atau zone control",
+        "penjelasan": "Spawn turret, control area, lalu burst.",
+        "tips": "Spawn turret untuk push dan zone control"
+      },
+      {
+        "name": "Poke Combo",
+        "sequence": ["Hive Clones", "Domination", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Poke aman sambil clear wave.",
+        "tips": "Jaga jarak agar turret tidak di-hancurkan"
+      }
+    ],
+    "item_combo_synergy": "Clock of Destiny + Holy Crystal untuk scaling",
+    "latihan": "Latih turret positioning dan timing engage"
+  },
+  {
+    "id": "combo_helcurt",
+    "hero": "Helcurt",
+    "combos": [
+      {
+        "name": "Silence Burst Combo",
+        "sequence": ["Race Advantage", "Deadly Poisoned Stinger", "Dark Night Falls"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Assassinate atau teamfight",
+        "penjelasan": "Dash, poison, lalu silence global.",
+        "tips": "Gunakan Ultimate untuk blind vision musuh"
+      },
+      {
+        "name": "Chase Combo",
+        "sequence": ["Deadly Poisoned Stinger", "Race Advantage", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Chase enemy",
+        "penjelasan": "Poison, dash, lalu auto attack.",
+        "tips": "Jaga jarak agar tidak di-counter"
+      }
+    ],
+    "item_combo_synergy": "Blade of Despair + Malefic Roar untuk damage",
+    "latihan": "Latih timing silence dan positioning"
+  },
+  {
+    "id": "combo_pharsa",
+    "hero": "Pharsa",
+    "combos": [
+      {
+        "name": "Global Poke Combo",
+        "sequence": ["Energy Impact", "Curiosity", "Feathered Air Strike"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Steal objective atau teamfight",
+        "penjelasan": "Poke, shield, lalu global burst.",
+        "tips": "Gunakan Ultimate untuk steal turtle/lord"
+      },
+      {
+        "name": "Safe Farm Combo",
+        "sequence": ["Curiosity", "Energy Impact", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Clear wave atau jungle",
+        "penjelasan": "Shield, poke, lalu auto attack.",
+        "tips": "Jaga jarak agar tidak di-engage"
+      }
+    ],
+    "item_combo_synergy": "Holy Crystal + Divine Glaive untuk magic pen",
+    "latihan": "Latih timing global ultimate dan positioning"
+  },
+  {
+    "id": "combo_lesley",
+    "hero": "Lesley",
+    "combos": [
+      {
+        "name": "Stealth Burst Combo",
+        "sequence": ["Master of Camouflage", "Grenade", "Ultimate Snipe"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Assassinate atau pick off",
+        "penjelasan": "Stealth, poke, lalu snipe burst.",
+        "tips": "Gunakan stealth untuk positioning dan escape"
+      },
+      {
+        "name": "Safe Poke Combo",
+        "sequence": ["Grenade", "Master of Camouflage", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Poke aman sambil reposition.",
+        "tips": "Jaga jarak maksimal untuk damage optimal"
+      }
+    ],
+    "item_combo_synergy": "Hunter Strike + Scarlet Phantom untuk pen",
+    "latihan": "Latih timing stealth dan snipe accuracy"
+  },
+  {
+    "id": "combo_jawhead",
+    "hero": "Jawhead",
+    "combos": [
+      {
+        "name": "Throw Combo",
+        "sequence": ["Qiqi Punch", "Qiqi Support", "Suppression Aura"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Initiate atau teamfight",
+        "penjelasan": "Knock-up, dash, lalu throw musuh.",
+        "tips": "Lempar musuh ke turret atau ke tim"
+      },
+      {
+        "name": "Peel Combo",
+        "sequence": ["Suppression Aura", "Qiqi Support", "Qiqi Punch"],
+        "notation": "Ult → S2 → S1",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Lindungi carry",
+        "penjelasan": "Throw assassin, dash, lalu knock-up.",
+        "tips": "Prioritaskan safety carry"
+      }
+    ],
+    "item_combo_synergy": "Dominance Ice + Athena's Shield untuk defense",
+    "latihan": "Latih arah throw dan timing engage"
+  },
+  {
+    "id": "combo_angela",
+    "hero": "Angela",
+    "combos": [
+      {
+        "name": "Attach Sustain Combo",
+        "sequence": ["Smart Heart", "Love Waves", "Heartguard"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Protect carry",
+        "penjelasan": "Poke, slow, lalu attach heal/shield.",
+        "tips": "Attach ke jungler atau marksman untuk maximize impact"
+      },
+      {
+        "name": "Roam Combo",
+        "sequence": ["Love Waves", "Smart Heart", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Rendah",
+        "difficulty": "Easy",
+        "situasi": "Rotasi atau gank",
+        "penjelasan": "Slow musuh, poke, lalu roam.",
+        "tips": "Selalu scout bush dan berikan vision"
+      }
+    ],
+    "item_combo_synergy": "Oracle + Fleeting Time untuk CDR & heal",
+    "latihan": "Latih timing attach dan positioning"
+  },
+  {
+    "id": "combo_grock",
+    "hero": "Grock",
+    "combos": [
+      {
+        "name": "Wall CC Combo",
+        "sequence": ["Ancestral Gift", "Wild Charge", "Power of Nature"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Initiate atau teamfight",
+        "penjelasan": "AOE damage, dash, lalu stun wall.",
+        "tips": "Fight dekat wall untuk maximize defense"
+      },
+      {
+        "name": "Peel Combo",
+        "sequence": ["Power of Nature", "Wild Charge", "Ancestral Gift"],
+        "notation": "Ult → S2 → S1",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Lindungi carry",
+        "penjelasan": "Stun assassin, dash, lalu AOE.",
+        "tips": "Prioritaskan safety carry"
+      }
+    ],
+    "item_combo_synergy": "Dominance Ice + Antique Cuirass untuk defense",
+    "latihan": "Latih wall stun positioning dan timing"
+  },
+  {
+    "id": "combo_harley",
+    "hero": "Harley",
+    "combos": [
+      {
+        "name": "Teleport Burst Combo",
+        "sequence": ["Space Escape", "Mystic Injunction", "Fatal Flames"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Assassinate atau poke",
+        "penjelasan": "Teleport dekat target, poke, lalu burst.",
+        "tips": "Gunakan ultimate untuk escape setelah combo"
+      },
+      {
+        "name": "Safe Combo",
+        "sequence": ["Mystic Injunction", "Fatal Flames", "Space Escape"],
+        "notation": "S2 → Ult → S1",
+        "damage": "Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Burst dari jarak aman",
+        "penjelasan": "Poke, burst, lalu teleport escape.",
+        "tips": "Tunggu cooldown ultimate sebelum engage lagi"
+      }
+    ],
+    "item_combo_synergy": "Genius Wand + Divine Glaive untuk penetration",
+    "latihan": "Latih ultimate positioning dan combo timing"
+  },
+  {
+    "id": "combo_johnson",
+    "hero": "Johnson",
+    "combos": [
+      {
+        "name": "Carry Engage Combo",
+        "sequence": ["Electromag Rays", "Tyrant's Revenge", "Rapid Touchdown"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Pick off atau initiate",
+        "penjelasan": "Slow, shield, lalu transform dash.",
+        "tips": "Carry marksman/mage dengan Ultimate untuk pick off"
+      },
+      {
+        "name": "Peel Combo",
+        "sequence": ["Rapid Touchdown", "Tyrant's Revenge", "Electromag Rays"],
+        "notation": "Ult → S2 → S1",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Lindungi carry",
+        "penjelasan": "Dash ke assassin, shield, lalu slow.",
+        "tips": "Prioritaskan safety carry"
+      }
+    ],
+    "item_combo_synergy": "Dominance Ice + Athena's Shield untuk tankiness",
+    "latihan": "Latih timing transform dan positioning"
+  },
+  {
+    "id": "combo_cyclops",
+    "hero": "Cyclops",
+    "combos": [
+      {
+        "name": "Spam Burst Combo",
+        "sequence": ["Stardust Shock", "Planets Attack", "Star Power Lockdown"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Teamfight atau poke",
+        "penjelasan": "Spam S1, AOE, lalu lock area.",
+        "tips": "Spam Skill 1 untuk poke dan clear wave"
+      },
+      {
+        "name": "Harass Combo",
+        "sequence": ["Planets Attack", "Stardust Shock", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "AOE poke, spam S1, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-engage"
+      }
+    ],
+    "item_combo_synergy": "Clock of Destiny + Holy Crystal untuk CDR",
+    "latihan": "Latih timing CC dan spam tracking"
+  },
+  {
+    "id": "combo_hilda",
+    "hero": "Hilda",
+    "combos": [
+      {
+        "name": "Bush Sustain Combo",
+        "sequence": ["Art of Hunting", "Combat Ritual", "Power of Wildness"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Jungle atau teamfight",
+        "penjelasan": "Dash, heal, lalu knock-up.",
+        "tips": "Fight di brush untuk maximize regen passive"
+      },
+      {
+        "name": "Chase Combo",
+        "sequence": ["Combat Ritual", "Art of Hunting", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Chase enemy",
+        "penjelasan": "Heal, dash, lalu auto attack.",
+        "tips": "Jaga jarak agar passive tetap aktif"
+      }
+    ],
+    "item_combo_synergy": "Bloodlust Axe + Oracle untuk sustain",
+    "latihan": "Latih brush positioning dan timing engage"
+  },
+  {
+    "id": "combo_odette",
+    "hero": "Odette",
+    "combos": [
+      {
+        "name": "Teamfight Burst Combo",
+        "sequence": ["Avian Authority", "Blue Nova", "Swan Song"],
+        "notation": "S2 → S1 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Teamfight",
+        "penjelasan": "Shield, poke, lalu AOE burst.",
+        "tips": "Posisikan Ultimate untuk hit semua enemy"
+      },
+      {
+        "name": "Safe Poke Combo",
+        "sequence": ["Blue Nova", "Avian Authority", "Basic Attack"],
+        "notation": "S1 → S2 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Poke, shield, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-engage"
+      }
+    ],
+    "item_combo_synergy": "Holy Crystal + Divine Glaive untuk magic pen",
+    "latihan": "Latih positioning dan timing ultimate"
+  },
+  {
+    "id": "combo_lapu-lapu",
+    "hero": "Lapu-Lapu",
+    "combos": [
+      {
+        "name": "Heavy Burst Combo",
+        "sequence": ["Amok", "Brute Force Blessing", "Raging Quake"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "All-in atau teamfight",
+        "penjelasan": "AOE, slow, lalu burst.",
+        "tips": "Gunakan heavy sword untuk damage maksimal"
+      },
+      {
+        "name": "Light Mobility Combo",
+        "sequence": ["Brute Force Blessing", "Amok", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Chase atau farming",
+        "penjelasan": "Slow, AOE, lalu auto.",
+        "tips": "Switch form sesuai situasi"
+      }
+    ],
+    "item_combo_synergy": "Blade of Despair + Hunter Strike untuk damage",
+    "latihan": "Latih form switching dan timing engage"
+  },
+  {
+    "id": "combo_vexana",
+    "hero": "Vexana",
+    "combos": [
+      {
+        "name": "Clone Burst Combo",
+        "sequence": ["Cursed Oath", "Wraith Curse", "Necromancy"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Teamfight atau pick off",
+        "penjelasan": "CC, AOE, lalu clone enemy.",
+        "tips": "Ultimate untuk clone enemy carry untuk teamfight"
+      },
+      {
+        "name": "Harass Combo",
+        "sequence": ["Wraith Curse", "Cursed Oath", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "AOE poke, CC, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-engage"
+      }
+    ],
+    "item_combo_synergy": "Clock of Destiny + Holy Crystal untuk scaling",
+    "latihan": "Latih clone positioning dan timing CC"
+  },
+  {
+    "id": "combo_karrie",
+    "hero": "Karrie",
+    "combos": [
+      {
+        "name": "True Damage DPS Combo",
+        "sequence": ["Lightwheel Mark", "Phoebe's Flight", "Dual Wielding"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Teamfight atau anti-tank",
+        "penjelasan": "Mark, dash, lalu attack speed.",
+        "tips": "Fokus attack tank dengan true damage passive"
+      },
+      {
+        "name": "Kite Combo",
+        "sequence": ["Phoebe's Flight", "Basic Attack", "Lightwheel Mark"],
+        "notation": "S2 → AA → S1",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Chase atau farming",
+        "penjelasan": "Dash, auto, lalu mark.",
+        "tips": "Jaga jarak untuk maximize kiting"
+      }
+    ],
+    "item_combo_synergy": "Golden Staff + Corrosion Scythe untuk attack speed",
+    "latihan": "Latih kiting dan positioning di teamfight"
+  },
+  {
+    "id": "combo_diggie",
+    "hero": "Diggie",
+    "combos": [
+      {
+        "name": "Cleanse Sustain Combo",
+        "sequence": ["Time Journey", "Reverse Time", "Time Warp"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Counter CC atau teamfight",
+        "penjelasan": "Poke, slow, lalu cleanse area.",
+        "tips": "Ultimate untuk cleanse CC tim saat teamfight"
+      },
+      {
+        "name": "Roam Combo",
+        "sequence": ["Reverse Time", "Time Journey", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Rendah",
+        "difficulty": "Easy",
+        "situasi": "Rotasi atau scout",
+        "penjelasan": "Slow, poke, lalu roam.",
+        "tips": "Selalu scout bush dan berikan vision"
+      }
+    ],
+    "item_combo_synergy": "Fleeting Time + Oracle untuk CDR & sustain",
+    "latihan": "Latih timing cleanse dan positioning"
+  },
+  {
+    "id": "combo_argus",
+    "hero": "Argus",
+    "combos": [
+      {
+        "name": "Immortal Dive Combo",
+        "sequence": ["Focused Shot", "Meteoric Sword", "Eternal Evil"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Split push atau teamfight",
+        "penjelasan": "Poke, dash, lalu immortal.",
+        "tips": "Gunakan Ultimate untuk dive turret atau teamfight"
+      },
+      {
+        "name": "Chase Combo",
+        "sequence": ["Meteoric Sword", "Focused Shot", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Chase enemy",
+        "penjelasan": "Dash, poke, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-counter"
+      }
+    ],
+    "item_combo_synergy": "Blade of Despair + Hunter Strike untuk damage",
+    "latihan": "Latih timing immortal dan positioning"
+  },
+  {
+    "id": "combo_aamon",
+    "hero": "Aamon",
+    "combos": [
+      {
+        "name": "Stealth Burst Combo",
+        "sequence": ["Soul Shards", "Invisible Armor", "Scythe of Torment"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Assassinate atau pick off",
+        "penjelasan": "Poke, stealth, lalu burst.",
+        "tips": "Gunakan invisibility untuk reposition dan escape"
+      },
+      {
+        "name": "Safe Poke Combo",
+        "sequence": ["Invisible Armor", "Soul Shards", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Stealth, poke, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-engage"
+      }
+    ],
+    "item_combo_synergy": "Blade of Despair + Malefic Roar untuk damage",
+    "latihan": "Latih timing stealth dan positioning"
+  },
+  {
+    "id": "combo_valir",
+    "hero": "Valir",
+    "combos": [
+      {
+        "name": "Knockback Control Combo",
+        "sequence": ["Searing Torrent", "Raging Inferno", "Vengeance Flame"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Teamfight atau peel",
+        "penjelasan": "Poke, slow, lalu knockback area.",
+        "tips": "Push musuh ke turret atau ke tim"
+      },
+      {
+        "name": "Harass Combo",
+        "sequence": ["Raging Inferno", "Searing Torrent", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Slow, poke, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-engage"
+      }
+    ],
+    "item_combo_synergy": "Clock of Destiny + Holy Crystal untuk scaling",
+    "latihan": "Latih knockback positioning dan timing"
+  },
+  {
+    "id": "combo_chang-e",
+    "hero": "Chang'e",
+    "combos": [
+      {
+        "name": "Shield Poke Combo",
+        "sequence": ["Moonlight Breeze", "Rabbit Doll", "Chang'e Moonlight"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Teamfight atau sustain",
+        "penjelasan": "Shield, poke, lalu AOE burst.",
+        "tips": "Jaga shield tetap aktif untuk survive"
+      },
+      {
+        "name": "Harass Combo",
+        "sequence": ["Rabbit Doll", "Moonlight Breeze", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Poke, shield, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-engage"
+      }
+    ],
+    "item_combo_synergy": "Clock of Destiny + Holy Crystal untuk scaling",
+    "latihan": "Latih shield management dan positioning"
+  },
+  {
+    "id": "combo_kaja",
+    "hero": "Kaja",
+    "combos": [
+      {
+        "name": "Suppression Pick Combo",
+        "sequence": ["Ring of Order", "Lightning Bomb", "Divine Judgment"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Pick off atau initiate",
+        "penjelasan": "Poke, slow, lalu suppression lock.",
+        "tips": "Ultimate untuk lock enemy carry penting"
+      },
+      {
+        "name": "Peel Combo",
+        "sequence": ["Divine Judgment", "Lightning Bomb", "Ring of Order"],
+        "notation": "Ult → S2 → S1",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Lindungi carry",
+        "penjelasan": "Lock assassin, slow, lalu poke.",
+        "tips": "Prioritaskan safety carry"
+      }
+    ],
+    "item_combo_synergy": "Fleeting Time + Oracle untuk CDR & sustain",
+    "latihan": "Latih timing suppression dan positioning"
+  },
+  {
+    "id": "combo_selena",
+    "hero": "Selena",
+    "combos": [
+      {
+        "name": "Abyssal Trap Combo",
+        "sequence": ["Abyssal Trap", "Abyssal Arrow", "Primal Darkness", "Soul Eater", "Garotte"],
+        "notation": "S2(Elven) → S1(Elven) → Ult → S1(Abyssal) → S2(Abyssal)",
+        "damage": "Very Tinggi",
+        "difficulty": "Hard",
+        "situasi": "Pick off atau assassinate",
+        "penjelasan": "Stun dengan arrow lalu burst dengan abyssal form.",
+        "tips": "Pastikan arrow mengenai target untuk stun maksimal"
+      },
+      {
+        "name": "Poke Combo",
+        "sequence": ["Abyssal Arrow", "Abyssal Trap", "Primal Darkness"],
+        "notation": "S1(Elven) → S2(Elven) → Ult",
+        "damage": "Sedang",
+        "difficulty": "Medium",
+        "situasi": "Harass atau poke",
+        "penjelasan": "Poke, trap, lalu transform.",
+        "tips": "Gunakan spider form untuk clear wave cepat"
+      }
+    ],
+    "item_combo_synergy": "Genius Wand + Holy Crystal untuk burst damage",
+    "latihan": "Latih transform timing dan arrow accuracy"
+  },
+  {
+    "id": "combo_aldous",
+    "hero": "Aldous",
+    "combos": [
+      {
+        "name": "Stack Burst Combo",
+        "sequence": ["Contract: Chase Fate", "Contract: Transform", "Contract: Life Steal"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Late game atau teamfight",
+        "penjelasan": "Dash, slow, lalu lifesteal burst.",
+        "tips": "Stack Skill 1 dengan hit minion dan hero"
+      },
+      {
+        "name": "Chase Combo",
+        "sequence": ["Contract: Transform", "Contract: Chase Fate", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Chase enemy",
+        "penjelasan": "Slow, dash, lalu auto.",
+        "tips": "Jaga jarak agar stack tetap aman"
+      }
+    ],
+    "item_combo_synergy": "Blade of Despair + Malefic Roar untuk pen",
+    "latihan": "Latih stack tracking dan timing engage"
+  },
+  {
+    "id": "combo_claude",
+    "hero": "Claude",
+    "combos": [
+      {
+        "name": "Blazing Duet Combo",
+        "sequence": ["Evil Whips", "Bloodthirst", "Demonize", "Evil Whips", "Bloodthirst"],
+        "notation": "S1 → S2 → Ult → S1 → S2",
+        "damage": "Very Tinggi",
+        "difficulty": "Hard",
+        "situasi": "Teamfight atau all-in",
+        "penjelasan": "Maximize damage dengan stack dan ultimate.",
+        "tips": "Kumpulkan stack maksimal sebelum ultimate"
+      },
+      {
+        "name": "Farm Combo",
+        "sequence": ["Bloodthirst", "Evil Whips", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Farming atau poke",
+        "penjelasan": "Reposition, poke, lalu auto.",
+        "tips": "Gunakan S2 untuk reposition dan dodge"
+      }
+    ],
+    "item_combo_synergy": "Windtalker + Berserker's Fury untuk crit",
+    "latihan": "Latih stack management dan ultimate timing"
+  },
+  {
+    "id": "combo_badang",
+    "hero": "Badang",
+    "combos": [
+      {
+        "name": "Wall Trap Combo",
+        "sequence": ["Fist Crack", "Fist Power", "Fist Break"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "All-in atau teamfight",
+        "penjelasan": "Poke, knock-up, lalu wall burst.",
+        "tips": "Gunakan wall untuk trap musuh atau block escape"
+      },
+      {
+        "name": "Harass Combo",
+        "sequence": ["Fist Power", "Fist Crack", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Knock-up, poke, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-engage"
+      }
+    ],
+    "item_combo_synergy": "Blade of Despair + Hunter Strike untuk damage",
+    "latihan": "Latih wall positioning dan timing engage"
+  },
+  {
+    "id": "combo_khufra",
+    "hero": "Khufra",
+    "combos": [
+      {
+        "name": "Anti-Mobility Combo",
+        "sequence": ["Tyrant's Revenge", "Bouncing Ball", "Tyrant's Rage"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Counter dash hero",
+        "penjelasan": "Knock-up, roll, lalu slam.",
+        "tips": "Counter dash hero seperti Fanny, Ling, Wanwan"
+      },
+      {
+        "name": "Peel Combo",
+        "sequence": ["Tyrant's Rage", "Bouncing Ball", "Tyrant's Revenge"],
+        "notation": "Ult → S2 → S1",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Lindungi carry",
+        "penjelasan": "Slam assassin, roll, lalu knock-up.",
+        "tips": "Prioritaskan safety carry"
+      }
+    ],
+    "item_combo_synergy": "Dominance Ice + Antique Cuirass untuk defense",
+    "latihan": "Latih anti-dash timing dan positioning"
+  },
+  {
+    "id": "combo_granger",
+    "hero": "Granger",
+    "combos": [
+      {
+        "name": "Bullet Burst Combo",
+        "sequence": ["Rhapsody", "Rondo", "Caprice"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Assassinate atau teamfight",
+        "penjelasan": "Shoot, dash, lalu burst.",
+        "tips": "Jaga 6 bullet untuk damage maksimal"
+      },
+      {
+        "name": "Safe Poke Combo",
+        "sequence": ["Rondo", "Rhapsody", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Dash, shoot, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-engage"
+      }
+    ],
+    "item_combo_synergy": "Hunter Strike + Scarlet Phantom untuk pen",
+    "latihan": "Latih bullet tracking dan positioning"
+  },
+  {
+    "id": "combo_guinevere",
+    "hero": "Guinevere",
+    "combos": [
+      {
+        "name": "Airborne Burst Combo",
+        "sequence": ["Arcane Heart", "Elliptic Buff", "Goddess Descent"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Medium",
+        "situasi": "All-in atau teamfight",
+        "penjelasan": "Poke, jump, lalu airborne burst.",
+        "tips": "Combo: Skill 2 → Ultimate → Skill 1 untuk burst maksimal"
+      },
+      {
+        "name": "Chase Combo",
+        "sequence": ["Elliptic Buff", "Arcane Heart", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Chase enemy",
+        "penjelasan": "Jump, poke, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-counter"
+      }
+    ],
+    "item_combo_synergy": "Clock of Destiny + Holy Crystal untuk scaling",
+    "latihan": "Latih jump timing dan airborne combo"
+  },
+  {
+    "id": "combo_esmeralda",
+    "hero": "Esmeralda",
+    "combos": [
+      {
+        "name": "Shield Steal Combo",
+        "sequence": ["Starlight Dance", "Falling Starmoon", "Starmoon Blessing"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Counter shield hero",
+        "penjelasan": "Poke, shield steal, lalu AOE.",
+        "tips": "Steal shield musuh untuk tankiness dan damage"
+      },
+      {
+        "name": "Sustain Combo",
+        "sequence": ["Falling Starmoon", "Starlight Dance", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Teamfight sustain",
+        "penjelasan": "Shield steal, poke, lalu auto.",
+        "tips": "Jaga shield tetap aktif"
+      }
+    ],
+    "item_combo_synergy": "Clock of Destiny + Holy Crystal untuk scaling",
+    "latihan": "Latih shield steal timing dan positioning"
+  },
+  {
+    "id": "combo_terizla",
+    "hero": "Terizla",
+    "combos": [
+      {
+        "name": "Slow Lock Combo",
+        "sequence": ["Punishing Hammer", "Execution Strike", "Penalty Zone"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Teamfight atau chase",
+        "penjelasan": "Poke, slow, lalu area slow.",
+        "tips": "Gunakan slow untuk chase dan lock enemy"
+      },
+      {
+        "name": "Harass Combo",
+        "sequence": ["Execution Strike", "Punishing Hammer", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Slow, poke, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-engage"
+      }
+    ],
+    "item_combo_synergy": "Bloodlust Axe + Oracle untuk sustain",
+    "latihan": "Latih slow chaining dan positioning"
+  },
+  {
+    "id": "combo_x.borg",
+    "hero": "X.Borg",
+    "combos": [
+      {
+        "name": "Armor Sustain Combo",
+        "sequence": ["Fire Missiles", "Fire Surge", "Last Insanity"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Teamfight atau dive",
+        "penjelasan": "Poke, dash, lalu explosion.",
+        "tips": "Jaga armor tetap tinggi untuk damage maksimal"
+      },
+      {
+        "name": "Chase Combo",
+        "sequence": ["Fire Surge", "Fire Missiles", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Chase enemy",
+        "penjelasan": "Dash, poke, lalu auto.",
+        "tips": "Jaga jarak agar armor tidak turun"
+      }
+    ],
+    "item_combo_synergy": "Bloodlust Axe + Oracle untuk sustain",
+    "latihan": "Latih armor management dan timing engage"
+  },
+  {
+    "id": "combo_lylia",
+    "hero": "Lylia",
+    "combos": [
+      {
+        "name": "Shadow Burst Combo",
+        "sequence": ["Magic Shockwave", "Gloom", "Black Shoes"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Teamfight atau poke",
+        "penjelasan": "Poke, shadow, lalu teleport burst.",
+        "tips": "Gunakan shadow untuk poke dan wave clear"
+      },
+      {
+        "name": "Harass Combo",
+        "sequence": ["Gloom", "Magic Shockwave", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Shadow, poke, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-engage"
+      }
+    ],
+    "item_combo_synergy": "Clock of Destiny + Holy Crystal untuk scaling",
+    "latihan": "Latih shadow positioning dan timing"
+  },
+  {
+    "id": "combo_baxia",
+    "hero": "Baxia",
+    "combos": [
+      {
+        "name": "Anti-Shield Combo",
+        "sequence": ["Baxia Mark", "Shield Unity", "Shattering Shield"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Counter shield hero",
+        "penjelasan": "Mark, shield, lalu roll burst.",
+        "tips": "Counter hero shield seperti Esmeralda, Belerick, Atlas"
+      },
+      {
+        "name": "Chase Combo",
+        "sequence": ["Shield Unity", "Baxia Mark", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Chase enemy",
+        "penjelasan": "Shield, mark, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-counter"
+      }
+    ],
+    "item_combo_synergy": "Dominance Ice + Antique Cuirass untuk defense",
+    "latihan": "Latih anti-shield timing dan positioning"
+  },
+  {
+    "id": "combo_masha",
+    "hero": "Masha",
+    "combos": [
+      {
+        "name": "Split Push Combo",
+        "sequence": ["Molten Smash", "Might", "Meeting of the Ways"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Push lane atau teamfight",
+        "penjelasan": "Poke, dash, lalu split push.",
+        "tips": "Gunakan 3 HP bar untuk split push agresif"
+      },
+      {
+        "name": "Chase Combo",
+        "sequence": ["Might", "Molten Smash", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Chase enemy",
+        "penjelasan": "Dash, poke, lalu auto.",
+        "tips": "Jaga jarak agar HP bar tidak turun"
+      }
+    ],
+    "item_combo_synergy": "Blade of Despair + Hunter Strike untuk damage",
+    "latihan": "Latih split push timing dan HP management"
+  },
+  {
+    "id": "combo_wanwan",
+    "hero": "Wanwan",
+    "combos": [
+      {
+        "name": "Weakness Break Combo",
+        "sequence": ["Swallow's Path", "Crossbow of Tang", "Crossing of Blades"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Teamfight atau chase",
+        "penjelasan": "Dash, mark, lalu immunity burst.",
+        "tips": "Break weakness mark untuk immunity dan true damage"
+      },
+      {
+        "name": "Kite Combo",
+        "sequence": ["Crossbow of Tang", "Basic Attack", "Swallow's Path"],
+        "notation": "S2 → AA → S1",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Chase atau farming",
+        "penjelasan": "Mark, auto, lalu dash.",
+        "tips": "Jaga jarak untuk maximize kiting"
+      }
+    ],
+    "item_combo_synergy": "Scarlet Phantom + Malefic Roar untuk range",
+    "latihan": "Latih mark breaking dan positioning"
+  },
+  {
+    "id": "combo_silvanna",
+    "hero": "Silvanna",
+    "combos": [
+      {
+        "name": "Jump Lock Combo",
+        "sequence": ["Liturgy of Swords", "Art of Deception", "Imperial Justice"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "All-in atau teamfight",
+        "penjelasan": "Poke, jump, lalu lock burst.",
+        "tips": "Ultimate untuk lock enemy dan block escape"
+      },
+      {
+        "name": "Chase Combo",
+        "sequence": ["Art of Deception", "Liturgy of Swords", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Chase enemy",
+        "penjelasan": "Jump, poke, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-counter"
+      }
+    ],
+    "item_combo_synergy": "Bloodlust Axe + Oracle untuk sustain",
+    "latihan": "Latih jump timing dan lock positioning"
+  },
+  {
+    "id": "combo_cecilion",
+    "hero": "Cecilion",
+    "combos": [
+      {
+        "name": "Stack Burst Combo",
+        "sequence": ["Sanguine Claws", "Bat Impact", "Bats Feast"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Late game atau teamfight",
+        "penjelasan": "Poke, dash, lalu AOE burst.",
+        "tips": "Stack Skill 1 untuk damage maksimal di late game"
+      },
+      {
+        "name": "Harass Combo",
+        "sequence": ["Bat Impact", "Sanguine Claws", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Dash, poke, lalu auto.",
+        "tips": "Jaga jarak agar stack aman"
+      }
+    ],
+    "item_combo_synergy": "Holy Crystal + Divine Glaive untuk magic pen",
+    "latihan": "Latih stack tracking dan positioning"
+  },
+  {
+    "id": "combo_carmilla",
+    "hero": "Carmilla",
+    "combos": [
+      {
+        "name": "Link CC Combo",
+        "sequence": ["Bloodbath", "Vampiric Grasp", "Cursed Blood"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Teamfight atau initiate",
+        "penjelasan": "Poke, link, lalu CC chain.",
+        "tips": "Link damage ke multiple enemy untuk teamfight"
+      },
+      {
+        "name": "Peel Combo",
+        "sequence": ["Cursed Blood", "Vampiric Grasp", "Bloodbath"],
+        "notation": "Ult → S2 → S1",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Lindungi carry",
+        "penjelasan": "CC chain, link, lalu poke.",
+        "tips": "Prioritaskan safety carry"
+      }
+    ],
+    "item_combo_synergy": "Fleeting Time + Oracle untuk CDR & sustain",
+    "latihan": "Latih link positioning dan CC timing"
+  },
+  {
+    "id": "combo_atlas",
+    "hero": "Atlas",
+    "combos": [
+      {
+        "name": "Perfect Chain Combo",
+        "sequence": ["Perfect Match", "Annihilate", "Fatal Links"],
+        "notation": "S2 → S1 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Hard",
+        "situasi": "Teamfight atau engage",
+        "penjelasan": "Pull, freeze, lalu chain CC.",
+        "tips": "Tunggu musuh berkumpul sebelum ultimate"
+      },
+      {
+        "name": "Initiate Combo",
+        "sequence": ["Fatal Links", "Annihilate", "Perfect Match"],
+        "notation": "Ult → S2 → S1",
+        "damage": "Tinggi",
+        "difficulty": "Very Hard",
+        "situasi": "Initiate teamfight",
+        "penjelasan": "Chain CC, freeze, lalu pull.",
+        "tips": "Komunikasi dengan tim sangat penting"
+      }
+    ],
+    "item_combo_synergy": "Dominance Ice + Immortality untuk tankiness",
+    "latihan": "Latih Flicker+Ult dan chain timing"
+  },
+  {
+    "id": "combo_popol",
+    "hero": "Popol and Kupa",
+    "combos": [
+      {
+        "name": "Pet Push Combo",
+        "sequence": ["We Are Friends", "Kupa, Help!", "Kupa, Attack!"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Push lane atau teamfight",
+        "penjelasan": "Buff pet, heal pet, lalu pet burst.",
+        "tips": "Gunakan Kupa untuk vision dan zone control"
+      },
+      {
+        "name": "Harass Combo",
+        "sequence": ["Kupa, Help!", "We Are Friends", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Heal pet, buff, lalu auto.",
+        "tips": "Jaga jarak agar pet tetap hidup"
+      }
+    ],
+    "item_combo_synergy": "Windtalker + Berserker's Fury untuk attack speed",
+    "latihan": "Latih pet positioning dan timing"
+  },
+  {
+    "id": "combo_luo-yi",
+    "hero": "Luo Yi",
+    "combos": [
+      {
+        "name": "Teleport Control Combo",
+        "sequence": ["Yin Yang Gathering", "Tai Chi", "Wu Ji"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Teamfight atau macro",
+        "penjelasan": "Poke, slow, lalu teleport burst.",
+        "tips": "Ultimate untuk teleport dan join teamfight"
+      },
+      {
+        "name": "Harass Combo",
+        "sequence": ["Tai Chi", "Yin Yang Gathering", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Slow, poke, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-engage"
+      }
+    ],
+    "item_combo_synergy": "Clock of Destiny + Holy Crystal untuk scaling",
+    "latihan": "Latih teleport timing dan positioning"
+  },
+  {
+    "id": "combo_yu-zhong",
+    "hero": "Yu Zhong",
+    "combos": [
+      {
+        "name": "Dragon Sustain Combo",
+        "sequence": ["Dragon Form", "Soul Grip", "Black Dragon Form"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Teamfight atau all-in",
+        "penjelasan": "Poke, pull, lalu transform burst.",
+        "tips": "Ultimate untuk engage dan survive teamfight"
+      },
+      {
+        "name": "Chase Combo",
+        "sequence": ["Soul Grip", "Dragon Form", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Chase enemy",
+        "penjelasan": "Pull, poke, lalu auto.",
+        "tips": "Jaga jarak agar soul stack aman"
+      }
+    ],
+    "item_combo_synergy": "Bloodlust Axe + Oracle untuk sustain",
+    "latihan": "Latih transform timing dan soul stack"
+  },
+  {
+    "id": "combo_khaleed",
+    "hero": "Khaleed",
+    "combos": [
+      {
+        "name": "Desert Sustain Combo",
+        "sequence": ["Sand Walker", "Scorching Sand", "Sand Explosion"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Teamfight atau desert zone",
+        "penjelasan": "Dash, poke, lalu AOE burst.",
+        "tips": "Fight di pasir untuk maximize regen"
+      },
+      {
+        "name": "Harass Combo",
+        "sequence": ["Scorching Sand", "Sand Walker", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Poke, dash, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-engage"
+      }
+    ],
+    "item_combo_synergy": "Bloodlust Axe + Oracle untuk sustain",
+    "latihan": "Latih desert positioning dan timing"
+  },
+  {
+    "id": "combo_barats",
+    "hero": "Barats",
+    "combos": [
+      {
+        "name": "Pet CC Combo",
+        "sequence": ["So-Called Teamwork", "Missed Me", "Big Guy"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Teamfight atau chase",
+        "penjelasan": "Buff pet, poke, lalu transform burst.",
+        "tips": "Stack pet untuk size dan damage maksimal"
+      },
+      {
+        "name": "Harass Combo",
+        "sequence": ["Missed Me", "So-Called Teamwork", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Poke, buff, lalu auto.",
+        "tips": "Jaga jarak agar pet tetap aktif"
+      }
+    ],
+    "item_combo_synergy": "Bloodlust Axe + Oracle untuk sustain",
+    "latihan": "Latih pet stacking dan timing"
+  },
+  {
+    "id": "combo_brody",
+    "hero": "Brody",
+    "combos": [
+      {
+        "name": "Mark Burst Combo",
+        "sequence": ["Takedown", "Void Blast", "Desperate Thunder"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Assassinate atau teamfight",
+        "penjelasan": "Mark, dash, lalu burst.",
+        "tips": "Stack mark untuk burst damage maksimal"
+      },
+      {
+        "name": "Safe Poke Combo",
+        "sequence": ["Void Blast", "Takedown", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Dash, mark, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-engage"
+      }
+    ],
+    "item_combo_synergy": "Hunter Strike + Scarlet Phantom untuk pen",
+    "latihan": "Latih mark stacking dan positioning"
+  },
+  {
+    "id": "combo_benedetta",
+    "hero": "Benedetta",
+    "combos": [
+      {
+        "name": "Immunity Dash Combo",
+        "sequence": ["An Eye for an Eye", "Alecto: Final Blow", "Phantom Step"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "All-in atau dodge",
+        "penjelasan": "Parry, dash, lalu immunity burst.",
+        "tips": "Gunakan immunity frame untuk avoid damage"
+      },
+      {
+        "name": "Chase Combo",
+        "sequence": ["Alecto: Final Blow", "An Eye for an Eye", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Chase enemy",
+        "penjelasan": "Dash, parry, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-counter"
+      }
+    ],
+    "item_combo_synergy": "Blade of Despair + Hunter Strike untuk damage",
+    "latihan": "Latih parry timing dan immunity frame"
+  },
+  {
+    "id": "combo_yve",
+    "hero": "Yve",
+    "combos": [
+      {
+        "name": "Zone Control Combo",
+        "sequence": ["Void Blast", "Void Crystal", "Real World Manipulation"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Teamfight atau slow area",
+        "penjelasan": "Poke, slow, lalu zone burst.",
+        "tips": "Ultimate untuk zone control dan slow area"
+      },
+      {
+        "name": "Harass Combo",
+        "sequence": ["Void Crystal", "Void Blast", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Slow, poke, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-engage"
+      }
+    ],
+    "item_combo_synergy": "Clock of Destiny + Holy Crystal untuk scaling",
+    "latihan": "Latih zone positioning dan timing"
+  },
+  {
+    "id": "combo_mathilda",
+    "hero": "Mathilda",
+    "combos": [
+      {
+        "name": "Buff Engage Combo",
+        "sequence": ["Ancestral Guidance", "Guiding Wind", "Circle Assault"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Sedang",
+        "difficulty": "Medium",
+        "situasi": "Gank atau roam",
+        "penjelasan": "Buff ally, dash, lalu burst.",
+        "tips": "Buff jungler untuk gank dan invade"
+      },
+      {
+        "name": "Roam Combo",
+        "sequence": ["Guiding Wind", "Ancestral Guidance", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Rendah",
+        "difficulty": "Easy",
+        "situasi": "Rotasi atau scout",
+        "penjelasan": "Dash, buff, lalu auto.",
+        "tips": "Selalu scout bush dan berikan vision"
+      }
+    ],
+    "item_combo_synergy": "Fleeting Time + Oracle untuk CDR & sustain",
+    "latihan": "Latih buff timing dan positioning"
+  },
+  {
+    "id": "combo_paquito",
+    "hero": "Paquito",
+    "combos": [
+      {
+        "name": "Heavy Punch Combo",
+        "sequence": ["Jab", "Straight Punch", "Heavy Left Punch"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Hard",
+        "situasi": "All-in atau burst",
+        "penjelasan": "Stack punch, dash, lalu charged burst.",
+        "tips": "Kumpulkan 4 bar energy sebelum engage"
+      },
+      {
+        "name": "Knockup Combo",
+        "sequence": ["Straight Punch", "Jab", "Heavy Left Punch"],
+        "notation": "S2 → S1 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Teamfight atau pickoff",
+        "penjelasan": "Dash, stack, lalu charged burst.",
+        "tips": "Gunakan shield dari passive untuk trade"
+      }
+    ],
+    "item_combo_synergy": "Blade of Despair + Endless Battle untuk burst",
+    "latihan": "Latih energy management dan charged timing"
+  },
+  {
+    "id": "combo_gloo",
+    "hero": "Gloo",
+    "combos": [
+      {
+        "name": "Attach Disrupt Combo",
+        "sequence": ["Gloo Blast", "Gloo Grab", "Split"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Disrupt carry atau teamfight",
+        "penjelasan": "Poke, attach, lalu split burst.",
+        "tips": "Attach ke enemy carry untuk disrupt"
+      },
+      {
+        "name": "Peel Combo",
+        "sequence": ["Split", "Gloo Grab", "Gloo Blast"],
+        "notation": "Ult → S2 → S1",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Lindungi carry",
+        "penjelasan": "Split burst, attach, lalu poke.",
+        "tips": "Prioritaskan safety carry"
+      }
+    ],
+    "item_combo_synergy": "Dominance Ice + Oracle untuk sustain",
+    "latihan": "Latih attach timing dan positioning"
+  },
+  {
+    "id": "combo_beatrix",
+    "hero": "Beatrix",
+    "combos": [
+      {
+        "name": "Weapon Switch Combo",
+        "sequence": ["Dawnbreaker", "Nibiru", "Renner"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Hard",
+        "situasi": "Teamfight atau burst",
+        "penjelasan": "Switch senjata, poke, lalu burst sniper.",
+        "tips": "Switch senjata sesuai situasi: Renner untuk burst, Nibiru untuk poke"
+      },
+      {
+        "name": "Safe Poke Combo",
+        "sequence": ["Nibiru", "Dawnbreaker", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Poke jarak jauh, dash, lalu auto.",
+        "tips": "Jaga jarak maksimal untuk damage optimal"
+      }
+    ],
+    "item_combo_synergy": "Scarlet Phantom + Malefic Roar untuk range",
+    "latihan": "Latih weapon switching dan positioning"
+  },
+  {
+    "id": "combo_phoveus",
+    "hero": "Phoveus",
+    "combos": [
+      {
+        "name": "Anti-Dash CC Combo",
+        "sequence": ["Terror Charge", "Dreadful Thorns", "Terror Dimension"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Counter mobility hero",
+        "penjelasan": "Dash, thorn, lalu area CC burst.",
+        "tips": "Counter dash hero seperti Ling, Fanny, Wanwan"
+      },
+      {
+        "name": "Chase Combo",
+        "sequence": ["Dreadful Thorns", "Terror Charge", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Chase enemy",
+        "penjelasan": "Thorn, dash, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-counter"
+      }
+    ],
+    "item_combo_synergy": "Bloodlust Axe + Oracle untuk sustain",
+    "latihan": "Latih anti-dash timing dan positioning"
+  },
+  {
+    "id": "combo_nance",
+    "hero": "Natan",
+    "combos": [
+      {
+        "name": "Clone Burst Combo",
+        "sequence": ["Electroflash Ray", "Transcendent Ward", "Quantum Charge"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Teamfight atau all-in",
+        "penjelasan": "Poke, shield, lalu clone burst.",
+        "tips": "Gunakan clone untuk damage dan reposition"
+      },
+      {
+        "name": "Safe Poke Combo",
+        "sequence": ["Transcendent Ward", "Electroflash Ray", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Shield, poke, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-engage"
+      }
+    ],
+    "item_combo_synergy": "Windtalker + Berserker's Fury untuk attack speed",
+    "latihan": "Latih clone positioning dan timing"
+  },
+  {
+    "id": "combo_aulus",
+    "hero": "Aulus",
+    "combos": [
+      {
+        "name": "Stack DPS Combo",
+        "sequence": ["The Axemaker", "Charge!", "The Power of Axe"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Easy",
+        "situasi": "Teamfight atau split push",
+        "penjelasan": "Poke, dash, lalu attack speed burst.",
+        "tips": "Stack attack speed untuk DPS maksimal"
+      },
+      {
+        "name": "Chase Combo",
+        "sequence": ["Charge!", "The Axemaker", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Chase enemy",
+        "penjelasan": "Dash, poke, lalu auto.",
+        "tips": "Jaga jarak agar stack aman"
+      }
+    ],
+    "item_combo_synergy": "Blade of Despair + Hunter Strike untuk damage",
+    "latihan": "Latih stack tracking dan positioning"
+  },
+  {
+    "id": "combo_floryn",
+    "hero": "Floryn",
+    "combos": [
+      {
+        "name": "Global Heal Combo",
+        "sequence": ["Dandelion Blessing", "Flower Power", "Flower Child"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Rendah",
+        "difficulty": "Easy",
+        "situasi": "Teamfight sustain",
+        "penjelasan": "Poke, slow, lalu heal global.",
+        "tips": "Ultimate untuk heal tim di seluruh map"
+      },
+      {
+        "name": "Roam Combo",
+        "sequence": ["Flower Power", "Dandelion Blessing", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Rendah",
+        "difficulty": "Easy",
+        "situasi": "Rotasi atau gank",
+        "penjelasan": "Slow, poke, lalu roam.",
+        "tips": "Prioritaskan heal untuk carry hero"
+      }
+    ],
+    "item_combo_synergy": "Oracle + Fleeting Time untuk CDR & heal boost",
+    "latihan": "Latih timing heal dan positioning aman"
+  },
+  {
+    "id": "combo_y.in",
+    "hero": "Yin",
+    "combos": [
+      {
+        "name": "1v1 Arena Combo",
+        "sequence": ["My Kung Fu is Strongest", "Step On It", "My Universe"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Isolate carry atau duel",
+        "penjelasan": "Poke, dash, lalu arena lock burst.",
+        "tips": "Ultimate untuk isolate enemy carry dan 1v1"
+      },
+      {
+        "name": "Chase Combo",
+        "sequence": ["Step On It", "My Kung Fu is Strongest", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Chase enemy",
+        "penjelasan": "Dash, poke, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-counter"
+      }
+    ],
+    "item_combo_synergy": "Blade of Despair + Hunter Strike untuk damage",
+    "latihan": "Latih arena positioning dan timing"
+  },
+  {
+    "id": "combo_melissa",
+    "hero": "Melissa",
+    "combos": [
+      {
+        "name": "Doll Control Combo",
+        "sequence": ["Doll Summon", "Marionette Control", "Puppet on a String"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Teamfight atau zone control",
+        "penjelasan": "Spawn doll, control, lalu CC burst.",
+        "tips": "Gunakan doll untuk vision dan poke aman"
+      },
+      {
+        "name": "Harass Combo",
+        "sequence": ["Marionette Control", "Doll Summon", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Control, spawn, lalu auto.",
+        "tips": "Jaga jarak agar doll tetap aktif"
+      }
+    ],
+    "item_combo_synergy": "Windtalker + Berserker's Fury untuk attack speed",
+    "latihan": "Latih doll positioning dan timing"
+  },
+  {
+    "id": "combo_xavier",
+    "hero": "Xavier",
+    "combos": [
+      {
+        "name": "Long Range Burst Combo",
+        "sequence": ["Transcendent Ward", "Infinite Extension", "Determination"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Poke atau teamfight",
+        "penjelasan": "Shield, pierce, lalu global burst.",
+        "tips": "Maximize range untuk poke aman dari jarak jauh"
+      },
+      {
+        "name": "Safe Poke Combo",
+        "sequence": ["Infinite Extension", "Transcendent Ward", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Pierce, shield, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-engage"
+      }
+    ],
+    "item_combo_synergy": "Holy Crystal + Divine Glaive untuk magic pen",
+    "latihan": "Latih range positioning dan timing"
+  },
+  {
+    "id": "combo_julian",
+    "hero": "Julian",
+    "combos": [
+      {
+        "name": "6-Skill Burst Combo",
+        "sequence": ["Q: Blade Dance", "W: Scythe", "E: Flamethrower"],
+        "notation": "Q → W → E",
+        "damage": "Very Tinggi",
+        "difficulty": "Very Hard",
+        "situasi": "All-in atau teamfight",
+        "penjelasan": "Rotate skill untuk maximize damage dan CC.",
+        "tips": "Kuasai 6 combo skill untuk damage maksimal"
+      },
+      {
+        "name": "Harass Combo",
+        "sequence": ["W: Scythe", "Q: Blade Dance", "Basic Attack"],
+        "notation": "W → Q → AA",
+        "damage": "Sedang",
+        "difficulty": "Hard",
+        "situasi": "Harass lane",
+        "penjelasan": "AOE poke, dash, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-engage"
+      }
+    ],
+    "item_combo_synergy": "Clock of Destiny + Holy Crystal untuk scaling",
+    "latihan": "Latih skill rotation dan timing"
+  },
+  {
+    "id": "combo_phylax",
+    "hero": "Phylax",
+    "combos": [
+      {
+        "name": "Shield Protect Combo",
+        "sequence": ["Energy Barrier", "Shield Bash", "Guardian's Will"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Teamfight atau peel",
+        "penjelasan": "Shield, bash, lalu area protect burst.",
+        "tips": "Shield ally untuk protect dari burst damage"
+      },
+      {
+        "name": "Initiate Combo",
+        "sequence": ["Guardian's Will", "Shield Bash", "Energy Barrier"],
+        "notation": "Ult → S2 → S1",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Start teamfight",
+        "penjelasan": "Protect area, bash, lalu shield.",
+        "tips": "Posisikan shield ke arah damage utama"
+      }
+    ],
+    "item_combo_synergy": "Dominance Ice + Athena's Shield untuk defense",
+    "latihan": "Latih shield timing dan positioning"
+  },
+  {
+    "id": "combo_fredrinn",
+    "hero": "Fredrinn",
+    "combos": [
+      {
+        "name": "Shield Convert Combo",
+        "sequence": ["Shattering Strike", "Crystal Shield", "Crystalize"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "All-in atau teamfight",
+        "penjelasan": "Poke, shield, lalu convert burst.",
+        "tips": "Convert shield jadi damage untuk burst"
+      },
+      {
+        "name": "Sustain Combo",
+        "sequence": ["Crystal Shield", "Shattering Strike", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Teamfight sustain",
+        "penjelasan": "Shield, poke, lalu auto.",
+        "tips": "Jaga shield tetap aktif"
+      }
+    ],
+    "item_combo_synergy": "Bloodlust Axe + Oracle untuk sustain",
+    "latihan": "Latih shield management dan timing"
+  },
+  {
+    "id": "combo_joy",
+    "hero": "Joy",
+    "combos": [
+      {
+        "name": "Mobility Burst Combo",
+        "sequence": ["Joy Ride", "Phantom Slash", "Joyful Dance"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Assassinate atau chase",
+        "penjelasan": "Dash, slash, lalu burst.",
+        "tips": "Gunakan mobility untuk in-out combat"
+      },
+      {
+        "name": "Safe Poke Combo",
+        "sequence": ["Phantom Slash", "Joy Ride", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Slash, dash, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-engage"
+      }
+    ],
+    "item_combo_synergy": "Blade of Despair + Hunter Strike untuk damage",
+    "latihan": "Latih mobility timing dan positioning"
+  },
+  {
+    "id": "combo_novaria",
+    "hero": "Novaria",
+    "combos": [
+      {
+        "name": "Cosmic Burst Combo",
+        "sequence": ["Cosmic Rift", "Stellar Flare", "Celestial Judgement"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Teamfight atau zone control",
+        "penjelasan": "Poke, flare, lalu cosmic burst.",
+        "tips": "Posisikan Ultimate untuk hit semua musuh"
+      },
+      {
+        "name": "Harass Combo",
+        "sequence": ["Stellar Flare", "Cosmic Rift", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Flare, poke, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-engage"
+      }
+    ],
+    "item_combo_synergy": "Clock of Destiny + Holy Crystal untuk scaling",
+    "latihan": "Latih zone positioning dan timing"
+  },
+  {
+    "id": "combo_aaron",
+    "hero": "Aamon",
+    "combos": [
+      {
+        "name": "Stealth Burst Combo",
+        "sequence": ["Soul Shards", "Invisible Armor", "Scythe of Torment"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Assassinate atau pick off",
+        "penjelasan": "Poke, stealth, lalu burst.",
+        "tips": "Gunakan invisibility untuk reposition"
+      },
+      {
+        "name": "Safe Poke Combo",
+        "sequence": ["Invisible Armor", "Soul Shards", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Stealth, poke, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-engage"
+      }
+    ],
+    "item_combo_synergy": "Blade of Despair + Malefic Roar untuk damage",
+    "latihan": "Latih timing stealth dan positioning"
+  },
+  {
+    "id": "combo_valentina",
+    "hero": "Valentina",
+    "combos": [
+      {
+        "name": "Copy Ultimate Combo",
+        "sequence": ["Arcane Dust", "Shadow Strike", "Imitate"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Hard",
+        "situasi": "Teamfight atau counter",
+        "penjelasan": "Poke, strike, lalu copy enemy ult.",
+        "tips": "Copy Ultimate musuh yang kuat untuk teamfight"
+      },
+      {
+        "name": "Harass Combo",
+        "sequence": ["Shadow Strike", "Arcane Dust", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Harass lane",
+        "penjelasan": "Strike, poke, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-engage"
+      }
+    ],
+    "item_combo_synergy": "Holy Crystal + Divine Glaive untuk magic pen",
+    "latihan": "Latih copy timing dan positioning"
+  },
+  {
+    "id": "combo_edith",
+    "hero": "Edith",
+    "combos": [
+      {
+        "name": "Transform Burst Combo",
+        "sequence": ["Overload", "Primal Force", "Primal Wrath"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Teamfight atau late game",
+        "penjelasan": "Shield, force, lalu marksman transform.",
+        "tips": "Transform ke marksman form untuk late game damage"
+      },
+      {
+        "name": "Peel Combo",
+        "sequence": ["Primal Wrath", "Primal Force", "Overload"],
+        "notation": "Ult → S2 → S1",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Lindungi carry",
+        "penjelasan": "Transform burst, force, lalu shield.",
+        "tips": "Prioritaskan safety carry"
+      }
+    ],
+    "item_combo_synergy": "Dominance Ice + Athena's Shield untuk defense",
+    "latihan": "Latih transform timing dan positioning"
+  },
+  {
+    "id": "combo_florin",
+    "hero": "Floryn",
+    "combos": [
+      {
+        "name": "Global Heal Combo",
+        "sequence": ["Dandelion Blessing", "Flower Power", "Flower Child"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Rendah",
+        "difficulty": "Easy",
+        "situasi": "Teamfight sustain",
+        "penjelasan": "Poke, slow, lalu heal global.",
+        "tips": "Prioritaskan heal untuk carry hero"
+      },
+      {
+        "name": "Roam Combo",
+        "sequence": ["Flower Power", "Dandelion Blessing", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Rendah",
+        "difficulty": "Easy",
+        "situasi": "Rotasi atau gank",
+        "penjelasan": "Slow, poke, lalu roam.",
+        "tips": "Selalu scout bush dan berikan vision"
+      }
+    ],
+    "item_combo_synergy": "Oracle + Fleeting Time untuk CDR & heal",
+    "latihan": "Latih timing heal dan positioning aman"
+  },
+  {
+    "id": "combo_yl",
+    "hero": "Yin",
+    "combos": [
+      {
+        "name": "1v1 Arena Combo",
+        "sequence": ["My Kung Fu is Strongest", "Step On It", "My Universe"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Very Tinggi",
+        "difficulty": "Medium",
+        "situasi": "Isolate carry atau duel",
+        "penjelasan": "Poke, dash, lalu arena lock burst.",
+        "tips": "Isolate enemy carry dengan Ultimate"
+      },
+      {
+        "name": "Chase Combo",
+        "sequence": ["Step On It", "My Kung Fu is Strongest", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Chase enemy",
+        "penjelasan": "Dash, poke, lalu auto.",
+        "tips": "Jaga jarak agar tidak di-counter"
+      }
+    ],
+    "item_combo_synergy": "Blade of Despair + Hunter Strike untuk damage",
+    "latihan": "Latih arena positioning dan timing"
+  },
+  {
+    "id": "combo_ming",
+    "hero": "Ming",
+    "combos": [
+      {
+        "name": "Chain Buff Combo",
+        "sequence": ["Agate", "Chain", "Link"],
+        "notation": "S1 → S2 → Ult",
+        "damage": "Sedang",
+        "difficulty": "Easy",
+        "situasi": "Protect carry atau teamfight",
+        "penjelasan": "Poke, chain, lalu link buff.",
+        "tips": "Link ke jungler atau marksman untuk maximize buff"
+      },
+      {
+        "name": "Roam Combo",
+        "sequence": ["Chain", "Agate", "Basic Attack"],
+        "notation": "S2 → S1 → AA",
+        "damage": "Rendah",
+        "difficulty": "Easy",
+        "situasi": "Rotasi atau gank",
+        "penjelasan": "Chain, poke, lalu roam.",
+        "tips": "Selalu scout bush dan berikan vision"
+      }
+    ],
+    "item_combo_synergy": "Fleeting Time + Oracle untuk CDR & sustain",
+    "latihan": "Latih link timing dan positioning"
+  }
+]

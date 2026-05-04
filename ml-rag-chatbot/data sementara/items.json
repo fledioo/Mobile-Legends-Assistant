@@ -1,0 +1,921 @@
+[
+  {
+    "id": "boots",
+    "name": "Boots",
+    "category": "Movement",
+    "tier": "T1",
+    "price": 250,
+    "stats": {
+      "movementSpeed": 20
+    },
+    "passive": null,
+    "description": "Item movement dasar untuk meningkatkan kecepatan gerak hero"
+  },
+  {
+    "id": "warrior_boots",
+    "name": "Warrior Boots",
+    "category": "Movement",
+    "tier": "T3",
+    "price": 720,
+    "stats": {
+      "physicalDefense": 18,
+      "movementSpeed": 40
+    },
+    "passive": {
+      "name": "Valor",
+      "effect": "Gain 4 extra Physical Defense for 3s when taking Physical Damage, up to 20"
+    },
+    "description": "Boots dengan physical defense, cocok untuk counter physical damage"
+  },
+  {
+    "id": "tough_boots",
+    "name": "Tough Boots",
+    "category": "Movement",
+    "tier": "T3",
+    "price": 700,
+    "stats": {
+      "magicDefense": 18,
+      "movementSpeed": 40
+    },
+    "passive": {
+      "name": "Fortitude",
+      "effect": "CC and Slow Duration Reduced by 30%"
+    },
+    "description": "Boots dengan magic defense dan reduce CC duration, counter crowd control"
+  },
+  {
+    "id": "swift_boots",
+    "name": "Swift Boots",
+    "category": "Movement",
+    "tier": "T3",
+    "price": 710,
+    "stats": {
+      "attackSpeed": "15%",
+      "movementSpeed": 40
+    },
+    "passive": null,
+    "description": "Boots dengan attack speed, cocok untuk Marksman dan Fighter"
+  },
+  {
+    "id": "arcane_boots",
+    "name": "Arcane Boots",
+    "category": "Movement",
+    "tier": "T3",
+    "price": 690,
+    "stats": {
+      "magicPower": 15,
+      "magicPenetration": "10%",
+      "movementSpeed": 40
+    },
+    "passive": null,
+    "description": "Boots dengan magic penetration untuk Mage"
+  },
+  {
+    "id": "magic_boots",
+    "name": "Magic Boots",
+    "category": "Movement",
+    "tier": "T3",
+    "price": 710,
+    "stats": {
+      "cooldownReduction": "10%",
+      "movementSpeed": 40
+    },
+    "passive": null,
+    "description": "Boots dengan cooldown reduction untuk spam skill"
+  },
+  {
+    "id": "demon_boots",
+    "name": "Demon Boots",
+    "category": "Movement",
+    "tier": "T3",
+    "price": 720,
+    "stats": {
+      "manaRegen": 10,
+      "movementSpeed": 40
+    },
+    "passive": {
+      "name": "Mysticism",
+      "effect": "Getting a kill or assist on an enemy Minion will restore 4% Mana"
+    },
+    "description": "Boots dengan mana regen untuk sustain mana"
+  },
+  {
+    "id": "rapid_boots",
+    "name": "Rapid Boots",
+    "category": "Movement",
+    "tier": "T3",
+    "price": 750,
+    "stats": {
+      "movementSpeed": 65
+    },
+    "passive": {
+      "name": "Side Effect",
+      "effect": "Loses 25 Movement Speed for 5s upon dealing or taking damage"
+    },
+    "description": "Boots dengan movement speed tertinggi, cocok untuk roaming"
+  },
+  {
+    "id": "blade_of_despair",
+    "name": "Blade of Despair",
+    "category": "Attack",
+    "tier": "T3",
+    "price": 3010,
+    "stats": {
+      "physicalAttack": 160,
+      "movementSpeed": "5%"
+    },
+    "passive": {
+      "name": "Despair",
+      "effect": "Dealing damage to non-Minion enemies below 50% HP grants 25% extra Physical Attack for 2 seconds"
+    },
+    "description": "Item physical attack tertinggi dengan bonus damage vs enemy low HP"
+  },
+  {
+    "id": "berserkers_fury",
+    "name": "Berserker's Fury",
+    "category": "Attack",
+    "tier": "T3",
+    "price": 2390,
+    "stats": {
+      "physicalAttack": 65,
+      "criticalChance": "25%"
+    },
+    "passive": {
+      "name": "Doom",
+      "effect": "Critical strikes grant 5% extra Physical Attack for 2s"
+    },
+    "description": "Item critical damage untuk Marksman dan Assassin"
+  },
+  {
+    "id": "endless_battle",
+    "name": "Endless Battle",
+    "category": "Attack",
+    "tier": "T3",
+    "price": 2330,
+    "stats": {
+      "physicalAttack": 60,
+      "hp": 250,
+      "cooldownReduction": "10%",
+      "lifesteal": "2%",
+      "manaRegen": 2
+    },
+    "passive": {
+      "name": "Divine Justice",
+      "effect": "After casting a skill, the next Basic Attack within 3 seconds deals 60% Physical Attack as extra True Damage (1.5s cooldown)"
+    },
+    "description": "Item all-around untuk Fighter dengan true damage"
+  },
+  {
+    "id": "malefic_roar",
+    "name": "Malefic Roar",
+    "category": "Attack",
+    "tier": "T3",
+    "price": 2060,
+    "stats": {
+      "physicalAttack": 60
+    },
+    "passive": {
+      "name": "Armor Buster",
+      "effect": "Gains 0.1% extra Physical Penetration for each point of the enemy's Physical Defense, capped at 30%"
+    },
+    "description": "Item physical penetration untuk counter tank"
+  },
+  {
+    "id": "windtalker",
+    "name": "Windtalker",
+    "category": "Attack",
+    "tier": "T3",
+    "price": 1880,
+    "stats": {
+      "attackSpeed": "35%",
+      "criticalChance": "20%",
+      "movementSpeed": 20
+    },
+    "passive": {
+      "name": "Typhoon",
+      "effect": "Every 5-2s, next Basic Attack hits up to 3 enemies for 150-362 Magic Damage (can crit, 200% vs Minions)"
+    },
+    "description": "Item attack speed dengan AoE damage untuk farming cepat"
+  },
+  {
+    "id": "hunter_strike",
+    "name": "Hunter Strike",
+    "category": "Attack",
+    "tier": "T3",
+    "price": 2010,
+    "stats": {
+      "physicalAttack": 80,
+      "cooldownReduction": "10%"
+    },
+    "passive": {
+      "name": "Retribution",
+      "effect": "Dealing damage 5 times grants 50% Movement Speed for 3s (8s cooldown)"
+    },
+    "description": "Item untuk Assassin dengan movement speed burst"
+  },
+  {
+    "id": "blade_of_heptaseas",
+    "name": "Blade of the Heptaseas",
+    "category": "Attack",
+    "tier": "T3",
+    "price": 1950,
+    "stats": {
+      "physicalAttack": 70,
+      "hp": 250
+    },
+    "passive": {
+      "name": "Ambush",
+      "effect": "If no damage taken/dealt within 5s, next Basic Attack deals 160 (+40% Physical Attack) damage and 40% slow for 1.5s"
+    },
+    "description": "Item burst damage untuk Assassin dan Fighter"
+  },
+  {
+    "id": "sea_halberd",
+    "name": "Sea Halberd",
+    "category": "Attack",
+    "tier": "T3",
+    "price": 2050,
+    "stats": {
+      "physicalAttack": 80,
+      "attackSpeed": "20%"
+    },
+    "passive": {
+      "name": "Lifebane",
+      "effect": "Reduces target's Shield and HP Regen effects to 60% for 3s"
+    },
+    "description": "Item counter regen dan shield seperti Uranus, Esmeralda"
+  },
+  {
+    "id": "rose_gold_meteor",
+    "name": "Rose Gold Meteor",
+    "category": "Attack",
+    "tier": "T3",
+    "price": 1820,
+    "stats": {
+      "physicalAttack": 30,
+      "attackSpeed": "20%",
+      "lifesteal": "10%"
+    },
+    "passive": {
+      "name": "Dragon Scale",
+      "effect": "Every 4 Physical Attack increases Hybrid Defense by 1, up to 50"
+    },
+    "description": "Item sustain untuk Fighter dengan hybrid defense"
+  },
+  {
+    "id": "demon_hunter_sword",
+    "name": "Demon Hunter Sword",
+    "category": "Attack",
+    "tier": "T3",
+    "price": 2180,
+    "stats": {
+      "physicalAttack": 35,
+      "attackSpeed": "20%",
+      "lifesteal": "8%"
+    },
+    "passive": {
+      "name": "Devour",
+      "effect": "Basic attacks deal 8% of target's current HP as extra Physical Damage (capped at 60 vs Minions)"
+    },
+    "description": "Item anti-tank dengan damage berdasarkan HP musuh"
+  },
+  {
+    "id": "golden_staff",
+    "name": "Golden Staff",
+    "category": "Attack",
+    "tier": "T3",
+    "price": 2000,
+    "stats": {
+      "physicalAttack": 55,
+      "attackSpeed": "15%"
+    },
+    "passive": {
+      "name": "Swift",
+      "effect": "Every 1% critical chance increases attack speed by 1%"
+    },
+    "description": "Item attack speed untuk Marksman seperti Claude, Karrie"
+  },
+  {
+    "id": "corrosion_scythe",
+    "name": "Corrosion Scythe",
+    "category": "Attack",
+    "tier": "T3",
+    "price": 2050,
+    "stats": {
+      "physicalAttack": 30,
+      "attackSpeed": "30%",
+      "movementSpeed": "5%"
+    },
+    "passive": {
+      "name": "Corrosion",
+      "effect": "Basic Attacks gain 80 Physical Damage and slow 8% for 1.5s. Stacks up to 5 times"
+    },
+    "description": "Item slow dan attack speed untuk kiting"
+  },
+  {
+    "id": "wind_of_nature",
+    "name": "Wind of Nature",
+    "category": "Attack",
+    "tier": "T3",
+    "price": 1910,
+    "stats": {
+      "physicalAttack": 30,
+      "attackSpeed": "20%",
+      "lifesteal": "10%"
+    },
+    "active": {
+      "name": "Wind Chant",
+      "effect": "Immune to all Physical Damage for 2s (Duration halved for non-Marksmen)"
+    },
+    "description": "Item counter physical burst untuk Marksman"
+  },
+  {
+    "id": "haas_claws",
+    "name": "Haas's Claws",
+    "category": "Attack",
+    "tier": "T3",
+    "price": 2020,
+    "stats": {
+      "physicalAttack": 40,
+      "attackSpeed": "15%",
+      "criticalChance": "20%"
+    },
+    "passive": {
+      "name": "Frenzy",
+      "effect": "Critical strikes grant 20% extra Attack Speed for 2s"
+    },
+    "description": "Item attack speed dan crit untuk sustained damage"
+  },
+  {
+    "id": "great_dragon_spear",
+    "name": "Great Dragon Spear",
+    "category": "Attack",
+    "tier": "T3",
+    "price": 2140,
+    "stats": {
+      "physicalAttack": 70,
+      "criticalChance": "20%",
+      "cooldownReduction": "10%"
+    },
+    "passive": {
+      "name": "Supreme Warrior",
+      "effect": "After casting Ultimate, increase Movement Speed by 30% for 7.5s (15s cooldown)"
+    },
+    "description": "Item untuk Fighter dengan mobility setelah ultimate"
+  },
+  {
+    "id": "war_axe",
+    "name": "War Axe",
+    "category": "Attack",
+    "tier": "T3",
+    "price": 2100,
+    "stats": {
+      "physicalAttack": 35,
+      "hp": 400,
+      "cooldownReduction": "10%",
+      "spellVamp": "1%"
+    },
+    "passive": {
+      "name": "Fighting Spirit",
+      "effect": "Attacks grant 12 Physical Attack/sec for 4s (max 6 stacks). At full stacks, deals 10% extra True Damage"
+    },
+    "description": "Item scaling damage untuk Fighter dan Assassin"
+  },
+  {
+    "id": "malefic_gun",
+    "name": "Malefic Gun",
+    "category": "Attack",
+    "tier": "T3",
+    "price": 2120,
+    "stats": {
+      "physicalAttack": 40,
+      "attackSpeed": "20%"
+    },
+    "passive": {
+      "name": "Armor Buster",
+      "effect": "Increase Physical Penetration by 30%"
+    },
+    "description": "Item physical penetration untuk counter armor tinggi"
+  },
+  {
+    "id": "holy_crystal",
+    "name": "Holy Crystal",
+    "category": "Magic",
+    "tier": "T3",
+    "price": 3000,
+    "stats": {
+      "magicPower": 185
+    },
+    "passive": {
+      "name": "Mystery",
+      "effect": "Gains 21%-35% extra Magic Power (Scales with level)"
+    },
+    "description": "Item magic power tertinggi untuk burst damage Mage"
+  },
+  {
+    "id": "lightning_truncheon",
+    "name": "Lightning Truncheon",
+    "category": "Magic",
+    "tier": "T3",
+    "price": 2250,
+    "stats": {
+      "magicPower": 475,
+      "cooldownReduction": "10%"
+    },
+    "passive": {
+      "name": "Resonate",
+      "effect": "Every 6s, next skill deals 120% Magic Power extra Magic Damage to up to 3 enemies and grants 30% Movement Speed"
+    },
+    "description": "Item burst damage dengan AoE untuk Mage"
+  },
+  {
+    "id": "clock_of_destiny",
+    "name": "Clock of Destiny",
+    "category": "Magic",
+    "tier": "T3",
+    "price": 2030,
+    "stats": {
+      "magicPower": 445,
+      "hp": 400,
+      "cooldownReduction": "10%"
+    },
+    "passive": {
+      "name": "Destiny",
+      "effect": "Gains 4.5(+0.5*Hero Level) Hybrid Defense for 5s when dealing Magic Damage (max 6 stacks)"
+    },
+    "description": "Item sustain untuk Mage dengan scaling defense"
+  },
+  {
+    "id": "blood_wings",
+    "name": "Blood Wings",
+    "category": "Magic",
+    "tier": "T3",
+    "price": 2100,
+    "stats": {
+      "magicPower": 90
+    },
+    "passive": {
+      "name": "Guard",
+      "effect": "Gain 800(+100 Total Magic Power) Shield that regenerates 20s after damage. Grants 30 Movement Speed, 150 MS for 1s after shield breaks"
+    },
+    "description": "Item survivability untuk Mage dengan shield"
+  },
+  {
+    "id": "divine_glaive",
+    "name": "Divine Glaive",
+    "category": "Magic",
+    "tier": "T3",
+    "price": 1970,
+    "stats": {
+      "magicPower": 65
+    },
+    "passive": {
+      "name": "Spellbreaker",
+      "effect": "Gains 0.1% extra Magic Penetration for each point of enemy's Magic Defense, capped at 20%"
+    },
+    "description": "Item magic penetration untuk counter magic defense tinggi"
+  },
+  {
+    "id": "genius_wand",
+    "name": "Genius Wand",
+    "category": "Magic",
+    "tier": "T3",
+    "price": 2000,
+    "stats": {
+      "magicPower": 75,
+      "movementSpeed": "5%"
+    },
+    "passive": {
+      "name": "Magic",
+      "effect": "Dealing damage reduces enemy Magic Defense by 3+(0.3*Hero Level) for 2s (max 3 stacks)"
+    },
+    "description": "Item magic penetration untuk poke Mage"
+  },
+  {
+    "id": "glowing_wand",
+    "name": "Glowing Wand",
+    "category": "Magic",
+    "tier": "T3",
+    "price": 2150,
+    "stats": {
+      "magicPower": 75,
+      "hp": 400,
+      "movementSpeed": "5%"
+    },
+    "passive": {
+      "name": "Scorch",
+      "effect": "Burn target for 3s, dealing Magic Damage equal to 1.5% of target's Max HP per second"
+    },
+    "description": "Item burn damage untuk counter HP tinggi"
+  },
+  {
+    "id": "ice_queen_wand",
+    "name": "Ice Queen Wand",
+    "category": "Magic",
+    "tier": "T3",
+    "price": 2040,
+    "stats": {
+      "magicPower": 75,
+      "hp": 300,
+      "spellVamp": "10%",
+      "movementSpeed": "7%"
+    },
+    "passive": {
+      "name": "Ice Bound",
+      "effect": "When skill deals damage to enemy hero, slows them by 10% for 2s (max 3 stacks, 1s cooldown)"
+    },
+    "description": "Item slow untuk kiting dan control"
+  },
+  {
+    "id": "concentrated_energy",
+    "name": "Concentrated Energy",
+    "category": "Magic",
+    "tier": "T3",
+    "price": 2020,
+    "stats": {
+      "magicPower": 70,
+      "hp": 400
+    },
+    "passive": {
+      "name": "Recharge",
+      "effect": "Increases Magic Power by 5 after dealing Magic Damage (max 6 stacks). At full stacks, increases Magic Damage by 12% for 3s"
+    },
+    "description": "Item scaling magic power untuk sustained damage"
+  },
+  {
+    "id": "enchanted_talisman",
+    "name": "Enchanted Talisman",
+    "category": "Magic",
+    "tier": "T3",
+    "price": 1870,
+    "stats": {
+      "magicPower": 50,
+      "hp": 250,
+      "cooldownReduction": "20%"
+    },
+    "passive": {
+      "name": "Mana Spring",
+      "effect": "Regenerates 15% of Max Mana every 10s"
+    },
+    "description": "Item cooldown reduction dan mana sustain"
+  },
+  {
+    "id": "feather_of_heaven",
+    "name": "Feather of Heaven",
+    "category": "Magic",
+    "tier": "T3",
+    "price": 2030,
+    "stats": {
+      "magicPower": 55,
+      "attackSpeed": "20%",
+      "cooldownReduction": "5%",
+      "lifesteal": "1%"
+    },
+    "passive": {
+      "name": "Affliction",
+      "effect": "Basic Attacks deal extra 50(+30% Magic Power) Magic Damage"
+    },
+    "description": "Item hybrid untuk Mage dengan basic attack"
+  },
+  {
+    "id": "starlium_scythe",
+    "name": "Starlium Scythe",
+    "category": "Magic",
+    "tier": "T3",
+    "price": 2220,
+    "stats": {
+      "magicPower": 76,
+      "cooldownReduction": "10%",
+      "manaRegen": 6
+    },
+    "passive": {
+      "name": "Crisis",
+      "effect": "In 3s after using skill, next Basic Attack deals 100(+100% Total Magic Power) True Damage (1.5s cooldown)"
+    },
+    "description": "Item true damage untuk Mage assassin"
+  },
+  {
+    "id": "wishing_lantern",
+    "name": "Wishing Lantern",
+    "category": "Magic",
+    "tier": "T3",
+    "price": 2250,
+    "stats": {
+      "magicPower": 475,
+      "cooldownReduction": "10%"
+    },
+    "passive": {
+      "name": "Butterfly Goddess",
+      "effect": "For every 800 Magic Damage dealt to enemy hero, summons Butterfly Goddess to deal 10% of their current HP as Magic Damage"
+    },
+    "description": "Item scaling damage untuk Mage late game"
+  },
+  {
+    "id": "flask_of_oasis",
+    "name": "Flask of the Oasis",
+    "category": "Magic",
+    "tier": "T3",
+    "price": 1850,
+    "stats": {
+      "magicPower": 60,
+      "hp": 300,
+      "cooldownReduction": "10%"
+    },
+    "passive": {
+      "name": "Blessing",
+      "effect": "When casting healing/shield skill on target below 35% HP, grants shield (100*Hero Level) for 3s and reduces cooldown by 2s (60s cooldown per target)"
+    },
+    "description": "Item untuk support healer dan shield"
+  },
+  {
+    "id": "guardian_helmet",
+    "name": "Guardian Helmet",
+    "category": "Defense",
+    "tier": "T3",
+    "price": 2200,
+    "stats": {
+      "hp": 1550,
+      "hpRegen": 20
+    },
+    "passive": {
+      "name": "Recovery",
+      "effect": "Regenerates 2.5% Max HP per second (reduced to 0.5% after taking damage)"
+    },
+    "description": "Item HP regen tertinggi untuk sustain"
+  },
+  {
+    "id": "cursed_helmet",
+    "name": "Cursed Helmet",
+    "category": "Defense",
+    "tier": "T3",
+    "price": 1910,
+    "stats": {
+      "hp": 1200,
+      "magicDefense": 20
+    },
+    "passive": {
+      "name": "Burning Soul",
+      "effect": "Deals Magic Damage equal to 1.2% of hero's Max HP per second to nearby enemies (125-350 vs creeps)"
+    },
+    "description": "Item burn damage untuk tank dan farming"
+  },
+  {
+    "id": "athenas_shield",
+    "name": "Athena's Shield",
+    "category": "Defense",
+    "tier": "T3",
+    "price": 2150,
+    "stats": {
+      "hp": 902,
+      "magicDefense": 48,
+      "hpRegen": 2
+    },
+    "passive": {
+      "name": "Shield",
+      "effect": "Upon taking Magic Damage, gains 25% Magic Damage Reduction for 3s. Regains 5s after leaving combat"
+    },
+    "description": "Item counter magic burst damage"
+  },
+  {
+    "id": "oracle",
+    "name": "Oracle",
+    "category": "Defense",
+    "tier": "T3",
+    "price": 1860,
+    "stats": {
+      "hp": 850,
+      "physicalDefense": 20,
+      "magicDefense": 20,
+      "cooldownReduction": "10%"
+    },
+    "passive": {
+      "name": "Bless",
+      "effect": "Received Shield and HP Regen effects are increased by 30%"
+    },
+    "description": "Item untuk amplify heal dan shield"
+  },
+  {
+    "id": "radiant_armor",
+    "name": "Radiant Armor",
+    "category": "Defense",
+    "tier": "T3",
+    "price": 1880,
+    "stats": {
+      "hp": 962,
+      "magicDefense": 40,
+      "hpRegen": 12
+    },
+    "passive": {
+      "name": "Holy Blessing",
+      "effect": "Taking Magic Damage grants 6-20 Magic Defense for 5s (max 6 stacks)"
+    },
+    "description": "Item stacking magic defense untuk sustain"
+  },
+  {
+    "id": "antique_cuirass",
+    "name": "Antique Cuirass",
+    "category": "Defense",
+    "tier": "T3",
+    "price": 2170,
+    "stats": {
+      "hp": 924,
+      "physicalDefense": 40,
+      "hpRegen": 4
+    },
+    "passive": {
+      "name": "Deter",
+      "effect": "When hit by a skill, reduces attacker's Physical Damage by 6% for 2s (max 3 stacks)"
+    },
+    "description": "Item counter physical damage dealer"
+  },
+  {
+    "id": "blade_armor",
+    "name": "Blade Armor",
+    "category": "Defense",
+    "tier": "T3",
+    "price": 1910,
+    "stats": {
+      "physicalDefense": 80
+    },
+    "passive": {
+      "name": "Bladed Armor",
+      "effect": "When struck by Basic Attack, deals Physical Damage equal to 30% of incoming damage plus 20% Physical Defense and slows 15% for 1s"
+    },
+    "description": "Item counter marksman dan basic attack"
+  },
+  {
+    "id": "dominance_ice",
+    "name": "Dominance Ice",
+    "category": "Defense",
+    "tier": "T3",
+    "price": 2010,
+    "stats": {
+      "physicalDefense": 40,
+      "magicDefense": 40,
+      "movementSpeed": "5%"
+    },
+    "passive": {
+      "name": "Arctic Cold",
+      "effect": "Taking damage reduces attacker's Attack Speed to 80% for 1s"
+    },
+    "description": "Item counter attack speed dan regen"
+  },
+  {
+    "id": "thunder_belt",
+    "name": "Thunder Belt",
+    "category": "Defense",
+    "tier": "T3",
+    "price": 1820,
+    "stats": {
+      "hp": 800,
+      "physicalDefense": 15,
+      "magicDefense": 15,
+      "movementSpeed": "1%"
+    },
+    "passive": {
+      "name": "Thunderbolt",
+      "effect": "Every 4s, next Basic Attack deals 50(+100% Total Physical Defense)(+100% Total Magic Defense) True Damage and slows 99%. Permanently increases Hybrid Defense by 1 per hit"
+    },
+    "description": "Item true damage dan tankiness untuk Fighter/Tank"
+  },
+  {
+    "id": "immortality",
+    "name": "Immortality",
+    "category": "Defense",
+    "tier": "T3",
+    "price": 2120,
+    "stats": {
+      "hp": 850,
+      "physicalDefense": 15
+    },
+    "passive": {
+      "name": "Immortal",
+      "effect": "Revives 2.5s after death with 16% Max HP and 220-1200 shield for 3s (210s cooldown)"
+    },
+    "description": "Item revive untuk second chance di teamfight"
+  },
+  {
+    "id": "brute_force_breastplate",
+    "name": "Brute Force Breastplate",
+    "category": "Defense",
+    "tier": "T3",
+    "price": 1870,
+    "stats": {
+      "hp": 600,
+      "physicalDefense": 20,
+      "cooldownReduction": "10%"
+    },
+    "passive": {
+      "name": "Brute Force",
+      "effect": "Each second after dealing damage, gain 6 Adaptive Attack and 2% Movement Speed for 4s (max 6 stacks). At full stacks, gain 15% Control Duration Reduction"
+    },
+    "description": "Item stacking untuk Fighter dengan mobility"
+  },
+  {
+    "id": "queens_wings",
+    "name": "Queen's Wings",
+    "category": "Defense",
+    "tier": "T3",
+    "price": 2250,
+    "stats": {
+      "physicalAttack": 30,
+      "hp": 750,
+      "cooldownReduction": "10%",
+      "spellVamp": "10%"
+    },
+    "passive": {
+      "name": "Demonize",
+      "effect": "When HP drops below 40%, gains 30% Damage Reduction for 3s and reduces skill cooldown by 2s (60s cooldown)"
+    },
+    "description": "Item survivability untuk late game teamfight"
+  },
+  {
+    "id": "winter_crown",
+    "name": "Winter Crown",
+    "category": "Adaptive",
+    "tier": "T3",
+    "price": 1910,
+    "stats": {
+      "adaptiveAttack": 45,
+      "hp": 400,
+      "cooldownReduction": "5%"
+    },
+    "active": {
+      "name": "Frozen",
+      "effect": "Become frozen, untargetable, and immune to damage for 2s (100s cooldown). Cannot move or cast skills"
+    },
+    "description": "Item active untuk avoid burst damage"
+  },
+  {
+    "id": "fleeting_time",
+    "name": "Fleeting Time",
+    "category": "Adaptive",
+    "tier": "T3",
+    "price": 2050,
+    "stats": {
+      "adaptiveAttack": 30,
+      "hp": 600,
+      "cooldownReduction": "15%"
+    },
+    "passive": {
+      "name": "Timestream",
+      "effect": "Hero kills or assists reduce Ultimate's current cooldown by 30%"
+    },
+    "description": "Item untuk spam ultimate di teamfight"
+  },
+  {
+    "id": "sky_piercer",
+    "name": "Sky Piercer",
+    "category": "Adaptive",
+    "tier": "T3",
+    "price": 1500,
+    "stats": {
+      "adaptiveAttack": 60,
+      "movementSpeed": 15
+    },
+    "passive": {
+      "name": "Lethality",
+      "effect": "After dealing damage, executes enemy if HP below 4%. Gains 10 Lifebane stacks per kill, loses 30% per death. Each stack increases execute threshold by 0.1% (max 80 stacks)"
+    },
+    "description": "Item execute untuk snowball dan late game"
+  },
+  {
+    "id": "flame_retribution",
+    "name": "Flame Retribution",
+    "category": "Jungle",
+    "tier": "T1",
+    "price": 0,
+    "stats": null,
+    "active": {
+      "name": "Flame Retribution",
+      "effect": "Retribution damage vs creeps/minions increased to 150%. Vs enemy hero: deals 100 True Damage and steals 58-100 Physical Attack and Magic Power for 4s"
+    },
+    "description": "Jungle item untuk counter damage"
+  },
+  {
+    "id": "ice_retribution",
+    "name": "Ice Retribution",
+    "category": "Jungle",
+    "tier": "T1",
+    "price": 0,
+    "stats": null,
+    "active": {
+      "name": "Ice Retribution",
+      "effect": "Retribution damage vs creeps/minions increased to 150%. Vs enemy hero: deals 100 True Damage and steals 72-100 Movement Speed for 4s"
+    },
+    "description": "Jungle item untuk slow dan chase"
+  },
+  {
+    "id": "bloody_retribution",
+    "name": "Bloody Retribution",
+    "category": "Jungle",
+    "tier": "T1",
+    "price": 0,
+    "stats": null,
+    "active": {
+      "name": "Bloody Retribution",
+      "effect": "Retribution damage vs creeps/minions increased to 150%. Vs enemy hero: deals 100 True Damage and steals HP equal to 250+20% extra HP for 4s"
+    },
+    "description": "Jungle item untuk sustain dan lifesteal"
+  }
+]

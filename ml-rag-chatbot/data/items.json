@@ -1,0 +1,404 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Blade of Despair",
+      "category": "Physical Attack",
+      "stats": { "Physical Attack": 160 },
+      "passive": "Despair: Dealing damage to enemies in abnormal state increases Physical Attack by 25% for 2s.",
+      "function": "Item serangan fisik tertinggi di game. Cocok untuk hero yang bisa memicu CC atau melawan hero yang punya status effect."
+    },
+    {
+      "id": 2,
+      "name": "Berserker's Fury",
+      "category": "Physical Attack",
+      "stats": { "Physical Attack": 65, "Critical Chance": "25%" },
+      "passive": "Doom: Critical hits increase Physical Attack by 40% for 2s.",
+      "function": "Meningkatkan critical strike damage. Wajib untuk Marksman yang mengandalkan critical hit."
+    },
+    {
+      "id": 3,
+      "name": "Windtalker",
+      "category": "Physical Attack",
+      "stats": { "Attack Speed": "40%", "Movement Speed": 20, "Critical Chance": "20%" },
+      "passive": "Every 3 basic attacks trigger a gust dealing magic damage to 3 enemies.",
+      "function": "Item serangan kecepatan untuk Marksman. Efektif untuk wave clear dan AoE damage ringan."
+    },
+    {
+      "id": 4,
+      "name": "Scarlet Phantom",
+      "category": "Physical Attack",
+      "stats": { "Physical Attack": 30, "Attack Speed": "40%", "Critical Chance": "25%" },
+      "passive": "Frenzy: Critical hits increase Attack Speed by 30% and Critical Chance by 5% for 2s.",
+      "function": "Memicu frenzy saat critical. Digunakan bersama Berserker's Fury untuk build full critical Marksman."
+    },
+    {
+      "id": 5,
+      "name": "Malefic Roar",
+      "category": "Physical Attack",
+      "stats": { "Physical Attack": 60, "Physical Penetration": "40%" },
+      "passive": "Armor Buster: Physical PEN increases by 0.1% for every 1 Physical DEF the target has, max 20%.",
+      "function": "Item penetrasi armor terbaik. Counter hero tank atau hero dengan Physical DEF tinggi."
+    },
+    {
+      "id": 6,
+      "name": "Demon Hunter Sword",
+      "category": "Physical Attack",
+      "stats": { "Physical Attack": 35, "Attack Speed": "25%" },
+      "passive": "Devour: Basic attacks deal 9% of target's current HP as additional physical damage.",
+      "function": "Counter hero HP tinggi (tank/fighter). Efektif karena damage berdasarkan HP current musuh."
+    },
+    {
+      "id": 7,
+      "name": "Golden Staff",
+      "category": "Physical Attack",
+      "stats": { "Physical Attack": 65, "Attack Speed": "30%" },
+      "passive": "Swift: Every basic attack stack Swift. At 2 stacks, next attack triggers unique effect twice.",
+      "function": "Sangat kuat dengan hero yang punya efek serangan basic unik (Karrie, Wanwan, Masha)."
+    },
+    {
+      "id": 8,
+      "name": "Corrosion Scythe",
+      "category": "Physical Attack",
+      "stats": { "Physical Attack": 50, "Attack Speed": "25%" },
+      "passive": "Corrosion: Basic attacks slow enemy movement by 8%, stackable up to 5 times.",
+      "function": "Memberikan slow pada musuh lewat basic attack. Bagus untuk kiting dan chase."
+    },
+    {
+      "id": 9,
+      "name": "Haas's Claws",
+      "category": "Physical Attack",
+      "stats": { "Physical Attack": 70, "Physical Lifesteal": "20%" },
+      "passive": "Insanity: When HP < 50%, gain additional 15% Physical Lifesteal.",
+      "function": "Item lifesteal utama. Memberikan sustain dalam pertarungan panjang untuk Fighter dan Marksman."
+    },
+    {
+      "id": 10,
+      "name": "Endless Battle",
+      "category": "Physical Attack",
+      "stats": { "Physical Attack": 65, "HP": 250, "Mana": 300, "Movement Speed": "5%", "CDR": "10%", "Physical Lifesteal": "15%" },
+      "passive": "Divine Justice: After using skill, next basic attack deals 60% Physical Attack as True Damage.",
+      "function": "Item serba ada untuk Fighter. True damage dari basic attack pasca skill sangat efektif."
+    },
+    {
+      "id": 11,
+      "name": "Hunter Strike",
+      "category": "Physical Attack",
+      "stats": { "Physical Attack": 80, "CDR": "10%" },
+      "passive": "Nimble: After hitting enemy with skill 5 times, gain 30% Movement Speed for 3s.",
+      "function": "Item CDR dan burst. Cocok untuk hero assassin yang perlu kejar musuh."
+    },
+    {
+      "id": 12,
+      "name": "Blade of the Heptaseas",
+      "category": "Physical Attack",
+      "stats": { "Physical Attack": 75, "HP": 300 },
+      "passive": "Ambush: If no damage in 5s, next basic attack deals bonus Physical Damage.",
+      "function": "Memberikan burst damage dari basic attack setelah idle. Cocok untuk Assassin yang mengintai."
+    },
+    {
+      "id": 13,
+      "name": "War Axe",
+      "category": "Physical Attack",
+      "stats": { "Physical Attack": 55, "HP": 550, "CDR": "10%" },
+      "passive": "Fighting Spirit: Each second in combat stacks Physical Attack and Physical Penetration, max 8 stacks.",
+      "function": "Item terbaik untuk Fighter EXP lane. Semakin lama fight, semakin kuat hero yang memakainya."
+    },
+    {
+      "id": 14,
+      "name": "Calamity Reaper",
+      "category": "Magic Attack",
+      "stats": { "Magic Power": 70, "Mana": 300, "CDR": "10%", "Movement Speed": "6%" },
+      "passive": "Calamity: After casting skill, next basic attack deals True Damage equal to 120% Base ATK + 15% Magic Power.",
+      "function": "Memberikan true damage lewat basic attack. Cocok untuk mage yang sering pakai basic attack (Harley, Cyclops)."
+    },
+    {
+      "id": 15,
+      "name": "Lightning Truncheon",
+      "category": "Magic Attack",
+      "stats": { "Magic Power": 75, "Mana": 300, "CDR": "10%" },
+      "passive": "Resonate: Every 6s, next skill bounces lightning to max 3 enemies dealing 20-1000 Magic Damage.",
+      "function": "Memberikan damage AoE dari mana. Cocok untuk mage yang sering casting (Cecilion, Cyclops)."
+    },
+    {
+      "id": 16,
+      "name": "Holy Crystal",
+      "category": "Magic Attack",
+      "stats": { "Magic Power": 100 },
+      "passive": "Mystery: Magic Attack is increased by 21-35% (scales with level).",
+      "function": "Item magic power pure terkuat. Wajib untuk mage burst yang butuh damage tinggi di late game."
+    },
+    {
+      "id": 17,
+      "name": "Divine Glaive",
+      "category": "Magic Attack",
+      "stats": { "Magic Power": 65, "Magic Penetration": "35%" },
+      "passive": "Spellbreaker: For every 50 Magic Defense enemy has, gain extra 4% Magic Penetration, max 20%.",
+      "function": "Counter hero dengan Magic DEF tinggi. Wajib ketika musuh beli banyak item magic resist."
+    },
+    {
+      "id": 18,
+      "name": "Glowing Wand",
+      "category": "Magic Attack",
+      "stats": { "Magic Power": 75, "HP": 400, "Movement Speed": "5%" },
+      "passive": "Scorch: Deals burn damage equal to 1.5% of target's max HP per second for 3s (max 60 on minions).",
+      "function": "Counter hero HP tinggi dengan burn damage. Juga memberikan sedikit survivability dari HP bonus."
+    },
+    {
+      "id": 19,
+      "name": "Ice Queen Wand",
+      "category": "Magic Attack",
+      "stats": { "Magic Power": 75, "HP": 150, "Mana": 150, "Movement Speed": "7%" },
+      "passive": "Ice Bound: Skills slow enemy movement by 15%, stackable up to 2 times.",
+      "function": "Mage utility dengan slow. Sangat efektif untuk mage yang butuh chase musuh atau mencegah escape."
+    },
+    {
+      "id": 20,
+      "name": "Necklace of Durance",
+      "category": "Magic Attack",
+      "stats": { "Magic Power": 60, "CDR": "10%", "Magic Lifesteal": "10%" },
+      "passive": "Life Drain: Reduces shield and regen effect of hit enemies by 50% for 3s.",
+      "function": "Counter hero lifesteal dan heal. Wajib melawan Estes, Alice, Uranus, atau hero dengan sustain tinggi."
+    },
+    {
+      "id": 21,
+      "name": "Genius Wand",
+      "category": "Magic Attack",
+      "stats": { "Magic Power": 75, "Movement Speed": "5%" },
+      "passive": "Magic: Dealing damage reduces target's Magic DEF by 3-10, stacks up to 3 times.",
+      "function": "Item poke mage terbaik. Semakin sering hit, semakin berkurang DEF musuh. Cocok untuk Harley, Lylia."
+    },
+    {
+      "id": 22,
+      "name": "Blood Wings",
+      "category": "Magic Attack",
+      "stats": { "Magic Power": 150, "HP": 150 },
+      "passive": "Covenant: Adds 1.5 HP for every 1 point of Magic Power.",
+      "function": "Item late game mage untuk HP dan damage. Sangat efektif saat sudah full build magic power."
+    },
+    {
+      "id": 23,
+      "name": "Fleeting Time",
+      "category": "Magic Attack",
+      "stats": { "Magic Power": 70, "Mana": 350, "CDR": "15%" },
+      "passive": "Timestream: After killing hero/assist, reduce ultimate cooldown by 30%.",
+      "function": "Mage dengan ultimate kuat bisa spam ultimate lebih sering. Cocok untuk Kagura, Luo Yi, Aurora."
+    },
+    {
+      "id": 24,
+      "name": "Concentrated Energy",
+      "category": "Magic Attack",
+      "stats": { "Magic Power": 70, "HP": 700, "Magic Lifesteal": "25%" },
+      "passive": "Recharge: Killing enemy hero restores 10% HP.",
+      "function": "Memberikan sustain mage lewat magic lifesteal dan HP restore. Cocok untuk mage tempur (Alice)."
+    },
+    {
+      "id": 25,
+      "name": "Immortality",
+      "category": "Defense",
+      "stats": { "HP": 800, "Physical Defense": 40 },
+      "passive": "Immortal: Upon death, resurrect after 2.5s with 15% HP and shield absorbing 300-1000 damage.",
+      "function": "Item cheat mati. Cocok untuk semua hero terutama carry yang ingin extra safety di teamfight."
+    },
+    {
+      "id": 26,
+      "name": "Antique Cuirass",
+      "category": "Defense",
+      "stats": { "HP": 920, "Physical Defense": 54, "HP Regen": 4 },
+      "passive": "Deter: Being hit by enemy skill reduces their Physical Attack by 10% for 2s, stackable up to 3 times.",
+      "function": "Tank terbaik untuk counter Physical Damage. Semakin sering di-hit skill musuh, semakin berkurang ATK mereka."
+    },
+    {
+      "id": 27,
+      "name": "Blade Armor",
+      "category": "Defense",
+      "stats": { "Physical Defense": 90 },
+      "passive": "Vengeance: Reflects 25% of Physical Damage taken back as physical damage.",
+      "function": "Counter Marksman dan hero basic attack. Semakin tinggi ATK musuh, semakin besar damage balik."
+    },
+    {
+      "id": 28,
+      "name": "Warrior Boots",
+      "category": "Defense",
+      "stats": { "Physical Defense": 22, "Movement Speed": 40 },
+      "passive": "Valor: Gains 5 Physical Defense with each basic attack hit, max 25, lasts 3s.",
+      "function": "Boots untuk menghadapi hero physical. Memberikan Physical DEF adaptif saat kena serangan."
+    },
+    {
+      "id": 29,
+      "name": "Tough Boots",
+      "category": "Defense",
+      "stats": { "Magic Defense": 22, "Movement Speed": 40 },
+      "passive": "Fortitude: Reduces time of Crowd Control effects by 30%.",
+      "function": "Boots untuk menghadapi mage atau hero CC berat. Mengurangi durasi stun, slow, dll."
+    },
+    {
+      "id": 30,
+      "name": "Athena's Shield",
+      "category": "Defense",
+      "stats": { "HP": 900, "Magic Defense": 62, "HP Regen": 2 },
+      "passive": "Shield: Takes Magic Damage to trigger a shield absorbing 170-1150 Magic Damage (scales with level). Cooldown 30s.",
+      "function": "Counter mage burst. Shield-nya bisa absorb banyak damage magic terutama di late game."
+    },
+    {
+      "id": 31,
+      "name": "Radiant Armor",
+      "category": "Defense",
+      "stats": { "HP": 950, "Magic Defense": 52, "HP Regen": 4 },
+      "passive": "Holy Blessing: After being hit by magic damage 5 times, increases Magic DEF by 3-10 per second for 6s.",
+      "function": "Counter mage yang menggunakan DoT (Glowing Wand). Semakin sering kena magic, semakin tangguh."
+    },
+    {
+      "id": 32,
+      "name": "Cursed Helmet",
+      "category": "Defense",
+      "stats": { "HP": 1200, "Magic Defense": 25 },
+      "passive": "Burning Soul: Deals magic damage equal to 1.5% of max HP per second to nearby enemies.",
+      "function": "Tank dengan damage AoE pasif. Efektif untuk jungler atau tank yang selalu terlibat teamfight."
+    },
+    {
+      "id": 33,
+      "name": "Dominance Ice",
+      "category": "Defense",
+      "stats": { "Mana": 500, "Physical Defense": 70, "CDR": "5%" },
+      "passive": "Arctic Cold: Reduces Movement Speed by 5% and Attack Speed of nearby enemies by 30%. Also reduces shield and HP regen of nearby enemies by 50%.",
+      "function": "Counter Marksman dan hero dengan heal/shield. Aura slow attack speed sangat efektif di teamfight."
+    },
+    {
+      "id": 34,
+      "name": "Queen's Wings",
+      "category": "Defense",
+      "stats": { "Physical Attack": 25, "HP": 900, "CDR": "10%" },
+      "passive": "Demonize: When HP falls below 40%, reduces damage taken by 40% and increases Lifesteal by 30% for 5s. CD: 60s.",
+      "function": "Item survival Fighter saat HP rendah. Sangat efektif untuk hero yang bisa comeback dari HP sedikit."
+    },
+    {
+      "id": 35,
+      "name": "Brute Force Breastplate",
+      "category": "Defense",
+      "stats": { "HP": 770, "Physical Defense": 45 },
+      "passive": "Brute Force: Using skill or basic attack increases Movement Speed by 3% and Physical/Magic DEF by 4, stackable 5 times for 4s.",
+      "function": "Item tank yang semakin kuat saat aktif bertarung. Cocok untuk tank/fighter yang agresif."
+    },
+    {
+      "id": 36,
+      "name": "Thunderbelt",
+      "category": "Defense",
+      "stats": { "HP": 900, "Physical Defense": 40, "Mana": 300, "CDR": "10%" },
+      "passive": "Thunderbolt: After using skill, next basic attack slows enemy and deals True Damage equal to 50 + 5% of Max HP.",
+      "function": "Item tank yang memberikan true damage. Cocok untuk tank aktif seperti Tigreal, Akai, Atlas."
+    },
+    {
+      "id": 37,
+      "name": "Oracle",
+      "category": "Defense",
+      "stats": { "HP": 850, "Magic Defense": 42, "CDR": "10%" },
+      "passive": "Bless: Increases Shield Absorption and HP Regen effects by 30%.",
+      "function": "Meningkatkan efek heal dan shield. Wajib untuk Estes, Rafaela, atau hero dengan sustain kemampuan diri sendiri."
+    },
+    {
+      "id": 38,
+      "name": "Twilight Armor",
+      "category": "Defense",
+      "stats": { "HP": 1200, "Mana": 400 },
+      "passive": "Twilight: When taking Physical Damage exceeding 600, caps the damage at 900 + 5% Max HP. CD: 5s.",
+      "function": "Counter burst Physical damage. Ideal melawan Saber, Gusion, atau hero yang bisa one-shot."
+    },
+    {
+      "id": 39,
+      "name": "Windbreaker",
+      "category": "Defense",
+      "stats": { "HP": 900, "Physical Defense": 60 },
+      "passive": "Gale: Grants a shield absorbing 500-2000 damage every 24s (scales with Physical DEF) when attacked.",
+      "function": "Shield periodik yang kuat untuk tank. Sangat efektif di fase early-mid game teamfight."
+    },
+    {
+      "id": 40,
+      "name": "Sea Halberd",
+      "category": "Physical Attack",
+      "stats": { "Physical Attack": 70, "Attack Speed": "20%", "Physical Lifesteal": "12%" },
+      "passive": "Lifebane: Hitting enemy reduces their HP Regen and Shield by 50% for 3s.",
+      "function": "Counter hero dengan heal seperti Uranus, Thamuz, atau hero pakai Haas's Claws + Oracle."
+    },
+    {
+      "id": 41,
+      "name": "Wind of Nature",
+      "category": "Physical Attack",
+      "stats": { "Physical Attack": 30, "Attack Speed": "25%", "Physical Lifesteal": "10%" },
+      "active": "Wind Chant: Become immune to Physical Damage for 2s. CD: 80s.",
+      "function": "Item aktif memberikan invincibility dari Physical Damage. Counter assassin atau burst physical."
+    },
+    {
+      "id": 42,
+      "name": "Starlium Scythe",
+      "category": "Magic Attack",
+      "stats": { "Magic Power": 80, "CDR": "15%" },
+      "passive": "Stardust: After casting skill, next basic attack deals 100 extra magic damage + slow 30% for 1.5s.",
+      "function": "Item CDR dan poke untuk mage. Extra slow dari basic attack membantu kontrol pergerakan musuh."
+    },
+    {
+      "id": 43,
+      "name": "Feather of Heaven",
+      "category": "Magic Attack",
+      "stats": { "Magic Power": 65, "Attack Speed": "30%", "Movement Speed": "5%" },
+      "passive": "Typhoon: Basic attacks deal extra magic damage equal to 40% Magic Power.",
+      "function": "Item hybrid mage-attacker. Cocok untuk mage yang menggunakan basic attack banyak (Lylia, Cyclops)."
+    },
+    {
+      "id": 44,
+      "name": "Clock of Destiny",
+      "category": "Magic Attack",
+      "stats": { "Magic Power": 60, "HP": 615, "Mana": 600 },
+      "passive": "Time: Every 30s gains 30 Max HP and 5 Magic Attack, stackable up to 12 times.",
+      "function": "Item yang semakin kuat seiring waktu. Beli early game agar bisa max stack di mid-late game."
+    },
+    {
+      "id": 45,
+      "name": "Enchanted Talisman",
+      "category": "Magic Attack",
+      "stats": { "Magic Power": 50, "HP": 250, "Mana": 250, "CDR": "20%" },
+      "passive": "Mana Spring: Restores 15% total Mana every 10s.",
+      "function": "Item CDR dan mana regen. Ideal untuk mage yang boros mana (Eudora, Aurora, Vexana)."
+    },
+    {
+      "id": 46,
+      "name": "Despair Blade",
+      "category": "Physical Attack",
+      "stats": { "Physical Attack": 55, "CDR": "10%", "Physical Penetration": 15 },
+      "passive": "Despair Strike: Dealing damage to stunned/immobilized enemy increases Physical Penetration by 15% for 3s.",
+      "function": "Memberikan true penetrasi saat musuh terkena CC. Sinergi baik dengan hero yang punya CC diri sendiri."
+    },
+    {
+      "id": 47,
+      "name": "Rose Gold Meteor",
+      "category": "Physical Attack",
+      "stats": { "Physical Attack": 60, "Magic Defense": 30 },
+      "passive": "Lifeline: When HP falls below 30%, grants a shield absorbing 510-1350 damage. CD: 40s.",
+      "function": "Item survival Marksman atau Assassin. Shield saat HP kritis sangat membantu untuk survive burst."
+    },
+    {
+      "id": 48,
+      "name": "Rapid Boots",
+      "category": "Movement",
+      "stats": { "Movement Speed": 60 },
+      "passive": "Activate: Grants huge Movement Speed boost out of combat.",
+      "function": "Boots tercepat. Cocok untuk roamer atau jungler yang butuh mobilitas tinggi antar lane."
+    },
+    {
+      "id": 49,
+      "name": "Magic Shoes",
+      "category": "Movement",
+      "stats": { "CDR": "10%", "Movement Speed": 40 },
+      "passive": "None",
+      "function": "Boots untuk mage atau hero yang butuh CDR. Memungkinkan spam skill lebih sering."
+    },
+    {
+      "id": 50,
+      "name": "Arcane Boots",
+      "category": "Movement",
+      "stats": { "Magic Penetration": 10, "Movement Speed": 40 },
+      "passive": "None",
+      "function": "Boots penetrasi magic. Cocok untuk mage yang butuh menembus Magic Defense musuh."
+    }
+  ]
+}

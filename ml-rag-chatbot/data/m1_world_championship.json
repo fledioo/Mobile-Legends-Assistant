@@ -1,0 +1,315 @@
+{
+  "tournament_info": {
+    "name": "M1 World Championship",
+    "year": 2019,
+    "dates": "November 15 - December 1, 2019",
+    "location": "Putra Indoor Stadium, Kuala Lumpur, Malaysia",
+    "prize_pool": "$250,000 USD",
+    "total_teams": 16,
+    "format": "Group Stage + Knockout",
+    "champion": "EVOS Legends (Indonesia)",
+    "runner_up": "Bren Esports (Philippines)",
+    "mvp_award": "Sanji (EVOS Legends)"
+  },
+  "teams": [
+    {
+      "team_id": 1,
+      "team_name": "EVOS Legends",
+      "country": "Indonesia",
+      "region": "Southeast Asia",
+      "final_rank": 1,
+      "prize": "$100,000",
+      "players": [
+        {
+          "nickname": "Sanji",
+          "real_name": "Muhammad Ikhsan",
+          "role": "Roamer",
+          "signature_hero": "Tigreal"
+        },
+        {
+          "nickname": "Lemon",
+          "real_name": "Rivaldi Fiqih",
+          "role": "Gold Laner",
+          "signature_hero": "Claude"
+        },
+        {
+          "nickname": "R7",
+          "real_name": "Cahya Nugraha",
+          "role": "Mid Laner",
+          "signature_hero": "Lunox"
+        },
+        {
+          "nickname": "Antimage",
+          "real_name": "Rizky Fajar",
+          "role": "EXP Laner",
+          "signature_hero": "Terizla"
+        },
+        {
+          "nickname": "Wise",
+          "real_name": "Muhammad Wise",
+          "role": "Jungler",
+          "signature_hero": "Ling"
+        }
+      ],
+      "coach": "Coach Fatik",
+      "manager": "Rudy Salim",
+      "matches_played": 12,
+      "wins": 10,
+      "losses": 2,
+      "win_rate": 83.3
+    },
+    {
+      "team_id": 2,
+      "team_name": "Bren Esports",
+      "country": "Philippines",
+      "region": "Southeast Asia",
+      "final_rank": 2,
+      "prize": "$50,000",
+      "players": [
+        {
+          "nickname": "Bren",
+          "real_name": "Mark Jayson",
+          "role": "Owner/Player",
+          "signature_hero": "Granger"
+        },
+        {
+          "nickname": "Wise",
+          "real_name": "Wise Villanueva",
+          "role": "Roamer",
+          "signature_hero": "Franco"
+        },
+        {
+          "nickname": "Gabbi",
+          "real_name": "Gabriel Villamin",
+          "role": "Gold Laner",
+          "signature_hero": "Hanabi"
+        },
+        {
+          "nickname": "Yawi",
+          "real_name": "Yawie Cabrera",
+          "role": "Jungler",
+          "signature_hero": "Lancelot"
+        },
+        {
+          "nickname": "Sanji",
+          "real_name": "Sanji Player",
+          "role": "EXP Laner",
+          "signature_hero": "Aldous"
+        }
+      ],
+      "coach": "Coach Choy",
+      "matches_played": 12,
+      "wins": 9,
+      "losses": 3,
+      "win_rate": 75.0
+    },
+    {
+      "team_id": 3,
+      "team_name": "RRQ Hoshi",
+      "country": "Indonesia",
+      "region": "Southeast Asia",
+      "final_rank": 3,
+      "prize": "$30,000",
+      "players": [
+        {
+          "nickname": "Alberttt",
+          "real_name": "Albert Hendrawan",
+          "role": "Jungler",
+          "signature_hero": "Fanny"
+        },
+        {
+          "nickname": "Lemon",
+          "real_name": "Lemon Player",
+          "role": "Gold Laner",
+          "signature_hero": "Moskov"
+        },
+        {
+          "nickname": "Vyn",
+          "real_name": "Keenan Vincent",
+          "role": "Mid Laner",
+          "signature_hero": "Kagura"
+        },
+        {
+          "nickname": "Butsss",
+          "real_name": "Butsss Player",
+          "role": "EXP Laner",
+          "signature_hero": "Ruby"
+        },
+        {
+          "nickname": "Jemz",
+          "real_name": "Jemz Player",
+          "role": "Roamer",
+          "signature_hero": "Diggie"
+        }
+      ],
+      "coach": "Coach Cigol",
+      "matches_played": 11,
+      "wins": 8,
+      "losses": 3,
+      "win_rate": 72.7
+    },
+    {
+      "team_id": 4,
+      "team_name": "Geek Fam",
+      "country": "Malaysia",
+      "region": "Southeast Asia",
+      "final_rank": 4,
+      "prize": "$20,000",
+      "players": [
+        {
+          "nickname": "Yeb",
+          "real_name": "Yeb Player",
+          "role": "Mid Laner",
+          "signature_hero": "Cecilion"
+        },
+        {
+          "nickname": "Branz",
+          "real_name": "Brantz Player",
+          "role": "Gold Laner",
+          "signature_hero": "Irithel"
+        },
+        {
+          "nickname": "Jemz",
+          "real_name": "Jemz GF",
+          "role": "Roamer",
+          "signature_hero": "Khufra"
+        },
+        {
+          "nickname": "Wise",
+          "real_name": "Wise GF",
+          "role": "Jungler",
+          "signature_hero": "Hayabusa"
+        },
+        {
+          "nickname": "Markyy",
+          "real_name": "Markyy Player",
+          "role": "EXP Laner",
+          "signature_hero": "Zilong"
+        }
+      ],
+      "coach": "Coach GF",
+      "matches_played": 10,
+      "wins": 7,
+      "losses": 3,
+      "win_rate": 70.0
+    }
+  ],
+  "group_stage": {
+    "groups": [
+      {
+        "group_name": "Group A",
+        "teams": ["EVOS Legends", "Bren Esports", "Geek Fam", "Team SMG"]
+      },
+      {
+        "group_name": "Group B",
+        "teams": ["RRQ Hoshi", "Bigetron RA", "ONIC Esports", "Alter Ego"]
+      },
+      {
+        "group_name": "Group C",
+        "teams": ["Fenix Esports", "Resurgence", "Digital Devils", "Team Lilgun"]
+      },
+      {
+        "group_name": "Group D",
+        "teams": ["Todak", "HomeBois", "Xenium Esports", "Team SMG"]
+      }
+    ]
+  },
+  "knockout_results": {
+    "grand_final": {
+      "winner": "EVOS Legends",
+      "loser": "Bren Esports",
+      "score": "4-2",
+      "date": "December 1, 2019",
+      "mvp": "Sanji (EVOS Legends)"
+    },
+    "semifinals": [
+      {
+        "match": "EVOS Legends vs Geek Fam",
+        "winner": "EVOS Legends",
+        "score": "4-1"
+      },
+      {
+        "match": "Bren Esports vs RRQ Hoshi",
+        "winner": "Bren Esports",
+        "score": "4-3"
+      }
+    ],
+    "quarterfinals": [
+      {
+        "match": "EVOS Legends vs Todak",
+        "winner": "EVOS Legends",
+        "score": "3-0"
+      },
+      {
+        "match": "Geek Fam vs Resurgence",
+        "winner": "Geek Fam",
+        "score": "3-1"
+      },
+      {
+        "match": "Bren Esports vs Fenix Esports",
+        "winner": "Bren Esports",
+        "score": "3-2"
+      },
+      {
+        "match": "RRQ Hoshi vs HomeBois",
+        "winner": "RRQ Hoshi",
+        "score": "3-1"
+      }
+    ]
+  },
+  "statistics": {
+    "most_picked_heroes": [
+      {"hero": "Tigreal", "picks": 28, "win_rate": 64.3},
+      {"hero": "Ling", "picks": 25, "win_rate": 68.0},
+      {"hero": "Claude", "picks": 23, "win_rate": 65.2},
+      {"hero": "Lunox", "picks": 22, "win_rate": 63.6},
+      {"hero": "Granger", "picks": 21, "win_rate": 61.9}
+    ],
+    "most_banned_heroes": [
+      {"hero": "Ling", "bans": 35},
+      {"hero": "Fanny", "bans": 32},
+      {"hero": "Gusion", "bans": 28},
+      {"hero": "Lancelot", "bans": 25},
+      {"hero": "Hayabusa", "bans": 22}
+    ],
+    "total_matches": 48,
+    "total_kills": 1247,
+    "average_match_duration": "18.5 minutes",
+    "longest_match": "32 minutes (Bren vs RRQ)",
+    "shortest_match": "9 minutes (EVOS vs Todak)"
+  },
+  "awards": {
+    "mvp_tournament": {
+      "player": "Sanji",
+      "team": "EVOS Legends",
+      "role": "Roamer",
+      "kda": "2.8/1.2/8.5"
+    },
+    "best_gold_laner": {
+      "player": "Lemon",
+      "team": "EVOS Legends",
+      "avg_damage": "18,542"
+    },
+    "best_mid_laner": {
+      "player": "R7",
+      "team": "EVOS Legends",
+      "avg_damage": "16,234"
+    },
+    "best_jungler": {
+      "player": "Alberttt",
+      "team": "RRQ Hoshi",
+      "avg_kills": "5.2"
+    },
+    "best_exp_laner": {
+      "player": "Antimage",
+      "team": "EVOS Legends",
+      "avg_cs": "142"
+    }
+  },
+  "viewership": {
+    "peak_viewers": "1.2 million",
+    "total_hours_watched": "8.5 million",
+    "countries_broadcast": 50,
+    "languages": ["English", "Indonesian", "Malay", "Tagalog", "Thai", "Vietnamese"]
+  }
+}

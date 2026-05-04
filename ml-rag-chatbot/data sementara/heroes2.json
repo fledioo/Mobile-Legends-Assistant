@@ -1,0 +1,1667 @@
+[
+  {
+    "id": "hayabusa",
+    "name": "Hayabusa",
+    "role": ["Assassin"],
+    "specialty": ["Burst", "Chase"],
+    "lane": "Jungle",
+    "difficulty": "Hard",
+    "release_date": "2016",
+    "lore": "Hayabusa adalah ninja dari desa Iga yang menggunakan bayangan kembar untuk menyerang musuh dari berbagai arah.",
+    "skills": [
+      {"name": "Ninjutsu: Trace of Shadow", "type": "Passive", "description": "Setiap skill Hayabusa yang mengenai musuh memberikan stack Ninjutsu. Saat 4 stack, damage skill meningkat drastis."},
+      {"name": "Shuriken Darts", "type": "Skill 1", "description": "Hayabusa melempar shuriken ke depan yang menyebar dan kembali, memberikan damage. Bisa di-charge."},
+      {"name": "Phantom Shuriken", "type": "Skill 2", "description": "Hayabusa melempar shuriken yang memantul antara musuh dan memberikan damage multiple kali."},
+      {"name": "Ougi: Shadow Kill", "type": "Ultimate", "description": "Hayabusa meluncurkan diri ke target dan menyerangnya dari berbagai arah dengan bayangan kembarnya. Immune terhadap serangan selama proses."}
+    ],
+    "stats": {"hp": 2400, "physical_attack": 124, "physical_defense": 17, "magic_defense": 10, "movement_speed": 265, "attack_speed": 0.85},
+    "build_recommendations": {
+      "core_items": ["Blade of Heptaseas", "Hunter Strike", "Blade of Despair"],
+      "situational_items": ["Endless Battle", "Malefic Roar", "Immortality"],
+      "emblem": "Assassin Emblem"
+    },
+    "combos": [
+      "S1 charge → S2 bounce → Stack 4 Ninjutsu → Ultimate",
+      "S2 multi-bounce → S1 → Ultimate saat 4 stack terkumpul",
+      "Ultimate → Immune sambil deal damage → S1 → S2 escape"
+    ],
+    "strengths": ["Ultimate memberikan immunity penuh", "Stack Ninjutsu meningkatkan damage signifikan", "Sangat susah di-target saat ultimate"],
+    "weaknesses": ["Bergantung pada stack untuk damage maksimal", "Lemah vs hero dengan banyak HP", "Susah dipakai tanpa pemahaman mekanik"],
+    "counters": ["Chou", "Khufra", "Esmeralda"],
+    "counter_tips": {
+      "Chou": "Chou bisa kick Hayabusa setelah ultimate selesai sebelum dia bisa escape.",
+      "Khufra": "Khufra bisa CC Hayabusa dan prevent escape setelah ultimate.",
+      "Esmeralda": "Esmeralda terlalu tanky untuk dibunuh Hayabusa meskipun full stack."
+    },
+    "synergies": ["Angela", "Diggie", "Mathilda"],
+    "tips": "Kumpulkan 4 stack Ninjutsu sebelum ultimate untuk damage maksimal. Ultimate memberikan immunity penuh — gunakan untuk tower dive."
+  },
+  {
+    "id": "saber",
+    "name": "Saber",
+    "role": ["Assassin"],
+    "specialty": ["Burst", "Reap"],
+    "lane": "Jungle",
+    "difficulty": "Easy",
+    "release_date": "2016",
+    "lore": "Saber adalah robot pembunuh dari masa depan yang dikirim kembali ke masa lalu untuk mengeliminasi target.",
+    "skills": [
+      {"name": "Enemy's Bane", "type": "Passive", "description": "Serangan Saber mengurangi Physical Defense musuh dengan setiap hit, hingga 5 stack."},
+      {"name": "Orbiting Swords", "type": "Skill 1", "description": "Saber memanggil pedang orbital yang berputar di sekitarnya, memberikan damage kepada musuh yang mendekat."},
+      {"name": "Charge", "type": "Skill 2", "description": "Saber melakukan charge ke arah target, memberikan damage dan knockback."},
+      {"name": "Triple Sweep", "type": "Ultimate", "description": "Saber menarik musuh tunggal ke udara dan menusuknya tiga kali dengan damage yang besar."}
+    ],
+    "stats": {"hp": 2300, "physical_attack": 122, "physical_defense": 16, "magic_defense": 10, "movement_speed": 262, "attack_speed": 0.84},
+    "build_recommendations": {
+      "core_items": ["Blade of Heptaseas", "Hunter Strike", "Blade of Despair"],
+      "situational_items": ["Endless Battle", "Malefic Roar", "Immortality"],
+      "emblem": "Assassin Emblem"
+    },
+    "combos": [
+      "S1 orbiting → S2 charge → Ultimate three slash",
+      "S2 → S1 → Ultimate → Passive armor reduction maksimal",
+      "Passive stack dulu → S2 → Ultimate untuk burst maksimal"
+    ],
+    "strengths": ["Passive armor reduction sangat kuat", "Ultimate CC yang reliable", "Sangat mudah dipelajari"],
+    "weaknesses": ["Ultimate hanya single target", "Tidak ada escape setelah ultimate", "Lemah vs tank HP tinggi"],
+    "counters": ["Esmeralda", "Uranus", "Hylos"],
+    "counter_tips": {
+      "Esmeralda": "Esmeralda terlalu tanky untuk dibunuh Saber dalam sekali combo.",
+      "Uranus": "Uranus regen lebih cepat dari damage Saber.",
+      "Hylos": "Hylos punya HP sangat besar yang membuat Saber kesulitan."
+    },
+    "synergies": ["Franco", "Tigreal", "Angela"],
+    "tips": "Saber terbaik untuk bunuh carry musuh. Ultimate adalah single target CC — pilih target yang tepat."
+  },
+  {
+    "id": "bruno",
+    "name": "Bruno",
+    "role": ["Marksman"],
+    "specialty": ["Reap", "Burst"],
+    "lane": "Gold Lane",
+    "difficulty": "Moderate",
+    "release_date": "2016",
+    "lore": "Bruno adalah mantan pemain sepak bola legendaris yang kehilangan kakinya dan menggantinya dengan kaki mekanik yang luar biasa.",
+    "skills": [
+      {"name": "Mecha Legs", "type": "Passive", "description": "Setiap serangan dasar Bruno meningkatkan critical chance-nya secara bertahap."},
+      {"name": "Volley Shot", "type": "Skill 1", "description": "Bruno menendang bola energi ke musuh, bola bisa memantul ke target lain jika terkena kritis."},
+      {"name": "Boomerang Kick", "type": "Skill 2", "description": "Bruno menendang bola yang berjalan maju lalu balik, memberikan knockback kepada musuh yang terkena."},
+      {"name": "World Wave", "type": "Ultimate", "description": "Bruno menendang bola energi raksasa ke depan yang menyapu semua musuh di jalurnya dan memberikan knockback."}
+    ],
+    "stats": {"hp": 2350, "physical_attack": 118, "physical_defense": 15, "magic_defense": 10, "movement_speed": 255, "attack_speed": 0.88},
+    "build_recommendations": {
+      "core_items": ["Windtalker", "Berserker's Fury", "Scarlet Phantom"],
+      "situational_items": ["Haas's Claws", "Malefic Roar", "Immortality"],
+      "emblem": "Marksman Emblem"
+    },
+    "combos": [
+      "S1 bola → S2 knockback → Ultimate wave",
+      "S2 → S1 kritis → Ultimate untuk finish",
+      "Passive crit stack → S1 → S2 → Ultimate"
+    ],
+    "strengths": ["Critical damage yang tinggi dari passive", "S2 knockback yang berguna", "Ultimate knockback massal"],
+    "weaknesses": ["Lemah vs assassin tanpa escape", "Bergantung pada crit untuk damage", "Tidak ada mobility"],
+    "counters": ["Natalia", "Lancelot", "Gusion"],
+    "counter_tips": {
+      "Natalia": "Natalia bisa mendekati diam-diam dan burst Bruno sebelum kritis-nya stack.",
+      "Lancelot": "Lancelot bisa immunity dodge ultimate Bruno dan burst cepat.",
+      "Gusion": "Gusion bisa combo burst Bruno sebelum dia bereaksi."
+    },
+    "synergies": ["Estes", "Angela", "Tigreal"],
+    "tips": "Stack passive critical Anda sebelum masuk fight. Ultimate Bruno sangat efektif untuk zona kontrol atau clear lane."
+  },
+  {
+    "id": "alpha",
+    "name": "Alpha",
+    "role": ["Fighter"],
+    "specialty": ["Charge", "Burst"],
+    "lane": "EXP Lane / Jungle",
+    "difficulty": "Easy",
+    "release_date": "2016",
+    "lore": "Alpha adalah robot eksperimental dari Project Nexus yang diciptakan bersama Beta, menggunakan teknologi pertempuran mutakhir.",
+    "skills": [
+      {"name": "Beta, Advance!", "type": "Passive", "description": "Beta mengikuti Alpha dan memberikan serangan tambahan, mendapatkan stack Power yang meningkatkan damage Alpha."},
+      {"name": "Rotary Impact", "type": "Skill 1", "description": "Alpha melempar senjata berputar ke depan yang memberikan damage dan slow. Beta menyerang musuh yang terkena."},
+      {"name": "Force Swing", "type": "Skill 2", "description": "Alpha mengayunkan senjatanya memberikan damage AOE. Beta menyerang ke arah berlawanan."},
+      {"name": "Spear of Alpha", "type": "Ultimate", "description": "Alpha menembakkan energi besar ke depan yang memberikan stun dan damage massive kepada semua musuh di jalurnya."}
+    ],
+    "stats": {"hp": 3100, "physical_attack": 124, "physical_defense": 22, "magic_defense": 12, "movement_speed": 255, "attack_speed": 0.83},
+    "build_recommendations": {
+      "core_items": ["Endless Battle", "Hunter Strike", "Blade of Despair"],
+      "situational_items": ["Oracle", "Immortality", "Malefic Roar"],
+      "emblem": "Fighter Emblem"
+    },
+    "combos": [
+      "S1 → S2 (Beta serangan dari dua sisi) → Ultimate stun",
+      "Ultimate stun line → S1 → S2 untuk DPS",
+      "S2 → S1 → Passive stack penuh → Ultimate execute"
+    ],
+    "strengths": ["Beta memberikan damage dari berbagai arah", "Ultimate stun yang panjang", "Mudah dipelajari"],
+    "weaknesses": ["Pergerakan Beta bisa diprediksi", "Lemah vs hero dengan blink", "Damage bergantung pada passive stack"],
+    "counters": ["Chou", "Lancelot", "Fanny"],
+    "counter_tips": {
+      "Chou": "Chou bisa kick Alpha saat casting ultimate dan interrupt.",
+      "Lancelot": "Lancelot bisa immunity dodge semua serangan Alpha dan Beta.",
+      "Fanny": "Fanny terlalu mobile untuk di-hit serangan Alpha dan Beta."
+    },
+    "synergies": ["Angela", "Estes", "Diggie"],
+    "tips": "Posisikan diri agar S1 dan S2 bisa memaksimalkan serangan Beta dari dua arah. Ultimate adalah zoning tool terbaik."
+  },
+  {
+    "id": "roger",
+    "name": "Roger",
+    "role": ["Fighter", "Marksman"],
+    "specialty": ["Burst", "Chase"],
+    "lane": "EXP Lane / Jungle",
+    "difficulty": "Moderate",
+    "release_date": "2016",
+    "lore": "Roger adalah manusia serigala yang bisa berubah antara bentuk serigala ganas dan manusia pemburu dengan senapan.",
+    "skills": [
+      {"name": "Hunter's Steps", "type": "Passive", "description": "Roger mendapatkan movement speed boost saat berubah bentuk dan setelah membunuh musuh."},
+      {"name": "Open Fire / Lycan Pounce", "type": "Skill 1", "description": "Mode manusia: menembak musuh memberikan slow. Mode serigala: melompat ke musuh memberikan damage dan knockup."},
+      {"name": "Howl Shockwave / Bloodthirsty Howl", "type": "Skill 2", "description": "Mode manusia: memberikan fear kepada musuh terdekat. Mode serigala: memberikan buff attack speed dan damage."},
+      {"name": "Full Moon Curse", "type": "Ultimate", "description": "Roger berubah menjadi serigala penuh atau kembali ke bentuk manusia, memberikan AOE damage dan efek berbeda di tiap mode."}
+    ],
+    "stats": {"hp": 2800, "physical_attack": 122, "physical_defense": 20, "magic_defense": 10, "movement_speed": 258, "attack_speed": 0.83},
+    "build_recommendations": {
+      "core_items": ["Endless Battle", "Berserker's Fury", "Blade of Despair"],
+      "situational_items": ["Hunter Strike", "Immortality", "Malefic Roar"],
+      "emblem": "Fighter Emblem"
+    },
+    "combos": [
+      "Mode manusia S1 slow → S2 fear → Ultimate jadi serigala → S1 pounce → S2 buff",
+      "Serigala S1 pounce → S2 buff → Ultimate kembali manusia → S1 slow → S2",
+      "Ultimate → S1 → S2 sesuai mode untuk burst maksimal"
+    ],
+    "strengths": ["Dua mode dengan playstyle berbeda", "Chase yang sangat baik", "Versatile untuk berbagai situasi"],
+    "weaknesses": ["Butuh memahami dua mode", "Kurang efektif jika tidak switch mode", "Lemah di early"],
+    "counters": ["Esmeralda", "Uranus", "Hylos"],
+    "counter_tips": {
+      "Esmeralda": "Esmeralda terlalu sustain untuk dibunuh Roger dalam dua mode.",
+      "Uranus": "Uranus regen lebih cepat dari DPS Roger.",
+      "Hylos": "Hylos punya HP sangat besar yang menguras stamina Roger."
+    },
+    "synergies": ["Angela", "Estes", "Mathilda"],
+    "tips": "Gunakan mode manusia untuk poke dan slow, mode serigala untuk melee burst. Switch mode secara cerdas untuk efektivitas maksimal."
+  },
+  {
+    "id": "grock",
+    "name": "Grock",
+    "role": ["Tank", "Fighter"],
+    "specialty": ["Crowd Control", "Sustain"],
+    "lane": "Roam / EXP Lane",
+    "difficulty": "Moderate",
+    "release_date": "2017",
+    "lore": "Grock adalah penjaga gerbang Stone Giant yang menguasai kekuatan batu untuk melindungi bentengnya.",
+    "skills": [
+      {"name": "Ancestral Gift", "type": "Passive", "description": "Saat berada di dekat dinding atau struktur, Grock mendapat bonus Physical Defense dan Movement Speed."},
+      {"name": "Power of Nature", "type": "Skill 1", "description": "Grock menghantam tanah dengan tombak, memberikan damage dan slow kepada musuh di depannya."},
+      {"name": "Earthen Force", "type": "Skill 2", "description": "Grock membuat dinding batu di depannya yang memblokir pergerakan musuh."},
+      {"name": "Wild Charge", "type": "Ultimate", "description": "Grock melakukan charge ke depan yang memberikan damage dan knockback kepada musuh, serta meninggalkan jejak batu."}
+    ],
+    "stats": {"hp": 4900, "physical_attack": 118, "physical_defense": 26, "magic_defense": 14, "movement_speed": 252, "attack_speed": 0.8},
+    "build_recommendations": {
+      "core_items": ["Dominance Ice", "Antique Cuirass", "Immortality"],
+      "situational_items": ["Oracle", "Brute Force Breastplate", "Thunderbelt"],
+      "emblem": "Tank Emblem"
+    },
+    "combos": [
+      "S2 wall block → S1 slow → Ultimate charge",
+      "Ultimate charge ke wall → S1 → S2 block escape",
+      "Passive near wall → S2 trap musuh → S1 → Ultimate"
+    ],
+    "strengths": ["S2 wall sangat unik untuk trap musuh", "Passive kuat di dekat struktur", "Ultimate charge yang jauh"],
+    "weaknesses": ["Bergantung pada posisi dinding", "Lemah di area terbuka", "Slow movement tanpa passive"],
+    "counters": ["Wanwan", "Lancelot", "Fanny"],
+    "counter_tips": {
+      "Wanwan": "Wanwan terlalu mobile untuk di-trap dinding S2 Grock.",
+      "Lancelot": "Lancelot bisa immunity dodge ultimate Grock dan keluar dari wall.",
+      "Fanny": "Fanny bisa melompat dari dinding melewati wall S2 Grock."
+    },
+    "synergies": ["Pharsa", "Odette", "Kagura"],
+    "tips": "Gunakan S2 untuk membuat dinding strategis di chokepoint. Passive sangat kuat di dekat tower atau dinding."
+  },
+  {
+    "id": "irithel",
+    "name": "Irithel",
+    "role": ["Marksman"],
+    "specialty": ["Reap", "Burst"],
+    "lane": "Gold Lane",
+    "difficulty": "Moderate",
+    "release_date": "2017",
+    "lore": "Irithel adalah archer dari hutan Leo yang menunggangi singa peliharaannya Leo dalam setiap pertempuran.",
+    "skills": [
+      {"name": "Jungle Heart", "type": "Passive", "description": "Irithel dan Leo menyerang secara bersamaan, memberikan heavy attack yang memberikan AOE damage."},
+      {"name": "Strafe", "type": "Skill 1", "description": "Irithel menembakkan anak panah cepat ke depan secara berturut-turut, memberikan damage dan slow."},
+      {"name": "Leo Roar", "type": "Skill 2", "description": "Leo mengaum memberikan fear kepada musuh di depannya dan meningkatkan movement speed Irithel."},
+      {"name": "Heavy Crossbow", "type": "Ultimate", "description": "Irithel beralih ke crossbow berat yang memberikan damage area saat setiap basic attack."}
+    ],
+    "stats": {"hp": 2500, "physical_attack": 120, "physical_defense": 16, "magic_defense": 10, "movement_speed": 250, "attack_speed": 0.87},
+    "build_recommendations": {
+      "core_items": ["Windtalker", "Berserker's Fury", "Corrosion Scythe"],
+      "situational_items": ["Haas's Claws", "Malefic Roar", "Immortality"],
+      "emblem": "Marksman Emblem"
+    },
+    "combos": [
+      "S2 fear → S1 rapid fire → Ultimate AOE basic attack",
+      "Ultimate → S1 → S2 fear → Passive AOE burst",
+      "S1 → S2 speed boost → Ultimate untuk sustained DPS"
+    ],
+    "strengths": ["Passive AOE basic attack", "Ultimate mengubah playstyle ke AOE", "Bisa bergerak sambil serang"],
+    "weaknesses": ["Attack speed bergantung item", "Lemah vs assassin dive", "Damage butuh waktu untuk stack"],
+    "counters": ["Natalia", "Lancelot", "Gusion"],
+    "counter_tips": {
+      "Natalia": "Natalia bisa silence Irithel dan burst sebelum bisa bereaksi.",
+      "Lancelot": "Lancelot bisa immunity dodge damage Irithel dan burst cepat.",
+      "Gusion": "Gusion bisa combo burst Irithel sebelum dia bereaksi."
+    },
+    "synergies": ["Estes", "Angela", "Tigreal"],
+    "tips": "Ultimate Irithel membuat basic attack jadi AOE. Gunakan saat teamfight untuk damage area maksimal."
+  },
+  {
+    "id": "gatotkaca",
+    "name": "Gatotkaca",
+    "role": ["Tank", "Fighter"],
+    "specialty": ["Crowd Control", "Initiation"],
+    "lane": "Roam / EXP Lane",
+    "difficulty": "Moderate",
+    "release_date": "2017",
+    "lore": "Gatotkaca adalah putra Bima dari pewayangan Jawa yang menguasai kekuatan baja dan api.",
+    "skills": [
+      {"name": "Conqueror's Descent", "type": "Passive", "description": "Saat HP Gatotkaca rendah, Physical Defense dan Magic Defense-nya meningkat secara signifikan."},
+      {"name": "Blast Iron Fist", "type": "Skill 1", "description": "Gatotkaca menghantam tanah di depannya dengan tinju besi yang memberikan damage dan stun."},
+      {"name": "Unbreakable", "type": "Skill 2", "description": "Gatotkaca memasang armor baja di sekitarnya yang memberikan slow kepada musuh yang mendekat."},
+      {"name": "Avatar of the Guardian", "type": "Ultimate", "description": "Gatotkaca melompat ke langit lalu menghantam area target dari atas, memberikan damage dan stun massive."}
+    ],
+    "stats": {"hp": 5000, "physical_attack": 115, "physical_defense": 25, "magic_defense": 15, "movement_speed": 250, "attack_speed": 0.8},
+    "build_recommendations": {
+      "core_items": ["Dominance Ice", "Antique Cuirass", "Immortality"],
+      "situational_items": ["Oracle", "Blade Armor", "Thunderbelt"],
+      "emblem": "Tank Emblem"
+    },
+    "combos": [
+      "Ultimate dive dari langit → S1 stun → S2 slow zone",
+      "S2 slow musuh → S1 stun → Ultimate dive",
+      "Ultimate → S1 → S2 untuk zone pasca landing"
+    ],
+    "strengths": ["Ultimate AOE stun dari udara", "Sangat tanky saat HP rendah", "Engage yang dramatis"],
+    "weaknesses": ["Ultimate punya delay, bisa di-dodge", "Lemah sebelum ultimate tersedia", "Tidak ada escape"],
+    "counters": ["Wanwan", "Karrie", "Esmeralda"],
+    "counter_tips": {
+      "Wanwan": "Wanwan bisa dodge ultimate Gatotkaca dengan passive dash.",
+      "Karrie": "Karrie bisa menembus armor Gatotkaca dengan true damage.",
+      "Esmeralda": "Esmeralda bisa sustain dari serangan Gatotkaca dan balik counter."
+    },
+    "synergies": ["Pharsa", "Kagura", "Xavier"],
+    "tips": "Gunakan ultimate untuk engage dari udara. Timing yang baik saat musuh berkumpul akan mengubah jalannya teamfight."
+  },
+  {
+    "id": "argus",
+    "name": "Argus",
+    "role": ["Fighter"],
+    "specialty": ["Burst", "Chase"],
+    "lane": "EXP Lane / Jungle",
+    "difficulty": "Moderate",
+    "release_date": "2017",
+    "lore": "Argus adalah malaikat jatuh yang terkutuk menjadi iblis, menggunakan pedang iblis Abyss untuk bertarung.",
+    "skills": [
+      {"name": "Warmonger", "type": "Passive", "description": "Setiap serangan dasar dan skill Argus mengakumulasi Malice Energy. Saat penuh, dia masuk ke Demonic Mode dengan buff."},
+      {"name": "Demonic Grip", "type": "Skill 1", "description": "Argus melemparkan sayap iblisnya yang menarik musuh ke posisinya dan memberikan stun singkat."},
+      {"name": "Meteoric Sword", "type": "Skill 2", "description": "Argus mengayunkan pedang berapi yang memberikan damage AOE ke depan."},
+      {"name": "Eternal Evil", "type": "Ultimate", "description": "Argus menjadi immortal untuk sementara waktu, semua damage yang diterimanya tidak bisa membunuhnya. Malice stack terakumulasi cepat."}
+    ],
+    "stats": {"hp": 2900, "physical_attack": 126, "physical_defense": 20, "magic_defense": 10, "movement_speed": 260, "attack_speed": 0.84},
+    "build_recommendations": {
+      "core_items": ["Endless Battle", "Hunter Strike", "Blade of Despair"],
+      "situational_items": ["Immortality", "Malefic Roar", "Berserker's Fury"],
+      "emblem": "Fighter Emblem"
+    },
+    "combos": [
+      "S1 tarik → S2 slash → Passive Demonic Mode → Ultimate immortality",
+      "Ultimate aktif → S1 → S2 → Stack penuh untuk Demonic Mode",
+      "S2 → S1 tarik musuh → Ultimate saat akan mati"
+    ],
+    "strengths": ["Ultimate memberikan immortality sementara", "Demonic Mode buff yang kuat", "S1 CC yang reliable"],
+    "weaknesses": ["Lemah sebelum ultimate tersedia", "Tidak berguna jika musuh flee saat ultimate", "Damage bergantung passive stack"],
+    "counters": ["Esmeralda", "Uranus", "Diggie"],
+    "counter_tips": {
+      "Esmeralda": "Esmeralda bisa sustain bahkan saat Argus sedang Demonic Mode.",
+      "Uranus": "Uranus bisa regen lebih cepat dari damage Argus.",
+      "Diggie": "Diggie bisa CC Argus setelah ultimate selesai sebelum dia bisa escape."
+    },
+    "synergies": ["Angela", "Floryn", "Estes"],
+    "tips": "Gunakan ultimate saat hampir mati untuk balik menyerang. Kombinasikan dengan Angela yang masuk ke tubuhmu untuk sustain ekstra."
+  },
+  {
+    "id": "hylos",
+    "name": "Hylos",
+    "role": ["Tank"],
+    "specialty": ["Crowd Control", "Sustain"],
+    "lane": "Roam",
+    "difficulty": "Easy",
+    "release_date": "2017",
+    "lore": "Hylos adalah centaur suci penjaga sumber kehidupan, menggunakan kekuatan air suci untuk bertarung.",
+    "skills": [
+      {"name": "Thickened Blood", "type": "Passive", "description": "Hylos mengubah mana menjadi HP. Semakin banyak mana dia punya, semakin banyak HP bonus yang dia dapatkan."},
+      {"name": "Ring of Punishment", "type": "Skill 1", "description": "Hylos memanggil ring suci di sekitarnya yang memberikan slow kepada musuh di dalam ring."},
+      {"name": "Glorious Pathway", "type": "Skill 2", "description": "Hylos membuat jalur suci di mana ally yang berjalan di atasnya mendapat movement speed boost."},
+      {"name": "Law and Order", "type": "Ultimate", "description": "Hylos mencengkeram musuh target dan menyeretnya, memberikan damage terus-menerus. Hylos bergerak bebas selama ultimate."}
+    ],
+    "stats": {"hp": 5500, "physical_attack": 108, "physical_defense": 24, "magic_defense": 15, "movement_speed": 245, "attack_speed": 0.79},
+    "build_recommendations": {
+      "core_items": ["Enchanted Talisman", "Dominance Ice", "Immortality"],
+      "situational_items": ["Oracle", "Antique Cuirass", "Thunderbelt"],
+      "emblem": "Tank Emblem"
+    },
+    "combos": [
+      "S1 slow ring → Ultimate seret musuh → S2 pathway untuk team chase",
+      "Ultimate → Seret musuh ke team → S1 ring untuk zone",
+      "S2 pathway → Team advance → S1 → Ultimate lock target"
+    ],
+    "strengths": ["HP sangat besar dari passive mana ke HP", "Ultimate bisa seret musuh sambil bergerak", "S2 pathway buff untuk team"],
+    "weaknesses": ["Movement speed lambat", "Ultimate mudah di-counter dengan blink", "Butuh mana banyak untuk optimal"],
+    "counters": ["Karrie", "Wanwan", "Esmeralda"],
+    "counter_tips": {
+      "Karrie": "Karrie bisa true damage Hylos menembus HP besarnya.",
+      "Wanwan": "Wanwan bisa break ultimate Hylos dengan passive dash.",
+      "Esmeralda": "Esmeralda bisa counter Hylos dan sustain dari serangannya."
+    },
+    "synergies": ["Pharsa", "Odette", "Vale"],
+    "tips": "Bangun Enchanted Talisman untuk maksimalkan mana → HP conversion. Ultimate memungkinkan Hylos menyeret musuh langsung ke team."
+  },
+  {
+    "id": "lesley",
+    "name": "Lesley",
+    "role": ["Marksman", "Assassin"],
+    "specialty": ["Reap", "Burst"],
+    "lane": "Gold Lane",
+    "difficulty": "Moderate",
+    "release_date": "2017",
+    "lore": "Lesley adalah sniper dari keluarga Paxley yang menggunakan senapan jarak jauh untuk eliminasi target dengan tepat.",
+    "skills": [
+      {"name": "Tactical Grenade", "type": "Passive", "description": "Setiap 5 serangan dasar atau setelah skill, serangan dasar berikutnya adalah Master Sniper yang memberikan critical dan bonus range."},
+      {"name": "Master Sniper", "type": "Skill 1", "description": "Lesley masuk mode stealth singkat dan memperkuat basic attack berikutnya dengan critical yang sangat tinggi."},
+      {"name": "Tactical Grenade", "type": "Skill 2", "description": "Lesley melempar granat yang memberikan knockback kepada semua musuh di sekitarnya dan membuatnya stealth singkat."},
+      {"name": "Ultimate Snipe", "type": "Ultimate", "description": "Lesley menembakkan hingga 4 peluru sniper ke musuh yang ditargetkan. Peluru bisa di-cancel oleh hero lain."}
+    ],
+    "stats": {"hp": 2350, "physical_attack": 125, "physical_defense": 16, "magic_defense": 10, "movement_speed": 255, "attack_speed": 0.85},
+    "build_recommendations": {
+      "core_items": ["Berserker's Fury", "Malefic Roar", "Blade of Despair"],
+      "situational_items": ["Hunter Strike", "Immortality", "Wind of Nature"],
+      "emblem": "Marksman Emblem"
+    },
+    "combos": [
+      "S1 stealth → Master Sniper crit → S2 knockback → Ultimate snipe",
+      "S2 self-peel → S1 → Ultimate ke target yang flee",
+      "Passive proc → S1 → Ultimate 4 peluru ke carry musuh"
+    ],
+    "strengths": ["Jangkauan sangat jauh dengan ultimate", "Critical damage sangat tinggi", "S2 self-peel yang bagus"],
+    "weaknesses": ["Sangat lemah vs assassin dive", "Tidak ada hard CC", "Ultimate bisa di-block hero lain"],
+    "counters": ["Natalia", "Lancelot", "Helcurt"],
+    "counter_tips": {
+      "Natalia": "Natalia bisa interrupt stealth Lesley dan burst sebelum bereaksi.",
+      "Lancelot": "Lancelot bisa immunity dodge peluru ultimate Lesley.",
+      "Helcurt": "Helcurt bisa silence Lesley mencegah penggunaan ultimate."
+    },
+    "synergies": ["Estes", "Angela", "Mathilda"],
+    "tips": "Gunakan ultimate untuk poke musuh dari jarak ekstrem. Jika musuh di-CC oleh team, ultimate Lesley sangat mudah mengenai."
+  },
+  {
+    "id": "johnson",
+    "name": "Johnson",
+    "role": ["Tank", "Support"],
+    "specialty": ["Crowd Control", "Initiation"],
+    "lane": "Roam",
+    "difficulty": "Hard",
+    "release_date": "2017",
+    "lore": "Johnson adalah polisi robot antik yang berubah menjadi mobil dan membawa ally ke dalam pertempuran.",
+    "skills": [
+      {"name": "Electro-Airbag", "type": "Passive", "description": "Saat HP Johnson kritis, dia mendapat shield besar secara otomatis."},
+      {"name": "Steel Sweeper", "type": "Skill 1", "description": "Johnson menyapu area depannya dengan senjata listrik, memberikan damage dan slow."},
+      {"name": "Rapid Touchdown", "type": "Skill 2", "description": "Johnson berubah menjadi mobil dan bisa dikendarai oleh ally. Saat menabrak musuh, memberikan stun."},
+      {"name": "Electro-Airbag", "type": "Ultimate", "description": "Johnson memperkuat tabrakkan mobilnya dengan arus listrik, memberikan stun yang lebih lama dan damage lebih besar."}
+    ],
+    "stats": {"hp": 4800, "physical_attack": 110, "physical_defense": 25, "magic_defense": 14, "movement_speed": 248, "attack_speed": 0.8},
+    "build_recommendations": {
+      "core_items": ["Thunderbelt", "Dominance Ice", "Immortality"],
+      "situational_items": ["Oracle", "Antique Cuirass", "Blade Armor"],
+      "emblem": "Tank Emblem"
+    },
+    "combos": [
+      "S2 mobil + carry masuk → Tabrak musuh → Ultimate stun → S1",
+      "Ultimate → S2 mobil → Tabrak ke wall → Ally burst",
+      "S1 slow → S2 jadi mobil → Ultimate tabrak keras"
+    ],
+    "strengths": ["S2 unik bisa membawa ally", "Engage dari jarak sangat jauh", "Ultimate stun yang kuat"],
+    "weaknesses": ["Mekanik S2 butuh koordinasi", "Bisa di-dodge jika musuh aware", "Sangat lemah tanpa ally di mobil"],
+    "counters": ["Wanwan", "Lancelot", "Fanny"],
+    "counter_tips": {
+      "Wanwan": "Wanwan bisa dodge tabrakkan Johnson dengan passive dash.",
+      "Lancelot": "Lancelot bisa immunity dodge saat Johnson datang.",
+      "Fanny": "Fanny terlalu mobile untuk di-tabrak Johnson secara konsisten."
+    },
+    "synergies": ["Odette", "Eudora", "Vale"],
+    "tips": "Koordinasi dengan carry untuk masuk mobil sebelum engage. Tabrak musuh ke dinding untuk stun maksimal."
+  },
+  {
+    "id": "martis",
+    "name": "Martis",
+    "role": ["Fighter"],
+    "specialty": ["Crowd Control", "Burst"],
+    "lane": "EXP Lane",
+    "difficulty": "Easy",
+    "release_date": "2018",
+    "lore": "Martis adalah prajurit dari dimensi Endless Abyss yang menggunakan Ashura Force untuk menghancurkan musuh.",
+    "skills": [
+      {"name": "Ashura Aura", "type": "Passive", "description": "Skill Martis mengurangi cooldown skill lainnya saat mengenai musuh. Semakin banyak musuh kena, semakin banyak cooldown berkurang."},
+      {"name": "Ashura Blades", "type": "Skill 1", "description": "Martis menarik semua musuh di depannya ke posisinya dan memberikan damage."},
+      {"name": "Mortal Coil", "type": "Skill 2", "description": "Martis menyerang maju beberapa kali dengan serangan cepat yang memberikan damage multi-hit."},
+      {"name": "Decimation", "type": "Ultimate", "description": "Martis mengincar musuh dan melakukan dash ke arahnya, memberikan damage besar. Jika musuh mati, cooldown reset dan bisa digunakan lagi."}
+    ],
+    "stats": {"hp": 3000, "physical_attack": 125, "physical_defense": 22, "magic_defense": 10, "movement_speed": 262, "attack_speed": 0.83},
+    "build_recommendations": {
+      "core_items": ["Endless Battle", "Hunter Strike", "Blade of Despair"],
+      "situational_items": ["Oracle", "Immortality", "Malefic Roar"],
+      "emblem": "Fighter Emblem"
+    },
+    "combos": [
+      "S1 tarik semua musuh → S2 multi-hit → Ultimate execute",
+      "Ultimate execute → Reset → Ultimate lagi ke target baru",
+      "S2 → S1 → Ultimate chain kill"
+    ],
+    "strengths": ["Ultimate bisa chain kill", "S1 menarik banyak musuh sekaligus", "Passive cooldown reduction"],
+    "weaknesses": ["Lemah di early sebelum item", "Susah di-counter jika musuh flee saat ultimate", "Damage butuh multiple hit"],
+    "counters": ["Chou", "Franco", "Khufra"],
+    "counter_tips": {
+      "Chou": "Chou bisa kick Martis saat dia S2 dan interrupt combo.",
+      "Franco": "Franco bisa hook Martis dan CC sebelum bisa engage.",
+      "Khufra": "Khufra bisa block dash ultimate Martis."
+    },
+    "synergies": ["Angela", "Estes", "Mathilda"],
+    "tips": "Ultimate chain kill adalah kunci Martis. Pastikan musuh sudah low HP sebelum ultimate untuk trigger reset."
+  },
+  {
+    "id": "hanabi",
+    "name": "Hanabi",
+    "role": ["Marksman"],
+    "specialty": ["Reap", "Crowd Control"],
+    "lane": "Gold Lane",
+    "difficulty": "Easy",
+    "release_date": "2018",
+    "lore": "Hanabi adalah ninja wanita dari klan Scarlet Shadow yang memberontak dan kini menggunakan kekuatannya untuk kebebasan.",
+    "skills": [
+      {"name": "Petal Barrage", "type": "Passive", "description": "Saat HP penuh, Hanabi mendapatkan shield. Saat shield aktif, basic attack-nya memantul ke target tambahan."},
+      {"name": "Ninjutsu: Equinox", "type": "Skill 1", "description": "Hanabi melepaskan semua energinya ke basic attack, meningkatkan damage dan jangkauan sementara."},
+      {"name": "Kusa Kunai", "type": "Skill 2", "description": "Hanabi melempar kunai ke depan yang memberikan damage dan slow kepada musuh yang terkena."},
+      {"name": "Higanbana", "type": "Ultimate", "description": "Hanabi melempar bunga iblis yang mengembang dan memberikan root kepada musuh yang terkena. Efek menyebar ke musuh terdekat."}
+    ],
+    "stats": {"hp": 2400, "physical_attack": 118, "physical_defense": 15, "magic_defense": 10, "movement_speed": 250, "attack_speed": 0.9},
+    "build_recommendations": {
+      "core_items": ["Windtalker", "Berserker's Fury", "Scarlet Phantom"],
+      "situational_items": ["Haas's Claws", "Malefic Roar", "Immortality"],
+      "emblem": "Marksman Emblem"
+    },
+    "combos": [
+      "S1 buff basic attack → S2 slow → Ultimate root",
+      "Ultimate root musuh berkumpul → S1 → S2 → Passive bounce",
+      "S2 → S1 → Ultimate untuk zona lock musuh"
+    ],
+    "strengths": ["Ultimate root yang menyebar ke musuh berkumpul", "Passive bounce saat shield aktif", "CC dari ultimate sangat kuat"],
+    "weaknesses": ["Lemah vs assassin", "Shield harus penuh untuk passive", "Tidak ada escape"],
+    "counters": ["Natalia", "Lancelot", "Gusion"],
+    "counter_tips": {
+      "Natalia": "Natalia bisa burst Hanabi sebelum ultimate aktif.",
+      "Lancelot": "Lancelot bisa immunity dodge ultimate Hanabi.",
+      "Gusion": "Gusion bisa burst Hanabi sebelum dia bereaksi."
+    },
+    "synergies": ["Estes", "Angela", "Tigreal"],
+    "tips": "Ultimate Hanabi sangat efektif saat musuh berkumpul. Root menyebar otomatis ke musuh terdekat!"
+  },
+  {
+    "id": "badang",
+    "name": "Badang",
+    "role": ["Fighter"],
+    "specialty": ["Crowd Control", "Burst"],
+    "lane": "EXP Lane",
+    "difficulty": "Moderate",
+    "release_date": "2019",
+    "lore": "Badang adalah pahlawan rakyat dari Malaysia yang mendapatkan kekuatan luar biasa dari jin air dan menggunakannya untuk melindungi rakyat.",
+    "skills": [
+      {"name": "Chivalry Fist", "type": "Passive", "description": "Setiap 5 serangan dasar, Badang melakukan Chivalry Fist yang memberikan knockback kepada musuh. Jika menabrak dinding, memberikan stun."},
+      {"name": "Qigong Fist", "type": "Skill 1", "description": "Badang menghantam ke depan dengan tinju berenergi, memberikan damage dan knockback ke musuh di jalurnya."},
+      {"name": "Fist Break", "type": "Skill 2", "description": "Badang melakukan dash ke depan memberikan damage kepada musuh yang dilalui."},
+      {"name": "Grock Wall", "type": "Ultimate", "description": "Badang memanggil tembok api di depannya yang mencegah musuh melewatinya dan memberikan damage terus-menerus."}
+    ],
+    "stats": {"hp": 3100, "physical_attack": 126, "physical_defense": 23, "magic_defense": 11, "movement_speed": 258, "attack_speed": 0.82},
+    "build_recommendations": {
+      "core_items": ["Endless Battle", "Hunter Strike", "Blade of Despair"],
+      "situational_items": ["Oracle", "Immortality", "Malefic Roar"],
+      "emblem": "Fighter Emblem"
+    },
+    "combos": [
+      "S2 dash → S1 knock ke wall → Passive stun → Ultimate trap",
+      "Ultimate wall → S1 → S2 → Passive Chivalry Fist",
+      "S1 knock ke dinding → Passive stun → Ultimate block escape"
+    ],
+    "strengths": ["Passive stun di dekat dinding sangat kuat", "Ultimate memblokir escape musuh", "CC yang reliable"],
+    "weaknesses": ["Bergantung pada dinding untuk stun", "Tidak efektif di area terbuka", "Lemah vs blink hero"],
+    "counters": ["Wanwan", "Lancelot", "Fanny"],
+    "counter_tips": {
+      "Wanwan": "Wanwan bisa dodge passive dan ultimate Badang dengan dash-nya.",
+      "Lancelot": "Lancelot bisa immunity dodge skill Badang.",
+      "Fanny": "Fanny bisa melompat melewati tembok ultimate Badang."
+    },
+    "synergies": ["Pharsa", "Kagura", "Eudora"],
+    "tips": "Coba posisikan musuh dekat dinding untuk combo passive stun. Ultimate tembok api sangat efektif untuk blocking retreat."
+  },
+  {
+    "id": "thamuz",
+    "name": "Thamuz",
+    "role": ["Fighter"],
+    "specialty": ["Charge", "Reap"],
+    "lane": "EXP Lane / Jungle",
+    "difficulty": "Easy",
+    "release_date": "2019",
+    "lore": "Thamuz adalah lord iblis dari Abyss yang menggunakan sabit kembar untuk memotong musuh-musuhnya.",
+    "skills": [
+      {"name": "Act of Predation", "type": "Passive", "description": "Serangan dasar Thamuz meninggalkan luka yang memberikan true damage secara berkala."},
+      {"name": "Lowland Raid", "type": "Skill 1", "description": "Thamuz menghantam tanah dengan sabitnya, membuat gundukan lava yang memberikan damage terus-menerus."},
+      {"name": "Chasm Trample", "type": "Skill 2", "description": "Thamuz melakukan dash ke depan sambil menyerang dengan sabit, memberikan damage multi-hit dan lifesteal."},
+      {"name": "Cauterant Inferno", "type": "Ultimate", "description": "Thamuz memanggil api lava yang meningkatkan damage semua skillnya dan memperkuat serangannya secara signifikan."}
+    ],
+    "stats": {"hp": 3200, "physical_attack": 128, "physical_defense": 22, "magic_defense": 12, "movement_speed": 262, "attack_speed": 0.84},
+    "build_recommendations": {
+      "core_items": ["Endless Battle", "Hunter Strike", "Blade of Despair"],
+      "situational_items": ["Oracle", "Immortality", "Malefic Roar"],
+      "emblem": "Fighter Emblem"
+    },
+    "combos": [
+      "S2 dash → S1 lava zone → Ultimate power up → S2 lagi",
+      "Ultimate aktif → S2 → S1 → Passive true damage terus",
+      "S1 lava → S2 chase → Ultimate untuk burst maksimal"
+    ],
+    "strengths": ["Passive true damage yang terus-menerus", "Ultimate meningkatkan semua skill", "Lifesteal dari S2"],
+    "weaknesses": ["Tidak ada CC kuat", "Lemah vs kiting hero", "Susah engage dari jauh"],
+    "counters": ["Layla", "Granger", "Pharsa"],
+    "counter_tips": {
+      "Layla": "Layla bisa kite Thamuz dari jarak jauh menghindari serangannya.",
+      "Granger": "Granger bisa outrange dan poke Thamuz.",
+      "Pharsa": "Pharsa bisa bomb dari kejauhan tanpa bisa di-approach."
+    },
+    "synergies": ["Angela", "Estes", "Diggie"],
+    "tips": "Thamuz terkuat saat bisa menempel terus ke musuh. Ultimate sangat meningkatkan semua skill — gunakan saat teamfight."
+  },
+  {
+    "id": "kadita",
+    "name": "Kadita",
+    "role": ["Mage"],
+    "specialty": ["Burst", "Chase"],
+    "lane": "Mid Lane",
+    "difficulty": "Moderate",
+    "release_date": "2019",
+    "lore": "Kadita adalah ratu laut dari legenda Jawa yang menguasai kekuatan gelombang laut dan ombak untuk menghancurkan musuh.",
+    "skills": [
+      {"name": "Thalassophobia", "type": "Passive", "description": "Saat Kadita terkena efek negatif (CC atau heal reduction), dia mendapatkan shield dan gerakan yang lebih cepat."},
+      {"name": "Ocean Oddity", "type": "Skill 1", "description": "Kadita memanggil ombak laut yang membawanya maju, memberikan damage dan CC immunity sementara."},
+      {"name": "Breath of the Ocean", "type": "Skill 2", "description": "Kadita memanggil tangan laut yang memberikan slow dan knockback kepada musuh yang terkena."},
+      {"name": "Rough Waves", "type": "Ultimate", "description": "Kadita memanggil gelombang tsunami besar yang memberikan damage dan knockback massal kepada semua musuh yang terkena."}
+    ],
+    "stats": {"hp": 2500, "magic_power": 116, "physical_defense": 17, "magic_defense": 15, "movement_speed": 248, "attack_speed": 0.8},
+    "build_recommendations": {
+      "core_items": ["Clock of Destiny", "Holy Crystal", "Blood Wings"],
+      "situational_items": ["Necklace of Durance", "Divine Glaive", "Immortality"],
+      "emblem": "Mage Emblem"
+    },
+    "combos": [
+      "S1 dash immunity → S2 slow → Ultimate tsunami",
+      "Ultimate knockback → S1 chase → S2 untuk lock",
+      "S2 → S1 → Ultimate untuk burst + escape"
+    ],
+    "strengths": ["Passive CC immunity saat di-CC", "Ultimate knockback yang massal", "S1 memberikan CC immunity sementara"],
+    "weaknesses": ["Butuh positioning yang baik untuk ultimate", "Mana boros", "Lemah vs assassin cepat"],
+    "counters": ["Lancelot", "Gusion", "Natalia"],
+    "counter_tips": {
+      "Lancelot": "Lancelot bisa immunity dodge ultimate Kadita dan burst dia.",
+      "Gusion": "Gusion bisa burst Kadita sebelum dia bisa engage.",
+      "Natalia": "Natalia bisa mendekati diam-diam sebelum Kadita bereaksi."
+    },
+    "synergies": ["Tigreal", "Khufra", "Franco"],
+    "tips": "Passive Kadita memberikan immunity saat di-CC — jangan takut engage. Ultimate sangat efektif saat musuh berkumpul di area sempit."
+  },
+  {
+    "id": "baxia",
+    "name": "Baxia",
+    "role": ["Tank"],
+    "specialty": ["Crowd Control", "Anti-Heal"],
+    "lane": "Roam",
+    "difficulty": "Moderate",
+    "release_date": "2019",
+    "lore": "Baxia adalah kura-kura raksasa dari Turtle Clan yang menggunakan cangkangnya sebagai senjata dan mengurangi semua efek penyembuhan.",
+    "skills": [
+      {"name": "Baxia Mark", "type": "Passive", "description": "Baxia mengurangi semua efek HP regen dan shield di peta sebesar 50%. Termasuk heal hero musuh maupun ally."},
+      {"name": "Baxia-Shield Unity", "type": "Skill 1", "description": "Baxia berputar dalam cangkangnya dan meluncur ke depan dengan kecepatan tinggi, bisa dikendalikan."},
+      {"name": "Shield of Spirit", "type": "Skill 2", "description": "Baxia melempar cangkang mini yang memberikan damage dan slow kepada musuh yang terkena."},
+      {"name": "Tortoise's Puissance", "type": "Ultimate", "description": "Baxia memanggil lava dari cangkangnya yang membuat jalur api, memberikan damage dan slow kepada musuh yang melintas."}
+    ],
+    "stats": {"hp": 4750, "physical_attack": 112, "physical_defense": 24, "magic_defense": 14, "movement_speed": 250, "attack_speed": 0.8},
+    "build_recommendations": {
+      "core_items": ["Dominance Ice", "Antique Cuirass", "Oracle"],
+      "situational_items": ["Immortality", "Brute Force Breastplate", "Thunderbelt"],
+      "emblem": "Tank Emblem"
+    },
+    "combos": [
+      "S1 roll approach → S2 → Ultimate lava trail",
+      "Ultimate trail → S1 → S2 untuk zone",
+      "S2 → S1 engage → Ultimate untuk chase"
+    ],
+    "strengths": ["Passive anti-heal terkuat di game", "S1 mobilitas yang tinggi untuk tank", "Ultimate lava trail sangat mengganggu"],
+    "weaknesses": ["Passive juga mengurangi heal ally sendiri", "Damage sangat rendah", "Lemah vs kiting"],
+    "counters": ["Karrie", "Wanwan", "Esmeralda"],
+    "counter_tips": {
+      "Karrie": "Karrie true damage tidak terpengaruh passive Baxia dan bisa membunuhnya efektif.",
+      "Wanwan": "Wanwan bisa dodge S1 Baxia dan fight dari jarak aman.",
+      "Esmeralda": "Esmeralda masih bisa sustain bahkan dengan anti-heal passive."
+    },
+    "synergies": ["Karrie", "Bruno", "Layla"],
+    "tips": "Baxia adalah counter sempurna untuk tim musuh yang bergantung pada Estes, Angela, atau Floryn. Passive-nya memangkas 50% semua heal."
+  },
+  {
+    "id": "uranus",
+    "name": "Uranus",
+    "role": ["Tank"],
+    "specialty": ["Sustain", "Crowd Control"],
+    "lane": "Roam / EXP Lane",
+    "difficulty": "Easy",
+    "release_date": "2019",
+    "lore": "Uranus adalah astronot yang terjebak di luar angkasa dan menyatu dengan energi kosmik yang membuatnya mampu regen tanpa henti.",
+    "skills": [
+      {"name": "Ionic Edge", "type": "Passive", "description": "Setiap serangan dan skill yang diterima Uranus mengisi charge. Saat charge aktif, Uranus regen HP secara masif."},
+      {"name": "Ionic Edge", "type": "Skill 1", "description": "Uranus melepaskan energi ionic ke musuh terdekat berulang kali, memberikan damage dan slow."},
+      {"name": "Transcendent Ward", "type": "Skill 2", "description": "Uranus membuat pelindung energi di sekitarnya yang memberikan shield dan menolak CC sementara."},
+      {"name": "Consecrated Ground", "type": "Ultimate", "description": "Uranus memancarkan energi yang memberikan damage terus-menerus dan slow kepada semua musuh di sekitarnya, sambil regen HP cepat."}
+    ],
+    "stats": {"hp": 4800, "physical_attack": 105, "physical_defense": 24, "magic_defense": 15, "movement_speed": 250, "attack_speed": 0.79},
+    "build_recommendations": {
+      "core_items": ["Antique Cuirass", "Oracle", "Immortality"],
+      "situational_items": ["Dominance Ice", "Brute Force Breastplate", "Thunderbelt"],
+      "emblem": "Tank Emblem"
+    },
+    "combos": [
+      "S2 shield → S1 damage → Ultimate regen + DPS",
+      "Ultimate → S1 terus → S2 saat terancam",
+      "S1 → S2 untuk block CC → Ultimate zona kontrol"
+    ],
+    "strengths": ["Regen HP hampir tidak bisa dibunuh di late game", "Counter sempurna untuk burst hero", "Ultimate zona kontrol yang kuat"],
+    "weaknesses": ["Damage sangat rendah", "Lemah di early sebelum item", "Anti-heal item counters-nya"],
+    "counters": ["Baxia", "Karrie", "Necklace of Durance users"],
+    "counter_tips": {
+      "Baxia": "Baxia mengurangi regen Uranus hingga 50% dengan passive-nya.",
+      "Karrie": "Karrie true damage tidak bisa di-sustain bahkan oleh Uranus.",
+      "Necklace users": "Necklace of Durance sangat mengurangi efektivitas regen Uranus."
+    },
+    "synergies": ["Pharsa", "Kagura", "Aurora"],
+    "tips": "Uranus semakin sulit dibunuh semakin lama pertarungan berlangsung. Biarkan musuh terus menyerang untuk stack passive regen."
+  },
+  {
+    "id": "popol_kupa",
+    "name": "Popol and Kupa",
+    "role": ["Marksman", "Support"],
+    "specialty": ["Poke", "Crowd Control"],
+    "lane": "Gold Lane / Roam",
+    "difficulty": "Hard",
+    "release_date": "2020",
+    "lore": "Popol adalah anak kecil dan Kupa adalah serigala setia yang berjuang bersama melindungi desa mereka dari ancaman jahat.",
+    "skills": [
+      {"name": "We Are Angry!", "type": "Passive", "description": "Kupa semakin kuat saat Popol memberikan perintah. Kupa menyerang target Popol secara mandiri."},
+      {"name": "Popol's Surprise", "type": "Skill 1", "description": "Popol melempar jebakan yang memberikan slow kepada musuh yang menginjaknya."},
+      {"name": "Kupa, Help!", "type": "Skill 2", "description": "Kupa menggigit musuh dan memberikan stun singkat."},
+      {"name": "We are Angry!", "type": "Ultimate", "description": "Popol memanggil Kupa kembali dan memberinya armor, membuat Kupa sangat kuat sementara waktu."}
+    ],
+    "stats": {"hp": 2400, "physical_attack": 116, "physical_defense": 15, "magic_defense": 10, "movement_speed": 252, "attack_speed": 0.87},
+    "build_recommendations": {
+      "core_items": ["Windtalker", "Berserker's Fury", "Golden Staff"],
+      "situational_items": ["Haas's Claws", "Malefic Roar", "Immortality"],
+      "emblem": "Marksman Emblem"
+    },
+    "combos": [
+      "S1 trap → S2 Kupa gigit → Basic attack burst",
+      "Posisikan Kupa → S2 stun → S1 trap → Ultimate buff",
+      "Ultimate buff Kupa → S2 → S1 → Passive Kupa attack"
+    ],
+    "strengths": ["Dua karakter sekaligus memberikan pressure", "S1 trap zona kontrol yang bagus", "Unik dan mengejutkan musuh"],
+    "weaknesses": ["Mekanik kompleks mengontrol dua karakter", "Kupa bisa mati jika tidak dijaga", "Lemah vs AoE yang banyak"],
+    "counters": ["Chou", "Lancelot", "Gusion"],
+    "counter_tips": {
+      "Chou": "Chou bisa kick Popol dan interrupt combo Kupa.",
+      "Lancelot": "Lancelot bisa immunity dodge jebakan Popol dan burst cepat.",
+      "Gusion": "Gusion bisa burst Popol sebelum Kupa bisa bantu."
+    },
+    "synergies": ["Estes", "Angela", "Tigreal"],
+    "tips": "Tempatkan jebakan S1 di bush atau chokepoint. Kupa adalah extra damage — jaga jangan sampai Kupa mati duluan."
+  },
+  {
+    "id": "carmilla",
+    "name": "Carmilla",
+    "role": ["Support", "Tank"],
+    "specialty": ["Crowd Control", "Sustain"],
+    "lane": "Roam",
+    "difficulty": "Easy",
+    "release_date": "2020",
+    "lore": "Carmilla adalah vampir countess yang menggunakan kemampuan Soul Link untuk berbagi damage dengan musuh.",
+    "skills": [
+      {"name": "Vampire Pact", "type": "Passive", "description": "Saat Carmilla dan Cecil berada dekat, mereka berbagi status efek tertentu."},
+      {"name": "Crimson Flower", "type": "Skill 1", "description": "Carmilla melempar bunga darah yang memberikan slow dan damage kepada musuh yang terkena."},
+      {"name": "Bloodbath", "type": "Skill 2", "description": "Carmilla melakukan blink ke musuh terdekat dan menghisap darahnya, memberikan damage dan regen."},
+      {"name": "Curse of Blood", "type": "Ultimate", "description": "Carmilla menghubungkan musuh-musuh dengan Soul Link — semua damage yang diterima satu musuh juga diterima musuh lain yang terhubung."}
+    ],
+    "stats": {"hp": 2750, "magic_power": 105, "physical_defense": 18, "magic_defense": 14, "movement_speed": 248, "attack_speed": 0.8},
+    "build_recommendations": {
+      "core_items": ["Oracle", "Enchanted Talisman", "Dominance Ice"],
+      "situational_items": ["Immortality", "Antique Cuirass", "Holy Crystal"],
+      "emblem": "Support Emblem"
+    },
+    "combos": [
+      "Ultimate Soul Link → S1 slow → S2 life drain → Damage bersama",
+      "S2 blink → S1 → Ultimate link semua musuh",
+      "S1 → Ultimate → S2 untuk maximize Soul Link damage"
+    ],
+    "strengths": ["Ultimate Soul Link yang unik — damage ke satu musuh kena semua", "S2 lifesteal", "Counter tim yang stack berdekatan"],
+    "weaknesses": ["Ultimate mudah di-dodge dengan spread out", "Damage sendiri rendah", "Lemah vs assassin"],
+    "counters": ["Wanwan", "Fanny", "Lancelot"],
+    "counter_tips": {
+      "Wanwan": "Wanwan bisa spread out dari anggota tim lain untuk mengurangi efek Soul Link.",
+      "Fanny": "Fanny terlalu mobile dan sering spread, mengurangi efektivitas Soul Link.",
+      "Lancelot": "Lancelot bisa immunity dodge damage Soul Link."
+    },
+    "synergies": ["Tigreal", "Atlas", "Franco"],
+    "tips": "Ultimate Carmilla paling efektif saat musuh berkumpul. Link 3-5 musuh sekaligus untuk damage massal dari satu sumber."
+  },
+  {
+    "id": "cecilion",
+    "name": "Cecilion",
+    "role": ["Mage"],
+    "specialty": ["Burst", "Poke"],
+    "lane": "Mid Lane",
+    "difficulty": "Moderate",
+    "release_date": "2020",
+    "lore": "Cecilion adalah vampire count yang menggunakan magic unlimited untuk menyerang musuh dari kejauhan.",
+    "skills": [
+      {"name": "Overflowing", "type": "Passive", "description": "Setiap kali skill Cecilion mengenai musuh, max mana-nya meningkat. Semakin banyak mana, semakin besar damage skill."},
+      {"name": "Bat Impact", "type": "Skill 1", "description": "Cecilion memanggil kelelawar yang menyerang ke depan memberikan damage. Bisa di-charge untuk area lebih besar."},
+      {"name": "Sanguine Claws", "type": "Skill 2", "description": "Cecilion memanggil cakar dari dua arah yang menarik musuh ke tengah dan memberikan damage."},
+      {"name": "Bats Feast", "type": "Ultimate", "description": "Cecilion berubah menjadi iblis penuh dan menyerang semua musuh di sekitarnya sambil regen HP terus-menerus."}
+    ],
+    "stats": {"hp": 2300, "magic_power": 130, "physical_defense": 14, "magic_defense": 15, "movement_speed": 242, "attack_speed": 0.8},
+    "build_recommendations": {
+      "core_items": ["Enchanted Talisman", "Holy Crystal", "Blood Wings"],
+      "situational_items": ["Necklace of Durance", "Divine Glaive", "Immortality"],
+      "emblem": "Mage Emblem"
+    },
+    "combos": [
+      "S2 tarik musuh → S1 charge → Ultimate melee burst",
+      "S1 charge maksimal → S2 → Ultimate saat musuh mendekat",
+      "Ultimate → S2 → S1 untuk sustained DPS"
+    ],
+    "strengths": ["Passive stack mana → damage tanpa batas", "S2 CC yang unik (tarik dua arah)", "Ultimate regen HP sambil DPS"],
+    "weaknesses": ["Lemah di early sebelum mana stack banyak", "Tidak ada mobility", "Lemah vs assassin dive"],
+    "counters": ["Natalia", "Gusion", "Lancelot"],
+    "counter_tips": {
+      "Natalia": "Natalia bisa burst Cecilion sebelum mana stack banyak.",
+      "Gusion": "Gusion bisa combo burst sebelum Cecilion bisa bereaksi.",
+      "Lancelot": "Lancelot bisa immunity dodge S1 Cecilion dan burst cepat."
+    },
+    "synergies": ["Carmilla", "Tigreal", "Franco"],
+    "tips": "Stack mana Cecilion sebanyak mungkin dengan terus poke menggunakan S1. Semakin banyak mana, damage semakin tidak terbatas."
+  },
+  {
+    "id": "barats",
+    "name": "Barats",
+    "role": ["Tank", "Fighter"],
+    "specialty": ["Crowd Control", "Initiation"],
+    "lane": "EXP Lane / Roam",
+    "difficulty": "Moderate",
+    "release_date": "2020",
+    "lore": "Barats adalah kobold kecil yang menunggangi dinosaurus mekanik raksasa bernama Detona untuk bertempur.",
+    "skills": [
+      {"name": "Big Guy", "type": "Passive", "description": "Setiap stack Detona yang terkumpul meningkatkan ukuran dan armor Barats. Saat maksimal, Barats sangat besar dan kuat."},
+      {"name": "I'm Tough!", "type": "Skill 1", "description": "Barats memukul ke depan, memberikan damage dan slow kepada musuh yang terkena."},
+      {"name": "Here Comes Barats!", "type": "Skill 2", "description": "Detona melakukan charge ke depan dengan kecepatan tinggi yang memberikan damage dan knockback."},
+      {"name": "Detona's Welcome", "type": "Ultimate", "description": "Barats membuka mulut Detona dan menelan musuh tunggal, melemparkannya ke belakang. Musuh yang terkena di-suppress sementara."}
+    ],
+    "stats": {"hp": 4200, "physical_attack": 118, "physical_defense": 24, "magic_defense": 14, "movement_speed": 255, "attack_speed": 0.82},
+    "build_recommendations": {
+      "core_items": ["Dominance Ice", "Antique Cuirass", "Immortality"],
+      "situational_items": ["Oracle", "Brute Force Breastplate", "Thunderbelt"],
+      "emblem": "Tank Emblem"
+    },
+    "combos": [
+      "S2 charge → S1 slow → Ultimate telan musuh → Lempar ke team",
+      "Stack passive besar → Ultimate → S2 → S1",
+      "S1 → S2 charge → Ultimate untuk isolasi carry musuh"
+    ],
+    "strengths": ["Passive membuat Barats semakin besar dan kuat", "Ultimate CC yang sangat annoying", "S2 charge mobility"],
+    "weaknesses": ["Butuh waktu untuk stack passive", "Ultimate mudah di-counter Diggie", "Lemah di early sebelum stack"],
+    "counters": ["Diggie", "Wanwan", "Esmeralda"],
+    "counter_tips": {
+      "Diggie": "Diggie bisa remove suppress ultimate Barats dengan Time Journey.",
+      "Wanwan": "Wanwan bisa break chain Barats dengan passive dash.",
+      "Esmeralda": "Esmeralda terlalu tanky untuk dibunuh Barats."
+    },
+    "synergies": ["Pharsa", "Kagura", "Odette"],
+    "tips": "Stack passive Barats dulu sebelum teamfight. Saat sudah besar, ultimate untuk melempar carry musuh ke arah team."
+  },
+  {
+    "id": "brody",
+    "name": "Brody",
+    "role": ["Marksman"],
+    "specialty": ["Burst", "Reap"],
+    "lane": "Gold Lane",
+    "difficulty": "Moderate",
+    "release_date": "2020",
+    "lore": "Brody adalah mantan tentara dari Kastil Forsaken yang menggunakan pistol misterius untuk balas dendam.",
+    "skills": [
+      {"name": "Abyss Corrosion", "type": "Passive", "description": "Setiap stack Abyss Corrosion yang Brody berikan kepada musuh meningkatkan damage yang mereka terima dari Brody."},
+      {"name": "Abyss Impact", "type": "Skill 1", "description": "Brody menembakkan proyektil yang bisa di-charge. Makin lama di-charge, makin jauh dan besar damagenya."},
+      {"name": "Corrosive Strike", "type": "Skill 2", "description": "Brody melakukan blink ke musuh terdekat dan memberikan damage serta stack Abyss Corrosion."},
+      {"name": "Torn-Apart Memory", "type": "Ultimate", "description": "Brody menembakkan peluru raksasa ke musuh dengan Abyss Corrosion terbanyak, memberikan damage yang diperkuat oleh stack."}
+    ],
+    "stats": {"hp": 2450, "physical_attack": 126, "physical_defense": 16, "magic_defense": 10, "movement_speed": 255, "attack_speed": 0.82},
+    "build_recommendations": {
+      "core_items": ["Berserker's Fury", "Malefic Roar", "Blade of Despair"],
+      "situational_items": ["Haas's Claws", "Immortality", "Wind of Nature"],
+      "emblem": "Marksman Emblem"
+    },
+    "combos": [
+      "S1 charge → S2 close → S1 stack → Ultimate burst",
+      "S2 blink → S1 → Ultimate ke musuh dengan banyak stack",
+      "Stack 4 Abyss Corrosion → Ultimate untuk damage maksimal"
+    ],
+    "strengths": ["Damage ultimate meningkat drastis dengan stack", "S1 bisa di-charge untuk jarak jauh", "S2 mobility cepat"],
+    "weaknesses": ["Butuh stack untuk damage maksimal", "Attack speed lambat", "Lemah vs assassin dive"],
+    "counters": ["Natalia", "Lancelot", "Gusion"],
+    "counter_tips": {
+      "Natalia": "Natalia bisa burst Brody sebelum bisa stack corrosion.",
+      "Lancelot": "Lancelot bisa immunity dodge ultimate Brody.",
+      "Gusion": "Gusion bisa burst Brody sebelum stack terkumpul."
+    },
+    "synergies": ["Estes", "Angela", "Mathilda"],
+    "tips": "Stack Abyss Corrosion ke 4 sebelum ultimate untuk damage maksimal. S1 charge penuh sangat menyakitkan di jarak jauh."
+  },
+  {
+    "id": "yve",
+    "name": "Yve",
+    "role": ["Mage"],
+    "specialty": ["Poke", "Crowd Control"],
+    "lane": "Mid Lane",
+    "difficulty": "Moderate",
+    "release_date": "2021",
+    "lore": "Yve adalah alien mage yang datang ke Land of Dawn untuk mempelajari kehidupan manusia dengan kekuatan kristal ruangnya.",
+    "skills": [
+      {"name": "Void Crystal Resonance", "type": "Passive", "description": "Skill Yve meninggalkan kristal void yang bisa di-trigger oleh skill berikutnya untuk efek tambahan."},
+      {"name": "Space Escape", "type": "Skill 1", "description": "Yve blink ke posisi baru sambil meninggalkan kristal void dan memberikan damage kecil."},
+      {"name": "Void Crystal Meteor", "type": "Skill 2", "description": "Yve memanggil meteor kristal ke area target yang memberikan damage dan slow."},
+      {"name": "Real World Manipulation", "type": "Ultimate", "description": "Yve menciptakan zona besar yang bisa dia kontrol secara bebas — menggambar pola untuk memberikan damage atau zona kontrol."}
+    ],
+    "stats": {"hp": 2350, "magic_power": 122, "physical_defense": 14, "magic_defense": 15, "movement_speed": 248, "attack_speed": 0.8},
+    "build_recommendations": {
+      "core_items": ["Clock of Destiny", "Holy Crystal", "Blood Wings"],
+      "situational_items": ["Necklace of Durance", "Divine Glaive", "Immortality"],
+      "emblem": "Mage Emblem"
+    },
+    "combos": [
+      "S1 blink → S2 meteor → Ultimate zona kontrol",
+      "Ultimate zona → S2 → S1 escape dari zona",
+      "S2 → S1 → Ultimate untuk area denial besar"
+    ],
+    "strengths": ["Ultimate zona kontrol yang sangat fleksibel", "S1 mobility yang bagus", "Poke dari jarak jauh dengan S2"],
+    "weaknesses": ["Ultimate butuh input aktif yang konsentrasi", "Lemah vs assassin dive", "Butuh positioning baik"],
+    "counters": ["Gusion", "Lancelot", "Natalia"],
+    "counter_tips": {
+      "Gusion": "Gusion bisa burst Yve sebelum dia bisa activate ultimate.",
+      "Lancelot": "Lancelot bisa immunity dodge serangan dari zona ultimate.",
+      "Natalia": "Natalia bisa mendekati diam-diam dan interrupt ultimate Yve."
+    },
+    "synergies": ["Tigreal", "Khufra", "Atlas"],
+    "tips": "Ultimate Yve bisa dikontrol bebas. Gunakan untuk block retreat, zona kontrol teamfight, atau mengejar musuh yang flee."
+  },
+  {
+    "id": "aulus",
+    "name": "Aulus",
+    "role": ["Fighter"],
+    "specialty": ["Burst", "Chase"],
+    "lane": "EXP Lane",
+    "difficulty": "Easy",
+    "release_date": "2021",
+    "lore": "Aulus adalah warrior dari Barbar Nord yang menggunakan kapak besar 'Aulafrons' yang haus akan pertempuran.",
+    "skills": [
+      {"name": "Fighting Spirit", "type": "Passive", "description": "Saat tidak dalam combat, Aulus mengakumulasi Fighting Spirit yang meningkatkan Physical Attack-nya saat masuk pertarungan."},
+      {"name": "Whetstone", "type": "Skill 1", "description": "Aulus mengasah kapaknya, meningkatkan Physical Attack dan attack speed untuk sementara waktu."},
+      {"name": "Whirling Slash", "type": "Skill 2", "description": "Aulus melakukan dash sambil mengayunkan kapak, memberikan damage AOE kepada musuh yang dilalui."},
+      {"name": "Undying Fury", "type": "Ultimate", "description": "Aulus memasuki mode berserk dengan attack speed sangat tinggi dan damage yang meningkat. Setiap kill memperpanjang durasi."}
+    ],
+    "stats": {"hp": 2850, "physical_attack": 125, "physical_defense": 22, "magic_defense": 10, "movement_speed": 260, "attack_speed": 0.84},
+    "build_recommendations": {
+      "core_items": ["Endless Battle", "Berserker's Fury", "Blade of Despair"],
+      "situational_items": ["Hunter Strike", "Immortality", "Malefic Roar"],
+      "emblem": "Fighter Emblem"
+    },
+    "combos": [
+      "Passive stack dulu → S1 buff → S2 dash → Ultimate berserk",
+      "Ultimate → S1 → S2 → Passive proc untuk DPS maksimal",
+      "S2 chase → S1 → Ultimate chain kill"
+    ],
+    "strengths": ["Ultimate attack speed yang sangat tinggi", "Chain kill memperpanjang ultimate", "Passive bonus damage saat masuk fight"],
+    "weaknesses": ["Tidak ada CC", "Lemah vs banyak CC dari musuh", "Ultimate butuh kill untuk diperpanjang"],
+    "counters": ["Chou", "Khufra", "Esmeralda"],
+    "counter_tips": {
+      "Chou": "Chou bisa kick Aulus saat bergerak dan interrupt ultimate.",
+      "Khufra": "Khufra bisa CC Aulus dan prevent dia dari membunuh untuk extend ultimate.",
+      "Esmeralda": "Esmeralda terlalu tanky untuk dibunuh Aulus dalam satu ultimate."
+    },
+    "synergies": ["Angela", "Estes", "Diggie"],
+    "tips": "Masuk fight dengan passive Fighting Spirit penuh. Ultimate bisa diperpanjang dengan kill — prioritaskan musuh yang bisa dibunuh cepat."
+  },
+  {
+    "id": "paquito",
+    "name": "Paquito",
+    "role": ["Fighter"],
+    "specialty": ["Burst", "Chase"],
+    "lane": "EXP Lane / Jungle",
+    "difficulty": "Hard",
+    "release_date": "2021",
+    "lore": "Paquito adalah juara tinju dunia yang menggunakan teknik boxing mematikan dan bisa memperkuat pukulannya dengan Champ Stance.",
+    "skills": [
+      {"name": "Champ Stance", "type": "Passive", "description": "Saat Paquito menggunakan skill dan mengenai musuh, dia mendapat Champ Stance yang empowers skill berikutnya."},
+      {"name": "Heavy Left Punch", "type": "Skill 1", "description": "Paquito memberikan pukulan kuat ke depan yang memberikan damage. Saat empowered, memberikan stun."},
+      {"name": "Jab", "type": "Skill 2", "description": "Paquito melakukan dash cepat sambil memberikan damage. Saat empowered, menambah jangkauan."},
+      {"name": "Knockout Strike", "type": "Ultimate", "description": "Paquito melakukan uppercut kepada musuh target yang memberikan knockup dan damage besar."}
+    ],
+    "stats": {"hp": 2950, "physical_attack": 128, "physical_defense": 22, "magic_defense": 10, "movement_speed": 262, "attack_speed": 0.83},
+    "build_recommendations": {
+      "core_items": ["Endless Battle", "Hunter Strike", "Blade of Despair"],
+      "situational_items": ["Oracle", "Immortality", "Malefic Roar"],
+      "emblem": "Fighter Emblem"
+    },
+    "combos": [
+      "S2 dash → S1 (Champ Stance) → S1 empowered stun → Ultimate knockup",
+      "Ultimate → S2 empowered → S1 → S2 → S1 empowered stun",
+      "S1 → S2 (Champ) → S2 empowered → Ultimate"
+    ],
+    "strengths": ["Champ Stance membuat setiap skill lebih kuat", "CC chain dari S1 empowered + ultimate", "Mobilitas tinggi dengan S2"],
+    "weaknesses": ["Mekanik Champ Stance butuh pemahaman", "Lemah vs sustain hero", "Susah di-optimal tanpa latihan"],
+    "counters": ["Esmeralda", "Uranus", "Hylos"],
+    "counter_tips": {
+      "Esmeralda": "Esmeralda terlalu sustain untuk dibunuh Paquito dalam combo.",
+      "Uranus": "Uranus regen lebih cepat dari burst Paquito.",
+      "Hylos": "Hylos punya HP sangat besar yang menguras combo Paquito."
+    },
+    "synergies": ["Angela", "Estes", "Mathilda"],
+    "tips": "Manfaatkan Champ Stance dengan baik — setiap skill yang mengenai empowers skill berikutnya. Ultimate saat ada Champ Stance untuk knockup maksimal."
+  },
+  {
+    "id": "natalia",
+    "name": "Natalia",
+    "role": ["Assassin"],
+    "specialty": ["Burst", "Chase"],
+    "lane": "Jungle",
+    "difficulty": "Hard",
+    "release_date": "2016",
+    "lore": "Natalia adalah agen rahasia dari Light of Dawn yang menggunakan teknik senyap untuk membasmi musuh dari bayangan.",
+    "skills": [
+      {"name": "Assassin Instinct", "type": "Passive", "description": "Di dalam bush, Natalia menjadi invisible. Setiap 3 serangan dasar, serangan berikutnya adalah Claw Attack yang silence musuh."},
+      {"name": "Claw Dash", "type": "Skill 1", "description": "Natalia melakukan dash cepat ke musuh, memberikan damage dan bisa di-cancel ke arah mana saja."},
+      {"name": "Smoke Bomb", "type": "Skill 2", "description": "Natalia melempar bom asap yang memberikan slow kepada musuh dan memberikan bonus attack speed baginya."},
+      {"name": "The Hunt", "type": "Ultimate", "description": "Natalia masuk ke mode Hunt — invisible dan damage meningkat drastis. Serangan pertama setelah invisible memberikan silence."}
+    ],
+    "stats": {"hp": 2350, "physical_attack": 122, "physical_defense": 17, "magic_defense": 10, "movement_speed": 268, "attack_speed": 0.87},
+    "build_recommendations": {
+      "core_items": ["Blade of Heptaseas", "Hunter Strike", "Blade of Despair"],
+      "situational_items": ["Endless Battle", "Malefic Roar", "Immortality"],
+      "emblem": "Assassin Emblem"
+    },
+    "combos": [
+      "Ultimate invisible → Passive silence attack → S1 → S2 → Burst",
+      "Bush invisible → Passive 3rd attack silence → S1 → S2 → Ultimate execute",
+      "S2 slow musuh → S1 → Passive silence → Ultimate untuk finish"
+    ],
+    "strengths": ["Invisible di bush dan ultimate", "Silence dari passive dan ultimate", "Counter sempurna untuk mage dan support"],
+    "weaknesses": ["Shar lemah vs tank", "Sangat bergantung pada surprise factor", "Tidak efektif jika ketahuan"],
+    "counters": ["Chou", "Saber", "Franco"],
+    "counter_tips": {
+      "Chou": "Chou punya CC immunity di S2 dan bisa kick Natalia setelah ultimate selesai.",
+      "Saber": "Saber bisa interrupt Natalia saat dia mendekati dan CC dengan ultimate.",
+      "Franco": "Franco bisa hook Natalia bahkan saat tidak visible dengan prediksi posisi."
+    },
+    "synergies": ["Estes", "Floryn", "Tigreal"],
+    "tips": "Gunakan bush untuk invisible gratis. Silence dari passive sangat efektif melawan mage seperti Kagura, Pharsa, atau Odette."
+  },
+  {
+    "id": "valir",
+    "name": "Valir",
+    "role": ["Mage"],
+    "specialty": ["Poke", "Crowd Control"],
+    "lane": "Mid Lane",
+    "difficulty": "Easy",
+    "release_date": "2018",
+    "lore": "Valir adalah mage api muda yang memiliki jiwa bebas dan menggunakan api untuk memberikan hukuman kepada musuhnya.",
+    "skills": [
+      {"name": "Ashing", "type": "Passive", "description": "Setiap serangan magic Valir memberikan stack Ashing. Saat 3 stack, musuh terkena stun singkat."},
+      {"name": "Burst Fireball", "type": "Skill 1", "description": "Valir menembakkan bola api yang memberikan damage dan knockback kepada musuh yang terkena."},
+      {"name": "Searing Torrent", "type": "Skill 2", "description": "Valir memancarkan torrent api ke depan yang memberikan damage dan knockback terus-menerus kepada musuh."},
+      {"name": "Vengeance Flame", "type": "Ultimate", "description": "Valir memperkuat dirinya, meningkatkan efek knockback dari S1 dan S2, mendapat CC immunity, dan mempercepat cooldown."}
+    ],
+    "stats": {"hp": 2350, "magic_power": 115, "physical_defense": 14, "magic_defense": 15, "movement_speed": 240, "attack_speed": 0.8},
+    "build_recommendations": {
+      "core_items": ["Clock of Destiny", "Holy Crystal", "Blood Wings"],
+      "situational_items": ["Necklace of Durance", "Divine Glaive", "Immortality"],
+      "emblem": "Mage Emblem"
+    },
+    "combos": [
+      "S2 push → S1 knockback → Passive stun → Ultimate boost",
+      "Ultimate CC immunity → S2 terus → S1 → Passive stun",
+      "S1 → S2 → Ultimate untuk disengage dan zone kontrol"
+    ],
+    "strengths": ["Counter terbaik untuk hero dive/engage", "Ultimate CC immunity sangat kuat", "Knockback terus-menerus mengganggu"],
+    "weaknesses": ["Lemah vs jarak jauh", "Damage tidak sekuat mage lain", "Susah kill hero mobile"],
+    "counters": ["Xavier", "Pharsa", "Layla"],
+    "counter_tips": {
+      "Xavier": "Xavier bisa poke Valir dari jarak jauh melebihi jangkauan knockback-nya.",
+      "Pharsa": "Pharsa bisa bomb dari udara melampaui jangkauan S2 Valir.",
+      "Layla": "Layla bisa outrange semua skill Valir dan kite dengan aman."
+    },
+    "synergies": ["Fanny", "Wanwan", "Karrie"],
+    "tips": "Valir counter sempurna untuk hero seperti Fanny dan Chou yang sering dive. S2 + ultimate bisa menghentikan semua engagement."
+  },
+  {
+    "id": "gloo",
+    "name": "Gloo",
+    "role": ["Tank"],
+    "specialty": ["Crowd Control", "Sustain"],
+    "lane": "Roam",
+    "difficulty": "Hard",
+    "release_date": "2021",
+    "lore": "Gloo adalah makhluk slime misterius dari hutan yang bisa membelah diri dan menyerap musuh ke dalam tubuhnya.",
+    "skills": [
+      {"name": "Stick, Stick!", "type": "Passive", "description": "Serangan Gloo meninggalkan slime pada musuh. Saat 10 slime stack, musuh ter-immobilize singkat."},
+      {"name": "Pass, Pass!", "type": "Skill 1", "description": "Gloo melempar slime ball ke musuh. Bola bisa di-recast untuk blink ke posisi bola tersebut."},
+      {"name": "Slam, Slam!", "type": "Skill 2", "description": "Gloo memukul ke depan dua kali, memberikan damage dan slow. Bisa digunakan untuk menembakkan slime ke bola S1."},
+      {"name": "Grab, Grab!", "type": "Ultimate", "description": "Gloo menempel ke musuh target, menyatu dengannya dan mengontrol pergerakannya sambil memberikan damage terus-menerus."}
+    ],
+    "stats": {"hp": 4700, "physical_attack": 110, "physical_defense": 24, "magic_defense": 14, "movement_speed": 248, "attack_speed": 0.8},
+    "build_recommendations": {
+      "core_items": ["Dominance Ice", "Antique Cuirass", "Immortality"],
+      "situational_items": ["Oracle", "Brute Force Breastplate", "Thunderbelt"],
+      "emblem": "Tank Emblem"
+    },
+    "combos": [
+      "S1 throw → Blink ke bola → S2 → Passive stack 10 → Ultimate melekat",
+      "Ultimate melekat ke carry → S2 untuk movement → S1 escape atau reposition",
+      "S2 slow → S1 → Passive stack → Ultimate"
+    ],
+    "strengths": ["Ultimate yang unik — melekat ke musuh dan kontrol", "Mobilitas tinggi dengan S1 blink", "Passive immobilize yang terus-menerus"],
+    "weaknesses": ["Mekanik sangat kompleks", "Ultimate bisa di-counter dengan CC immunity", "Susah dioptimalkan"],
+    "counters": ["Chou", "Argus", "Diggie"],
+    "counter_tips": {
+      "Chou": "Chou punya CC immunity di S2 yang bisa mencegah ultimate Gloo melekat.",
+      "Argus": "Argus bisa ultimate immortality untuk bertahan dari damage Gloo.",
+      "Diggie": "Diggie bisa remove CC dari ultimate Gloo."
+    },
+    "synergies": ["Pharsa", "Kagura", "Eudora"],
+    "tips": "Ultimate Gloo paling efektif melawan carry musuh. Saat melekat, Gloo mengontrol pergerakan musuh — arahkan ke team."
+  },
+  {
+    "id": "beatrix",
+    "name": "Beatrix",
+    "role": ["Marksman"],
+    "specialty": ["Burst", "Poke"],
+    "lane": "Gold Lane",
+    "difficulty": "Very Hard",
+    "release_date": "2021",
+    "lore": "Beatrix adalah insinyur senjata genius yang membawa 4 senjata berbeda ke medan perang dan ahli menggunakan semuanya.",
+    "skills": [
+      {"name": "Absolute Defense", "type": "Passive", "description": "Beatrix memiliki 4 senjata berbeda dengan amunisi terbatas. Setiap senjata memiliki skill unik."},
+      {"name": "Nibiru's Passion / Renner's Apathy / Wesker's Elation / Bennett's Sorrow", "type": "Skill 1", "description": "Skill berbeda sesuai senjata: shotgun, sniper, rifle, atau grenade launcher dengan efek masing-masing."},
+      {"name": "Weapon Switch", "type": "Skill 2", "description": "Beatrix mengganti senjata aktif ke senjata berikutnya dalam roster."},
+      {"name": "Full Barrage", "type": "Ultimate", "description": "Beatrix menggunakan semua senjata sekaligus untuk memberikan damage massal dari berbagai arah."}
+    ],
+    "stats": {"hp": 2400, "physical_attack": 122, "physical_defense": 16, "magic_defense": 10, "movement_speed": 258, "attack_speed": 0.85},
+    "build_recommendations": {
+      "core_items": ["Berserker's Fury", "Malefic Roar", "Blade of Despair"],
+      "situational_items": ["Hunter Strike", "Immortality", "Wind of Nature"],
+      "emblem": "Marksman Emblem"
+    },
+    "combos": [
+      "Sniper poke jarak jauh → Switch ke shotgun untuk close burst → Ultimate",
+      "Ultimate semua senjata → Switch ke grenade → Switch ke rifle",
+      "Shotgun S1 point-blank → Switch → Sniper finish dari jarak aman"
+    ],
+    "strengths": ["4 senjata dengan playstyle berbeda", "Fleksibilitas tertinggi di antara marksman", "Ultimate dari semua senjata"],
+    "weaknesses": ["Mekanik paling sulit di antara marksman", "Butuh memahami 4 senjata sekaligus", "Susah dipakai konsisten tanpa latihan banyak"],
+    "counters": ["Natalia", "Gusion", "Lancelot"],
+    "counter_tips": {
+      "Natalia": "Natalia bisa silence Beatrix mencegah penggunaan senjata dan burst cepat.",
+      "Gusion": "Gusion bisa combo burst Beatrix sebelum dia ganti senjata.",
+      "Lancelot": "Lancelot bisa immunity dodge senjata Beatrix dan burst."
+    },
+    "synergies": ["Estes", "Angela", "Mathilda"],
+    "tips": "Setiap senjata Beatrix punya use case berbeda. Sniper untuk jangkauan jauh, shotgun untuk close burst, grenade untuk AOE, rifle untuk sustained."
+  },
+  {
+    "id": "phoebe",
+    "name": "Phylax (Edith-Mode)",
+    "role": ["Support"],
+    "specialty": ["Heal", "Protection"],
+    "lane": "Roam",
+    "difficulty": "Easy",
+    "release_date": "2023",
+    "lore": "Phoebe adalah malaikat pelindung yang menggunakan kekuatan cahaya suci untuk menyembuhkan rekan dan menghukum musuh.",
+    "skills": [
+      {"name": "Righteous Defense", "type": "Passive", "description": "Saat melindungi ally, Phoebe mendapat bonus magic power dan cooldown reduction."},
+      {"name": "Holy Light", "type": "Skill 1", "description": "Phoebe memancarkan cahaya suci ke depan yang menyembuhkan ally yang dilaluinya dan memberikan damage ke musuh."},
+      {"name": "Heavenly Rescue", "type": "Skill 2", "description": "Phoebe blink ke ally terdekat dan memberikan shield besar kepada mereka."},
+      {"name": "Divine Retribution", "type": "Ultimate", "description": "Phoebe memanggil cahaya langit ke area target, menyembuhkan semua ally dan memberikan damage kepada musuh di area tersebut."}
+    ],
+    "stats": {"hp": 2500, "magic_power": 105, "physical_defense": 16, "magic_defense": 14, "movement_speed": 245, "attack_speed": 0.8},
+    "build_recommendations": {
+      "core_items": ["Oracle", "Enchanted Talisman", "Fleeting Time"],
+      "situational_items": ["Immortality", "Necklace of Durance", "Holy Crystal"],
+      "emblem": "Support Emblem"
+    },
+    "combos": [
+      "S2 blink ke carry → S1 heal beam → Ultimate area heal",
+      "S1 → S2 protect → Ultimate untuk sustain teamfight",
+      "S2 shield → Ultimate → S1 untuk follow-up"
+    ],
+    "strengths": ["Heal dan shield yang sangat besar", "S2 mobility untuk protect carry", "Ultimate dual purpose heal + damage"],
+    "weaknesses": ["Damage sangat rendah", "Lemah vs burst damage cepat", "Heal bisa di-counter"],
+    "counters": ["Baxia", "Natalia", "Karrie"],
+    "counter_tips": {
+      "Baxia": "Baxia mengurangi semua heal Phoebe.",
+      "Natalia": "Natalia bisa burst Phoebe sebelum bisa heal diri.",
+      "Karrie": "Karrie bisa menembus shield Phoebe dengan true damage."
+    },
+    "synergies": ["Fanny", "Ling", "Benedetta"],
+    "tips": "S2 Phoebe memungkinkan dia blink ke carry yang sedang diserang. Gunakan ultimate saat teamfight besar untuk dual heal + damage."
+  },
+  {
+    "id": "luo_yi",
+    "name": "Luo Yi",
+    "role": ["Mage"],
+    "specialty": ["Crowd Control", "Burst"],
+    "lane": "Mid Lane / Roam",
+    "difficulty": "Hard",
+    "release_date": "2020",
+    "lore": "Luo Yi adalah master yin dan yang yang menggunakan kekuatan polaritas untuk mengontrol medan pertempuran.",
+    "skills": [
+      {"name": "Duality", "type": "Passive", "description": "Skill Luo Yi memberikan mark Yin atau Yang ke musuh. Jika musuh dengan mark berlawanan bertabrakan, keduanya terkena burst damage besar."},
+      {"name": "Dispersion", "type": "Skill 1", "description": "Luo Yi melempar bola Yin atau Yang ke depan yang memberikan damage dan mark."},
+      {"name": "Rotation", "type": "Skill 2", "description": "Luo Yi memanggil pola rotasi yang memberikan slow dan damage ke musuh di area."},
+      {"name": "Diversion", "type": "Ultimate", "description": "Luo Yi membuat portal teleport di lokasi tertentu yang bisa digunakan oleh seluruh anggota tim."}
+    ],
+    "stats": {"hp": 2350, "magic_power": 118, "physical_defense": 14, "magic_defense": 15, "movement_speed": 240, "attack_speed": 0.8},
+    "build_recommendations": {
+      "core_items": ["Clock of Destiny", "Holy Crystal", "Blood Wings"],
+      "situational_items": ["Necklace of Durance", "Divine Glaive", "Immortality"],
+      "emblem": "Mage Emblem"
+    },
+    "combos": [
+      "S1 Yin → S1 Yang ke musuh lain → Tarik keduanya bertabrakan → Burst passive",
+      "S2 slow → S1 double mark → Passive burst collision",
+      "Ultimate teleport team → S1 → S2 → Passive"
+    ],
+    "strengths": ["Ultimate teleport team global yang unik", "Passive collision burst sangat powerful", "Zona kontrol dengan S2"],
+    "weaknesses": ["Mekanik Yin-Yang collision butuh latihan", "Lemah vs single target tanpa mark", "Susah dioptimalkan"],
+    "counters": ["Gusion", "Lancelot", "Natalia"],
+    "counter_tips": {
+      "Gusion": "Gusion bisa burst Luo Yi sebelum bisa setup mark.",
+      "Lancelot": "Lancelot bisa immunity dodge damage dari collision passive.",
+      "Natalia": "Natalia bisa burst Luo Yi diam-diam sebelum dia bereaksi."
+    },
+    "synergies": ["Wanwan", "Karrie", "Bruno"],
+    "tips": "Ultimate Luo Yi sangat berguna untuk rotasi cepat team. Passive collision bisa one-shot carry musuh jika diposisikan dengan baik."
+  },
+  {
+    "id": "selena",
+    "name": "Selena",
+    "role": ["Assassin", "Mage"],
+    "specialty": ["Burst", "Crowd Control"],
+    "lane": "Jungle / Mid Lane",
+    "difficulty": "Very Hard",
+    "release_date": "2019",
+    "lore": "Selena adalah elf kegelapan yang bisa berubah antara bentuk manusia dan abyssal, menggunakan racun untuk membunuh.",
+    "skills": [
+      {"name": "Symbiosis", "type": "Passive", "description": "Selena punya dua mode: Elven Form dan Abyssal Form, dengan skill set berbeda di masing-masing mode."},
+      {"name": "Abyssal Trap / Soul Eater", "type": "Skill 1", "description": "Elven: menempatkan jebakan. Abyssal: menyerang musuh yang ter-mark jebakan."},
+      {"name": "Abyssal Arrow / Garotte", "type": "Skill 2", "description": "Elven: menembakkan panah panjang yang memberikan stun. Abyssal: dash ke musuh dan memberikan damage."},
+      {"name": "Primal Darkness", "type": "Ultimate", "description": "Selena berubah antara Elven Form dan Abyssal Form dengan seketika."}
+    ],
+    "stats": {"hp": 2300, "magic_power": 120, "physical_defense": 14, "magic_defense": 15, "movement_speed": 260, "attack_speed": 0.8},
+    "build_recommendations": {
+      "core_items": ["Clock of Destiny", "Holy Crystal", "Blood Wings"],
+      "situational_items": ["Necklace of Durance", "Divine Glaive", "Immortality"],
+      "emblem": "Mage Emblem"
+    },
+    "combos": [
+      "Elven: S1 trap → S2 long arrow stun → Ultimate switch Abyssal → S1 → S2 dash burst",
+      "S2 panah stun dari jauh → Ultimate switch → S1 → S2 dash ke musuh stun",
+      "Jebakan di bush → Musuh kena → S2 stun → Switch → S1 → S2 dash burst"
+    ],
+    "strengths": ["Global stun dari jarak sangat jauh (S2 Elven)", "Dua mode dengan kit berbeda", "Setup CC yang kuat"],
+    "weaknesses": ["Mekanik paling sulit di game", "Lemah jika arrow miss", "Butuh timing dan positioning sempurna"],
+    "counters": ["Chou", "Franco", "Saber"],
+    "counter_tips": {
+      "Chou": "Chou punya CC immunity saat S2 yang membuat panah Selena tidak efektif.",
+      "Franco": "Franco bisa hook Selena dan CC sebelum dia bisa engage.",
+      "Saber": "Saber bisa CC Selena segera setelah dia switching mode."
+    },
+    "synergies": ["Tigreal", "Khufra", "Angela"],
+    "tips": "S2 Elven Form bisa memberikan stun dari ujung map jika musuh terkena jebakan. Selalu setup jebakan di chokepoint sebelum teamfight."
+  },
+  {
+    "id": "nolan",
+    "name": "Nolan",
+    "role": ["Assassin"],
+    "specialty": ["Burst", "Chase"],
+    "lane": "Jungle",
+    "difficulty": "Hard",
+    "release_date": "2023",
+    "lore": "Nolan adalah agen interdimensional yang menggunakan pedang cutter untuk memotong ruang dan waktu.",
+    "skills": [
+      {"name": "Deep Cut", "type": "Passive", "description": "Skill Nolan memberikan mark yang meningkatkan damage serangan berikutnya ke musuh tersebut."},
+      {"name": "Space Cutter", "type": "Skill 1", "description": "Nolan menembakkan cutter energi ke depan yang memberikan damage dan bisa di-recast untuk teleport ke cutter."},
+      {"name": "Dimensional Rift", "type": "Skill 2", "description": "Nolan membuat celah dimensi yang memberikan damage kepada musuh yang berdiri di atasnya."},
+      {"name": "Blade of Cosmos", "type": "Ultimate", "description": "Nolan menyerang dengan serangkaian slash cepat yang memberikan damage besar dan knockback."}
+    ],
+    "stats": {"hp": 2400, "physical_attack": 128, "physical_defense": 17, "magic_defense": 10, "movement_speed": 265, "attack_speed": 0.84},
+    "build_recommendations": {
+      "core_items": ["Blade of Heptaseas", "Hunter Strike", "Blade of Despair"],
+      "situational_items": ["Endless Battle", "Malefic Roar", "Immortality"],
+      "emblem": "Assassin Emblem"
+    },
+    "combos": [
+      "S1 throw → S2 → Teleport ke cutter → Ultimate slash",
+      "S2 rift → S1 → Teleport masuk → Ultimate burst",
+      "Ultimate → S1 → S2 → Passive proc"
+    ],
+    "strengths": ["Mobilitas dengan teleport S1", "Ultimate slash cepat yang sulit dihindari", "Passive mark meningkatkan burst"],
+    "weaknesses": ["Skill shot dependent", "Lemah vs CC banyak", "Butuh positioning yang baik"],
+    "counters": ["Chou", "Khufra", "Franco"],
+    "counter_tips": {
+      "Chou": "Chou bisa kick Nolan saat casting ultimate dan interrupt.",
+      "Khufra": "Khufra bisa block teleport Nolan dengan S2-nya.",
+      "Franco": "Franco bisa hook Nolan sebelum dia bisa setup combo."
+    },
+    "synergies": ["Angela", "Mathilda", "Estes"],
+    "tips": "S1 Nolan bisa di-teleport — lempar ke posisi musuh, setup S2, lalu teleport ke dalam untuk surprise attack + ultimate."
+  },
+  {
+    "id": "zhuxin",
+    "name": "Zhuxin",
+    "role": ["Mage"],
+    "specialty": ["Heal", "Burst"],
+    "lane": "Mid Lane / Roam",
+    "difficulty": "Moderate",
+    "release_date": "2024",
+    "lore": "Zhuxin adalah penyihir kuno yang menguasai kekuatan spiritual untuk menyembuhkan rekan sekaligus menghukum musuh.",
+    "skills": [
+      {"name": "Spiritual Bond", "type": "Passive", "description": "Saat Zhuxin menyerang atau menggunakan skill, dia mengumpulkan Spirit yang bisa digunakan untuk memperkuat skill."},
+      {"name": "Spirit Burst", "type": "Skill 1", "description": "Zhuxin menembakkan bola roh yang memberikan damage dan slow kepada musuh."},
+      {"name": "Soul Link", "type": "Skill 2", "description": "Zhuxin menghubungkan dirinya ke ally, menyembuhkan mereka secara terus-menerus."},
+      {"name": "Celestial Wrath", "type": "Ultimate", "description": "Zhuxin memanggil badai roh yang memberikan damage besar dan slow massal kepada musuh di area besar."}
+    ],
+    "stats": {"hp": 2450, "magic_power": 120, "physical_defense": 15, "magic_defense": 15, "movement_speed": 242, "attack_speed": 0.8},
+    "build_recommendations": {
+      "core_items": ["Oracle", "Enchanted Talisman", "Holy Crystal"],
+      "situational_items": ["Fleeting Time", "Blood Wings", "Immortality"],
+      "emblem": "Mage Emblem"
+    },
+    "combos": [
+      "S2 link carry → S1 poke → Ultimate burst area",
+      "Ultimate → S1 → S2 untuk sustain setelah burst",
+      "S1 → S2 → Ultimate untuk zone + heal"
+    ],
+    "strengths": ["Hybrid heal dan damage sekaligus", "Ultimate area besar", "S2 sustain yang konsisten"],
+    "weaknesses": ["Lemah vs burst assassin", "Tidak ada escape skill", "Damage tidak sekuat mage pure damage"],
+    "counters": ["Baxia", "Natalia", "Gusion"],
+    "counter_tips": {
+      "Baxia": "Baxia mengurangi heal Zhuxin secara drastis.",
+      "Natalia": "Natalia bisa burst Zhuxin sebelum dia bisa heal diri.",
+      "Gusion": "Gusion bisa burst Zhuxin sebelum ultimate aktif."
+    },
+    "synergies": ["Wanwan", "Bruno", "Granger"],
+    "tips": "Zhuxin bisa berfungsi sebagai mage sekaligus support. S2 ke carry yang agresif untuk sustain, lalu ultimate untuk burst area."
+  },
+  {
+    "id": "chip",
+    "name": "Chip",
+    "role": ["Support", "Tank"],
+    "specialty": ["Crowd Control", "Mobility"],
+    "lane": "Roam",
+    "difficulty": "Moderate",
+    "release_date": "2024",
+    "lore": "Chip adalah robot support kecil yang menggunakan portal teknologi untuk membantu team bergerak dan melindungi rekan.",
+    "skills": [
+      {"name": "Crash Course", "type": "Passive", "description": "Setiap skill Chip yang aktif memberikan bonus armor untuk dirinya dan ally terdekat."},
+      {"name": "Crash!", "type": "Skill 1", "description": "Chip menembakkan proyektil yang memberikan slow dan damage kepada musuh yang terkena."},
+      {"name": "Overtime!", "type": "Skill 2", "description": "Chip membuat portal kecil yang memberikan movement speed boost kepada ally yang melewatinya."},
+      {"name": "Shortcut", "type": "Ultimate", "description": "Chip membuat dua portal besar — satu di dekatnya dan satu di lokasi yang dipilih. Ally bisa langsung teleport antar portal."}
+    ],
+    "stats": {"hp": 2800, "magic_power": 95, "physical_defense": 20, "magic_defense": 13, "movement_speed": 250, "attack_speed": 0.8},
+    "build_recommendations": {
+      "core_items": ["Enchanted Talisman", "Oracle", "Dominance Ice"],
+      "situational_items": ["Immortality", "Antique Cuirass", "Fleeting Time"],
+      "emblem": "Support Emblem"
+    },
+    "combos": [
+      "S2 portal speed boost team → S1 slow musuh → Ultimate teleport team",
+      "Ultimate portal jauh → Team blink masuk → S1 → S2",
+      "S1 slow → Ultimate → S2 untuk retreat cepat"
+    ],
+    "strengths": ["Ultimate portal team unik di game", "Mobilitas team sangat meningkat", "Fleksibilitas engagement dan retreat"],
+    "weaknesses": ["Damage sangat rendah", "Ultimate butuh positioning yang tepat", "Lemah vs burst assassin"],
+    "counters": ["Natalia", "Saber", "Franco"],
+    "counter_tips": {
+      "Natalia": "Natalia bisa burst Chip sebelum dia bisa setup portal.",
+      "Saber": "Saber bisa CC Chip dan prevent penggunaan ultimate.",
+      "Franco": "Franco bisa hook Chip dan isolasi dia dari team."
+    },
+    "synergies": ["Pharsa", "Odette", "Xavier"],
+    "tips": "Ultimate Chip yang menempatkan portal bisa mengubah posisi team secara instan. Gunakan untuk surprise engage atau retreat cepat."
+  },
+  {
+    "id": "joy",
+    "name": "Joy",
+    "role": ["Assassin"],
+    "specialty": ["Burst", "Chase"],
+    "lane": "Jungle / EXP Lane",
+    "difficulty": "Hard",
+    "release_date": "2022",
+    "lore": "Joy adalah karakter mekanik misterius yang bergerak sangat cepat dan penuh dengan energi tak terbendung.",
+    "skills": [
+      {"name": "Rhythm Shockwave", "type": "Passive", "description": "Setiap serangan Joy memberikan musik note. Saat penuh, serangan berikutnya memberikan damage tambahan dan efek."},
+      {"name": "Brave New World", "type": "Skill 1", "description": "Joy melakukan dash ke depan dan memberikan damage kepada musuh yang dilalui."},
+      {"name": "Feliz Martes", "type": "Skill 2", "description": "Joy melempar sound wave ke musuh yang memberikan damage dan slow."},
+      {"name": "True My Voice", "type": "Ultimate", "description": "Joy masuk ke mode music — menjadi immune dan melakukan serangan berulang ke semua musuh di sekitarnya."}
+    ],
+    "stats": {"hp": 2450, "physical_attack": 126, "physical_defense": 17, "magic_defense": 10, "movement_speed": 268, "attack_speed": 0.86},
+    "build_recommendations": {
+      "core_items": ["Blade of Heptaseas", "Hunter Strike", "Blade of Despair"],
+      "situational_items": ["Endless Battle", "Malefic Roar", "Immortality"],
+      "emblem": "Assassin Emblem"
+    },
+    "combos": [
+      "S1 dash → S2 slow → Ultimate immune + burst",
+      "S2 → S1 → Ultimate → Passive note proc",
+      "Ultimate immune → S1 chase → S2 slow"
+    ],
+    "strengths": ["Ultimate memberikan immunity penuh", "Mobilitas sangat tinggi", "Damage saat ultimate di area"],
+    "weaknesses": ["Lemah sebelum ultimate", "Tidak ada hard CC", "Damage bergantung note passive"],
+    "counters": ["Chou", "Franco", "Khufra"],
+    "counter_tips": {
+      "Chou": "Chou bisa kick Joy setelah ultimate selesai sebelum bisa escape.",
+      "Franco": "Franco bisa hook Joy sebelum dia bisa setup combo.",
+      "Khufra": "Khufra bisa CC Joy dan block escape setelah ultimate."
+    },
+    "synergies": ["Angela", "Estes", "Floryn"],
+    "tips": "Gunakan ultimate Joy saat musuh sudah ter-CC oleh team. Immunity saat ultimate membuat Joy sangat susah dibunuh mid-combat."
+  },
+  {
+    "id": "ixia",
+    "name": "Ixia",
+    "role": ["Marksman"],
+    "specialty": ["Reap", "Poke"],
+    "lane": "Gold Lane",
+    "difficulty": "Easy",
+    "release_date": "2023",
+    "lore": "Ixia adalah tentara wanita yang menggunakan senjata minigun super canggih untuk menghujani musuh dengan peluru tanpa henti.",
+    "skills": [
+      {"name": "All In!", "type": "Passive", "description": "Saat HP penuh, serangan dasar Ixia memberikan bonus damage. Saat HP rendah, mendapat bonus lifesteal."},
+      {"name": "Overtake", "type": "Skill 1", "description": "Ixia menembakkan burst peluru ke depan yang memberikan damage kepada musuh pertama yang terkena."},
+      {"name": "Running Amok", "type": "Skill 2", "description": "Ixia meningkatkan attack speed secara drastis dan bergerak sambil terus menembak."},
+      {"name": "Full Drive", "type": "Ultimate", "description": "Ixia mengaktifkan minigun penuh — attack speed maksimal, damage meningkat, dan memberikan slow kepada musuh yang kena."}
+    ],
+    "stats": {"hp": 2400, "physical_attack": 118, "physical_defense": 15, "magic_defense": 10, "movement_speed": 252, "attack_speed": 0.9},
+    "build_recommendations": {
+      "core_items": ["Windtalker", "Golden Staff", "Berserker's Fury"],
+      "situational_items": ["Haas's Claws", "Malefic Roar", "Immortality"],
+      "emblem": "Marksman Emblem"
+    },
+    "combos": [
+      "S2 attack speed buff → S1 burst → Ultimate minigun",
+      "Ultimate → S2 → S1 untuk DPS maksimal",
+      "S1 → S2 → Ultimate untuk sustained fire"
+    ],
+    "strengths": ["Attack speed sangat tinggi saat ultimate", "Passive dual kondisi (HP penuh vs HP rendah)", "Mudah dipelajari"],
+    "weaknesses": ["Lemah vs assassin yang aggressive", "Tidak ada escape skill", "Damage bergantung attack speed item"],
+    "counters": ["Natalia", "Gusion", "Lancelot"],
+    "counter_tips": {
+      "Natalia": "Natalia bisa burst Ixia sebelum dia bisa activate ultimate.",
+      "Gusion": "Gusion bisa one-shot Ixia sebelum bisa bereaksi.",
+      "Lancelot": "Lancelot bisa immunity dodge peluru Ixia dan burst cepat."
+    },
+    "synergies": ["Estes", "Angela", "Tigreal"],
+    "tips": "Ultimate Ixia memberikan attack speed sangat tinggi — aktifkan saat teamfight untuk DPS berkelanjutan yang menghancurkan."
+  },
+  {
+    "id": "cici",
+    "name": "Cici",
+    "role": ["Fighter"],
+    "specialty": ["Chase", "Burst"],
+    "lane": "EXP Lane",
+    "difficulty": "Easy",
+    "release_date": "2023",
+    "lore": "Cici adalah artis muda penuh semangat yang menggunakan hula hoop ajaib sebagai senjata untuk bertarung dengan gaya.",
+    "skills": [
+      {"name": "Showstopper", "type": "Passive", "description": "Setiap serangan Cici memberikan stack Performer. Saat maksimal, serangan berikutnya memberikan damage bonus dan slow."},
+      {"name": "Hula Dance", "type": "Skill 1", "description": "Cici memutar hula hoop yang memberikan damage berulang kepada musuh di sekitarnya."},
+      {"name": "Springboard", "type": "Skill 2", "description": "Cici melakukan dash ke depan sambil melempar hula hoop yang bisa diinjak untuk memantul ke arah berbeda."},
+      {"name": "The Grand Show", "type": "Ultimate", "description": "Cici melakukan pertunjukan spektakuler yang memberikan damage besar dan knockup kepada semua musuh di area sekitarnya."}
+    ],
+    "stats": {"hp": 2900, "physical_attack": 124, "physical_defense": 21, "magic_defense": 10, "movement_speed": 262, "attack_speed": 0.83},
+    "build_recommendations": {
+      "core_items": ["Endless Battle", "Hunter Strike", "Blade of Despair"],
+      "situational_items": ["Oracle", "Immortality", "Malefic Roar"],
+      "emblem": "Fighter Emblem"
+    },
+    "combos": [
+      "S2 dash → S1 spin → Ultimate knockup",
+      "S1 spin damage → S2 → Ultimate untuk burst area",
+      "Ultimate → S1 → S2 → Passive slow"
+    ],
+    "strengths": ["Ultimate AOE yang kuat", "S1 sustained damage di dekat musuh", "Mobilitas dengan S2"],
+    "weaknesses": ["Lemah vs jarak jauh", "Tidak ada hard CC sebelum ultimate", "Butuh masuk close range"],
+    "counters": ["Layla", "Pharsa", "Granger"],
+    "counter_tips": {
+      "Layla": "Layla bisa kite Cici dari jarak jauh yang tidak terjangkau.",
+      "Pharsa": "Pharsa bisa bomb Cici dari udara tanpa bisa di-approach.",
+      "Granger": "Granger bisa outrange Cici dan poke dengan aman."
+    },
+    "synergies": ["Angela", "Estes", "Mathilda"],
+    "tips": "Cici terkuat saat bisa masuk ke tengah tim musuh. Ultimate AOE knockup sangat efektif saat musuh berkumpul."
+  },
+  {
+    "id": "lukas",
+    "name": "Lukas",
+    "role": ["Fighter"],
+    "specialty": ["Burst", "Chase"],
+    "lane": "EXP Lane / Jungle",
+    "difficulty": "Moderate",
+    "release_date": "2024",
+    "lore": "Lukas adalah mantan prajurit elit yang menggunakan teknik tinju terlarang dari Badlands untuk bertarung.",
+    "skills": [
+      {"name": "Iron Stance", "type": "Passive", "description": "Saat Lukas menerima damage, dia mengakumulasi counter yang saat penuh memberikan bonus armor dan lifesteal sementara."},
+      {"name": "Power Fist", "type": "Skill 1", "description": "Lukas memberikan pukulan keras ke depan yang memberikan damage dan slow."},
+      {"name": "Combo Rush", "type": "Skill 2", "description": "Lukas melakukan serangkaian serangan cepat sambil maju, memberikan damage multi-hit dan bisa mengejar musuh."},
+      {"name": "Finishing Blow", "type": "Ultimate", "description": "Lukas memberikan uppercut yang sangat kuat memberikan knockup dan damage massive kepada musuh target."}
+    ],
+    "stats": {"hp": 3100, "physical_attack": 127, "physical_defense": 22, "magic_defense": 10, "movement_speed": 260, "attack_speed": 0.83},
+    "build_recommendations": {
+      "core_items": ["Endless Battle", "Hunter Strike", "Blade of Despair"],
+      "situational_items": ["Oracle", "Immortality", "Malefic Roar"],
+      "emblem": "Fighter Emblem"
+    },
+    "combos": [
+      "S1 slow → S2 chase → Ultimate knockup",
+      "S2 rush → S1 → Ultimate execute",
+      "Passive tank damage → S1 → S2 → Ultimate burst"
+    ],
+    "strengths": ["Passive counter damage menjadi sustain", "S2 chase yang baik", "Ultimate single target CC kuat"],
+    "weaknesses": ["Lemah di early tanpa item", "Tidak ada ranged skill", "Lemah vs kiting hero"],
+    "counters": ["Layla", "Granger", "Pharsa"],
+    "counter_tips": {
+      "Layla": "Layla bisa kite Lukas dari jarak aman.",
+      "Granger": "Granger bisa outrange dan poke tanpa bisa di-approach.",
+      "Pharsa": "Pharsa bisa bomb dari kejauhan tanpa Lukas bisa approach."
+    },
+    "synergies": ["Angela", "Estes", "Floryn"],
+    "tips": "Biarkan passive Lukas terisi dengan menerima damage, lalu counter-attack dengan burst combo penuh. Ultimate untuk execute carry musuh."
+  },
+  {
+    "id": "suyou",
+    "name": "Suyou",
+    "role": ["Assassin"],
+    "specialty": ["Burst", "Chase"],
+    "lane": "Jungle",
+    "difficulty": "Hard",
+    "release_date": "2024",
+    "lore": "Suyou adalah pedang hantu dari Timur yang menggunakan teknik pedang kuno untuk memisahkan jiwa dari raga.",
+    "skills": [
+      {"name": "Soul Sever", "type": "Passive", "description": "Setiap serangan Suyou memberikan mark Soul kepada musuh. Saat 3 mark, Suyou bisa trigger burst damage bonus."},
+      {"name": "Phantom Step", "type": "Skill 1", "description": "Suyou melakukan serangkaian step cepat ke musuh, memberikan damage."},
+      {"name": "Ghostblade", "type": "Skill 2", "description": "Suyou menyerang dengan pedang hantu yang memberikan damage dan mengurangi defense musuh."},
+      {"name": "Final Severance", "type": "Ultimate", "description": "Suyou melakukan slash multidimensional yang memberikan damage dari beberapa arah sekaligus."}
+    ],
+    "stats": {"hp": 2400, "physical_attack": 127, "physical_defense": 17, "magic_defense": 10, "movement_speed": 267, "attack_speed": 0.85},
+    "build_recommendations": {
+      "core_items": ["Blade of Heptaseas", "Hunter Strike", "Blade of Despair"],
+      "situational_items": ["Endless Battle", "Malefic Roar", "Immortality"],
+      "emblem": "Assassin Emblem"
+    },
+    "combos": [
+      "S1 step → S2 defense reduce → Passive 3 mark trigger → Ultimate",
+      "S2 → S1 → Passive proc → Ultimate slash",
+      "Ultimate → S2 → S1 → Passive burst"
+    ],
+    "strengths": ["Passive burst saat 3 mark sangat kuat", "S2 defense reduction", "Ultimate multi-directional yang sulit dihindari"],
+    "weaknesses": ["Butuh 3 mark untuk damage optimal", "Lemah vs CC", "Skill butuh positioning"],
+    "counters": ["Chou", "Esmeralda", "Uranus"],
+    "counter_tips": {
+      "Chou": "Chou bisa kick Suyou saat dia mendekati dan interrupt combo.",
+      "Esmeralda": "Esmeralda terlalu tanky untuk di-burst Suyou dengan cepat.",
+      "Uranus": "Uranus bisa regen lebih cepat dari damage Suyou."
+    },
+    "synergies": ["Angela", "Mathilda", "Estes"],
+    "tips": "Stack 3 mark Soul secepat mungkin untuk trigger passive burst. S2 mengurangi defense musuh — selalu gunakan sebelum ultimate."
+  },
+  {
+    "id": "vexana",
+    "name": "Vexana",
+    "role": ["Mage"],
+    "specialty": ["Burst", "Crowd Control"],
+    "lane": "Mid Lane",
+    "difficulty": "Easy",
+    "release_date": "2016",
+    "lore": "Vexana adalah ratu zombie yang menguasai ilmu hitam untuk mengendalikan jiwa dan membangkitkan undead.",
+    "skills": [
+      {"name": "Undying Wrath", "type": "Passive", "description": "Saat musuh mati ter-mark oleh skill Vexana, bangkit menjadi zombie yang menyerang musuh lain."},
+      {"name": "Charmed Specter", "type": "Skill 1", "description": "Vexana melempar proyektil yang memberikan damage dan mark zombie kepada musuh yang terkena."},
+      {"name": "Nether Snare", "type": "Skill 2", "description": "Vexana memanggil area jebakan di posisi target yang memberikan slow dan damage kepada musuh di dalamnya."},
+      {"name": "Hellfire", "type": "Ultimate", "description": "Vexana memanggil zombie raksasa pada musuh target yang menyerang dan mengejar mereka selama beberapa detik."}
+    ],
+    "stats": {"hp": 2300, "magic_power": 115, "physical_defense": 13, "magic_defense": 15, "movement_speed": 238, "attack_speed": 0.8},
+    "build_recommendations": {
+      "core_items": ["Clock of Destiny", "Holy Crystal", "Blood Wings"],
+      "situational_items": ["Necklace of Durance", "Divine Glaive", "Immortality"],
+      "emblem": "Mage Emblem"
+    },
+    "combos": [
+      "S1 mark → S2 trap → Ultimate zombie ke carry musuh",
+      "S2 slow → S1 mark → Ultimate untuk chase",
+      "S1 → Ultimate → S2 untuk zone"
+    ],
+    "strengths": ["Passive zombie sangat mengganggu", "Ultimate zombie besar yang persistent", "Mudah dipelajari"],
+    "weaknesses": ["Lemah vs mobile hero yang bisa flee", "Damage sendiri tidak terlalu tinggi", "Lemah vs assassin"],
+    "counters": ["Natalia", "Lancelot", "Gusion"],
+    "counter_tips": {
+      "Natalia": "Natalia bisa burst Vexana sebelum zombie passive aktif.",
+      "Lancelot": "Lancelot bisa immunity dodge ultimate zombie Vexana.",
+      "Gusion": "Gusion bisa burst Vexana sebelum setup."
+    },
+    "synergies": ["Franco", "Tigreal", "Atlas"],
+    "tips": "Ultimate Vexana sangat efektif untuk isolasi carry musuh. Zombie besar persistent membuat musuh sulit bergerak bebas."
+  },
+  {
+    "id": "cyclops",
+    "name": "Cyclops",
+    "role": ["Mage"],
+    "specialty": ["Burst", "Poke"],
+    "lane": "Mid Lane",
+    "difficulty": "Easy",
+    "release_date": "2016",
+    "lore": "Cyclops adalah monster bermata satu yang menggunakan orbs planet untuk menyerang musuh dari kejauhan.",
+    "skills": [
+      {"name": "Starlit Hourglass", "type": "Passive", "description": "Setiap kali skill Cyclops mengenai musuh, cooldown semua skill-nya berkurang. Semakin banyak skill hit, semakin cepat cooldown."},
+      {"name": "Stardust Shock", "type": "Skill 1", "description": "Cyclops menembakkan dua bola energi yang menyatu dan memberikan damage serta slow kepada musuh yang terkena."},
+      {"name": "Planets Attack", "type": "Skill 2", "description": "Cyclops memanggil beberapa orbs planet yang berputar di sekitarnya dan menyerang musuh terdekat."},
+      {"name": "Star Power Lockdown", "type": "Ultimate", "description": "Cyclops mengunci satu musuh dengan rantai bintang yang memberikan damage terus-menerus selama beberapa detik."}
+    ],
+    "stats": {"hp": 2250, "magic_power": 118, "physical_defense": 13, "magic_defense": 15, "movement_speed": 240, "attack_speed": 0.8},
+    "build_recommendations": {
+      "core_items": ["Clock of Destiny", "Holy Crystal", "Blood Wings"],
+      "situational_items": ["Necklace of Durance", "Divine Glaive", "Immortality"],
+      "emblem": "Mage Emblem"
+    },
+    "combos": [
+      "S1 → S2 → Ultimate lock → Passive cooldown cepat → S1 lagi",
+      "Ultimate lock musuh → S2 → S1 untuk burst",
+      "S2 orbit → S1 → Ultimate untuk execute"
+    ],
+    "strengths": ["Cooldown skill sangat cepat berkat passive", "Ultimate lock single target", "Spam skill terus-menerus"],
+    "weaknesses": ["Lemah vs mobile hero yang bisa escape lock", "Tidak ada mobility", "Lemah vs assassin"],
+    "counters": ["Natalia", "Lancelot", "Gusion"],
+    "counter_tips": {
+      "Natalia": "Natalia bisa burst Cyclops sebelum spam skill aktif.",
+      "Lancelot": "Lancelot bisa immunity dodge lock ultimate Cyclops.",
+      "Gusion": "Gusion bisa burst Cyclops sebelum dia bisa bereaksi."
+    },
+    "synergies": ["Franco", "Tigreal", "Kaja"],
+    "tips": "Passive Cyclops membuat cooldown turun setiap skill kena — spam terus untuk cooldown hampir nol. Ultimate untuk lock carry musuh."
+  },
+  {
+    "id": "minotaur",
+    "name": "Minotaur",
+    "role": ["Tank", "Support"],
+    "specialty": ["Crowd Control", "Sustain"],
+    "lane": "Roam",
+    "difficulty": "Moderate",
+    "release_date": "2016",
+    "lore": "Minotaur adalah labyrinth guardian yang menggunakan kapak suci untuk melindungi rekannya dan menghancurkan musuh.",
+    "skills": [
+      {"name": "Despair Hammer", "type": "Passive", "description": "Saat Minotaur dalam Rage Mode, serangan dasarnya memberikan CC dan efek yang lebih kuat."},
+      {"name": "Despair Stomp", "type": "Skill 1", "description": "Minotaur menghentakkan kaki memberikan damage dan slow. Saat Rage Mode, memberikan knockup."},
+      {"name": "Motivation Roar", "type": "Skill 2", "description": "Minotaur mengaum memberikan heal kepada diri dan ally di sekitarnya, serta meningkatkan Rage meter."},
+      {"name": "Minoan Fury", "type": "Ultimate", "description": "Minotaur masuk ke Rage Mode — semua skill di-boost, knockup ditambahkan, dan dia memberikan heal area saat menyerang."}
+    ],
+    "stats": {"hp": 5000, "physical_attack": 112, "physical_defense": 25, "magic_defense": 15, "movement_speed": 248, "attack_speed": 0.8},
+    "build_recommendations": {
+      "core_items": ["Oracle", "Antique Cuirass", "Immortality"],
+      "situational_items": ["Dominance Ice", "Brute Force Breastplate", "Thunderbelt"],
+      "emblem": "Tank Emblem"
+    },
+    "combos": [
+      "S2 heal + rage → S1 → Ultimate Rage Mode → S1 knockup → S2 heal massal",
+      "Ultimate → S1 knockup → S2 heal → Maintain Rage Mode",
+      "S2 → S1 → Ultimate → S1 + S2 spam di Rage Mode"
+    ],
+    "strengths": ["Ultimate Rage Mode mengubah semua skill", "S2 heal yang konsisten", "HP sangat besar"],
+    "weaknesses": ["Butuh waktu untuk Rage Mode aktif", "Lemah sebelum ultimate", "Heal bisa di-counter"],
+    "counters": ["Baxia", "Karrie", "Necklace users"],
+    "counter_tips": {
+      "Baxia": "Baxia mengurangi heal S2 Minotaur secara signifikan.",
+      "Karrie": "Karrie true damage menembus HP besar Minotaur.",
+      "Necklace users": "Necklace of Durance mengurangi efektivitas S2 dan passive heal Rage Mode."
+    },
+    "synergies": ["Pharsa", "Odette", "Kagura"],
+    "tips": "Stack Rage dengan S2 sebelum engage. Ultimate Rage Mode membuat Minotaur jauh lebih kuat — pastikan sudah Rage saat teamfight dimulai."
+  }
+]

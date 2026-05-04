@@ -1,0 +1,172 @@
+{
+  "emblems": [
+    {
+      "id": 1,
+      "name": "Assassin Emblem",
+      "primary_stats": ["Physical Attack", "Physical Penetration", "Adaptive Penetration"],
+      "tier3_talents": [
+        {
+          "name": "Killing Spree",
+          "description": "Setiap kill memulihkan 15% HP dan meningkatkan Movement Speed 20% selama 5 detik.",
+          "best_for": "Assassin yang sering solo kill"
+        },
+        {
+          "name": "Lethal Ignition",
+          "description": "Setelah menggunakan skill, serangan berikutnya menambah Physical Damage yang dapat stack.",
+          "best_for": "Assassin dengan burst skill combo cepat"
+        },
+        {
+          "name": "Bounty Hunter",
+          "description": "Mendapatkan emas ekstra setiap kali kill hero musuh.",
+          "best_for": "Assassin yang butuh scaling gold cepat"
+        }
+      ],
+      "function": "Emblem untuk hero Assassin. Memberikan penetrasi dan serangan fisik yang tinggi untuk membunuh musuh dengan cepat.",
+      "recommended_heroes": ["Saber", "Fanny", "Karina", "Ling", "Harley"]
+    },
+    {
+      "id": 2,
+      "name": "Fighter Emblem",
+      "primary_stats": ["Physical Attack", "Physical Defense", "Adaptive Attack"],
+      "tier3_talents": [
+        {
+          "name": "Bravery",
+          "description": "Meningkatkan Physical Attack sebesar 15.",
+          "best_for": "Fighter yang butuh damage ekstra"
+        },
+        {
+          "name": "Festival of Blood",
+          "description": "Setiap kill meningkatkan Spell Vamp sebesar 1%, stackable hingga 12%.",
+          "best_for": "Fighter yang sering terlibat teamfight dan multi-kill"
+        },
+        {
+          "name": "Disabling Strike",
+          "description": "Basic attack setelah menggunakan skill memperlambat musuh sebesar 40% selama 1.5 detik.",
+          "best_for": "Fighter yang membutuhkan chase atau peel"
+        }
+      ],
+      "function": "Emblem serbaguna untuk Fighter. Menyeimbangkan antara serangan dan pertahanan fisik.",
+      "recommended_heroes": ["Alucard", "Zilong", "Lapu-Lapu", "Argus", "Dyrroth"]
+    },
+    {
+      "id": 3,
+      "name": "Mage Emblem",
+      "primary_stats": ["Magic Power", "Magic Penetration", "CDR"],
+      "tier3_talents": [
+        {
+          "name": "Mystery Shop",
+          "description": "Membeli item dengan diskon 10%.",
+          "best_for": "Mage yang butuh item cepat (clock of destiny)"
+        },
+        {
+          "name": "Magic Worship",
+          "description": "Jika skill mengenai musuh yang HP-nya di atas 70% sebanyak 3 kali, akan membakar mereka selama 3 detik.",
+          "best_for": "Mage burst dengan combo cepat (Eudora, Aurora)"
+        },
+        {
+          "name": "Impure Rage",
+          "description": "Setiap kali menggunakan skill, memulihkan 4% mana berdasarkan damage yang diberikan.",
+          "best_for": "Mage yang butuh sustain mana dalam pertarungan panjang"
+        }
+      ],
+      "function": "Emblem untuk hero Mage. Meningkatkan Magic Power dan penetrasi magic untuk maksimum damage.",
+      "recommended_heroes": ["Eudora", "Aurora", "Cyclops", "Vexana", "Lylia"]
+    },
+    {
+      "id": 4,
+      "name": "Marksman Emblem",
+      "primary_stats": ["Physical Attack", "Critical Chance", "Adaptive Penetration"],
+      "tier3_talents": [
+        {
+          "name": "Weakness Finder",
+          "description": "Basic attack memiliki 20% chance memperlambat musuh sebesar 90% selama 1 detik.",
+          "best_for": "Marksman yang butuh slow untuk kiting"
+        },
+        {
+          "name": "Electro Flash",
+          "description": "Setiap 8 basic attack, deal magic damage kepada musuh terdekat.",
+          "best_for": "Marksman dengan attack speed tinggi (Bruno, Clint)"
+        },
+        {
+          "name": "Weapons Master",
+          "description": "Meningkatkan Physical Attack dari semua sumber sebesar 6%.",
+          "best_for": "Marksman dengan banyak item ATK fisik"
+        }
+      ],
+      "function": "Emblem untuk Marksman. Memberikan physical attack dan critical chance untuk damage optimal.",
+      "recommended_heroes": ["Layla", "Bruno", "Clint", "Irithel", "Moskov"]
+    },
+    {
+      "id": 5,
+      "name": "Tank Emblem",
+      "primary_stats": ["HP", "Physical Defense", "Magic Defense"],
+      "tier3_talents": [
+        {
+          "name": "Brave Smite",
+          "description": "Saat menggunakan skill CC, memulihkan HP sebesar 8% dari Max HP.",
+          "best_for": "Tank dengan banyak skill CC (Tigreal, Atlas)"
+        },
+        {
+          "name": "Tenacity",
+          "description": "Saat HP di bawah 50%, meningkatkan semua resistansi sebesar 30.",
+          "best_for": "Tank yang sering menjadi frontline dan absorb damage"
+        },
+        {
+          "name": "Concussive Blast",
+          "description": "Setiap 8 basic attack, meledakkan bom di sekitar yang memberikan damage fisik.",
+          "best_for": "Tank yang agresif dengan damage tambahan"
+        }
+      ],
+      "function": "Emblem untuk Tank. Memaksimalkan HP dan pertahanan agar bisa menjadi tameng tim.",
+      "recommended_heroes": ["Tigreal", "Akai", "Franco", "Johnson", "Atlas"]
+    },
+    {
+      "id": 6,
+      "name": "Support Emblem",
+      "primary_stats": ["HP", "Hybrid Defense", "CDR"],
+      "tier3_talents": [
+        {
+          "name": "Avarice",
+          "description": "Mendapatkan ekstra gold setiap beberapa detik ketika dekat dengan ally.",
+          "best_for": "Support roamer yang sering bersama carry"
+        },
+        {
+          "name": "Focusing Mark",
+          "description": "Setelah menggunakan skill pada musuh, ally yang menyerang musuh tersebut mendapat bonus damage.",
+          "best_for": "Support dengan skill CC atau mark (Rafaela, Diggie)"
+        },
+        {
+          "name": "Agility",
+          "description": "Meningkatkan Movement Speed sebesar 4%.",
+          "best_for": "Roamer yang butuh rotasi cepat antar lane"
+        }
+      ],
+      "function": "Emblem untuk Support. Memfokuskan pada utilitas tim seperti heal, shield, dan CC.",
+      "recommended_heroes": ["Rafaela", "Estes", "Diggie", "Carmilla", "Lolita"]
+    },
+    {
+      "id": 7,
+      "name": "Jungle Emblem",
+      "primary_stats": ["Physical Attack", "Adaptive Penetration", "Attack Speed"],
+      "tier3_talents": [
+        {
+          "name": "Predator",
+          "description": "Setelah mengambil Jungle Buff, meningkatkan damage sebesar 8% selama 8 detik.",
+          "best_for": "Jungler yang butuh power spike cepat setelah clear jungle"
+        },
+        {
+          "name": "Rupture",
+          "description": "Memberikan Physical Penetration ekstra terhadap hero musuh.",
+          "best_for": "Jungler fisik yang menghadapi hero dengan defense tinggi"
+        },
+        {
+          "name": "Quantum Charge",
+          "description": "Setiap basic attack memulihkan sedikit HP.",
+          "best_for": "Jungler yang butuh sustain saat clear jungle"
+        }
+      ],
+      "function": "Emblem khusus untuk Jungler. Meningkatkan efisiensi jungle farm dan damage saat gank.",
+      "recommended_heroes": ["Fanny", "Ling", "Karina", "Roger", "Harley"]
+    }
+  ]
+}

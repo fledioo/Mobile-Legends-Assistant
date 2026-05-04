@@ -1,0 +1,337 @@
+[
+  {
+    "id": "counter_estes",
+    "hero": "Estes",
+    "countered_by": [
+      {
+        "hero": "Baxia",
+        "reason": "Passive Baxia mengurangi semua HP regeneration termasuk heal dari Estes",
+        "difficulty": "Hard Counter"
+      },
+      {
+        "hero": "Necklace of Durance users",
+        "reason": "Item Necklace of Durance mengurangi 50% healing yang diterima",
+        "difficulty": "Hard Counter"
+      },
+      {
+        "hero": "Saber",
+        "reason": "Saber bisa lock Estes dengan ultimate dan burst damage tinggi",
+        "difficulty": "Strong Counter"
+      },
+      {
+        "hero": "Eudora",
+        "reason": "Burst damage tinggi bisa langsung kill Estes sebelum sempat heal",
+        "difficulty": "Medium Counter"
+      }
+    ],
+    "tips_melawan": "Jangan pernah berdiri bergerombol saat melawan Estes. Fokus kill carry-nya dulu dan beli anti-heal item."
+  },
+  {
+    "id": "counter_layla",
+    "hero": "Layla",
+    "countered_by": [
+      {
+        "hero": "Natalia",
+        "reason": "Natalia bisa invisible dan assassin Layla dengan cepat",
+        "difficulty": "Hard Counter"
+      },
+      {
+        "hero": "Lancelot",
+        "reason": "Mobility tinggi dan dash bisa menghindari skill Layla",
+        "difficulty": "Strong Counter"
+      },
+      {
+        "hero": "Zilong",
+        "reason": "Zilong bisa sprint langsung ke Layla dan slow attack speed-nya",
+        "difficulty": "Strong Counter"
+      }
+    ],
+    "tips_melawan": "Layla sangat mudah dipelajari. Fokus pada early game karena dia lemah di awal. Serang sebelum dia farm."
+  },
+  {
+    "id": "counter_fanny",
+    "hero": "Fanny",
+    "countered_by": [
+      {
+        "hero": "Khufra",
+        "reason": "Skill 2 Khufra bisa interrupt cable Fanny dan knockup",
+        "difficulty": "Hard Counter"
+      },
+      {
+        "hero": "Franco",
+        "reason": "Hook Franco bisa catch Fanny saat cable dan langsung kill",
+        "difficulty": "Hard Counter"
+      },
+      {
+        "hero": "Eudora",
+        "reason": "Burst damage dan stun bisa kill Fanny saat mendarat",
+        "difficulty": "Medium Counter"
+      }
+    ],
+    "tips_melawan": "Jangan panik saat Fanny terbang. Tunggu dia kehabisan energy dan serang. Pick hero dengan crowd control."
+  },
+  {
+    "id": "counter_gusion",
+    "hero": "Gusion",
+    "countered_by": [
+      {
+        "hero": "Helcurt",
+        "reason": "Silence dari Helcurt membuat Gusion tidak bisa combo",
+        "difficulty": "Hard Counter"
+      },
+      {
+        "hero": "Khufra",
+        "reason": "Anti-dash dari Khufra membuat Gusion tidak bisa mobility",
+        "difficulty": "Hard Counter"
+      },
+      {
+        "hero": "Athena",
+        "reason": "Shield Athena bisa block burst damage Gusion",
+        "difficulty": "Medium Counter"
+      }
+    ],
+    "tips_melawan": "Gusion sangat bergantung pada combo skill. Interrupt combo-nya dengan crowd control dan jangan berdiri berkelompok."
+  },
+  {
+    "id": "counter_kagura",
+    "hero": "Kagura",
+    "countered_by": [
+      {
+        "hero": "Natalia",
+        "reason": "Invisible dan burst damage bisa kill Kagura yang squishy",
+        "difficulty": "Strong Counter"
+      },
+      {
+        "hero": "Saber",
+        "reason": "Lock ultimate Saber membuat Kagura tidak bisa escape",
+        "difficulty": "Strong Counter"
+      },
+      {
+        "hero": "Aldous",
+        "reason": "Tanky dan damage tinggi bisa survive combo Kagura",
+        "difficulty": "Medium Counter"
+      }
+    ],
+    "tips_melawan": "Kagura lemah tanpa umbrellanya. Tunggu dia miss skill dan serang. Jangan fight di area sempit."
+  },
+  {
+    "id": "counter_tigreal",
+    "hero": "Tigreal",
+    "countered_by": [
+      {
+        "hero": "Diggie",
+        "reason": "Time journey Diggie bisa cleanse crowd control Tigreal",
+        "difficulty": "Hard Counter"
+      },
+      {
+        "hero": "Wanwan",
+        "reason": "Mobility tinggi dan ultimate bisa avoid crowd control",
+        "difficulty": "Medium Counter"
+      },
+      {
+        "hero": "Valir",
+        "reason": "Knockback Valir bisa interrupt combo Tigreal",
+        "difficulty": "Medium Counter"
+      }
+    ],
+    "tips_melawan": "Jangan berkumpul saat Tigreal ada. Spread out dan fokus kill carry-nya. Beli item anti-CC."
+  },
+  {
+    "id": "counter_helcurt",
+    "hero": "Helcurt",
+    "countered_by": [
+      {
+        "hero": "Saber",
+        "reason": "Saber bisa lock Helcurt saat invisible dengan ultimate",
+        "difficulty": "Strong Counter"
+      },
+      {
+        "hero": "Aldous",
+        "reason": "Tanky dan bisa counter attack Helcurt",
+        "difficulty": "Medium Counter"
+      },
+      {
+        "hero": "Rafaela",
+        "reason": "Heal dan slow bisa counter assassin seperti Helcurt",
+        "difficulty": "Medium Counter"
+      }
+    ],
+    "tips_melawan": "Helcurt sangat bergantung pada darkness. Beli item vision dan jangan fight sendirian di late game."
+  },
+  {
+    "id": "counter_yin",
+    "hero": "Yin",
+    "countered_by": [
+      {
+        "hero": "Khufra",
+        "reason": "Anti-dash dan crowd control bisa stop Yin",
+        "difficulty": "Hard Counter"
+      },
+      {
+        "hero": "Franco",
+        "reason": "Hook bisa interrupt Yin sebelum masuk domain",
+        "difficulty": "Strong Counter"
+      },
+      {
+        "hero": "Diggie",
+        "reason": "Cleanse bisa keluar dari domain Yin",
+        "difficulty": "Strong Counter"
+      }
+    ],
+    "tips_melawan": "Jangan biarkan Yin mengambil buff. Counter pick dengan tank dan crowd control. Jangan 1v1 dengan Yin di late game."
+  },
+  {
+    "id": "counter_ling",
+    "hero": "Ling",
+    "countered_by": [
+      {
+        "hero": "Khufra",
+        "reason": "Anti-dash dan knockup membuat Ling tidak bisa wall jump",
+        "difficulty": "Hard Counter"
+      },
+      {
+        "hero": "Phoveus",
+        "reason": "Skill dash Phoveus bisa catch Ling saat mendarat",
+        "difficulty": "Strong Counter"
+      },
+      {
+        "hero": "Franco",
+        "reason": "Hook bisa catch Ling saat di wall atau mendarat",
+        "difficulty": "Medium Counter"
+      }
+    ],
+    "tips_melawan": "Ling sangat bergantung pada wall. Jangan fight di area terbuka. Tunggu dia kehabisan energy."
+  },
+  {
+    "id": "counter_lancelot",
+    "hero": "Lancelot",
+    "countered_by": [
+      {
+        "hero": "Khufra",
+        "reason": "Knockup saat Lancelot dash membuat dia tidak bisa immunity",
+        "difficulty": "Hard Counter"
+      },
+      {
+        "hero": "Saber",
+        "reason": "Lock ultimate membuat Lancelot tidak bisa mobility",
+        "difficulty": "Strong Counter"
+      },
+      {
+        "hero": "Eudora",
+        "reason": "Burst damage instan sebelum Lancelot bisa react",
+        "difficulty": "Medium Counter"
+      }
+    ],
+    "tips_melawan": "Lancelot lemah saat kehabisan skill. Jangan panic saat dia dash, tunggu skillnya keluar baru serang."
+  },
+  {
+    "id": "counter_chou",
+    "hero": "Chou",
+    "countered_by": [
+      {
+        "hero": "Khufra",
+        "reason": "Anti-mobility dan knockup mengganggu combo Chou",
+        "difficulty": "Hard Counter"
+      },
+      {
+        "hero": "Karina",
+        "reason": "Karina bisa chase Chou yang lari dengan ultimate",
+        "difficulty": "Medium Counter"
+      },
+      {
+        "hero": "Franco",
+        "reason": "Hook bisa interrupt Chou saat dia mencoba engage",
+        "difficulty": "Medium Counter"
+      }
+    ],
+    "tips_melawan": "Chou bergantung pada Skill 1 untuk mobilitas. Interrupt dia atau gunakan hero tanky untuk menahan damage-nya."
+  },
+  {
+    "id": "counter_karina",
+    "hero": "Karina",
+    "countered_by": [
+      {
+        "hero": "Diggie",
+        "reason": "Diggie bisa cleanse slow Karina dan membuatnya mudah dikejar",
+        "difficulty": "Hard Counter"
+      },
+      {
+        "hero": "Helcurt",
+        "reason": "Silence mencegah Karina menggunakan skill reset",
+        "difficulty": "Strong Counter"
+      },
+      {
+        "hero": "Franco",
+        "reason": "Hook bisa stop Karina saat dia mencoba chase",
+        "difficulty": "Strong Counter"
+      }
+    ],
+    "tips_melawan": "Karina sangat berbahaya jika dapat kill. Jangan pernah berdiri sendirian. Fokus kill dia duluan di teamfight."
+  },
+  {
+    "id": "counter_wanwan",
+    "hero": "Wanwan",
+    "countered_by": [
+      {
+        "hero": "Saber",
+        "reason": "Lock ultimate membuat Wanwan tidak bisa bergerak dan reset weakness",
+        "difficulty": "Hard Counter"
+      },
+      {
+        "hero": "Natalia",
+        "reason": "Invisible dan silence bisa mengganggu Wanwan saat marking",
+        "difficulty": "Strong Counter"
+      },
+      {
+        "hero": "Khufra",
+        "reason": "Anti-dash dan knockup mengganggu mobility Wanwan",
+        "difficulty": "Medium Counter"
+      }
+    ],
+    "tips_melawan": "Wanwan membutuhkan waktu untuk men-weakness mark. Burst damage cepat sebelum dia selesai marking."
+  },
+  {
+    "id": "counter_nana",
+    "hero": "Nana",
+    "countered_by": [
+      {
+        "hero": "Natalia",
+        "reason": "Invisible membuat Nana tidak bisa target Molina",
+        "difficulty": "Hard Counter"
+      },
+      {
+        "hero": "Lancelot",
+        "reason": "Immunity bisa menghindari Molina dan burst Nana",
+        "difficulty": "Strong Counter"
+      },
+      {
+        "hero": "Karina",
+        "reason": "Karina bisa chase Nana yang lari dengan dash-nya",
+        "difficulty": "Medium Counter"
+      }
+    ],
+    "tips_melawan": "Nana sangat mengganggu dengan Molina. Jangan panik saat di-transform, segera lari ke turret atau ally."
+  },
+  {
+    "id": "counter_franco",
+    "hero": "Franco",
+    "countered_by": [
+      {
+        "hero": "Diggie",
+        "reason": "Diggie bisa cleanse hook Franco dan membuat Franco tidak berguna",
+        "difficulty": "Hard Counter"
+      },
+      {
+        "hero": "Wanwan",
+        "reason": "Mobility Wanwan membuat sulit di-hook",
+        "difficulty": "Medium Counter"
+      },
+      {
+        "hero": "Ling",
+        "reason": "Ling bisa wall jump untuk menghindari hook",
+        "difficulty": "Medium Counter"
+      }
+    ],
+    "tips_melawan": "Franco sangat bergantung pada akurasi hook. Spread out dan jangan berdiri lurus agar sulit di-hook."
+  }
+]

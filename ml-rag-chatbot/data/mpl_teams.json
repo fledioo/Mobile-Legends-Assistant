@@ -1,0 +1,152 @@
+{
+  "mpl_teams": [
+    {
+      "team_id": 1,
+      "team_name": "RRQ Hoshi",
+      "organization": "Rex Regum Qeon",
+      "founded": "2013",
+      "country": "Indonesia",
+      "home_base": "Jakarta",
+      "coach": "Coach Cigol",
+      "manager": "Rexy",
+      "owner": "Andrian Pauline",
+      "championships": [
+        "MPL ID Season 6",
+        "MPL ID Season 8",
+        "M3 World Champion",
+        "MSC 2022 Champion"
+      ],
+      "total_titles": 4,
+      "team_colors": ["Red", "Black", "Gold"],
+      "logo_url": "https://example.com/rrq_logo.png",
+      "social_media": {
+        "instagram": "@rrq.hoshi",
+        "twitter": "@RRQHoshi",
+        "youtube": "RRQ Hoshi Official"
+      },
+      "current_roster": [
+        {"nickname": "2K", "role": "Jungler"},
+        {"nickname": "R7", "role": "Mid Laner"},
+        {"nickname": "Lemon", "role": "Gold Laner"},
+        {"nickname": "F1", "role": "EXP Laner"},
+        {"nickname": "Sanji", "role": "Roamer"}
+      ],
+      "achievements_summary": {
+        "mpl_titles": 2,
+        "world_championships": 1,
+        "msc_titles": 1,
+        "total_prize_money": "$450,000"
+      }
+    },
+    {
+      "team_id": 2,
+      "team_name": "ONIC Esports",
+      "organization": "ONIC Esports",
+      "founded": "2018",
+      "country": "Indonesia",
+      "home_base": "Surabaya",
+      "coach": "Coach Yeb",
+      "manager": "Lilgun",
+      "owner": "Lilgun",
+      "championships": [
+        "MPL ID Season 7",
+        "MPL ID Season 10",
+        "M5 World Champion"
+      ],
+      "total_titles": 3,
+      "team_colors": ["Yellow", "Black"],
+      "logo_url": "https://example.com/onic_logo.png",
+      "social_media": {
+        "instagram": "@onic_esports",
+        "twitter": "@ONIC_Esports",
+        "youtube": "ONIC Esports"
+      },
+      "current_roster": [
+        {"nickname": "Renbooo", "role": "Jungler"},
+        {"nickname": "CW", "role": "Mid Laner"},
+        {"nickname": "Kiboy", "role": "Gold Laner"},
+        {"nickname": "Butsss", "role": "EXP Laner"},
+        {"nickname": "Sanz", "role": "Roamer"}
+      ],
+      "achievements_summary": {
+        "mpl_titles": 2,
+        "world_championships": 1,
+        "msc_titles": 0,
+        "total_prize_money": "$380,000"
+      }
+    },
+    {
+      "team_id": 3,
+      "team_name": "EVOS Legends",
+      "organization": "EVOS Esports",
+      "founded": "2016",
+      "country": "Indonesia",
+      "home_base": "Jakarta",
+      "coach": "Coach Fatik",
+      "manager": "Rudy Salim",
+      "owner": "Rudy Salim",
+      "championships": [
+        "MPL ID Season 9",
+        "M1 World Champion"
+      ],
+      "total_titles": 2,
+      "team_colors": ["Red", "White"],
+      "logo_url": "https://example.com/evos_logo.png",
+      "social_media": {
+        "instagram": "@evoslegends",
+        "twitter": "@EVOSLegends",
+        "youtube": "EVOS Legends"
+      },
+      "current_roster": [
+        {"nickname": "Rappy", "role": "Jungler"},
+        {"nickname": "Vyn", "role": "Mid Laner"},
+        {"nickname": "Dreams", "role": "Gold Laner"},
+        {"nickname": "Antimage", "role": "EXP Laner"},
+        {"nickname": "Wise", "role": "Roamer"}
+      ],
+      "achievements_summary": {
+        "mpl_titles": 1,
+        "world_championships": 1,
+        "msc_titles": 0,
+        "total_prize_money": "$320,000"
+      }
+    },
+    {
+      "team_id": 4,
+      "team_name": "Bigetron RA",
+      "organization": "Bigetron Esports",
+      "founded": "2018",
+      "country": "Indonesia",
+      "home_base": "Bandung",
+      "coach": "Coach Caper",
+      "manager": "Xiaomi",
+      "owner": "Xiaomi",
+      "championships": [
+        "MSC 2021 Champion"
+      ],
+      "total_titles": 1,
+      "team_colors": ["Red", "Black"],
+      "logo_url": "https://example.com/btr_logo.png",
+      "social_media": {
+        "instagram": "@bigetronra",
+        "twitter": "@BigetronRA",
+        "youtube": "Bigetron RA"
+      },
+      "current_roster": [
+        {"nickname": "Glenn", "role": "Jungler"},
+        {"nickname": "F1", "role": "Mid Laner"},
+        {"nickname": "Kimmy", "role": "Gold Laner"},
+        {"nickname": "Jeemz", "role": "EXP Laner"},
+        {"nickname": "Hybrid", "role": "Roamer"}
+      ],
+      "achievements_summary": {
+        "mpl_titles": 0,
+        "world_championships": 0,
+        "msc_titles": 1,
+        "total_prize_money": "$180,000"
+      }
+    }
+  ],
+  "total_teams": 4,
+  "last_updated": "2024-01-15"
+}

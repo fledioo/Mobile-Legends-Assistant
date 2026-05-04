@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>MLBB Hero Assistant</title>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Exo+2:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --bg:         #040d18;
+  --bg2:        #081626;
+  --bg3:        #0c1f35;
+  --bg4:        #112540;
+  --gold:       #f0b429;
+  --gold2:      #ffd166;
+  --blue:       #38bdf8;
+  --blue2:      #7dd3fc;
+  --purple:     #a78bfa;
+  --green:      #4ade80;
+  --red:        #f87171;
+  --text:       #e2f0fb;
+  --muted:      #6b8fb5;
+  --border:     rgba(56,189,248,.12);
+  --border2:    rgba(240,180,41,.18);
+  --radius:     14px;
+  --shadow:     0 8px 32px rgba(0,0,0,.4);
+}
+html,body{height:100%;background:var(--bg);color:var(--text);font-family:'Exo 2',sans-serif;overflow:hidden;}
+
+/* ── BG effects ── */
+body::before{
+  content:'';position:fixed;inset:0;
+  background:radial-gradient(ellipse 80% 60% at 50% -20%, rgba(56,189,248,.06) 0%, transparent 70%),
+             radial-gradient(ellipse 50% 40% at 90% 90%, rgba(167,139,250,.04) 0%, transparent 60%);
+  pointer-events:none;z-index:0;
+}
+.grid-bg{
+  position:fixed;inset:0;
+  background-image:linear-gradient(rgba(56,189,248,.025) 1px,transparent 1px),
+                   linear-gradient(90deg,rgba(56,189,248,.025) 1px,transparent 1px);
+  background-size:48px 48px;pointer-events:none;z-index:0;
+}
+
+/* ── Layout ── */
+.app{display:grid;grid-template-columns:260px 1fr;grid-template-rows:60px 1fr;height:100vh;position:relative;z-index:1;}
+
+/* ── Header ── */
+header{
+  grid-column:1/-1;
+  display:flex;align-items:center;gap:14px;padding:0 22px;
+  background:rgba(8,22,38,.92);border-bottom:1px solid var(--border);
+  backdrop-filter:blur(16px);position:relative;z-index:20;
+}
+.hlogo{
+  width:38px;height:38px;background:linear-gradient(135deg,var(--gold),#c97b10);
+  border-radius:10px;display:flex;align-items:center;justify-content:center;
+  font-size:20px;box-shadow:0 0 20px rgba(240,180,41,.3);flex-shrink:0;
+}
+header h1{font-family:'Rajdhani',sans-serif;font-size:21px;font-weight:700;letter-spacing:2.5px;
+  background:linear-gradient(90deg,var(--gold),var(--blue));-webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;background-clip:text;}
+.hright{margin-left:auto;display:flex;align-items:center;gap:12px;}
+.nav-tabs{display:flex;gap:4px;}
+.nav-tab{
+  padding:6px 14px;border-radius:8px;background:transparent;border:1px solid transparent;
+  color:var(--muted);font-family:'Exo 2',sans-serif;font-size:12px;font-weight:500;
+  cursor:pointer;transition:all .2s;letter-spacing:.5px;
+}
+.nav-tab:hover,.nav-tab.active{background:rgba(56,189,248,.1);border-color:var(--border);color:var(--blue);}
+.nav-tab.active{color:var(--gold);border-color:var(--border2);background:rgba(240,180,41,.07);}
+.status{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--muted);}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 8px var(--green);animation:blink 2s infinite;}
+@keyframes blink{0%,100%{opacity:1;}50%{opacity:.3;}}
+
+/* ── Sidebar ── */
+aside{
+  background:var(--bg2);border-right:1px solid var(--border);
+  display:flex;flex-direction:column;overflow-y:auto;position:relative;z-index:5;
+}
+aside::-webkit-scrollbar{width:3px;}
+aside::-webkit-scrollbar-thumb{background:var(--border);border-radius:4px;}
+.s-sec{padding:14px 14px 6px;}
+.s-label{font-family:'Rajdhani',sans-serif;font-size:10px;font-weight:700;letter-spacing:2.5px;color:var(--muted);text-transform:uppercase;margin-bottom:8px;}
+.qbtn{
+  display:flex;align-items:center;gap:9px;width:100%;padding:9px 11px;
+  background:transparent;border:1px solid transparent;border-radius:9px;
+  color:var(--text);font-family:'Exo 2',sans-serif;font-size:12.5px;cursor:pointer;
+  text-align:left;transition:all .18s;margin-bottom:3px;
+}
+.qbtn:hover{background:rgba(56,189,248,.07);border-color:var(--border);color:var(--blue);}
+.qbtn .qi{font-size:15px;flex-shrink:0;}
+.sdiv{height:1px;background:var(--border);margin:6px 14px;}
+.hero-mini{display:grid;grid-template-columns:1fr 1fr;gap:5px;padding:0 11px 12px;}
+.hpill{
+  padding:5px 7px;background:var(--bg3);border:1px solid var(--border);
+  border-radius:6px;font-size:10.5px;color:var(--muted);cursor:pointer;
+  transition:all .18s;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+}
+.hpill:hover{background:rgba(240,180,41,.08);border-color:var(--border2);color:var(--gold);}
+
+/* ── Pages ── */
+.page{display:none;flex-direction:column;height:100%;overflow:hidden;}
+.page.active{display:flex;}
+
+/* ── CHAT PAGE ── */
+.messages{flex:1;overflow-y:auto;padding:22px 26px;display:flex;flex-direction:column;gap:18px;}
+.messages::-webkit-scrollbar{width:3px;}
+.messages::-webkit-scrollbar-thumb{background:var(--border);border-radius:4px;}
+
+.welcome{display:flex;flex-direction:column;align-items:center;justify-content:center;
+  height:100%;text-align:center;gap:14px;}
+.welcome.hidden{display:none;}
+.w-icon{font-size:54px;filter:drop-shadow(0 0 28px rgba(240,180,41,.45));animation:float 3s ease-in-out infinite;}
+@keyframes float{0%,100%{transform:translateY(0);}50%{transform:translateY(-9px);}}
+.welcome h2{font-family:'Rajdhani',sans-serif;font-size:26px;font-weight:700;letter-spacing:2px;
+  background:linear-gradient(90deg,var(--gold),var(--blue));-webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;background-clip:text;}
+.welcome p{color:var(--muted);font-size:13px;max-width:380px;line-height:1.65;}
+.chips{display:flex;flex-wrap:wrap;gap:7px;justify-content:center;max-width:460px;margin-top:6px;}
+.chip{
+  padding:7px 15px;background:var(--bg3);border:1px solid var(--border);
+  border-radius:18px;font-size:12px;color:var(--muted);cursor:pointer;transition:all .2s;
+}
+.chip:hover{background:rgba(56,189,248,.1);border-color:var(--blue);color:var(--blue);}
+
+.msg{display:flex;gap:11px;animation:fadeUp .3s ease;max-width:820px;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
+.msg.user{flex-direction:row-reverse;align-self:flex-end;}
+.msg.bot{align-self:flex-start;}
+.av{width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:15px;flex-shrink:0;margin-top:2px;}
+.msg.user .av{background:linear-gradient(135deg,var(--blue),#0284c7);}
+.msg.bot .av{background:linear-gradient(135deg,var(--gold),#c97b10);box-shadow:0 0 16px rgba(240,180,41,.25);}
+.bubble{
+  max-width:600px;padding:13px 17px;border-radius:var(--radius);
+  line-height:1.68;font-size:13.5px;
+}
+.msg.user .bubble{background:rgba(56,189,248,.1);border:1px solid rgba(56,189,248,.18);border-top-right-radius:4px;}
+.msg.bot .bubble{background:var(--bg3);border:1px solid var(--border);border-top-left-radius:4px;}
+.bubble strong{color:var(--gold);font-weight:600;}
+.bubble em{color:var(--blue);font-style:normal;}
+
+.hero-card{
+  display:flex;gap:13px;background:var(--bg3);border:1px solid var(--border2);
+  border-radius:var(--radius);padding:13px;margin-top:9px;
+  box-shadow:0 0 24px rgba(240,180,41,.12);max-width:340px;
+  animation:fadeUp .4s ease .1s both;
+}
+.hero-card img{width:88px;height:88px;object-fit:cover;border-radius:8px;border:2px solid rgba(240,180,41,.25);flex-shrink:0;background:var(--bg);}
+.hc-name{font-family:'Rajdhani',sans-serif;font-size:17px;font-weight:700;color:var(--gold);letter-spacing:1px;margin-bottom:5px;}
+.tags{display:flex;flex-wrap:wrap;gap:4px;}
+.tag{padding:2px 7px;border-radius:4px;font-size:10.5px;font-weight:500;background:rgba(56,189,248,.1);border:1px solid rgba(56,189,248,.18);color:var(--blue);}
+.tag.lane{background:rgba(240,180,41,.1);border-color:rgba(240,180,41,.2);color:var(--gold);}
+
+.typing{display:flex;align-items:center;gap:5px;padding:13px 17px;background:var(--bg3);border:1px solid var(--border);border-radius:var(--radius);border-top-left-radius:4px;width:fit-content;}
+.typing span{width:5px;height:5px;border-radius:50%;background:var(--blue);animation:bounce .8s infinite;}
+.typing span:nth-child(2){animation-delay:.15s;}
+.typing span:nth-child(3){animation-delay:.3s;}
+@keyframes bounce{0%,60%,100%{transform:translateY(0);opacity:.5;}30%{transform:translateY(-6px);opacity:1;}}
+
+.input-area{padding:14px 26px 18px;background:rgba(8,22,38,.9);border-top:1px solid var(--border);backdrop-filter:blur(14px);}
+.input-wrap{display:flex;gap:9px;align-items:flex-end;background:var(--bg3);border:1px solid var(--border);border-radius:13px;padding:9px 13px;transition:all .2s;}
+.input-wrap:focus-within{border-color:rgba(56,189,248,.35);box-shadow:0 0 0 3px rgba(56,189,248,.05);}
+#chat-input{flex:1;background:transparent;border:none;outline:none;color:var(--text);font-family:'Exo 2',sans-serif;font-size:13.5px;resize:none;min-height:22px;max-height:110px;line-height:1.5;}
+#chat-input::placeholder{color:var(--muted);}
+#send-btn{width:38px;height:38px;border-radius:9px;background:linear-gradient(135deg,var(--gold),#c97b10);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:17px;flex-shrink:0;transition:transform .15s;box-shadow:0 0 16px rgba(240,180,41,.25);}
+#send-btn:hover{transform:scale(1.08);}
+#send-btn:active{transform:scale(.94);}
+#send-btn:disabled{opacity:.4;cursor:not-allowed;transform:none;}
+.input-hint{font-size:10.5px;color:var(--muted);margin-top:7px;text-align:center;}
+
+/* ── TIER LIST PAGE ── */
+.page-inner{flex:1;overflow-y:auto;padding:24px 28px;}
+.page-inner::-webkit-scrollbar{width:3px;}
+.page-inner::-webkit-scrollbar-thumb{background:var(--border);border-radius:4px;}
+.page-title{font-family:'Rajdhani',sans-serif;font-size:22px;font-weight:700;letter-spacing:2px;
+  background:linear-gradient(90deg,var(--gold),var(--blue));-webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;background-clip:text;margin-bottom:6px;}
+.page-sub{color:var(--muted);font-size:12.5px;margin-bottom:22px;}
+.tier-row{display:flex;align-items:flex-start;gap:14px;margin-bottom:12px;animation:fadeUp .4s ease;}
+.tier-label{
+  width:52px;height:52px;border-radius:10px;display:flex;align-items:center;justify-content:center;
+  font-family:'Rajdhani',sans-serif;font-size:22px;font-weight:700;flex-shrink:0;margin-top:2px;
+}
+.tier-s .tier-label{background:linear-gradient(135deg,#ff6b35,#f7931e);box-shadow:0 0 18px rgba(255,107,53,.3);}
+.tier-a .tier-label{background:linear-gradient(135deg,#f0b429,#c97b10);box-shadow:0 0 18px rgba(240,180,41,.25);}
+.tier-b .tier-label{background:linear-gradient(135deg,#4ade80,#16a34a);box-shadow:0 0 18px rgba(74,222,128,.2);}
+.tier-c .tier-label{background:linear-gradient(135deg,#38bdf8,#0284c7);box-shadow:0 0 18px rgba(56,189,248,.2);}
+.tier-d .tier-label{background:linear-gradient(135deg,#a78bfa,#7c3aed);box-shadow:0 0 18px rgba(167,139,250,.2);}
+.tier-heroes{display:flex;flex-wrap:wrap;gap:7px;flex:1;background:var(--bg3);border:1px solid var(--border);border-radius:10px;padding:10px;}
+.tier-hero{
+  padding:6px 13px;border-radius:7px;font-size:12px;font-weight:500;cursor:pointer;transition:all .2s;
+  background:var(--bg4);border:1px solid var(--border);color:var(--text);
+}
+.tier-hero:hover{background:rgba(240,180,41,.1);border-color:var(--border2);color:var(--gold);}
+
+/* ── COMPARE PAGE ── */
+.compare-wrap{display:grid;grid-template-columns:1fr auto 1fr;gap:16px;align-items:start;margin-bottom:20px;}
+.vs-badge{
+  display:flex;align-items:center;justify-content:center;
+  width:44px;height:44px;background:linear-gradient(135deg,var(--red),#c0392b);
+  border-radius:50%;font-family:'Rajdhani',sans-serif;font-size:18px;font-weight:700;
+  color:#fff;box-shadow:0 0 18px rgba(248,113,113,.35);margin-top:28px;flex-shrink:0;
+}
+.cmp-select{
+  background:var(--bg3);border:1px solid var(--border);border-radius:10px;
+  color:var(--text);font-family:'Exo 2',sans-serif;font-size:13px;
+  padding:10px 14px;width:100%;outline:none;cursor:pointer;
+}
+.cmp-select:focus{border-color:var(--blue);}
+.cmp-select option{background:var(--bg2);}
+.cmp-btn{
+  display:block;width:100%;padding:12px;border-radius:10px;
+  background:linear-gradient(135deg,var(--gold),#c97b10);border:none;
+  color:#1a0a00;font-family:'Rajdhani',sans-serif;font-size:16px;font-weight:700;
+  letter-spacing:1px;cursor:pointer;transition:transform .15s;margin-bottom:20px;
+  box-shadow:0 0 20px rgba(240,180,41,.2);
+}
+.cmp-btn:hover{transform:scale(1.01);}
+.cmp-result{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+.cmp-card{background:var(--bg3);border:1px solid var(--border);border-radius:var(--radius);padding:18px;}
+.cmp-card.winner{border-color:var(--border2);box-shadow:0 0 22px rgba(240,180,41,.15);}
+.cmp-hname{font-family:'Rajdhani',sans-serif;font-size:19px;font-weight:700;color:var(--gold);margin-bottom:4px;}
+.cmp-role{font-size:12px;color:var(--muted);margin-bottom:12px;}
+.cmp-stat{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;}
+.cmp-stat-label{font-size:12px;color:var(--muted);}
+.cmp-bar-wrap{width:120px;height:8px;background:var(--bg4);border-radius:4px;overflow:hidden;}
+.cmp-bar{height:100%;border-radius:4px;transition:width .8s ease;}
+.bar-atk{background:linear-gradient(90deg,var(--red),#f97316);}
+.bar-def{background:linear-gradient(90deg,var(--blue),#0ea5e9);}
+.bar-mob{background:linear-gradient(90deg,var(--green),#16a34a);}
+.bar-uti{background:linear-gradient(90deg,var(--purple),#7c3aed);}
+.cmp-winner-badge{display:inline-flex;align-items:center;gap:5px;padding:3px 10px;background:rgba(240,180,41,.15);border:1px solid var(--border2);border-radius:14px;font-size:11px;color:var(--gold);margin-bottom:8px;}
+.hidden{display:none!important;}
+
+/* ── QUIZ PAGE ── */
+.quiz-wrap{max-width:560px;margin:0 auto;}
+.quiz-score-bar{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;}
+.qs-badge{padding:5px 16px;border-radius:20px;background:rgba(240,180,41,.1);border:1px solid var(--border2);font-size:13px;color:var(--gold);font-weight:600;}
+.quiz-card{background:var(--bg3);border:1px solid var(--border);border-radius:var(--radius);padding:24px;text-align:center;animation:fadeUp .35s ease;}
+.quiz-emoji{font-size:52px;margin-bottom:12px;filter:drop-shadow(0 0 18px rgba(240,180,41,.3));}
+.quiz-q{font-family:'Rajdhani',sans-serif;font-size:20px;font-weight:600;letter-spacing:.5px;margin-bottom:6px;}
+.quiz-hint{font-size:12px;color:var(--muted);margin-bottom:20px;}
+.quiz-options{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+.qopt{
+  padding:12px 10px;background:var(--bg4);border:1px solid var(--border);border-radius:10px;
+  color:var(--text);font-family:'Exo 2',sans-serif;font-size:13px;cursor:pointer;transition:all .2s;
+}
+.qopt:hover:not(:disabled){background:rgba(56,189,248,.1);border-color:var(--blue);color:var(--blue);}
+.qopt.correct{background:rgba(74,222,128,.15)!important;border-color:var(--green)!important;color:var(--green)!important;}
+.qopt.wrong{background:rgba(248,113,113,.12)!important;border-color:var(--red)!important;color:var(--red)!important;}
+.qopt:disabled{cursor:not-allowed;}
+.quiz-result{text-align:center;padding:24px;}
+.qr-score{font-family:'Rajdhani',sans-serif;font-size:56px;font-weight:700;
+  background:linear-gradient(90deg,var(--gold),var(--blue));-webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;background-clip:text;}
+.qr-label{font-size:14px;color:var(--muted);margin-bottom:18px;}
+.restart-btn{padding:11px 28px;background:linear-gradient(135deg,var(--gold),#c97b10);border:none;border-radius:10px;color:#1a0a00;font-family:'Rajdhani',sans-serif;font-size:16px;font-weight:700;cursor:pointer;letter-spacing:1px;}
+
+/* ── TEAM BUILDER PAGE ── */
+.team-builder{display:grid;grid-template-columns:1fr 320px;gap:20px;height:100%;overflow:hidden;}
+.tb-left{overflow-y:auto;padding:24px 0 24px 28px;}
+.tb-left::-webkit-scrollbar{width:3px;}
+.tb-left::-webkit-scrollbar-thumb{background:var(--border);border-radius:4px;}
+.tb-right{overflow-y:auto;padding:24px 28px 24px 0;}
+.tb-right::-webkit-scrollbar{width:3px;}
+.tb-right::-webkit-scrollbar-thumb{background:var(--border);border-radius:4px;}
+.team-slots{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:20px;}
+.slot{
+  background:var(--bg3);border:2px dashed var(--border);border-radius:var(--radius);
+  padding:16px;text-align:center;min-height:100px;cursor:pointer;
+  transition:all .2s;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;
+}
+.slot.filled{border-style:solid;border-color:var(--border2);background:rgba(240,180,41,.04);}
+.slot.filled:hover{border-color:var(--red);background:rgba(248,113,113,.04);}
+.slot-icon{font-size:26px;}
+.slot-name{font-family:'Rajdhani',sans-serif;font-size:15px;font-weight:600;color:var(--gold);}
+.slot-role{font-size:11px;color:var(--muted);}
+.slot-empty-text{font-size:12px;color:var(--muted);}
+.clear-btn{width:100%;padding:10px;background:rgba(248,113,113,.1);border:1px solid rgba(248,113,113,.2);border-radius:9px;color:var(--red);font-family:'Exo 2',sans-serif;font-size:13px;cursor:pointer;margin-bottom:16px;transition:all .2s;}
+.clear-btn:hover{background:rgba(248,113,113,.18);}
+.analyze-btn{width:100%;padding:12px;background:linear-gradient(135deg,var(--gold),#c97b10);border:none;border-radius:10px;color:#1a0a00;font-family:'Rajdhani',sans-serif;font-size:16px;font-weight:700;cursor:pointer;letter-spacing:1px;box-shadow:0 0 16px rgba(240,180,41,.2);margin-bottom:20px;}
+.team-analysis{background:var(--bg3);border:1px solid var(--border);border-radius:var(--radius);padding:16px;}
+.ta-title{font-family:'Rajdhani',sans-serif;font-size:15px;font-weight:600;color:var(--blue);margin-bottom:12px;letter-spacing:.5px;}
+.ta-item{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;font-size:12.5px;}
+.ta-label{color:var(--muted);}
+.ta-val{font-weight:600;}
+.ta-good{color:var(--green);}
+.ta-warn{color:var(--gold);}
+.ta-bad{color:var(--red);}
+.hero-pool{background:var(--bg3);border:1px solid var(--border);border-radius:var(--radius);padding:14px;}
+.pool-title{font-family:'Rajdhani',sans-serif;font-size:14px;font-weight:600;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-bottom:10px;}
+.role-filter{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px;}
+.rf{padding:4px 11px;background:var(--bg4);border:1px solid var(--border);border-radius:14px;font-size:11px;color:var(--muted);cursor:pointer;transition:all .18s;}
+.rf.active{background:rgba(56,189,248,.1);border-color:var(--blue);color:var(--blue);}
+.pool-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:5px;max-height:400px;overflow-y:auto;}
+.pool-grid::-webkit-scrollbar{width:3px;}
+.pool-grid::-webkit-scrollbar-thumb{background:var(--border);border-radius:4px;}
+.ph{padding:7px 6px;background:var(--bg4);border:1px solid var(--border);border-radius:7px;font-size:11px;color:var(--muted);cursor:pointer;transition:all .18s;text-align:center;}
+.ph:hover{background:rgba(240,180,41,.08);border-color:var(--border2);color:var(--gold);}
+.ph.selected{background:rgba(74,222,128,.08);border-color:rgba(74,222,128,.25);color:var(--green);}
+
+/* ── Responsive ── */
+@media(max-width:768px){
+  .app{grid-template-columns:1fr;grid-template-rows:56px 1fr;}
+  aside{display:none;}
+  .messages,.page-inner{padding:14px;}
+  .input-area{padding:10px 14px 14px;}
+  .cmp-result,.team-builder{grid-template-columns:1fr;}
+  .tb-left,.tb-right{padding:14px;}
+}
+</style>
+</head>
+<body>
+<div class="grid-bg"></div>
+<div class="app">
+
+<!-- ── HEADER ── -->
+<header>
+  <div class="hlogo">⚔️</div>
+  <h1>MLBB ASSISTANT</h1>
+  <div class="hright">
+    <div class="nav-tabs">
+      <button class="nav-tab active" onclick="showPage('chat')" id="tab-chat">💬 Chat</button>
+      <button class="nav-tab" onclick="showPage('tier')" id="tab-tier">🔥 Tier List</button>
+      <button class="nav-tab" onclick="showPage('compare')" id="tab-compare">📊 Compare</button>
+      <button class="nav-tab" onclick="showPage('quiz')" id="tab-quiz">🎯 Quiz</button>
+      <button class="nav-tab" onclick="showPage('team')" id="tab-team">🎮 Team Builder</button>
+    </div>
+    <div class="status"><div class="dot"></div><span>Online</span></div>
+  </div>
+</header>
+
+<!-- ── SIDEBAR ── -->
+<aside>
+  <div class="s-sec">
+    <div class="s-label">Quick Ask</div>
+    <button class="qbtn" onclick="q('Tampilkan daftar semua hero')"><span class="qi">📋</span>Daftar Hero</button>
+    <button class="qbtn" onclick="q('Ceritakan lore Balmond')"><span class="qi">📖</span>Lore Hero</button>
+    <button class="qbtn" onclick="q('Combo terbaik Saber')"><span class="qi">⚔️</span>Hero Combo</button>
+    <button class="qbtn" onclick="q('Counter Layla siapa saja')"><span class="qi">🛡️</span>Hero Counter</button>
+    <button class="qbtn" onclick="q('Build item terbaik untuk Wanwan')"><span class="qi">🔧</span>Item Build</button>
+    <button class="qbtn" onclick="q('Informasi item Blade of Despair')"><span class="qi">🗡️</span>Info Item</button>
+    <button class="qbtn" onclick="q('Informasi Assassin Emblem')"><span class="qi">💎</span>Info Emblem</button>
+  </div>
+  <div class="sdiv"></div>
+  <div class="s-sec"><div class="s-label">Hero Populer</div></div>
+  <div class="hero-mini" id="sidebar-heroes"></div>
+</aside>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- PAGE: CHAT -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div class="page active" id="page-chat">
+  <div class="messages" id="messages">
+    <div class="welcome" id="welcome">
+      <div class="w-icon">🏆</div>
+      <h2>MLBB HERO ASSISTANT</h2>
+      <p>Tanyakan apa saja tentang hero, item, emblem, combo, counter, atau lore dari 50 hero Mobile Legends.</p>
+      <div class="chips">
+        <div class="chip" onclick="q('Siapa itu Fanny?')">👤 Siapa Fanny?</div>
+        <div class="chip" onclick="q('Tampilkan gambar Balmond')">🖼️ Gambar Balmond</div>
+        <div class="chip" onclick="q('Build Wanwan terbaik')">🔧 Build Wanwan</div>
+        <div class="chip" onclick="q('Counter Tigreal')">🛡️ Counter Tigreal</div>
+        <div class="chip" onclick="q('Combo Atlas')">⚔️ Combo Atlas</div>
+        <div class="chip" onclick="q('Lore Ling')">📖 Lore Ling</div>
+      </div>
+    </div>
+  </div>
+  <div class="input-area">
+    <div class="input-wrap">
+      <textarea id="chat-input" placeholder="Tanya tentang hero, item, combo, counter..." rows="1"></textarea>
+      <button id="send-btn" onclick="sendMsg()" title="Kirim">➤</button>
+    </div>
+    <div class="input-hint">Enter untuk kirim · Shift+Enter baris baru</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- PAGE: TIER LIST -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div class="page" id="page-tier">
+  <div class="page-inner">
+    <div class="page-title">🔥 HERO TIER LIST</div>
+    <div class="page-sub">Ranking berdasarkan strength, win rate, dan meta saat ini (patch terkini)</div>
+    <div id="tier-content"></div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- PAGE: COMPARE -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div class="page" id="page-compare">
+  <div class="page-inner">
+    <div class="page-title">📊 HERO COMPARISON</div>
+    <div class="page-sub">Bandingkan dua hero secara langsung</div>
+    <div class="compare-wrap">
+      <div>
+        <div class="s-label" style="margin-bottom:8px;">Hero 1</div>
+        <select class="cmp-select" id="cmp-h1">
+          <option value="">— Pilih Hero —</option>
+        </select>
+      </div>
+      <div class="vs-badge">VS</div>
+      <div>
+        <div class="s-label" style="margin-bottom:8px;">Hero 2</div>
+        <select class="cmp-select" id="cmp-h2">
+          <option value="">— Pilih Hero —</option>
+        </select>
+      </div>
+    </div>
+    <button class="cmp-btn" onclick="doCompare()">⚡ BANDINGKAN SEKARANG</button>
+    <div id="cmp-result" class="hidden"></div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- PAGE: QUIZ -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div class="page" id="page-quiz">
+  <div class="page-inner">
+    <div class="page-title">🎯 HERO QUIZ</div>
+    <div class="page-sub">Seberapa kamu tahu hero MLBB? Tebak hero dari clue yang diberikan!</div>
+    <div class="quiz-wrap">
+      <div class="quiz-score-bar">
+        <span class="qs-badge" id="quiz-score-badge">Score: 0</span>
+        <span class="qs-badge" id="quiz-num-badge">1 / 10</span>
+      </div>
+      <div id="quiz-content"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- PAGE: TEAM BUILDER -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div class="page" id="page-team">
+  <div class="team-builder">
+    <div class="tb-left">
+      <div class="page-title">🎮 TEAM BUILDER</div>
+      <div class="page-sub" style="margin-bottom:18px;">Susun tim 5 hero dan analisis komposisi</div>
+      <div class="team-slots" id="team-slots"></div>
+      <button class="clear-btn" onclick="clearTeam()">🗑️ Reset Tim</button>
+      <button class="analyze-btn" onclick="analyzeTeam()">🔍 ANALISIS TIM</button>
+      <div class="team-analysis hidden" id="team-analysis"></div>
+    </div>
+    <div class="tb-right">
+      <div class="hero-pool">
+        <div class="pool-title">Pilih Hero</div>
+        <div class="role-filter" id="role-filters"></div>
+        <div class="pool-grid" id="pool-grid"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div><!-- .app -->
+
+<script>
+// ════════════════════════════════════════════════════════════
+// DATA
+// ════════════════════════════════════════════════════════════
+const HEROES = [
+  {id:1,name:"Layla",role:"Marksman",lane:"Gold",atk:70,def:30,mob:40,uti:50},
+  {id:2,name:"Balmond",role:"Fighter",lane:"EXP",atk:75,def:65,mob:55,uti:45},
+  {id:3,name:"Saber",role:"Assassin",lane:"Jungle",atk:88,def:35,mob:80,uti:40},
+  {id:4,name:"Alice",role:"Mage",lane:"Roam",atk:72,def:60,mob:65,uti:70},
+  {id:5,name:"Nana",role:"Mage",lane:"Mid",atk:65,def:40,mob:55,uti:85},
+  {id:6,name:"Tigreal",role:"Tank",lane:"Roam",atk:50,def:88,mob:60,uti:92},
+  {id:7,name:"Alucard",role:"Fighter",lane:"EXP",atk:82,def:60,mob:70,uti:50},
+  {id:8,name:"Karina",role:"Assassin",lane:"Jungle",atk:90,def:30,mob:82,uti:55},
+  {id:9,name:"Akai",role:"Tank",lane:"Roam",atk:55,def:85,mob:65,uti:88},
+  {id:10,name:"Franco",role:"Tank",lane:"Roam",atk:58,def:80,mob:55,uti:90},
+  {id:11,name:"Bane",role:"Fighter",lane:"EXP",atk:70,def:60,mob:50,uti:55},
+  {id:12,name:"Bruno",role:"Marksman",lane:"Gold",atk:85,def:35,mob:55,uti:45},
+  {id:13,name:"Clint",role:"Marksman",lane:"Gold",atk:82,def:35,mob:50,uti:48},
+  {id:14,name:"Rafaela",role:"Support",lane:"Roam",atk:40,def:45,mob:55,uti:92},
+  {id:15,name:"Eudora",role:"Mage",lane:"Mid",atk:92,def:30,mob:40,uti:55},
+  {id:16,name:"Zilong",role:"Fighter",lane:"EXP",atk:78,def:55,mob:80,uti:45},
+  {id:17,name:"Fanny",role:"Assassin",lane:"Jungle",atk:88,def:30,mob:98,uti:40},
+  {id:18,name:"Lapu-Lapu",role:"Fighter",lane:"EXP",atk:80,def:70,mob:65,uti:55},
+  {id:19,name:"Vexana",role:"Mage",lane:"Mid",atk:78,def:30,mob:40,uti:75},
+  {id:20,name:"Roger",role:"Fighter",lane:"Jungle",atk:82,def:60,mob:72,uti:55},
+  {id:21,name:"Karrie",role:"Marksman",lane:"Gold",atk:80,def:35,mob:65,uti:50},
+  {id:22,name:"Gatotkaca",role:"Tank",lane:"Roam",atk:65,def:88,mob:60,uti:85},
+  {id:23,name:"Harley",role:"Mage",lane:"Jungle",atk:90,def:28,mob:82,uti:52},
+  {id:24,name:"Irithel",role:"Marksman",lane:"Gold",atk:82,def:38,mob:55,uti:45},
+  {id:25,name:"Grock",role:"Tank",lane:"Roam",atk:60,def:92,mob:58,uti:80},
+  {id:26,name:"Diggie",role:"Support",lane:"Roam",atk:38,def:50,mob:55,uti:95},
+  {id:27,name:"Lolita",role:"Tank",lane:"Roam",atk:50,def:85,mob:58,uti:90},
+  {id:28,name:"Argus",role:"Fighter",lane:"EXP",atk:82,def:55,mob:65,uti:55},
+  {id:29,name:"Moskov",role:"Marksman",lane:"Gold",atk:82,def:32,mob:70,uti:55},
+  {id:30,name:"Johnson",role:"Tank",lane:"Roam",atk:55,def:88,mob:70,uti:92},
+  {id:31,name:"Cyclops",role:"Mage",lane:"Mid",atk:80,def:32,mob:50,uti:65},
+  {id:32,name:"Estes",role:"Support",lane:"Roam",atk:42,def:48,mob:52,uti:98},
+  {id:33,name:"Hilda",role:"Fighter",lane:"EXP",atk:75,def:72,mob:68,uti:50},
+  {id:34,name:"Aurora",role:"Mage",lane:"Mid",atk:88,def:28,mob:38,uti:70},
+  {id:35,name:"Ling",role:"Assassin",lane:"Jungle",atk:90,def:28,mob:98,uti:40},
+  {id:36,name:"Dyrroth",role:"Fighter",lane:"EXP",atk:88,def:60,mob:70,uti:50},
+  {id:37,name:"Lylia",role:"Mage",lane:"Mid",atk:82,def:30,mob:65,uti:65},
+  {id:38,name:"Baxia",role:"Tank",lane:"Roam",atk:58,def:88,mob:72,uti:85},
+  {id:39,name:"Masha",role:"Fighter",lane:"EXP",atk:80,def:75,mob:65,uti:45},
+  {id:40,name:"Wanwan",role:"Marksman",lane:"Gold",atk:85,def:32,mob:88,uti:52},
+  {id:41,name:"Silvanna",role:"Fighter",lane:"EXP",atk:82,def:62,mob:68,uti:70},
+  {id:42,name:"Cecilion",role:"Mage",lane:"Mid",atk:88,def:28,mob:42,uti:62},
+  {id:43,name:"Carmilla",role:"Tank",lane:"Roam",atk:55,def:80,mob:62,uti:88},
+  {id:44,name:"Atlas",role:"Tank",lane:"Roam",atk:52,def:90,mob:68,uti:95},
+  {id:45,name:"Popol and Kupa",role:"Marksman",lane:"Gold",atk:72,def:38,mob:60,uti:72},
+  {id:46,name:"Yu Zhong",role:"Fighter",lane:"EXP",atk:85,def:70,mob:68,uti:58},
+  {id:47,name:"Luo Yi",role:"Mage",lane:"Mid",atk:80,def:32,mob:45,uti:88},
+  {id:48,name:"Khaleed",role:"Fighter",lane:"EXP",atk:82,def:65,mob:72,uti:55},
+  {id:49,name:"Barats",role:"Tank",lane:"Roam",atk:62,def:90,mob:58,uti:85},
+  {id:50,name:"Brody",role:"Marksman",lane:"Gold",atk:88,def:30,mob:45,uti:55},
+];
+
+const TIER_DATA = {
+  S:["Ling","Fanny","Atlas","Wanwan","Yu Zhong","Cecilion","Luo Yi","Diggie"],
+  A:["Harley","Karina","Dyrroth","Silvanna","Baxia","Khaleed","Brody","Carmilla"],
+  B:["Karrie","Moskov","Eudora","Aurora","Cyclops","Tigreal","Akai","Johnson"],
+  C:["Alucard","Roger","Zilong","Lapu-Lapu","Argus","Gatotkaca","Hilda","Masha"],
+  D:["Layla","Bruno","Clint","Balmond","Saber","Nana","Vexana","Alice"],
+};
+
+const QUIZ_QUESTIONS = [
+  {clue:"Hero Marksman dengan range basic attack terpanjang di game. Tidak punya escape skill.",hint:"Senjata: Malefic Gun",ans:"Layla",opts:["Layla","Irithel","Karrie","Bruno"]},
+  {clue:"Assassin yang bisa terbang menggunakan kabel baja. Membutuhkan Lightness Points.",hint:"Berasal dari kota terapung",ans:"Fanny",opts:["Ling","Fanny","Karina","Saber"]},
+  {clue:"Tank yang bisa berubah menjadi kendaraan dan membawa satu rekan gank.",hint:"Dibuat di laboratorium teknologi",ans:"Johnson",opts:["Barats","Atlas","Johnson","Grock"]},
+  {clue:"Mage yang bisa mengubah musuh menjadi kucing kecil sehingga tidak bisa pakai skill.",hint:"Punya boneka beruang bernama Molina",ans:"Nana",opts:["Vexana","Lylia","Nana","Cyclops"]},
+  {clue:"Fighter yang punya 3 HP bar. Damage skill berdasarkan persentase HP musuh.",hint:"Berasal dari stepa timur",ans:"Masha",opts:["Masha","Hilda","Argus","Lapu-Lapu"]},
+  {clue:"Tank yang bisa menarik semua musuh sekitarnya dengan rantai energi.",hint:"Lahir dari lautan dalam yang beku",ans:"Atlas",opts:["Atlas","Tigreal","Akai","Franco"]},
+  {clue:"Mage vampire yang semakin kuat semakin banyak cast Skill 1. Stack Magic Power.",hint:"Pasangannya adalah Carmilla",ans:"Cecilion",opts:["Harley","Vexana","Cecilion","Lylia"]},
+  {clue:"Assassin yang bergerak di atas dinding menggunakan Lightness. Ultimate: Tempest of Blades.",hint:"Murid sekte pedang tertua",ans:"Ling",opts:["Ling","Fanny","Karina","Harley"]},
+  {clue:"Marksman yang bisa bergerak sambil melakukan basic attack. Menggunakan balista besar.",hint:"Dibesarkan bersama harimau bernama Leo",ans:"Irithel",opts:["Irithel","Karrie","Wanwan","Layla"]},
+  {clue:"Support yang bisa memberikan immunity CC kepada seluruh tim dengan ultimate-nya.",hint:"Ilmuwan waktu berbentuk setengah jam",ans:"Diggie",opts:["Estes","Rafaela","Diggie","Lolita"]},
+];
+
+// ════════════════════════════════════════════════════════════
+// NAV
+// ════════════════════════════════════════════════════════════
+function showPage(id){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.nav-tab').forEach(t=>t.classList.remove('active'));
+  document.getElementById('page-'+id).classList.add('active');
+  document.getElementById('tab-'+id).classList.add('active');
+}
+
+// ════════════════════════════════════════════════════════════
+// SIDEBAR HEROES
+// ════════════════════════════════════════════════════════════
+const popular=["Fanny","Ling","Atlas","Wanwan","Yu Zhong","Cecilion","Tigreal","Karina","Harley","Layla","Balmond","Saber"];
+const sGrid=document.getElementById('sidebar-heroes');
+popular.forEach(n=>{
+  const d=document.createElement('div');
+  d.className='hpill';d.textContent=n;
+  d.onclick=()=>{showPage('chat');q('Informasi hero '+n);};
+  sGrid.appendChild(d);
+});
+
+// ════════════════════════════════════════════════════════════
+// CHAT
+// ════════════════════════════════════════════════════════════
+let busy=false;
+const ta=document.getElementById('chat-input');
+ta.addEventListener('input',()=>{ta.style.height='auto';ta.style.height=Math.min(ta.scrollHeight,110)+'px';});
+ta.addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();sendMsg();}});
+
+function fmt(t){
+  return t.replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>')
+          .replace(/\*(.+?)\*/g,'<em>$1</em>')
+          .replace(/\n/g,'<br>');
+}
+
+function appendMsg(role,html,heroData,imgUrl){
+  document.getElementById('welcome')?.classList.add('hidden');
+  const c=document.getElementById('messages');
+  const w=document.createElement('div');w.className='msg '+role;
+  const av=document.createElement('div');av.className='av';av.textContent=role==='user'?'👤':'⚔️';
+  const cd=document.createElement('div');
+  const b=document.createElement('div');b.className='bubble';b.innerHTML=html;
+  cd.appendChild(b);
+  if(role==='bot'&&heroData&&imgUrl){
+    const card=document.createElement('div');card.className='hero-card';
+    const img=document.createElement('img');
+    img.src=imgUrl;img.alt=heroData.name;
+    img.onerror=()=>img.style.display='none';
+    const info=document.createElement('div');
+    const nm=document.createElement('div');nm.className='hc-name';nm.textContent=heroData.name;
+    const tgs=document.createElement('div');tgs.className='tags';
+    (heroData.role||[]).forEach(r=>{const t=document.createElement('span');t.className='tag';t.textContent=r;tgs.appendChild(t);});
+    if(heroData.lane){const t=document.createElement('span');t.className='tag lane';t.textContent='📍 '+heroData.lane;tgs.appendChild(t);}
+    info.appendChild(nm);info.appendChild(tgs);
+    card.appendChild(img);card.appendChild(info);
+    cd.appendChild(card);
+  }
+  w.appendChild(av);w.appendChild(cd);
+  c.appendChild(w);
+  c.scrollTo({top:c.scrollHeight,behavior:'smooth'});
+}
+
+function showTyping(){
+  const c=document.getElementById('messages');
+  const w=document.createElement('div');w.className='msg bot';w.id='typing';
+  const av=document.createElement('div');av.className='av';av.textContent='⚔️';
+  const t=document.createElement('div');t.className='typing';
+  t.innerHTML='<span></span><span></span><span></span>';
+  w.appendChild(av);w.appendChild(t);c.appendChild(w);
+  c.scrollTo({top:c.scrollHeight,behavior:'smooth'});
+}
+function hideTyping(){document.getElementById('typing')?.remove();}
+
+async function sendMsg(){
+  if(busy)return;
+  const question=ta.value.trim();if(!question)return;
+  busy=true;document.getElementById('send-btn').disabled=true;
+  ta.value='';ta.style.height='auto';
+  appendMsg('user',fmt(question));showTyping();
+  try{
+    const res=await fetch('/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question})});
+    const d=await res.json();hideTyping();
+    if(d.error) appendMsg('bot','<span style="color:var(--red)">⚠️ '+d.error+'</span>');
+    else appendMsg('bot',fmt(d.answer),d.hero_data,d.image_url);
+  }catch(e){hideTyping();appendMsg('bot','<span style="color:var(--red)">⚠️ Gagal terhubung ke server.</span>');}
+  busy=false;document.getElementById('send-btn').disabled=false;ta.focus();
+}
+function q(txt){showPage('chat');ta.value=txt;sendMsg();}
+
+// ════════════════════════════════════════════════════════════
+// TIER LIST
+// ════════════════════════════════════════════════════════════
+const tierColors={S:'#ff6b35',A:'#f0b429',B:'#4ade80',C:'#38bdf8',D:'#a78bfa'};
+const tc=document.getElementById('tier-content');
+Object.entries(TIER_DATA).forEach(([tier,heroes])=>{
+  const row=document.createElement('div');row.className='tier-row tier-'+tier.toLowerCase();
+  const lbl=document.createElement('div');lbl.className='tier-label';lbl.textContent=tier;
+  const hbox=document.createElement('div');hbox.className='tier-heroes';
+  heroes.forEach(n=>{
+    const h=document.createElement('div');h.className='tier-hero';h.textContent=n;
+    h.style.borderColor='rgba('+hexToRgb(tierColors[tier])+',.2)';
+    h.onclick=()=>q('Informasi hero '+n);
+    hbox.appendChild(h);
+  });
+  row.appendChild(lbl);row.appendChild(hbox);tc.appendChild(row);
+});
+function hexToRgb(hex){const r=parseInt(hex.slice(1,3),16),g=parseInt(hex.slice(3,5),16),b=parseInt(hex.slice(5,7),16);return r+','+g+','+b;}
+
+// ════════════════════════════════════════════════════════════
+// COMPARE
+// ════════════════════════════════════════════════════════════
+['cmp-h1','cmp-h2'].forEach(id=>{
+  const sel=document.getElementById(id);
+  HEROES.forEach(h=>{const o=document.createElement('option');o.value=h.name;o.textContent=h.name;sel.appendChild(o);});
+});
+
+function doCompare(){
+  const n1=document.getElementById('cmp-h1').value;
+  const n2=document.getElementById('cmp-h2').value;
+  if(!n1||!n2||n1===n2){alert('Pilih 2 hero yang berbeda!');return;}
+  const h1=HEROES.find(h=>h.name===n1);
+  const h2=HEROES.find(h=>h.name===n2);
+  const stats=[
+    {label:'⚔️ Attack',key:'atk',cls:'bar-atk'},
+    {label:'🛡️ Defense',key:'def',cls:'bar-def'},
+    {label:'💨 Mobility',key:'mob',cls:'bar-mob'},
+    {label:'🔮 Utility',key:'uti',cls:'bar-uti'},
+  ];
+  const totalH1=h1.atk+h1.def+h1.mob+h1.uti;
+  const totalH2=h2.atk+h2.def+h2.mob+h2.uti;
+  const w1=totalH1>=totalH2;
+
+  function buildCard(hero,isWinner){
+    let html=`<div class="cmp-card ${isWinner?'winner':''}">`;
+    if(isWinner) html+=`<div class="cmp-winner-badge">🏆 Unggul Keseluruhan</div>`;
+    html+=`<div class="cmp-hname">${hero.name}</div>`;
+    html+=`<div class="cmp-role">${hero.role} · ${hero.lane} Lane</div>`;
+    stats.forEach(s=>{
+      const pct=hero[s.key];
+      html+=`<div class="cmp-stat">
+        <span class="cmp-stat-label">${s.label}</span>
+        <div style="display:flex;align-items:center;gap:8px;">
+          <div class="cmp-bar-wrap"><div class="cmp-bar ${s.cls}" style="width:${pct}%"></div></div>
+          <span style="font-size:12px;color:var(--text);min-width:26px">${pct}</span>
+        </div>
+      </div>`;
+    });
+    html+=`<div style="margin-top:12px;padding-top:10px;border-top:1px solid var(--border);font-size:12px;color:var(--muted);">
+      Total Score: <strong style="color:${isWinner?'var(--gold)':'var(--text)'}">${hero.atk+hero.def+hero.mob+hero.uti}</strong>
+    </div></div>`;
+    return html;
+  }
+
+  const res=document.getElementById('cmp-result');
+  res.className='cmp-result';
+  res.innerHTML=buildCard(h1,w1)+buildCard(h2,!w1);
+  setTimeout(()=>{
+    res.querySelectorAll('.cmp-bar').forEach(b=>{
+      const w=b.style.width;b.style.width='0';
+      setTimeout(()=>b.style.width=w,50);
+    });
+  },50);
+}
+
+// ════════════════════════════════════════════════════════════
+// QUIZ
+// ════════════════════════════════════════════════════════════
+let qIdx=0,qScore=0,qAnswered=false;
+function renderQuiz(){
+  const qc=document.getElementById('quiz-content');
+  if(qIdx>=QUIZ_QUESTIONS.length){
+    const pct=Math.round(qScore/QUIZ_QUESTIONS.length*100);
+    const emoji=pct>=80?'🏆':pct>=50?'👍':'😅';
+    qc.innerHTML=`<div class="quiz-result">
+      <div style="font-size:52px;margin-bottom:12px">${emoji}</div>
+      <div class="qr-score">${qScore}/${QUIZ_QUESTIONS.length}</div>
+      <div class="qr-label">Score: ${pct}% — ${pct>=80?'Master MLBB!':pct>=50?'Lumayan, terus belajar!':'Masih perlu belajar lagi!'}</div>
+      <button class="restart-btn" onclick="restartQuiz()">🔄 Main Lagi</button>
+    </div>`;
+    return;
+  }
+  const q=QUIZ_QUESTIONS[qIdx];
+  document.getElementById('quiz-score-badge').textContent='Score: '+qScore;
+  document.getElementById('quiz-num-badge').textContent=(qIdx+1)+' / '+QUIZ_QUESTIONS.length;
+  const shuffled=[...q.opts].sort(()=>Math.random()-.5);
+  qc.innerHTML=`<div class="quiz-card">
+    <div class="quiz-emoji">🤔</div>
+    <div class="quiz-q">${q.clue}</div>
+    <div class="quiz-hint">💡 Petunjuk: ${q.hint}</div>
+    <div class="quiz-options">
+      ${shuffled.map(opt=>`<button class="qopt" onclick="answerQuiz('${opt}','${q.ans}')">${opt}</button>`).join('')}
+    </div>
+  </div>`;
+  qAnswered=false;
+}
+
+function answerQuiz(chosen,correct){
+  if(qAnswered)return;
+  qAnswered=true;
+  const btns=document.querySelectorAll('.qopt');
+  btns.forEach(b=>{
+    b.disabled=true;
+    if(b.textContent===correct)b.classList.add('correct');
+    else if(b.textContent===chosen&&chosen!==correct)b.classList.add('wrong');
+  });
+  if(chosen===correct)qScore++;
+  setTimeout(()=>{qIdx++;renderQuiz();},1200);
+}
+
+function restartQuiz(){qIdx=0;qScore=0;qAnswered=false;renderQuiz();}
+renderQuiz();
+
+// ════════════════════════════════════════════════════════════
+// TEAM BUILDER
+// ════════════════════════════════════════════════════════════
+let team=Array(5).fill(null);
+let poolFilter='All';
+
+const roleEmoji={Tank:'🛡️',Fighter:'⚔️',Assassin:'🗡️',Mage:'🔮',Marksman:'🏹',Support:'💚'};
+const roles=['All','Tank','Fighter','Assassin','Mage','Marksman','Support'];
+
+function renderTeamSlots(){
+  const c=document.getElementById('team-slots');
+  const laneLabels=['Roam','EXP','Mid','Jungle','Gold'];
+  c.innerHTML=team.map((h,i)=>{
+    if(h) return `<div class="slot filled" onclick="removeFromTeam(${i})" title="Klik untuk hapus">
+      <div class="slot-icon">${roleEmoji[h.role]||'👤'}</div>
+      <div class="slot-name">${h.name}</div>
+      <div class="slot-role">${h.role} · ${h.lane}</div>
+    </div>`;
+    return `<div class="slot"><div class="slot-icon">➕</div><div class="slot-empty-text">${laneLabels[i]}</div></div>`;
+  }).join('');
+}
+
+function renderPoolGrid(){
+  const c=document.getElementById('pool-grid');
+  const filtered=poolFilter==='All'?HEROES:HEROES.filter(h=>h.role===poolFilter);
+  c.innerHTML=filtered.map(h=>{
+    const inTeam=team.some(t=>t&&t.id===h.id);
+    return `<div class="ph ${inTeam?'selected':''}" onclick="${inTeam?'':'addToTeam('+h.id+')'}">${h.name}</div>`;
+  }).join('');
+}
+
+function renderRoleFilters(){
+  const c=document.getElementById('role-filters');
+  c.innerHTML=roles.map(r=>`<div class="rf ${poolFilter===r?'active':''}" onclick="setFilter('${r}')">${r}</div>`).join('');
+}
+
+function setFilter(r){poolFilter=r;renderRoleFilters();renderPoolGrid();}
+function addToTeam(id){
+  const empty=team.findIndex(t=>t===null);
+  if(empty===-1){alert('Tim sudah penuh! Hapus salah satu hero dulu.');return;}
+  team[empty]=HEROES.find(h=>h.id===id);
+  renderTeamSlots();renderPoolGrid();
+}
+function removeFromTeam(i){team[i]=null;document.getElementById('team-analysis').classList.add('hidden');renderTeamSlots();renderPoolGrid();}
+function clearTeam(){team=Array(5).fill(null);document.getElementById('team-analysis').classList.add('hidden');renderTeamSlots();renderPoolGrid();}
+
+function analyzeTeam(){
+  const filled=team.filter(Boolean);
+  if(filled.length<2){alert('Minimal pilih 2 hero untuk analisis!');return;}
+  const roleCount={};
+  filled.forEach(h=>{roleCount[h.role]=(roleCount[h.role]||0)+1;});
+  const hasTank=roleCount['Tank']>0;
+  const hasSupport=roleCount['Support']>0;
+  const hasMarksman=roleCount['Marksman']>0;
+  const avgAtk=Math.round(filled.reduce((s,h)=>s+h.atk,0)/filled.length);
+  const avgDef=Math.round(filled.reduce((s,h)=>s+h.def,0)/filled.length);
+  const avgMob=Math.round(filled.reduce((s,h)=>s+h.mob,0)/filled.length);
+  const score=Math.round((avgAtk+avgDef+avgMob)/3);
+
+  const ta=document.getElementById('team-analysis');
+  ta.classList.remove('hidden');
+  ta.innerHTML=`<div class="ta-title">📊 Analisis Komposisi</div>
+    <div class="ta-item"><span class="ta-label">Frontline (Tank)</span><span class="ta-val ${hasTank?'ta-good':'ta-bad'}">${hasTank?'✅ Ada':'❌ Tidak Ada'}</span></div>
+    <div class="ta-item"><span class="ta-label">Healer/Support</span><span class="ta-val ${hasSupport?'ta-good':'ta-warn'}">${hasSupport?'✅ Ada':'⚠️ Tidak Ada'}</span></div>
+    <div class="ta-item"><span class="ta-label">Carry (Marksman)</span><span class="ta-val ${hasMarksman?'ta-good':'ta-warn'}">${hasMarksman?'✅ Ada':'⚠️ Tidak Ada'}</span></div>
+    <div class="ta-item"><span class="ta-label">Rata-rata Attack</span><span class="ta-val ${avgAtk>=70?'ta-good':avgAtk>=50?'ta-warn':'ta-bad'}">${avgAtk}/100</span></div>
+    <div class="ta-item"><span class="ta-label">Rata-rata Defense</span><span class="ta-val ${avgDef>=60?'ta-good':avgDef>=45?'ta-warn':'ta-bad'}">${avgDef}/100</span></div>
+    <div class="ta-item"><span class="ta-label">Rata-rata Mobility</span><span class="ta-val ${avgMob>=65?'ta-good':avgMob>=50?'ta-warn':'ta-bad'}">${avgMob}/100</span></div>
+    <div style="margin-top:12px;padding-top:10px;border-top:1px solid var(--border);text-align:center;">
+      <div style="font-family:'Rajdhani',sans-serif;font-size:13px;color:var(--muted);margin-bottom:4px">OVERALL TEAM SCORE</div>
+      <div style="font-family:'Rajdhani',sans-serif;font-size:32px;font-weight:700;color:${score>=70?'var(--green)':score>=50?'var(--gold)':'var(--red)'}">${score}<span style="font-size:14px">/100</span></div>
+    </div>`;
+}
+
+renderTeamSlots();renderPoolGrid();renderRoleFilters();
+</script>
+</body>
+</html>

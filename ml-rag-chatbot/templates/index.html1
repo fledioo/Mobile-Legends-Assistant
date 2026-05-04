@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MLBB Hero Assistant</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Exo+2:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    /* ── Reset & Variables ─────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg-deep:      #050a12;
+      --bg-panel:     #0b1422;
+      --bg-card:      #101e30;
+      --bg-input:     #0d1a28;
+      --accent-gold:  #f0b429;
+      --accent-blue:  #38bdf8;
+      --accent-red:   #ef4444;
+      --text-primary: #e8f4fd;
+      --text-muted:   #7a9ab8;
+      --border:       rgba(56,189,248,.15);
+      --glow-gold:    0 0 20px rgba(240,180,41,.25);
+      --glow-blue:    0 0 20px rgba(56,189,248,.2);
+      --radius:       12px;
+    }
+
+    html, body {
+      height: 100%;
+      background: var(--bg-deep);
+      color: var(--text-primary);
+      font-family: 'Exo 2', sans-serif;
+      overflow: hidden;
+    }
+
+    /* ── Layout ────────────────────────────────────────────────────────── */
+    .app {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      grid-template-rows: 64px 1fr;
+      height: 100vh;
+      position: relative;
+    }
+
+    /* Animated background grid */
+    .app::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(56,189,248,.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(56,189,248,.03) 1px, transparent 1px);
+      background-size: 40px 40px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* ── Header ─────────────────────────────────────────────────────────── */
+    header {
+      grid-column: 1 / -1;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 0 24px;
+      background: rgba(11,20,34,.95);
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(12px);
+      position: relative;
+      z-index: 10;
+    }
+
+    .logo-icon {
+      width: 36px;
+      height: 36px;
+      background: linear-gradient(135deg, var(--accent-gold), #e07b10);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      box-shadow: var(--glow-gold);
+      flex-shrink: 0;
+    }
+
+    header h1 {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      background: linear-gradient(90deg, var(--accent-gold), var(--accent-blue));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    header .subtitle {
+      font-size: 12px;
+      color: var(--text-muted);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-left: auto;
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #22c55e;
+      box-shadow: 0 0 8px #22c55e;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: .4; }
+    }
+
+    /* ── Sidebar ─────────────────────────────────────────────────────────── */
+    aside {
+      background: var(--bg-panel);
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      overflow-y: auto;
+      position: relative;
+      z-index: 5;
+    }
+
+    aside::-webkit-scrollbar { width: 4px; }
+    aside::-webkit-scrollbar-track { background: transparent; }
+    aside::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+
+    .sidebar-section {
+      padding: 16px 16px 8px;
+    }
+
+    .sidebar-label {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .quick-btn {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+      padding: 10px 12px;
+      background: transparent;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      color: var(--text-primary);
+      font-family: 'Exo 2', sans-serif;
+      font-size: 13px;
+      cursor: pointer;
+      text-align: left;
+      transition: all .2s;
+      margin-bottom: 4px;
+    }
+
+    .quick-btn:hover {
+      background: rgba(56,189,248,.07);
+      border-color: var(--border);
+      color: var(--accent-blue);
+    }
+
+    .quick-btn .btn-icon {
+      font-size: 16px;
+      flex-shrink: 0;
+    }
+
+    .divider {
+      height: 1px;
+      background: var(--border);
+      margin: 4px 16px;
+    }
+
+    /* Hero List in Sidebar */
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px;
+      padding: 0 12px 12px;
+    }
+
+    .hero-pill {
+      padding: 6px 8px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 11px;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all .2s;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .hero-pill:hover {
+      background: rgba(240,180,41,.08);
+      border-color: rgba(240,180,41,.3);
+      color: var(--accent-gold);
+    }
+
+    /* Role badge colors */
+    .role-tank    { border-left: 3px solid #64748b; }
+    .role-fighter { border-left: 3px solid #f97316; }
+    .role-assassin{ border-left: 3px solid #ef4444; }
+    .role-mage    { border-left: 3px solid #8b5cf6; }
+    .role-marksman{ border-left: 3px solid #38bdf8; }
+    .role-support { border-left: 3px solid #22c55e; }
+
+    /* ── Chat Area ───────────────────────────────────────────────────────── */
+    .chat-area {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      z-index: 5;
+      overflow: hidden;
+    }
+
+    .messages {
+      flex: 1;
+      overflow-y: auto;
+      padding: 24px 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .messages::-webkit-scrollbar { width: 4px; }
+    .messages::-webkit-scrollbar-track { background: transparent; }
+    .messages::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+
+    /* ── Welcome Screen ──────────────────────────────────────────────────── */
+    .welcome {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      text-align: center;
+      gap: 16px;
+      opacity: 1;
+      transition: opacity .4s;
+    }
+
+    .welcome.hidden { display: none; }
+
+    .welcome-icon {
+      font-size: 56px;
+      filter: drop-shadow(0 0 24px rgba(240,180,41,.4));
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50%       { transform: translateY(-8px); }
+    }
+
+    .welcome h2 {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      background: linear-gradient(90deg, var(--accent-gold), var(--accent-blue));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .welcome p {
+      color: var(--text-muted);
+      font-size: 14px;
+      max-width: 400px;
+      line-height: 1.6;
+    }
+
+    .welcome-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+      max-width: 480px;
+      margin-top: 8px;
+    }
+
+    .chip {
+      padding: 8px 16px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      font-size: 12px;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all .2s;
+    }
+
+    .chip:hover {
+      background: rgba(56,189,248,.1);
+      border-color: var(--accent-blue);
+      color: var(--accent-blue);
+    }
+
+    /* ── Message Bubbles ─────────────────────────────────────────────────── */
+    .msg {
+      display: flex;
+      gap: 12px;
+      animation: slideIn .3s ease;
+      max-width: 800px;
+    }
+
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(12px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .msg.user { flex-direction: row-reverse; align-self: flex-end; }
+    .msg.bot  { align-self: flex-start; }
+
+    .avatar {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .msg.user .avatar {
+      background: linear-gradient(135deg, var(--accent-blue), #0ea5e9);
+    }
+
+    .msg.bot .avatar {
+      background: linear-gradient(135deg, var(--accent-gold), #e07b10);
+      box-shadow: var(--glow-gold);
+    }
+
+    .bubble {
+      max-width: 620px;
+      padding: 14px 18px;
+      border-radius: var(--radius);
+      line-height: 1.65;
+      font-size: 14px;
+    }
+
+    .msg.user .bubble {
+      background: rgba(56,189,248,.12);
+      border: 1px solid rgba(56,189,248,.2);
+      border-top-right-radius: 4px;
+      color: var(--text-primary);
+    }
+
+    .msg.bot .bubble {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-top-left-radius: 4px;
+    }
+
+    /* Markdown-like formatting */
+    .bubble strong { color: var(--accent-gold); font-weight: 600; }
+    .bubble em     { color: var(--accent-blue); font-style: normal; }
+    .bubble br     { display: block; content: ''; margin: 2px 0; }
+
+    /* ── Hero Card (gambar + info) ────────────────────────────────────────── */
+    .hero-card {
+      display: flex;
+      gap: 14px;
+      background: var(--bg-card);
+      border: 1px solid rgba(240,180,41,.2);
+      border-radius: var(--radius);
+      padding: 14px;
+      margin-top: 10px;
+      animation: slideIn .4s ease .1s both;
+      box-shadow: var(--glow-gold);
+      max-width: 360px;
+    }
+
+    .hero-card img {
+      width: 90px;
+      height: 90px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 2px solid rgba(240,180,41,.3);
+      flex-shrink: 0;
+      background: var(--bg-deep);
+    }
+
+    .hero-card-info { flex: 1; }
+
+    .hero-card-name {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--accent-gold);
+      letter-spacing: 1px;
+      margin-bottom: 6px;
+    }
+
+    .hero-card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+    .tag {
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 500;
+      background: rgba(56,189,248,.1);
+      border: 1px solid rgba(56,189,248,.2);
+      color: var(--accent-blue);
+    }
+
+    .tag.lane {
+      background: rgba(240,180,41,.1);
+      border-color: rgba(240,180,41,.2);
+      color: var(--accent-gold);
+    }
+
+    /* ── Typing Indicator ─────────────────────────────────────────────────── */
+    .typing {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 14px 18px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      border-top-left-radius: 4px;
+      width: fit-content;
+    }
+
+    .typing span {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--accent-blue);
+      animation: bounce .8s infinite;
+    }
+
+    .typing span:nth-child(2) { animation-delay: .15s; }
+    .typing span:nth-child(3) { animation-delay: .30s; }
+
+    @keyframes bounce {
+      0%, 60%, 100% { transform: translateY(0); opacity: .5; }
+      30%            { transform: translateY(-6px); opacity: 1; }
+    }
+
+    /* ── Input Bar ────────────────────────────────────────────────────────── */
+    .input-area {
+      padding: 16px 28px 20px;
+      background: rgba(11,20,34,.9);
+      border-top: 1px solid var(--border);
+      backdrop-filter: blur(12px);
+    }
+
+    .input-wrap {
+      display: flex;
+      gap: 10px;
+      align-items: flex-end;
+      background: var(--bg-input);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 10px 14px;
+      transition: border-color .2s, box-shadow .2s;
+    }
+
+    .input-wrap:focus-within {
+      border-color: rgba(56,189,248,.4);
+      box-shadow: 0 0 0 3px rgba(56,189,248,.06);
+    }
+
+    #chat-input {
+      flex: 1;
+      background: transparent;
+      border: none;
+      outline: none;
+      color: var(--text-primary);
+      font-family: 'Exo 2', sans-serif;
+      font-size: 14px;
+      resize: none;
+      min-height: 22px;
+      max-height: 120px;
+      line-height: 1.5;
+    }
+
+    #chat-input::placeholder { color: var(--text-muted); }
+
+    #send-btn {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--accent-gold), #e07b10);
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      flex-shrink: 0;
+      transition: transform .15s, box-shadow .15s;
+      box-shadow: var(--glow-gold);
+    }
+
+    #send-btn:hover  { transform: scale(1.08); }
+    #send-btn:active { transform: scale(.95); }
+    #send-btn:disabled {
+      opacity: .4;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .input-hint {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 8px;
+      text-align: center;
+    }
+
+    /* ── Responsive ─────────────────────────────────────────────────────── */
+    @media (max-width: 768px) {
+      .app { grid-template-columns: 1fr; grid-template-rows: 56px 1fr; }
+      aside { display: none; }
+      .messages { padding: 16px; }
+      .input-area { padding: 12px 16px 16px; }
+    }
+  </style>
+</head>
+<body>
+<div class="app">
+
+  <!-- ── Header ─────────────────────────────────────────────────────────── -->
+  <header>
+    <div class="logo-icon">⚔️</div>
+    <div>
+      <h1>MLBB ASSISTANT</h1>
+    </div>
+    <span class="subtitle">AI Hero Guide</span>
+    <div class="status-dot"></div>
+  </header>
+
+  <!-- ── Sidebar ─────────────────────────────────────────────────────────── -->
+  <aside>
+    <div class="sidebar-section">
+      <div class="sidebar-label">Pertanyaan Cepat</div>
+      <button class="quick-btn" onclick="sendQuick('Tampilkan daftar semua hero')">
+        <span class="btn-icon">📋</span> Daftar Hero
+      </button>
+      <button class="quick-btn" onclick="sendQuick('Ceritakan lore Balmond')">
+        <span class="btn-icon">📖</span> Lore Hero
+      </button>
+      <button class="quick-btn" onclick="sendQuick('Combo terbaik Saber')">
+        <span class="btn-icon">⚔️</span> Hero Combo
+      </button>
+      <button class="quick-btn" onclick="sendQuick('Counter Layla siapa saja')">
+        <span class="btn-icon">🛡️</span> Hero Counter
+      </button>
+      <button class="quick-btn" onclick="sendQuick('Build item terbaik untuk Layla')">
+        <span class="btn-icon">🔧</span> Item Build
+      </button>
+      <button class="quick-btn" onclick="sendQuick('Informasi item Blade of Despair')">
+        <span class="btn-icon">🗡️</span> Info Item
+      </button>
+      <button class="quick-btn" onclick="sendQuick('Informasi Assassin Emblem')">
+        <span class="btn-icon">💎</span> Info Emblem
+      </button>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-label">Hero Populer</div>
+    </div>
+    <div class="hero-grid" id="hero-grid">
+      <!-- Diisi oleh JavaScript -->
+    </div>
+  </aside>
+
+  <!-- ── Chat Area ──────────────────────────────────────────────────────── -->
+  <div class="chat-area">
+    <div class="messages" id="messages">
+
+      <!-- Welcome screen -->
+      <div class="welcome" id="welcome">
+        <div class="welcome-icon">🏆</div>
+        <h2>MLBB HERO ASSISTANT</h2>
+        <p>Tanyakan apa saja tentang hero, item, emblem, combo, counter, atau lore dari 50 hero Mobile Legends.</p>
+        <div class="welcome-chips">
+          <div class="chip" onclick="sendQuick('Siapa itu Fanny?')">👤 Siapa itu Fanny?</div>
+          <div class="chip" onclick="sendQuick('Lore Ling')">📖 Lore Ling</div>
+          <div class="chip" onclick="sendQuick('Build Wanwan terbaik')">🔧 Build Wanwan</div>
+          <div class="chip" onclick="sendQuick('Counter Tigreal')">🛡️ Counter Tigreal</div>
+          <div class="chip" onclick="sendQuick('Combo Atlas')">⚔️ Combo Atlas</div>
+          <div class="chip" onclick="sendQuick('Item Blade of Despair')">🗡️ Info Item</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Input Bar -->
+    <div class="input-area">
+      <div class="input-wrap">
+        <textarea
+          id="chat-input"
+          placeholder="Tanyakan tentang hero, item, combo, counter..."
+          rows="1"
+        ></textarea>
+        <button id="send-btn" onclick="sendMessage()" title="Kirim">
+          ➤
+        </button>
+      </div>
+      <div class="input-hint">Tekan Enter untuk kirim · Shift+Enter untuk baris baru</div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  // ── State ──────────────────────────────────────────────────────────────────
+  let isLoading = false;
+
+  // ── Populate hero grid in sidebar ─────────────────────────────────────────
+  const popularHeroes = [
+    {name:'Layla',    role:'Marksman'},
+    {name:'Balmond',  role:'Fighter'},
+    {name:'Saber',    role:'Assassin'},
+    {name:'Tigreal',  role:'Tank'},
+    {name:'Eudora',   role:'Mage'},
+    {name:'Rafaela',  role:'Support'},
+    {name:'Fanny',    role:'Assassin'},
+    {name:'Ling',     role:'Assassin'},
+    {name:'Atlas',    role:'Tank'},
+    {name:'Wanwan',   role:'Marksman'},
+    {name:'Yu Zhong', role:'Fighter'},
+    {name:'Cecilion', role:'Mage'},
+  ];
+
+  const grid = document.getElementById('hero-grid');
+  popularHeroes.forEach(h => {
+    const pill = document.createElement('div');
+    pill.className = `hero-pill role-${h.role.toLowerCase()}`;
+    pill.textContent = h.name;
+    pill.title = `${h.name} (${h.role})`;
+    pill.onclick = () => sendQuick(`Informasi hero ${h.name}`);
+    grid.appendChild(pill);
+  });
+
+  // ── Auto-resize textarea ───────────────────────────────────────────────────
+  const textarea = document.getElementById('chat-input');
+  textarea.addEventListener('input', () => {
+    textarea.style.height = 'auto';
+    textarea.style.height = Math.min(textarea.scrollHeight, 120) + 'px';
+  });
+
+  textarea.addEventListener('keydown', e => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      sendMessage();
+    }
+  });
+
+  // ── Format teks (bold, italic, list) ──────────────────────────────────────
+  function formatText(text) {
+    return text
+      .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+      .replace(/\*(.+?)\*/g,     '<em>$1</em>')
+      .replace(/\n/g,             '<br>')
+      .replace(/^(\d+)\. /gm,    '<span style="color:var(--accent-gold)">$1.</span> ');
+  }
+
+  // ── Append message to chat ─────────────────────────────────────────────────
+  function appendMessage(role, html, heroData, imageUrl) {
+    const welcome = document.getElementById('welcome');
+    if (welcome) welcome.classList.add('hidden');
+
+    const container = document.getElementById('messages');
+
+    const wrapper = document.createElement('div');
+    wrapper.className = `msg ${role}`;
+
+    const avatar = document.createElement('div');
+    avatar.className = 'avatar';
+    avatar.textContent = role === 'user' ? '👤' : '⚔️';
+
+    const contentDiv = document.createElement('div');
+
+    const bubble = document.createElement('div');
+    bubble.className = 'bubble';
+    bubble.innerHTML = html;
+    contentDiv.appendChild(bubble);
+
+    // Hero card dengan gambar
+    if (role === 'bot' && heroData && imageUrl) {
+      const card = document.createElement('div');
+      card.className = 'hero-card';
+
+      const img = document.createElement('img');
+      img.src = imageUrl;
+      img.alt = heroData.name;
+      img.onerror = () => { img.style.display = 'none'; };
+
+      const info = document.createElement('div');
+      info.className = 'hero-card-info';
+
+      const nameEl = document.createElement('div');
+      nameEl.className = 'hero-card-name';
+      nameEl.textContent = heroData.name;
+
+      const tags = document.createElement('div');
+      tags.className = 'hero-card-tags';
+
+      (heroData.role || []).forEach(r => {
+        const tag = document.createElement('span');
+        tag.className = 'tag';
+        tag.textContent = r;
+        tags.appendChild(tag);
+      });
+
+      if (heroData.lane) {
+        const laneTag = document.createElement('span');
+        laneTag.className = 'tag lane';
+        laneTag.textContent = '📍 ' + heroData.lane;
+        tags.appendChild(laneTag);
+      }
+
+      info.appendChild(nameEl);
+      info.appendChild(tags);
+      card.appendChild(img);
+      card.appendChild(info);
+      contentDiv.appendChild(card);
+    }
+
+    wrapper.appendChild(avatar);
+    wrapper.appendChild(contentDiv);
+    container.appendChild(wrapper);
+
+    container.scrollTo({ top: container.scrollHeight, behavior: 'smooth' });
+  }
+
+  // ── Typing indicator ───────────────────────────────────────────────────────
+  function showTyping() {
+    const container = document.getElementById('messages');
+
+    const wrapper = document.createElement('div');
+    wrapper.className = 'msg bot';
+    wrapper.id = 'typing-indicator';
+
+    const avatar = document.createElement('div');
+    avatar.className = 'avatar';
+    avatar.textContent = '⚔️';
+
+    const typing = document.createElement('div');
+    typing.className = 'typing';
+    typing.innerHTML = '<span></span><span></span><span></span>';
+
+    wrapper.appendChild(avatar);
+    wrapper.appendChild(typing);
+    container.appendChild(wrapper);
+    container.scrollTo({ top: container.scrollHeight, behavior: 'smooth' });
+  }
+
+  function hideTyping() {
+    const el = document.getElementById('typing-indicator');
+    if (el) el.remove();
+  }
+
+  // ── Send message ───────────────────────────────────────────────────────────
+  async function sendMessage() {
+    if (isLoading) return;
+
+    const input = document.getElementById('chat-input');
+    const question = input.value.trim();
+    if (!question) return;
+
+    isLoading = true;
+    document.getElementById('send-btn').disabled = true;
+    input.value = '';
+    input.style.height = 'auto';
+
+    appendMessage('user', formatText(question));
+    showTyping();
+
+    try {
+      const res  = await fetch('/ask', {
+        method:  'POST',
+        headers: {'Content-Type': 'application/json'},
+        body:    JSON.stringify({ question })
+      });
+
+      const data = await res.json();
+      hideTyping();
+
+      if (data.error) {
+        appendMessage('bot', `<span style="color:var(--accent-red)">⚠️ ${data.error}</span>`);
+      } else {
+        appendMessage('bot', formatText(data.answer), data.hero_data, data.image_url);
+      }
+
+    } catch (err) {
+      hideTyping();
+      appendMessage('bot', '<span style="color:var(--accent-red)">⚠️ Gagal menghubungi server. Pastikan Flask berjalan.</span>');
+    }
+
+    isLoading = false;
+    document.getElementById('send-btn').disabled = false;
+    input.focus();
+  }
+
+  // ── Quick send from chips / sidebar ───────────────────────────────────────
+  function sendQuick(text) {
+    document.getElementById('chat-input').value = text;
+    sendMessage();
+  }
+</script>
+</body>
+</html>

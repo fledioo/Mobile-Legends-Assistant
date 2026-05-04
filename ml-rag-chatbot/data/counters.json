@@ -1,0 +1,354 @@
+{
+  "hero_counters": [
+    {
+      "hero_id": 1, "hero_name": "Layla",
+      "countered_by": ["Fanny", "Saber", "Lancelot", "Ling", "Helcurt"],
+      "counters": ["Tigreal", "Johnson", "Grock"],
+      "reason_countered": "Layla tidak punya escape skill. Assassin yang mobile bisa masuk dan kill sebelum Layla bisa react.",
+      "reason_counters": "Hero tank slow/immobile tidak bisa mengejar Layla yang bisa DPS dari jarak aman."
+    },
+    {
+      "hero_id": 2, "hero_name": "Balmond",
+      "countered_by": ["Karrie", "Ling", "Wanwan", "Masha"],
+      "counters": ["Eudora", "Layla", "Nana"],
+      "reason_countered": "Karrie dan Wanwan memberikan true damage menembus armor Balmond. Hero mobile bisa kite Balmond.",
+      "reason_counters": "Balmond unggul vs hero yang mengandalkan skill damage saja tanpa sustain."
+    },
+    {
+      "hero_id": 3, "hero_name": "Saber",
+      "countered_by": ["Diggie", "Lolita", "Tigreal", "Aurora"],
+      "counters": ["Layla", "Irithel", "Bruno", "Clint"],
+      "reason_countered": "Diggie memberikan immunity CC sehingga Saber tidak bisa isolate. Lolita memblokir skill Saber.",
+      "reason_counters": "Saber sangat kuat vs hero squishi yang tidak punya escape skill."
+    },
+    {
+      "hero_id": 4, "hero_name": "Alice",
+      "countered_by": ["Baxia", "Necklace of Durance user", "Dominance Ice user"],
+      "counters": ["Alucard", "Roger", "Zilong"],
+      "reason_countered": "Baxia mengurangi heal Alice 50%. Item anti-heal juga sangat efektif melawan Alice.",
+      "reason_counters": "Alice sustain sangat kuat melawan hero yang bergantung 1v1 sustained fight."
+    },
+    {
+      "hero_id": 5, "hero_name": "Nana",
+      "countered_by": ["Fanny", "Ling", "Saber"],
+      "counters": ["Balmond", "Alucard", "Zilong"],
+      "reason_countered": "Hero mobile bisa masuk cepat dan kill Nana sebelum dia bisa transform balik.",
+      "reason_counters": "Transform Nana mencegah musuh menggunakan skill. Efektif vs hero yang bergantung pada skill combo."
+    },
+    {
+      "hero_id": 6, "hero_name": "Tigreal",
+      "countered_by": ["Karrie", "Wanwan", "Masha", "Diggie"],
+      "counters": ["Layla", "Eudora", "Nana", "Vexana"],
+      "reason_countered": "True damage dari Karrie/Wanwan menembus armor Tigreal. Diggie menghalangi combo CC Tigreal.",
+      "reason_counters": "Tigreal memberikan CC masif yang memungkinkan combo tim. Efektif melawan hero tanpa escape."
+    },
+    {
+      "hero_id": 7, "hero_name": "Alucard",
+      "countered_by": ["Baxia", "Nana", "Kaja", "Dominance Ice user"],
+      "counters": ["Rafaela", "Estes", "Nana"],
+      "reason_countered": "Baxia mengurangi lifesteal Alucard hingga 50%. Nana mengubahnya jadi kucing sehingga skill tidak aktif.",
+      "reason_counters": "Alucard melakukan 1v1 dengan sangat baik melawan hero support atau mage squishi."
+    },
+    {
+      "hero_id": 8, "hero_name": "Karina",
+      "countered_by": ["Diggie", "Lolita", "Khufra"],
+      "counters": ["Layla", "Eudora", "Nana", "Rafaela"],
+      "reason_countered": "Diggie membuat Karina tidak bisa membunuh dengan mudah karena target immune CC. Khufra menghentikan dash.",
+      "reason_counters": "Karina sangat efektif untuk membunuh hero squishi yang tidak punya escape."
+    },
+    {
+      "hero_id": 9, "hero_name": "Akai",
+      "countered_by": ["Karrie", "Wanwan", "Masha"],
+      "counters": ["Moskov", "Layla", "Irithel"],
+      "reason_countered": "Hero dengan true damage menembus armor Akai. Akai cukup lambat sehingga bisa di-kite.",
+      "reason_counters": "Akai dapat dorong Marksman ke posisi tidak menguntungkan dan menginterupsi DPS mereka."
+    },
+    {
+      "hero_id": 10, "hero_name": "Franco",
+      "countered_by": ["Fanny", "Ling", "Lancelot", "Kagura"],
+      "counters": ["Layla", "Eudora", "Nana", "Vexana"],
+      "reason_countered": "Hero mobile bisa dodge hook Franco. Tanpa hook, Franco hampir tidak berguna.",
+      "reason_counters": "Hook Franco mengunci target squishi yang tidak bisa bergerak bebas."
+    },
+    {
+      "hero_id": 11, "hero_name": "Bane",
+      "countered_by": ["Fanny", "Ling", "Saber"],
+      "counters": ["Rafaela", "Estes", "Nana"],
+      "reason_countered": "Bane lambat dan mudah dijangkau hero mobile. Assassin cepat bisa kill sebelum Bane bisa react.",
+      "reason_counters": "Poke Bane efektif melawan hero yang butuh berdiri diam untuk heal/support."
+    },
+    {
+      "hero_id": 12, "hero_name": "Bruno",
+      "countered_by": ["Fanny", "Saber", "Ling", "Helcurt"],
+      "counters": ["Tigreal", "Akai", "Franco"],
+      "reason_countered": "Bruno tidak punya escape skill. Assassin mobile bisa dive dan kill dengan mudah.",
+      "reason_counters": "Dengan critical tinggi, Bruno bisa burst tank sekalipun dalam kondisi ideal."
+    },
+    {
+      "hero_id": 13, "hero_name": "Clint",
+      "countered_by": ["Fanny", "Ling", "Karina"],
+      "counters": ["Tigreal", "Akai", "Grock"],
+      "reason_countered": "Clint range tidak sejauh Layla. Assassin mobile bisa masuk dan mematikan.",
+      "reason_counters": "Poke Clint efektif melawan hero lambat yang tidak bisa mengejar."
+    },
+    {
+      "hero_id": 14, "hero_name": "Rafaela",
+      "countered_by": ["Necklace of Durance user", "Saber", "Fanny"],
+      "counters": ["Alucard", "Argus", "Roger"],
+      "reason_countered": "Anti-heal item mematikan heal Rafaela. Assassin cepat bisa kill dia sebelum dia bisa heal tim.",
+      "reason_counters": "Rafaela counter hero yang bergantung pada lifesteal atau sustain fight lama."
+    },
+    {
+      "hero_id": 15, "hero_name": "Eudora",
+      "countered_by": ["Fanny", "Saber", "Ling", "Franco"],
+      "counters": ["Layla", "Nana", "Rafaela"],
+      "reason_countered": "Eudora adalah hero fragile. Jika di-engage sebelum bisa stun, dia mati dengan cepat.",
+      "reason_counters": "Burst Eudora sangat tinggi melawan hero squishi yang tidak punya escape."
+    },
+    {
+      "hero_id": 16, "hero_name": "Zilong",
+      "countered_by": ["Nana", "Aurora", "Kaja"],
+      "counters": ["Layla", "Eudora", "Rafaela"],
+      "reason_countered": "Nana mengubah Zilong menjadi kucing. Aurora memfreeze Zilong yang aggressive. CC berat counter Zilong.",
+      "reason_counters": "Speed Zilong memungkinkan dia kejar dan kill hero squishi yang tidak punya blink."
+    },
+    {
+      "hero_id": 17, "hero_name": "Fanny",
+      "countered_by": ["Khufra", "Aurora", "Nana"],
+      "counters": ["Layla", "Irithel", "Bruno", "Eudora"],
+      "reason_countered": "Khufra menghentikan dash Fanny dengan sempurna. CC freeze juga sangat efektif karena Fanny bergantung mobilitas.",
+      "reason_counters": "Fanny mobile dan sulit di-hit. Sangat efektif melawan hero immobile dengan damage tinggi."
+    },
+    {
+      "hero_id": 18, "hero_name": "Lapu-Lapu",
+      "countered_by": ["Karrie", "Wanwan", "Khufra"],
+      "counters": ["Alucard", "Zilong", "Roger"],
+      "reason_countered": "True damage menembus armor Lapu-Lapu. Khufra menghentikan mobilitas Lapu-Lapu.",
+      "reason_counters": "Hero Mode Lapu-Lapu sangat tangguh dalam teamfight dan bisa menahan fighter lain."
+    },
+    {
+      "hero_id": 19, "hero_name": "Vexana",
+      "countered_by": ["Fanny", "Saber", "Ling"],
+      "counters": ["Hero dengan damage AoE rendah"],
+      "reason_countered": "Vexana lambat dan tidak punya escape. Assassin mobile bisa kill sebelum Vexana bisa charm.",
+      "reason_counters": "Phantom Vexana bisa menjadi ancaman tersendiri dalam teamfight jika target yang mati adalah carry."
+    },
+    {
+      "hero_id": 20, "hero_name": "Roger",
+      "countered_by": ["Baxia", "Dominance Ice user", "Karrie"],
+      "counters": ["Zilong", "Alucard", "Hilda"],
+      "reason_countered": "Baxia mengurangi heal Roger. Karrie true damage menembus armor Roger yang tinggi.",
+      "reason_counters": "Roger sangat kuat dalam duel fighter dengan kemampuan sustain dan damage tinggi di wolf form."
+    },
+    {
+      "hero_id": 21, "hero_name": "Karrie",
+      "countered_by": ["Fanny", "Saber", "Ling"],
+      "counters": ["Tigreal", "Akai", "Johnson", "Franco"],
+      "reason_countered": "Karrie tidak punya escape skill yang kuat. Assassin bisa kill sebelum Karrie stack true damage.",
+      "reason_counters": "True damage Karrie adalah counter sempurna untuk hero tank HP tinggi."
+    },
+    {
+      "hero_id": 22, "hero_name": "Gatotkaca",
+      "countered_by": ["Karrie", "Wanwan", "Masha"],
+      "counters": ["Layla", "Irithel", "Nana"],
+      "reason_countered": "True damage menembus armor dan HP tinggi Gatotkaca. Hero ini cukup lambat untuk di-kite.",
+      "reason_counters": "Ultimate Gatotkaca dari udara sangat sulit dihindari dan ideal untuk initiate."
+    },
+    {
+      "hero_id": 23, "hero_name": "Harley",
+      "countered_by": ["Diggie", "Lolita", "Khufra"],
+      "counters": ["Layla", "Eudora", "Rafaela"],
+      "reason_countered": "Diggie immune CC sehingga Harley kehilangan window burst. Lolita memblokir proyektil Harley.",
+      "reason_counters": "Burst Harley sangat tinggi melawan hero yang tidak mobile atau squishi."
+    },
+    {
+      "hero_id": 24, "hero_name": "Irithel",
+      "countered_by": ["Fanny", "Saber", "Ling", "Estes"],
+      "counters": ["Tigreal", "Akai", "Franco"],
+      "reason_countered": "Meski bisa bergerak saat attack, Irithel tidak punya escape seperti flash/blink. Mudah di-engage.",
+      "reason_counters": "Irithel dengan heavy crossbow bisa menekan tank lambat dari jarak jauh."
+    },
+    {
+      "hero_id": 25, "hero_name": "Grock",
+      "countered_by": ["Karrie", "Wanwan", "Masha"],
+      "counters": ["Moskov", "Layla", "Irithel"],
+      "reason_countered": "True damage menembus armor masif Grock. Grock juga cukup lambat.",
+      "reason_counters": "Dinding Grock menghalangi kabur musuh dan memiliki armor tertinggi jika dekat dinding."
+    },
+    {
+      "hero_id": 26, "hero_name": "Diggie",
+      "countered_by": ["Fanny", "Saber", "Ling"],
+      "counters": ["Atlas", "Tigreal", "Franco", "Saber"],
+      "reason_countered": "Diggie tidak punya damage tinggi. Assassin bisa kill Diggie sebelum dia sempat aktifkan ultimate.",
+      "reason_counters": "Ultimate Diggie menggagalkan seluruh CC combo musuh. Counter sempurna untuk tim heavy CC."
+    },
+    {
+      "hero_id": 27, "hero_name": "Lolita",
+      "countered_by": ["Karrie", "Alucard", "Yu Zhong"],
+      "counters": ["Harley", "Saber", "Fanny", "Clint"],
+      "reason_countered": "Hero melee dengan sustain bisa melewati shield Lolita dan menyerang langsung.",
+      "reason_counters": "Shield Lolita memblokir semua proyektil dari satu arah, counter sempurna untuk Marksman atau mage poke."
+    },
+    {
+      "hero_id": 28, "hero_name": "Argus",
+      "countered_by": ["Baxia", "Nana", "Kaja"],
+      "counters": ["Rafaela", "Estes", "Nana"],
+      "reason_countered": "Anti-heal mengurangi efektivitas Argus. Nana mengubahnya menjadi kucing. Kaja bisa menganulir ultimate Argus.",
+      "reason_counters": "Saat ultimate aktif, Argus kebal mati. Sangat efektif untuk melawan poke dan fight sustained."
+    },
+    {
+      "hero_id": 29, "hero_name": "Moskov",
+      "countered_by": ["Fanny", "Saber", "Ling"],
+      "counters": ["Grock", "Akai", "Tigreal"],
+      "reason_countered": "Moskov tidak punya escape skill yang baik. Assassin mobile bisa dive dan kill.",
+      "reason_counters": "Moskov bisa stun musuh yang terjepit di dinding atau obstacle. Counter hero yang suka di dekat dinding."
+    },
+    {
+      "hero_id": 30, "hero_name": "Johnson",
+      "countered_by": ["Karrie", "Wanwan"],
+      "counters": ["Hero yang tidak punya blink atau dash"],
+      "reason_countered": "True damage menembus armor Johnson. Karrie/Wanwan bisa kill Johnson dengan efisien.",
+      "reason_counters": "Gank Johnson dengan membawa mage bisa menghancurkan hero yang tidak punya dash untuk menghindar."
+    },
+    {
+      "hero_id": 31, "hero_name": "Cyclops",
+      "countered_by": ["Fanny", "Saber", "Ling"],
+      "counters": ["Layla", "Tigreal", "Akai"],
+      "reason_countered": "Cyclops lambat dan squishi. Assassin mobile bisa masuk dan kill sebelum dia bisa spam skill.",
+      "reason_counters": "Poke Cyclops sangat efektif vs hero yang tidak bisa mengejar atau slow."
+    },
+    {
+      "hero_id": 32, "hero_name": "Estes",
+      "countered_by": ["Baxia", "Necklace of Durance", "Sea Halberd", "Dominance Ice"],
+      "counters": ["Alucard", "Roger", "Argus"],
+      "reason_countered": "Item anti-heal SANGAT counter Estes. Dengan anti-heal, heal Estes berkurang drastis.",
+      "reason_counters": "Estes counter hero yang bergantung pada lifesteal dalam fight panjang."
+    },
+    {
+      "hero_id": 33, "hero_name": "Hilda",
+      "countered_by": ["Karrie", "Wanwan"],
+      "counters": ["Zilong", "Alucard", "Balmond"],
+      "reason_countered": "True damage menembus armor Hilda. Hero kite juga efektif karena Hilda tidak punya range.",
+      "reason_counters": "Hilda dari bush dengan passive HP regen memberikan edge dalam duel fighter."
+    },
+    {
+      "hero_id": 34, "hero_name": "Aurora",
+      "countered_by": ["Fanny", "Ling", "Saber"],
+      "counters": ["Layla", "Irithel", "Nana", "Vexana"],
+      "reason_countered": "Aurora sangat squishi dan tidak punya mobilitas. Assassin bisa kill sebelum dia stack freeze.",
+      "reason_counters": "AoE freeze Aurora counter hero yang suka berkumpul atau tidak punya blink."
+    },
+    {
+      "hero_id": 35, "hero_name": "Ling",
+      "countered_by": ["Khufra", "Aurora", "Nana"],
+      "counters": ["Layla", "Irithel", "Bruno"],
+      "reason_countered": "Khufra menghentikan blink Ling. CC yang tidak bisa dihindari (Nana transform, Aurora freeze) juga efektif.",
+      "reason_counters": "Mobilitas Ling membuat dia hampir tidak bisa di-hit. Ideal untuk membunuh Marksman yang terisolasi."
+    },
+    {
+      "hero_id": 36, "hero_name": "Dyrroth",
+      "countered_by": ["Nana", "Aurora", "Lolita"],
+      "counters": ["Zilong", "Alucard", "Roger"],
+      "reason_countered": "CC berat counter Dyrroth yang aggressive. Lolita memblokir serangan Dyrroth.",
+      "reason_counters": "Dyrroth mengurangi Physical DEF musuh, membuat fighter lain tidak bisa duel dia."
+    },
+    {
+      "hero_id": 37, "hero_name": "Lylia",
+      "countered_by": ["Saber", "Fanny", "Kaja"],
+      "counters": ["Layla", "Nana", "Rafaela"],
+      "reason_countered": "Saber ultimate menginterupsi retreat Lylia. Fanny mobile masuk sebelum Lylia bisa escape.",
+      "reason_counters": "Lylia counter hero immobile yang tidak bisa menghindari shadow energy-nya."
+    },
+    {
+      "hero_id": 38, "hero_name": "Baxia",
+      "countered_by": ["Karrie", "Wanwan", "Masha"],
+      "counters": ["Alucard", "Roger", "Estes", "Alice"],
+      "reason_countered": "True damage menembus armor Baxia. Baxia cukup lambat untuk di-kite.",
+      "reason_counters": "Ultimate Baxia mengurangi heal/regen. Sangat efektif melawan hero sustain tinggi."
+    },
+    {
+      "hero_id": 39, "hero_name": "Masha",
+      "countered_by": ["Baxia", "Necklace of Durance"],
+      "counters": ["Tigreal", "Akai", "Johnson", "Gatotkaca"],
+      "reason_countered": "Masha sangat bergantung pada 3 HP bar. Anti-heal mengurangi kemampuan dia mempertahankan bar tersebut.",
+      "reason_counters": "Passive 3 HP bar membuat Masha counter tank yang bergantung pada burst kill."
+    },
+    {
+      "hero_id": 40, "hero_name": "Wanwan",
+      "countered_by": ["Khufra", "Aurora", "Franco"],
+      "counters": ["Tigreal", "Akai", "Franco", "Gatotkaca"],
+      "reason_countered": "Khufra menghentikan dash Wanwan. Franco hook langsung matikan Wanwan yang squishi.",
+      "reason_counters": "Wanwan dengan true damage counter tank. Saat ultimate aktif, Wanwan kebal CC."
+    },
+    {
+      "hero_id": 41, "hero_name": "Silvanna",
+      "countered_by": ["Diggie", "Khufra", "Baxia"],
+      "counters": ["Alucard", "Zilong", "Argus"],
+      "reason_countered": "Diggie membuat target immune CC sehingga mereka bisa keluar dari arena Silvanna.",
+      "reason_counters": "Arena Silvanna memaksa musuh bertarung 1v1, dimana Silvanna unggul dengan damage dan CC."
+    },
+    {
+      "hero_id": 42, "hero_name": "Cecilion",
+      "countered_by": ["Fanny", "Saber", "Ling"],
+      "counters": ["Layla", "Irithel", "Rafaela"],
+      "reason_countered": "Cecilion sangat squishi. Assassin bisa masuk dan kill sebelum dia stack Magic Power tinggi.",
+      "reason_counters": "Late game stack Cecilion sangat tinggi. Efektif melawan hero yang tidak bisa interrupt casting."
+    },
+    {
+      "hero_id": 43, "hero_name": "Carmilla",
+      "countered_by": ["Fanny", "Saber"],
+      "counters": ["Eudora", "Aurora", "Tigreal"],
+      "reason_countered": "Carmilla squishi. Assassin bisa kill dia sebelum dia aktifkan curse.",
+      "reason_counters": "Curse Carmilla yang menghubungkan banyak musuh adalah counter untuk tim yang suka bergerombol."
+    },
+    {
+      "hero_id": 44, "hero_name": "Atlas",
+      "countered_by": ["Diggie", "Karrie", "Wanwan"],
+      "counters": ["Layla", "Irithel", "Eudora", "Nana"],
+      "reason_countered": "Diggie menggagalkan ultimate Atlas. Karrie/Wanwan true damage menembus armor Atlas.",
+      "reason_counters": "Ultimate Atlas yang menarik semua musuh adalah salah satu CC paling impactful di game."
+    },
+    {
+      "hero_id": 45, "hero_name": "Popol and Kupa",
+      "countered_by": ["Saber", "Karina", "Fanny"],
+      "counters": ["Layla", "Nana", "Rafaela"],
+      "reason_countered": "Assassin bisa kill Popol atau Kupa dengan cepat untuk menghilangkan ancaman.",
+      "reason_counters": "Jebakan Popol dan Kupa counter hero yang tidak terlalu mobile dan bisa terjebak."
+    },
+    {
+      "hero_id": 46, "hero_name": "Yu Zhong",
+      "countered_by": ["Baxia", "Necklace of Durance", "Karrie"],
+      "counters": ["Alucard", "Roger", "Zilong"],
+      "reason_countered": "Yu Zhong sangat bergantung pada lifesteal. Anti-heal menghilangkan sustain utamanya.",
+      "reason_counters": "AoE sustain Yu Zhong dalam Black Dragon form sangat kuat melawan fighter yang duel."
+    },
+    {
+      "hero_id": 47, "hero_name": "Luo Yi",
+      "countered_by": ["Fanny", "Saber", "Ling"],
+      "counters": ["Layla", "Nana", "Rafaela"],
+      "reason_countered": "Luo Yi lambat dan squishi. Assassin bisa interrupt casting sebelum Yin/Yang bertemu.",
+      "reason_counters": "CC besar Luo Yi ketika Yin/Yang bertemu adalah counter efektif untuk hero immobile."
+    },
+    {
+      "hero_id": 48, "hero_name": "Khaleed",
+      "countered_by": ["Karrie", "Wanwan", "Nana"],
+      "counters": ["Alucard", "Zilong", "Balmond"],
+      "reason_countered": "Karrie/Wanwan true damage menembus armor Khaleed. Nana transform menghentikan skill chain-nya.",
+      "reason_counters": "Khaleed outperform fighter biasa dalam fight sustained dengan mobility dan sustain dari pasir."
+    },
+    {
+      "hero_id": 49, "hero_name": "Barats",
+      "countered_by": ["Karrie", "Wanwan", "Masha"],
+      "counters": ["Layla", "Eudora", "Nana"],
+      "reason_countered": "True damage menembus armor Barats yang besar setelah stack. Hero squishi bisa kill saat Barats belum stack.",
+      "reason_counters": "Ultimate Barats membuang musuh ke posisi berbahaya. Efektif untuk isolate atau memisahkan carry dari tim."
+    },
+    {
+      "hero_id": 50, "hero_name": "Brody",
+      "countered_by": ["Fanny", "Saber", "Ling"],
+      "counters": ["Tigreal", "Akai", "Franco"],
+      "reason_countered": "Brody sangat lambat dalam basic attack. Assassin mobile bisa masuk dan kill sebelum Brody stack Bruise.",
+      "reason_counters": "Poke Brody dari jarak jauh dan slow dari Skill 2 counter hero lambat yang tidak bisa chase."
+    }
+  ]
+}
